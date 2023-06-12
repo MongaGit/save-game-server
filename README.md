@@ -56,4 +56,5 @@ Backup Save Commit<br>
 * ```sh ~/save-game-server/project-zomboid/backup.sh```
 
 Import Last Save<br>
+* ```git pull```
 * ```sh ~/save-game-server/project-zomboid/import.sh```
