@@ -34,7 +34,7 @@ sudo apt update
 sudo docker pull lorthe/monga_projectzomboid:latest
 
 ## Run Docker ProjectZomboid
-sudo docker rm -f projectzomboid
+sudo docker rm -f project-zomboid
 
 sudo docker run -d -t -i -e SERVERNAME='Monga Projetc Zomboid' \
 -p 27015:27015/tcp -p 16261:16261/udp -p 16262:16262/udp \
