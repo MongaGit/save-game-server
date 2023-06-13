@@ -16,16 +16,14 @@ CONTAINER_ID=$(docker container ls --all | grep -w $IMAGE_NAME | awk '{print $1}
 # Excluindo Save do Container
 docker exec $CONTAINER_ID rm -rf $CONTAINER_SAVE
 
-# Descompactando Save
+# Descompactando Save /monga-v1.0/
 cd ~/save-game-server/minecraft/
 tar -xvzf monga-v1.0.tar.gz
-
-~/save-game-server/minecraft/monga-v1.0/
 
 # Copiando Backup para Container
 docker cp $REPO_SAVE $CONTAINER_ID:$CONTAINER_SAVE 
 
-# Excluindo /temp/
+# Excluindo /monga-v1.0/
 cd ~/save-game-server/project-zomboid/
 sudo rm -rf monga-v1.0/
 
