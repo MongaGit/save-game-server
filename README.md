@@ -31,7 +31,7 @@ Imagem Docker utilizada [docker.io/lorthe/monga-project-zomboid](https://hub.doc
 
 ```
 sudo apt update
-sudo docker pull lorthe/monga_projectzomboid:latest
+sudo docker pull lorthe/monga-project-zomboid:latest
 
 ## Run Docker ProjectZomboid
 sudo docker rm -f project-zomboid
@@ -60,12 +60,7 @@ Import Last Save<br>
 * ```sh ~/save-game-server/project-zomboid/import.sh```
 
 
-
-
-
-
-
-## Project Zomboid
+## Minecraft
 
 ### Criando Container
 Imagem Docker utilizada [docker.io/lorthe/monga-minecraft](https://hub.docker.com/r/lorthe/monga-minecraft)
