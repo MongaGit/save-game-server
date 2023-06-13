@@ -1,4 +1,6 @@
 #!/bin/sh
+cd ~/save-game-server/
+git pull
 
 # Variaveis de Container
 IMAGE_NAME='monga-project-zomboid'
