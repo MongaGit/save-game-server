@@ -2,6 +2,9 @@
 
 #docker container ls --all | grep -w $IMAGE_NAME | awk '{print $1}'
 #CONTAINER_ID='cbc1627fac72'
+cd ~/save-game-server/
+git pull
+
 
 # Variaveis de Container
 IMAGE_NAME='monga-project-zomboid'
@@ -22,6 +25,6 @@ sudo rm -rf ./project-zomboid-v1.0/
 
 # Commit Save
 git add .
-git commit -m "Update Save Project Zomboid"
+git commit -m "Zomboid: Backup Save monga"
 git push -u origin main
 
