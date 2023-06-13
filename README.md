@@ -86,6 +86,10 @@ Import Last Save<br>
 * ```git pull```
 * ```sh ~/save-game-server/minecraft/import.sh```
 
+Import Config<br>
+* ```git pull```
+* ```sh ~/save-game-server/minecraft/config.sh```
+
 
 
 
