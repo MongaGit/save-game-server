@@ -58,3 +58,41 @@ Backup Save Commit<br>
 Import Last Save<br>
 * ```git pull```
 * ```sh ~/save-game-server/project-zomboid/import.sh```
+
+
+
+
+
+
+
+## Project Zomboid
+
+### Criando Container
+Imagem Docker utilizada [docker.io/lorthe/monga-minecraft](https://hub.docker.com/r/lorthe/monga-minecraft)
+
+```
+sudo apt update
+sudo docker pull lorthe/monga-minecraft:latest
+
+## Run Docker Monga
+docker run --name minecraft -d -it -p 25565:25565 -e EULA=TRUE lorthe/monga-minecraft:latest
+```
+
+### Save Backup e Import
+Clone o repositorio <br>
+`git clone https://github.com/MongaGit/save-game-server.git`
+~/save-game-server/
+
+
+Backup Save Commit<br>
+* ```sh ~/save-game-server/minecraft/backup.sh```
+
+Import Last Save<br>
+* ```git pull```
+* ```sh ~/save-game-server/minecraft/import.sh```
+
+
+
+
+
+
