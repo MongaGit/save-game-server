@@ -1,0 +1,43 @@
+# docker-compose.yml
+version: "3.3"
+
+services:
+  mc:
+    image: lorthe/monga-minecraft
+    ports:
+      - 25565:25565
+    environment:
+      EULA: "TRUE"
+
+      SERVER_NAME: "Monga Server"
+      MOTD: '\u00A72MINECRAFT MONGA\u00A7r\n\u00A74Save Monga V1.0'
+      DIFFICULTY: "hard"
+      MEMORY: 2G
+
+      # uncomment this to import a saved game. (put your savegame directory in the saves-to-import directory)
+      WORLD: "/monga-vanila/data"
+
+    volumes:
+      - ./minecraft-data:/data
+      - ./saves-to-import:/worlds:ro
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

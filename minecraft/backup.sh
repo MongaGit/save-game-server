@@ -3,18 +3,22 @@
 #docker container ls --all | grep -w $IMAGE_NAME | awk '{print $1}'
 #CONTAINER_ID='cbc1627fac72'
 cd ~/save-game-server/
-git pull
+git reset --hard HEAD
+git pull origin main
 
 # Variaveis de Container
-IMAGE_NAME='monga-minecraft'
-CONTAINER_SAVE='/data/monga'
-SERVER_PROPERTIES='./server.properties'
-BACKUP='./monga/'
-REPO_SAVE='./monga-v1.0/'
+VERSION_BACKUP='v1.0'
+IMAGE_NAME='minecraft-monga-vanila'
 
+BACKUP_FILE_NAME="monga-vanila-$VERSION_BACKUP.tar.gz"
+PATH_ACTUAL_SAVE='~/server-data/minecraft/monga-vanila'
+PATH_REPO='~/save-game-server/minecraft/monga-vanila/data'
+FULLPATH_REPO="$PATH_REPO/monga-vanila-$VERSION_BACKUP.tar.gz"
 
-# Buscando Continer ID
+BACKUP='~/server-data/monga-vanila/'
+
 CONTAINER_ID=$(docker container ls --all | grep -w $IMAGE_NAME | awk '{print $1}')
+docker stop $CONTAINER_ID
 
 # Copiando Save
 cd ~/save-game-server/minecraft/
