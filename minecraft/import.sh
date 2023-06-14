@@ -27,5 +27,9 @@ cd $(echo $BACK_SAVE)
 cp -RT $PATH_REPO $FULLPATH_ACTUAL_SAVE
 
 # Restartando Container
-CONTAINER_ID=$(docker container ls --all | grep -w $IMAGE_NAME | awk '{print $1}')
-docker restart $CONTAINER_ID
+cd $(echo $REPO_DIR/minecraft)
+docker-compose -f docker-compose.yml up -d --build
+
+# Restartando Container
+#CONTAINER_ID=$(docker container ls --all | grep -w $IMAGE_NAME | awk '{print $1}')
+#docker restart $CONTAINER_ID

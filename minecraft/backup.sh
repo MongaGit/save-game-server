@@ -36,6 +36,12 @@ git add .
 git commit -m "$CURRENTDATE MINECRAFT: backup monga-vnila world"
 git push -u origin main --force
 
-# Iniciando Container
-docker start $CONTAINER_ID
+# Restartando Container
+cd $(echo $REPO_DIR/minecraft)
+docker-compose -f docker-compose.yml up -d --build
+CONTAINER_ID=$(docker container ls --all | grep -w $IMAGE_NAME | awk '{print $1}')
+docker logs $CONTAINER_ID --follow
+
+# Restartando Container
+#docker restart $CONTAINER_ID
 
