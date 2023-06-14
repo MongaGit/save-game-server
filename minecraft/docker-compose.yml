@@ -1,3 +1,4 @@
+# docker-compose.yml
 version: "3"
 
 services:
@@ -7,15 +8,22 @@ services:
       - 25565:25565
     environment:
       EULA: "TRUE"
+      RCON_PASSWORD: "Monga@@2023!"
+      SERVER_NAME: "Monga Server"
+      DIFFICULTY: "hard"
+      MAX_PLAYERS: 5
+      MEMORY: 3G
+      MOTD: '\u00A72MINECRAFT MONGA\u00A7r\n\u00A74Save Monga V1.0'
+      ICON: "https://raw.githubusercontent.com/MongaGit/.github/main/profile/images/images.png"
+      #MODS
+      #TYPE: AUTO_CURSEFORGE
+      #CF_PAGE_URL: "https://www.curseforge.com/minecraft/mc-mods/jei"
+      #WORLD: "/root/save-game-server/minecraft/data/monga-vanila/"
     tty: true
     stdin_open: true
     restart: unless-stopped
     volumes:
-      # attach a directory relative to the directory containing this compose file
-
-    volumes:
       - ~/data/minecraft/monga-vanila/:/data
-
 
 #docker compose -f "minecraft/monga-vanila/docker-compose.yml" up -d --build
 
