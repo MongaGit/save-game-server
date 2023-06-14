@@ -1,0 +1,13 @@
+# .gitignore
+# ignore docker-compse.yml
+docker-compose.yml
+
+# Ignore env
+*/docker-compose.yml
+
+# Ignore Folder save local
+/monga/monga-vanila/*
+
+# ignore docker-compse.yml
+
+
