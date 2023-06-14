@@ -106,11 +106,36 @@ Import Config<br>
 ```bash
 IMAGE_NAME='lorthe/monga-minecraft'
 CONTAINER_ID=$(docker container ls --all | grep -w $IMAGE_NAME | awk '{print $1}')
+
+docker logs $CONTAINER_ID --follow
+
+docker exec -it $CONTAINER_ID sh
+
 ```
 
-```docker logs $CONTAINER_ID --follow```
 
-```docker exec -it $CONTAINER_ID sh```
+# Counter Strike GO
 
+### Install docker
+
+[SRCDS_TOKEN](https://steamcommunity.com/dev/managegameservers)
+[SRCDS_WORKSHOP_AUTHKEY](https://steamcommunity.com/dev/apikey)
+
+```
+
+docker run -d --net=host -v $(pwd)/data/csgo/monga-default:/home/steam/csgo-dedicated/ \
+-e SRCDS_TOKEN='YOURTOKEN' \
+-e SRCDS_PW='' \
+-e SRCDS_PORT=27015 \
+-e SRCDS_TV_PORT=27020 \
+-e SRCDS_TICKRATE=128 \
+-e SRCDS_MAXPLAYERS=10 \
+-e SRCDS_STARTMAP="de_mirage" \
+-e SRCDS_HOSTNAME="Monga CSGO Server" \
+-e SRCDS_HOST_WORKSHOP_COLLECTION=\
+-e SRCDS_WORKSHOP_AUTHKEY='' \
+--name=csgo-dedicated cm2network/csgo:sourcemod
+
+```
 
 
