@@ -1,0 +1,77 @@
+[15:48:38] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:48:40] [ServerMain/INFO]: Loaded 7 recipes
+[15:48:40] [ServerMain/INFO]: Loaded 1271 advancements
+[15:48:40] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[15:48:40] [Server thread/INFO]: Loading properties
+[15:48:40] [Server thread/INFO]: Default game type: SURVIVAL
+[15:48:40] [Server thread/INFO]: Generating keypair
+[15:48:41] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:48:41] [Server thread/INFO]: Using epoll channel type
+[15:48:41] [Server thread/INFO]: Preparing level "world"
+[15:48:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:48:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:48:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:48:47] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[15:48:48] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[15:48:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:48:49] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[15:48:49] [Worker-Main-7/INFO]: Preparing spawn area: 1%
+[15:48:50] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[15:48:50] [Worker-Main-7/INFO]: Preparing spawn area: 4%
+[15:48:51] [Worker-Main-3/INFO]: Preparing spawn area: 5%
+[15:48:51] [Worker-Main-1/INFO]: Preparing spawn area: 6%
+[15:48:52] [Worker-Main-2/INFO]: Preparing spawn area: 9%
+[15:48:52] [Worker-Main-7/INFO]: Preparing spawn area: 10%
+[15:48:53] [Worker-Main-6/INFO]: Preparing spawn area: 13%
+[15:48:53] [Worker-Main-3/INFO]: Preparing spawn area: 15%
+[15:48:54] [Worker-Main-5/INFO]: Preparing spawn area: 17%
+[15:48:54] [Worker-Main-5/INFO]: Preparing spawn area: 19%
+[15:48:55] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[15:48:55] [Worker-Main-3/INFO]: Preparing spawn area: 24%
+[15:48:56] [Worker-Main-4/INFO]: Preparing spawn area: 26%
+[15:48:56] [Worker-Main-5/INFO]: Preparing spawn area: 30%
+[15:48:57] [Worker-Main-3/INFO]: Preparing spawn area: 31%
+[15:48:57] [Worker-Main-3/INFO]: Preparing spawn area: 31%
+[15:48:58] [Worker-Main-6/INFO]: Preparing spawn area: 31%
+[15:48:58] [Worker-Main-6/INFO]: Preparing spawn area: 33%
+[15:48:59] [Worker-Main-1/INFO]: Preparing spawn area: 36%
+[15:48:59] [Worker-Main-5/INFO]: Preparing spawn area: 39%
+[15:49:00] [Worker-Main-1/INFO]: Preparing spawn area: 42%
+[15:49:00] [Worker-Main-2/INFO]: Preparing spawn area: 43%
+[15:49:01] [Worker-Main-2/INFO]: Preparing spawn area: 46%
+[15:49:01] [Worker-Main-7/INFO]: Preparing spawn area: 49%
+[15:49:02] [Worker-Main-7/INFO]: Preparing spawn area: 53%
+[15:49:02] [Worker-Main-2/INFO]: Preparing spawn area: 55%
+[15:49:03] [Worker-Main-5/INFO]: Preparing spawn area: 57%
+[15:49:03] [Worker-Main-6/INFO]: Preparing spawn area: 61%
+[15:49:04] [Worker-Main-6/INFO]: Preparing spawn area: 64%
+[15:49:04] [Worker-Main-2/INFO]: Preparing spawn area: 68%
+[15:49:05] [Worker-Main-6/INFO]: Preparing spawn area: 69%
+[15:49:05] [Worker-Main-7/INFO]: Preparing spawn area: 71%
+[15:49:06] [Worker-Main-5/INFO]: Preparing spawn area: 73%
+[15:49:06] [Worker-Main-6/INFO]: Preparing spawn area: 76%
+[15:49:07] [Worker-Main-6/INFO]: Preparing spawn area: 79%
+[15:49:07] [Worker-Main-5/INFO]: Preparing spawn area: 83%
+[15:49:08] [Worker-Main-1/INFO]: Preparing spawn area: 84%
+[15:49:08] [Worker-Main-2/INFO]: Preparing spawn area: 86%
+[15:49:09] [Worker-Main-7/INFO]: Preparing spawn area: 88%
+[15:49:09] [Worker-Main-7/INFO]: Preparing spawn area: 93%
+[15:49:10] [Worker-Main-1/INFO]: Preparing spawn area: 96%
+[15:49:10] [Worker-Main-6/INFO]: Preparing spawn area: 99%
+[15:49:10] [Server thread/INFO]: Time elapsed: 24068 ms
+[15:49:10] [Server thread/INFO]: Done (29.286s)! For help, type "help"
+[15:49:10] [Server thread/INFO]: Starting remote control listener
+[15:49:10] [Server thread/INFO]: Thread RCON Listener started
+[15:49:10] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[15:49:26] [User Authenticator #1/INFO]: UUID of player L0rthe is 754c6713-dfba-4c03-8342-aaafb7752dbb
+[15:49:26] [Server thread/INFO]: L0rthe[/172.19.0.1:47666] logged in with entity id 979 at (-9.5, 67.0, -5.5)
+[15:49:26] [Server thread/INFO]: L0rthe joined the game
+[15:53:40] [Server thread/INFO]: L0rthe lost connection: Disconnected
+[15:53:40] [Server thread/INFO]: L0rthe left the game
+[15:55:52] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:55:52] [Server thread/INFO]: [Rcon: Stopping the server]
+[15:55:52] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:55:52] [Server thread/INFO]: Stopping server
+[15:55:52] [Server thread/INFO]: Saving players
+[15:55:52] [Server thread/INFO]: Saving worlds
+[15:55:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
