@@ -2,7 +2,7 @@
 version: "2.2"
 
 services:
-  minecraft-survival:
+  mc:
     image: lorthe/monga-minecraft
     ports:
       - 25565:25565
