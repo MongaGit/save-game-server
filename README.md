@@ -76,10 +76,11 @@ docker run --name minecraft -d -it -p 25565:25565 -e EULA=TRUE lorthe/monga-mine
 ```bash
 docker run -d -it -p 25565:25565 -e EULA=TRUE /
 -e RCON_PASSWORD='P@ssw0rd' /
--e SERVER_NAME='Monga Server'/
+-e SERVER_NAME='Monga Server' /
 -e DIFFICULTY=hard /
--e MOTD='\u00A72MINECRAFT MONGA\u00A7r\n\u00A74Save Monga V2.0'/
--e ICON='https://raw.githubusercontent.com/MongaGit/.github/main/profile/images/images.png'/
+-e MOTD='\u00A72MINECRAFT MONGA\u00A7r\n\u00A74Save Monga V2.0' /
+-e ICON='https://raw.githubusercontent.com/MongaGit/.github/main/profile/images/images.png' /
+-v '~/data/minecraft/monga-vanila/:/data' /
 --name minecraft lorthe/monga-minecraft:latest
 ```
 
@@ -102,7 +103,14 @@ Import Config<br>
 
 
 
+```bash
+IMAGE_NAME='lorthe/monga-minecraft'
+CONTAINER_ID=$(docker container ls --all | grep -w $IMAGE_NAME | awk '{print $1}')
+```
 
+```docker logs $CONTAINER_ID --follow```
+
+```docker exec -it $CONTAINER_ID sh```
 
 
 
