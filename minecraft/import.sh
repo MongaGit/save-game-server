@@ -6,16 +6,17 @@ git pull origin main
 # Variaveis de Container
 SAVE_NAME='monga-vanila'
 IMAGE_NAME='minecraft'
+USER='/home/monga'
 
 # Variaveis modeladoras estruturais
-REPO_DIR="/root/save-game-server"
+REPO_DIR="$USER/save-game-server"
 PATH_REPO="$REPO_DIR/minecraft/data/$SAVE_NAME/"
 BACKUP_FILE_NAME="$SAVE_NAME-$VERSION_BACKUP"
-PATH_ACTUAL_SAVE='/root/data/minecraft/'
-FULLPATH_REPO="$PATH_REPO/$SAVE_NAME-$VERSION_BACKUP.tar.gz"
-FULLPATH_ACTUAL_SAVE="/root/data/minecraft/$SAVE_NAME/"
+PATH_ACTUAL_SAVE="$USER/data/minecraft/"
+FULLPATH_ACTUAL_SAVE="$USER/data/minecraft/$SAVE_NAME/"
 
 # Copiando Save $SAVE_NAME para o container
+#FULLPATH_REPO="$PATH_REPO/$SAVE_NAME-$VERSION_BACKUP.tar.gz"
 #cd $(echo $PATH_ACTUAL_SAVE)
 #cd $(echo $REPO_DIR/minecraft/data/)
 BACK_SAVE="$REPO_DIR/minecraft/data/"
