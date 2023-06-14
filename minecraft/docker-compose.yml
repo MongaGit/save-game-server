@@ -1,22 +1,33 @@
-version: "3"
+# docker-compose.yml
+version: "4.20"
 
 services:
-  minecraft-monga-vanila:
+  minecraft-survival:
     image: lorthe/monga-minecraft
-    container_name: minecraft-monga-vanila
     ports:
       - 25565:25565
     environment:
+      CF_API_KEY: "$2a$10$J4xO63YBcTQ.75Gk1l7aAesJ2t/ANDjSu.X9p/N8OFI0Z3.npnC8e"
+      RCON_PASSWORD: "Monga@@2023!"
+      SERVER_NAME: "Monga Server"
+      DIFFICULTY: "hard"
+      MAX_PLAYERS: 5
+      MOTD: '\u00A72MINECRAFT MONGA\u00A7r\n\u00A74Save Monga V1.0'
+      ICON: "https://raw.githubusercontent.com/MongaGit/.github/main/profile/images/images.png"
       EULA: "TRUE"
-    tty: true
-    stdin_open: true
-    restart: unless-stopped
+      MEMORY: 2G
+
+      #MODS
+      #TYPE: AUTO_CURSEFORGE
+      #CF_PAGE_URL: "https://www.curseforge.com/minecraft/mc-mods/jei"
+
+      # uncomment this to import a saved game. (put your savegame directory in the saves-to-import directory)
+      WORLD: "/root/save-game-server/minecraft/data/monga-vanila/"
+
     volumes:
-      # attach a directory relative to the directory containing this compose file
-      - ~/server-data/minecraft/monga-vanila:/data
+      - ~/data/minecraft/monga-vanila/:/data
 
 
-# docker compose -f "minecraft/monga-vanila/docker-compose.yml" up -d --build
-# docker compose  -f "minecraft\docker-compose.yml" up -d --build minecraft-monga-vanila
+#docker compose -f "minecraft/monga-vanila/docker-compose.yml" up -d --build
 
 
