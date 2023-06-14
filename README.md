@@ -121,21 +121,21 @@ docker exec -it $CONTAINER_ID sh
 [SRCDS_TOKEN](https://steamcommunity.com/dev/managegameservers)
 [SRCDS_WORKSHOP_AUTHKEY](https://steamcommunity.com/dev/apikey)
 
-```
+```docker pull cm2network/csgo:sourcemod```
 
-docker run -d --net=host -v $(pwd)/data/csgo/monga-default:/home/steam/csgo-dedicated/ \
--e SRCDS_TOKEN='YOURTOKEN' \
--e SRCDS_PW='' \
--e SRCDS_PORT=27015 \
--e SRCDS_TV_PORT=27020 \
--e SRCDS_TICKRATE=128 \
--e SRCDS_MAXPLAYERS=10 \
--e SRCDS_STARTMAP="de_mirage" \
--e SRCDS_HOSTNAME="Monga CSGO Server" \
--e SRCDS_HOST_WORKSHOP_COLLECTION=\
--e SRCDS_WORKSHOP_AUTHKEY='' \
+```bash
+docker run -d --net=host -v $(pwd)/data/csgo/monga-default:/home/steam/csgo-dedicated/ /
+-e SRCDS_TOKEN='DEVxMANAGEMAMESERVER' /
+-e SRCDS_WORKSHOP_AUTHKEY='DEVxAPIKEY' /
+-e SRCDS_PW='YOUTPASSWORD' /
+-e SRCDS_PORT=27015 /
+-e SRCDS_TV_PORT=27020 /
+-e SRCDS_TICKRATE=128 /
+-e SRCDS_MAXPLAYERS=10 /
+-e SRCDS_STARTMAP="de_mirage" /
+-e SRCDS_HOSTNAME="MONGA CSGO SERVER" /
+-e SRCDS_HOST_WORKSHOP_COLLECTION=0 /
 --name=csgo-dedicated cm2network/csgo:sourcemod
 
 ```
-
 
