@@ -16,6 +16,7 @@ services:
       - ~/server-data/minecraft/monga-vanila:/data
 
 
-#docker compose -f "minecraft/monga-vanila/docker-compose.yml" up -d --build
+# docker compose -f "minecraft/monga-vanila/docker-compose.yml" up -d --build
+# docker compose  -f "minecraft\docker-compose.yml" up -d --build minecraft-monga-vanila
 
 
