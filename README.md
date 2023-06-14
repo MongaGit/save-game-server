@@ -73,6 +73,29 @@ sudo docker pull lorthe/monga-minecraft:latest
 docker run --name minecraft -d -it -p 25565:25565 -e EULA=TRUE lorthe/monga-minecraft:latest
 ```
 
+```bash
+docker run -d -it -p 25565:25565 -e EULA=TRUE /
+-e RCON_PASSWORD='P@ssw0rd' /
+-e SERVER_NAME='Monga Server'/
+-e DIFFICULTY=hard /
+-e MOTD='\u00A72MINECRAFT MONGA\u00A7r\n\u00A74Save Monga V2.0'/
+-e ICON='https://raw.githubusercontent.com/MongaGit/.github/main/profile/images/images.png'/
+--name minecraft lorthe/monga-minecraft:latest
+```
+
+
+      DIFFICULTY: "hard"
+      MAX_PLAYERS: 5
+      MOTD: '\u00A72MINECRAFT MONGA\u00A7r\n\u00A74Save Monga V1.0'
+      ICON: "https://raw.githubusercontent.com/MongaGit/.github/main/profile/images/images.png"
+      EULA: "TRUE"
+      MEMORY: 2G
+
+
+
+
+
+
 ### Save Backup e Import
 Clone o repositorio <br>
 `git clone https://github.com/MongaGit/save-game-server.git`
