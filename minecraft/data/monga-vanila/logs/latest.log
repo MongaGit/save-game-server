@@ -1,847 +1,95 @@
-[18:39:49] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18:39:51] [ServerMain/INFO]: Loaded 7 recipes
-[18:39:51] [ServerMain/INFO]: Loaded 1271 advancements
-[18:39:51] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[18:39:51] [Server thread/INFO]: Loading properties
-[18:39:51] [Server thread/INFO]: Default game type: SURVIVAL
-[18:39:51] [Server thread/INFO]: Generating keypair
-[18:39:52] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:39:52] [Server thread/INFO]: Using epoll channel type
-[18:39:52] [Server thread/INFO]: Preparing level "world"
-[18:39:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:39:55] [IO-Worker-6/ERROR]: Chunk [-12, -8] stream is truncated: expected 9084 but read 8187
-[18:39:55] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:39:55] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.-12.-6.mcc is not file
-[18:39:55] [IO-Worker-6/ERROR]: Declared size -893123462 of chunk [-12, -5] is negative
-[18:39:55] [IO-Worker-7/ERROR]: Declared size -793981818 of chunk [-12, -3] is negative
-[18:39:55] [IO-Worker-8/ERROR]: Chunk [-12, -1] stream is truncated: expected 118272831 but read 8187
-[18:39:55] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:39:55] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.-12.0.mcc is not file
-[18:39:55] [IO-Worker-8/ERROR]: Chunk [-12, 1] stream is truncated: expected 452803284 but read 8187
-[18:39:55] [IO-Worker-6/WARN]: Chunk has both internal and external streams
-[18:39:55] [IO-Worker-6/ERROR]: External chunk path ./world/region/c.-12.2.mcc is not file
-[18:39:55] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:39:55] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.-12.3.mcc is not file
-[18:39:55] [IO-Worker-7/ERROR]: Chunk [-12, 4] stream is truncated: expected 763201704 but read 8187
-[18:39:55] [IO-Worker-8/ERROR]: Chunk [-8, -12] stream is truncated: expected 1579410625 but read 8187
-[18:39:55] [IO-Worker-7/ERROR]: Declared size -1182665437 of chunk [-5, -12] is negative
-[18:39:55] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:39:55] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.0.-12.mcc is not file
-[18:39:55] [IO-Worker-6/WARN]: Chunk has both internal and external streams
-[18:39:55] [IO-Worker-6/ERROR]: External chunk path ./world/region/c.3.-12.mcc is not file
-[18:39:55] [IO-Worker-5/ERROR]: Declared size -768790603 of chunk [4, -12] is negative
-[18:39:55] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:39:55] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.-12.6.mcc is not file
-[18:39:56] [IO-Worker-5/ERROR]: Chunk [-9, -13] stream is truncated: expected 1155891620 but read 8187
-[18:39:56] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.-8.-13.mcc is not file
-[18:39:56] [IO-Worker-5/ERROR]: Chunk [-5, -13] stream is truncated: expected 908299920 but read 12283
-[18:39:56] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.-3.-13.mcc is not file
-[18:39:56] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.1.-13.mcc is not file
-[18:39:56] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.5.-12.mcc is not file
-[18:39:56] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.-12.7.mcc is not file
-[18:39:56] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.8.-12.mcc is not file
-[18:39:56] [IO-Worker-7/ERROR]: Declared size -1429162866 of chunk [9, -13] is negative
-[18:39:56] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.12.-10.mcc is not file
-[18:39:56] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.12.-9.mcc is not file
-[18:39:56] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.12.-8.mcc is not file
-[18:39:56] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.12.-7.mcc is not file
-[18:39:56] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.12.-6.mcc is not file
-[18:39:56] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.12.-4.mcc is not file
-[18:39:56] [IO-Worker-7/ERROR]: Chunk [12, -3] stream is truncated: expected 1255981680 but read 8187
-[18:39:56] [IO-Worker-5/ERROR]: Chunk [12, -2] stream is truncated: expected 573126612 but read 8187
-[18:39:56] [IO-Worker-7/ERROR]: Declared size -499125730 of chunk [12, -1] is negative
-[18:39:56] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.12.0.mcc is not file
-[18:39:56] [IO-Worker-5/ERROR]: Declared size -1929960778 of chunk [12, 2] is negative
-[18:39:56] [IO-Worker-7/ERROR]: Chunk [12, 3] stream is truncated: expected 90066587 but read 8187
-[18:39:56] [IO-Worker-5/ERROR]: Declared size -121398177 of chunk [12, 4] is negative
-[18:39:56] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.12.5.mcc is not file
-[18:39:56] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.12.11.mcc is not file
-[18:39:56] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.10.-12.mcc is not file
-[18:39:56] [IO-Worker-5/ERROR]: Chunk [11, -12] stream is truncated: expected 897835865 but read 8187
-[18:39:56] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.12.-12.mcc is not file
-[18:39:56] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.11.-13.mcc is not file
-[18:39:56] [IO-Worker-5/ERROR]: Chunk [17, -20] stream is truncated: expected 7032 but read 4091
-[18:39:56] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.17.-17.mcc is not file
-[18:39:56] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.18.-21.mcc is not file
-[18:39:56] [IO-Worker-7/ERROR]: Declared size -1557209524 of chunk [19, -21] is negative
-[18:39:56] [IO-Worker-8/ERROR]: Chunk [20, -19] stream is truncated: expected 5105 but read 4091
-[18:39:56] [IO-Worker-8/ERROR]: Chunk [21, -22] stream is truncated: expected 6172 but read 4091
-[18:39:56] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.21.-17.mcc is not file
-[18:39:56] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.22.-17.mcc is not file
-[18:39:56] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.18.18.mcc is not file
-[18:39:56] [IO-Worker-5/ERROR]: Chunk [19, 18] stream is truncated: expected 5194 but read 4091
-[18:39:56] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.20.18.mcc is not file
-[18:39:56] [IO-Worker-8/ERROR]: Chunk [21, 18] stream is truncated: expected 4793 but read 4091
-[18:39:56] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.-13.21.mcc is not file
-[18:39:56] [IO-Worker-7/ERROR]: Chunk [-12, 21] stream is truncated: expected 6339 but read 4091
-[18:39:56] [IO-Worker-8/ERROR]: Chunk [-16, 21] stream is truncated: expected 5905 but read 4091
-[18:39:56] [IO-Worker-7/ERROR]: Chunk [-16, 22] stream is truncated: expected 6353 but read 4091
-[18:39:56] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.-12.22.mcc is not file
-[18:39:56] [IO-Worker-8/ERROR]: Chunk [-11, 22] stream is truncated: expected 4901 but read 4091
-[18:39:56] [IO-Worker-7/ERROR]: Chunk [-10, 22] stream is truncated: expected 5259 but read 4091
-[18:39:56] [IO-Worker-8/ERROR]: Chunk [-9, 22] stream is truncated: expected 4879 but read 4091
-[18:39:56] [IO-Worker-8/ERROR]: Chunk [-7, 22] stream is truncated: expected 944897148 but read 4091
-[18:39:56] [IO-Worker-7/ERROR]: Declared size -910715464 of chunk [-6, 22] is negative
-[18:39:56] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.-4.22.mcc is not file
-[18:39:56] [IO-Worker-8/ERROR]: Declared size -634921464 of chunk [-3, 22] is negative
-[18:39:56] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.-2.22.mcc is not file
-[18:39:56] [IO-Worker-7/ERROR]: Chunk [2, 22] stream is truncated: expected 6358 but read 4091
-[18:39:56] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.3.22.mcc is not file
-[18:39:56] [IO-Worker-7/ERROR]: Chunk [4, 22] stream is truncated: expected 5820 but read 4091
-[18:39:56] [IO-Worker-7/ERROR]: Chunk [-22, -7] stream is truncated: expected 4597 but read 4091
-[18:39:56] [IO-Worker-8/ERROR]: Chunk [-19, -21] stream is truncated: expected 4169 but read 4091
-[18:39:56] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.-20.-20.mcc is not file
-[18:39:56] [IO-Worker-6/ERROR]: Chunk [-20, -17] stream is truncated: expected 4479 but read 4091
-[18:39:56] [IO-Worker-4/ERROR]: Chunk [-20, -16] stream is truncated: expected 603183553 but read 4091
-[18:39:56] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.-21.-16.mcc is not file
-[18:39:56] [IO-Worker-4/ERROR]: Declared size -610391174 of chunk [-21, -13] is negative
-[18:39:56] [IO-Worker-4/WARN]: Chunk has both internal and external streams
-[18:39:56] [IO-Worker-4/ERROR]: External chunk path ./world/region/c.-22.-18.mcc is not file
-[18:39:56] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:39:57] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.-22.-17.mcc is not file
-[18:39:57] [IO-Worker-8/ERROR]: Chunk [-22, -14] stream is truncated: expected 8784 but read 4091
-[18:39:57] [IO-Worker-8/ERROR]: Chunk [-22, -12] stream is truncated: expected 4322 but read 4091
-[18:39:57] [IO-Worker-7/ERROR]: Chunk [-22, -11] stream is truncated: expected 6192 but read 4091
-[18:39:57] [IO-Worker-7/ERROR]: Declared size -1790217830 of chunk [-21, 21] is negative
-[18:39:57] [IO-Worker-8/ERROR]: Chunk [-20, 21] stream is truncated: expected 1825021859 but read 4091
-[18:39:57] [IO-Worker-7/ERROR]: Chunk [-19, 21] stream is truncated: expected 5579 but read 4091
-[18:39:57] [IO-Worker-7/ERROR]: Chunk [-17, 21] stream is truncated: expected 4685 but read 4091
-[18:39:57] [IO-Worker-8/ERROR]: Chunk [-21, 22] stream is truncated: expected 1984980077 but read 4091
-[18:39:57] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:39:57] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.-20.22.mcc is not file
-[18:39:57] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:39:57] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.-18.22.mcc is not file
-[18:39:57] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:39:57] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.-17.22.mcc is not file
-[18:39:57] [IO-Worker-7/ERROR]: Chunk [22, 17] stream is truncated: expected 7673 but read 4091
-[18:39:57] [IO-Worker-7/ERROR]: Declared size -634408218 of chunk [20, 19] is negative
-[18:39:57] [IO-Worker-8/ERROR]: Chunk [21, 19] stream is truncated: expected 6130 but read 4091
-[18:39:57] [IO-Worker-7/ERROR]: Chunk [14, 21] stream is truncated: expected 4440 but read 4091
-[18:39:57] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:39:57] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.7.22.mcc is not file
-[18:39:57] [IO-Worker-8/ERROR]: Chunk [9, 22] stream is truncated: expected 4994 but read 4091
-[18:39:57] [IO-Worker-7/ERROR]: Chunk [10, 22] stream is truncated: expected 1776690569 but read 4091
-[18:39:57] [IO-Worker-8/ERROR]: Declared size -1342134731 of chunk [11, 22] is negative
-[18:39:57] [IO-Worker-7/ERROR]: Chunk [12, 22] stream is truncated: expected 5350 but read 4091
-[18:39:57] [IO-Worker-8/ERROR]: Chunk [18, 21] stream is truncated: expected 6453 but read 4091
-[18:39:57] [IO-Worker-7/ERROR]: Chunk [19, 20] stream is truncated: expected 1335176716 but read 4091
-[18:39:57] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:39:57] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.16.22.mcc is not file
-[18:39:57] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:39:57] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.17.22.mcc is not file
-[18:39:57] [IO-Worker-8/ERROR]: Chunk [18, 22] stream is truncated: expected 1638712843 but read 4091
-[18:39:57] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:39:57] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.20.22.mcc is not file
-[18:39:57] [IO-Worker-7/ERROR]: Chunk [22, 20] stream is truncated: expected 6962 but read 4091
-[18:39:57] [IO-Worker-7/ERROR]: Chunk [22, 21] stream is truncated: expected 5951 but read 4091
-[18:39:57] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:39:57] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.-22.22.mcc is not file
-[18:39:57] [IO-Worker-7/ERROR]: Declared size -1728280600 of chunk [-22, -22] is negative
-[18:39:57] [IO-Worker-8/ERROR]: Chunk [21, 22] stream is truncated: expected 1884264851 but read 4091
-[18:39:57] [Server thread/ERROR]: Chunk file at [-12, -11] is in the wrong location; relocating. (Expected [-12, -11], got [-5, -4])
-[18:39:57] [Server thread/ERROR]: Chunk file at [-12, -10] is in the wrong location; relocating. (Expected [-12, -10], got [-8, -5])
-[18:39:57] [Server thread/ERROR]: Chunk file at [-12, -9] is in the wrong location; relocating. (Expected [-12, -9], got [-5, -7])
-[18:39:57] [Server thread/ERROR]: Chunk file at [-12, -7] is in the wrong location; relocating. (Expected [-12, -7], got [-3, -4])
-[18:39:57] [Server thread/ERROR]: Chunk file at [-12, -4] is in the wrong location; relocating. (Expected [-12, -4], got [-6, -9])
-[18:39:57] [Server thread/ERROR]: Chunk file at [-12, -2] is in the wrong location; relocating. (Expected [-12, -2], got [-5, -8])
-[18:39:57] [Server thread/ERROR]: Chunk file at [-12, 5] is in the wrong location; relocating. (Expected [-12, 5], got [-10, 4])
-[18:39:57] [Server thread/ERROR]: Chunk file at [-12, -12] is in the wrong location; relocating. (Expected [-12, -12], got [-15, -5])
-[18:39:57] [Server thread/ERROR]: Chunk file at [-11, -12] is in the wrong location; relocating. (Expected [-11, -12], got [-8, -4])
-[18:39:57] [Server thread/ERROR]: Chunk file at [-10, -12] is in the wrong location; relocating. (Expected [-10, -12], got [-6, -1])
-[18:39:57] [Server thread/ERROR]: Chunk file at [-9, -12] is in the wrong location; relocating. (Expected [-9, -12], got [-6, -7])
-[18:39:57] [Server thread/ERROR]: Chunk file at [-7, -12] is in the wrong location; relocating. (Expected [-7, -12], got [-4, -3])
-[18:39:57] [Server thread/ERROR]: Chunk file at [-6, -12] is in the wrong location; relocating. (Expected [-6, -12], got [-7, -1])
-[18:39:57] [Server thread/ERROR]: Chunk file at [-4, -12] is in the wrong location; relocating. (Expected [-4, -12], got [-6, -6])
-[18:39:57] [Server thread/ERROR]: Chunk file at [-3, -12] is in the wrong location; relocating. (Expected [-3, -12], got [-1, -6])
-[18:39:57] [Server thread/ERROR]: Chunk file at [-2, -12] is in the wrong location; relocating. (Expected [-2, -12], got [-7, -7])
-[18:39:57] [Server thread/ERROR]: Chunk file at [-1, -12] is in the wrong location; relocating. (Expected [-1, -12], got [-7, -6])
-[18:39:57] [Server thread/ERROR]: Chunk file at [1, -12] is in the wrong location; relocating. (Expected [1, -12], got [10, -12])
-[18:39:57] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [11, -14] ] for chunk [1, -12].
-[18:39:57] [Server thread/ERROR]: Chunk file at [2, -12] is in the wrong location; relocating. (Expected [2, -12], got [4, -1])
-[18:39:58] [Server thread/ERROR]: Chunk file at [-12, -13] is in the wrong location; relocating. (Expected [-12, -13], got [-3, -8])
-[18:39:58] [Server thread/ERROR]: Chunk file at [-11, -13] is in the wrong location; relocating. (Expected [-11, -13], got [-2, -8])
-[18:39:58] [Server thread/ERROR]: Chunk file at [-10, -13] is in the wrong location; relocating. (Expected [-10, -13], got [-8, -1])
-[18:39:58] [Server thread/ERROR]: Chunk file at [-7, -13] is in the wrong location; relocating. (Expected [-7, -13], got [-2, -7])
-[18:39:58] [Server thread/ERROR]: Chunk file at [-6, -13] is in the wrong location; relocating. (Expected [-6, -13], got [-1, -7])
-[18:39:58] [Server thread/ERROR]: Chunk file at [-4, -13] is in the wrong location; relocating. (Expected [-4, -13], got [-7, -4])
-[18:39:58] [Server thread/ERROR]: Chunk file at [-2, -13] is in the wrong location; relocating. (Expected [-2, -13], got [-3, -7])
-[18:39:58] [Server thread/ERROR]: Chunk file at [-1, -13] is in the wrong location; relocating. (Expected [-1, -13], got [-1, -3])
-[18:39:58] [Server thread/ERROR]: Chunk file at [0, -13] is in the wrong location; relocating. (Expected [0, -13], got [0, -14])
-[18:39:58] [Server thread/ERROR]: Chunk file at [2, -13] is in the wrong location; relocating. (Expected [2, -13], got [12, -8])
-[18:39:58] [Server thread/ERROR]: Chunk file at [3, -13] is in the wrong location; relocating. (Expected [3, -13], got [1, -14])
-[18:39:58] [Server thread/ERROR]: Chunk file at [4, -13] is in the wrong location; relocating. (Expected [4, -13], got [2, -14])
-[18:39:58] [Server thread/ERROR]: Chunk file at [5, -13] is in the wrong location; relocating. (Expected [5, -13], got [3, -14])
-[18:39:58] [Server thread/ERROR]: Chunk file at [6, -13] is in the wrong location; relocating. (Expected [6, -13], got [8, -14])
-[18:39:58] [Server thread/ERROR]: Chunk file at [6, -12] is in the wrong location; relocating. (Expected [6, -12], got [4, -2])
-[18:39:58] [Server thread/ERROR]: Chunk file at [7, -13] is in the wrong location; relocating. (Expected [7, -13], got [9, -14])
-[18:39:58] [Server thread/ERROR]: Chunk file at [7, -12] is in the wrong location; relocating. (Expected [7, -12], got [4, -13])
-[18:39:58] [Server thread/ERROR]: Chunk file at [-12, 8] is in the wrong location; relocating. (Expected [-12, 8], got [-10, 2])
-[18:39:58] [Server thread/ERROR]: Chunk file at [-12, 9] is in the wrong location; relocating. (Expected [-12, 9], got [-10, 3])
-[18:39:58] [Server thread/ERROR]: Chunk file at [8, -13] is in the wrong location; relocating. (Expected [8, -13], got [11, -14])
-[18:39:58] [Server thread/ERROR]: Chunk file at [-12, 10] is in the wrong location; relocating. (Expected [-12, 10], got [-10, 4])
-[18:39:58] [Server thread/ERROR]: Chunk file at [9, -12] is in the wrong location; relocating. (Expected [9, -12], got [3, -13])
-[18:39:58] [Server thread/ERROR]: Chunk file at [-12, 11] is in the wrong location; relocating. (Expected [-12, 11], got [-10, 5])
-[18:39:58] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [-6, 2] ] for chunk [-12, 11].
-[18:39:58] [Server thread/ERROR]: Chunk file at [12, -11] is in the wrong location; relocating. (Expected [12, -11], got [0, -4])
-[18:39:58] [Server thread/ERROR]: Chunk file at [12, -5] is in the wrong location; relocating. (Expected [12, -5], got [0, -12])
-[18:39:58] [Server thread/ERROR]: Chunk file at [12, 1] is in the wrong location; relocating. (Expected [12, 1], got [11, 11])
-[18:39:58] [Server thread/ERROR]: Chunk file at [12, 6] is in the wrong location; relocating. (Expected [12, 6], got [13, 0])
-[18:39:58] [Server thread/ERROR]: Chunk file at [12, 8] is in the wrong location; relocating. (Expected [12, 8], got [13, 3])
-[18:39:58] [Server thread/ERROR]: Chunk file at [12, 7] is in the wrong location; relocating. (Expected [12, 7], got [12, 3])
-[18:39:58] [Server thread/ERROR]: Chunk file at [12, 9] is in the wrong location; relocating. (Expected [12, 9], got [13, 5])
-[18:39:58] [Server thread/ERROR]: Chunk file at [12, 10] is in the wrong location; relocating. (Expected [12, 10], got [13, 6])
-[18:39:58] [Server thread/ERROR]: Chunk file at [10, -13] is in the wrong location; relocating. (Expected [10, -13], got [12, -14])
-[18:39:58] [Server thread/ERROR]: Chunk file at [12, -13] is in the wrong location; relocating. (Expected [12, -13], got [13, -11])
-[18:39:58] [Server thread/ERROR]: Chunk file at [15, -20] is in the wrong location; relocating. (Expected [15, -20], got [24, -6])
-[18:39:58] [Server thread/ERROR]: Chunk file at [18, -18] is in the wrong location; relocating. (Expected [18, -18], got [18, -24])
-[18:39:58] [Server thread/ERROR]: Chunk file at [18, -17] is in the wrong location; relocating. (Expected [18, -17], got [21, -25])
-[18:39:58] [Server thread/ERROR]: Chunk file at [14, -21] is in the wrong location; relocating. (Expected [14, -21], got [17, -26])
-[18:39:58] [Server thread/ERROR]: Chunk file at [15, -21] is in the wrong location; relocating. (Expected [15, -21], got [22, -26])
-[18:39:58] [Server thread/ERROR]: Chunk file at [19, -18] is in the wrong location; relocating. (Expected [19, -18], got [2, -25])
-[18:39:58] [Server thread/ERROR]: Chunk file at [19, -17] is in the wrong location; relocating. (Expected [19, -17], got [9, -24])
-[18:39:58] [Server thread/ERROR]: Chunk file at [16, -22] is in the wrong location; relocating. (Expected [16, -22], got [13, -25])
-[18:39:58] [Server thread/ERROR]: Chunk file at [17, -22] is in the wrong location; relocating. (Expected [17, -22], got [24, -13])
-[18:39:58] [Server thread/ERROR]: Chunk file at [18, -22] is in the wrong location; relocating. (Expected [18, -22], got [17, -25])
-[18:39:58] [Server thread/ERROR]: Chunk file at [19, -22] is in the wrong location; relocating. (Expected [19, -22], got [24, -18])
-[18:39:58] [Server thread/ERROR]: Chunk file at [20, -22] is in the wrong location; relocating. (Expected [20, -22], got [9, -26])
-[18:39:58] [Server thread/ERROR]: Chunk file at [20, -18] is in the wrong location; relocating. (Expected [20, -18], got [24, -8])
-[18:39:58] [Server thread/ERROR]: Chunk file at [20, -16] is in the wrong location; relocating. (Expected [20, -16], got [22, -19])
-[18:39:58] [Server thread/ERROR]: Chunk file at [20, -13] is in the wrong location; relocating. (Expected [20, -13], got [24, -16])
-[18:39:58] [Server thread/ERROR]: Chunk file at [21, -19] is in the wrong location; relocating. (Expected [21, -19], got [24, -17])
-[18:39:58] [Server thread/ERROR]: Chunk file at [21, -16] is in the wrong location; relocating. (Expected [21, -16], got [20, -26])
-[18:39:58] [Server thread/ERROR]: Chunk file at [21, -13] is in the wrong location; relocating. (Expected [21, -13], got [18, -25])
-[18:39:58] [Server thread/ERROR]: Chunk file at [21, -12] is in the wrong location; relocating. (Expected [21, -12], got [7, -26])
-[18:39:58] [Server thread/ERROR]: Chunk file at [22, -21] is in the wrong location; relocating. (Expected [22, -21], got [23, -25])
-[18:39:58] [Server thread/ERROR]: Chunk file at [22, -18] is in the wrong location; relocating. (Expected [22, -18], got [2, -26])
-[18:39:58] [Server thread/ERROR]: Chunk file at [22, -13] is in the wrong location; relocating. (Expected [22, -13], got [22, -24])
-[18:39:58] [Server thread/ERROR]: Chunk file at [6, 22] is in the wrong location; relocating. (Expected [6, 22], got [24, 9])
-[18:39:58] [Server thread/ERROR]: Chunk file at [-21, -9] is in the wrong location; relocating. (Expected [-21, -9], got [-20, -26])
-[18:39:58] [Server thread/ERROR]: Chunk file at [-21, -10] is in the wrong location; relocating. (Expected [-21, -10], got [-6, -26])
-[18:39:58] [Server thread/ERROR]: Chunk file at [-22, -8] is in the wrong location; relocating. (Expected [-22, -8], got [-23, -24])
-[18:39:58] [Server thread/ERROR]: Chunk file at [-20, -19] is in the wrong location; relocating. (Expected [-20, -19], got [-5, -20])
-[18:39:58] [Server thread/ERROR]: Chunk file at [22, 16] is in the wrong location; relocating. (Expected [22, 16], got [13, 11])
-[18:39:58] [Server thread/ERROR]: Chunk file at [-21, -19] is in the wrong location; relocating. (Expected [-21, -19], got [-10, -26])
-[18:39:58] [Server thread/ERROR]: Chunk file at [-21, -14] is in the wrong location; relocating. (Expected [-21, -14], got [-4, -26])
-[18:39:58] [Server thread/ERROR]: Chunk file at [-21, -20] is in the wrong location; relocating. (Expected [-21, -20], got [-3, -26])
-[18:39:58] [Server thread/ERROR]: Chunk file at [-18, 21] is in the wrong location; relocating. (Expected [-18, 21], got [-2, 4])
-[18:39:58] [Server thread/ERROR]: Chunk file at [-22, -21] is in the wrong location; relocating. (Expected [-22, -21], got [-23, -26])
-[18:39:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[18:39:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[18:39:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[18:39:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[18:39:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[18:39:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[18:39:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[18:39:59] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[18:39:59] [Worker-Main-2/INFO]: Preparing spawn area: 6%
-[18:40:00] [Worker-Main-3/INFO]: Preparing spawn area: 32%
-[18:40:00] [IO-Worker-7/ERROR]: Chunk [0, -24] stream is truncated: expected 7819 but read 4091
-[18:40:00] [IO-Worker-7/ERROR]: Chunk [1, -24] stream is truncated: expected 4192 but read 4091
-[18:40:00] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.2.-24.mcc is not file
-[18:40:00] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.3.-24.mcc is not file
-[18:40:00] [IO-Worker-5/ERROR]: Chunk [4, -24] stream is truncated: expected 4868 but read 4091
-[18:40:00] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.5.-24.mcc is not file
-[18:40:00] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.6.-24.mcc is not file
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [7, -24] stream is truncated: expected 7372 but read 4091
-[18:40:00] [IO-Worker-5/ERROR]: Chunk [8, -24] stream is truncated: expected 6588 but read 4091
-[18:40:00] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.9.-24.mcc is not file
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [11, -24] stream is truncated: expected 4263 but read 4091
-[18:40:00] [IO-Worker-5/ERROR]: Chunk [12, -24] stream is truncated: expected 5361 but read 4091
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [13, -24] stream is truncated: expected 1154224067 but read 4091
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [15, -24] stream is truncated: expected 5368 but read 4091
-[18:40:00] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.18.-24.mcc is not file
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [19, -24] stream is truncated: expected 1927787270 but read 4091
-[18:40:00] [IO-Worker-5/ERROR]: Chunk [20, -24] stream is truncated: expected 610702936 but read 4091
-[18:40:00] [IO-Worker-8/ERROR]: Declared size -1426710728 of chunk [21, -24] is negative
-[18:40:00] [IO-Worker-5/ERROR]: Chunk [22, -24] stream is truncated: expected 5128 but read 4091
-[18:40:00] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.23.-24.mcc is not file
-[18:40:00] [IO-Worker-5/ERROR]: Declared size -166265 of chunk [4, -23] is negative
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [5, -23] stream is truncated: expected 4325 but read 4091
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [10, -23] stream is truncated: expected 182903506 but read 4091
-[18:40:00] [IO-Worker-5/ERROR]: Chunk [11, -23] stream is truncated: expected 33075578 but read 4091
-[18:40:00] [IO-Worker-5/ERROR]: Declared size -1000034607 of chunk [23, -23] is negative
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [21, -22] stream is truncated: expected 6172 but read 4091
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [23, -22] stream is truncated: expected 5369 but read 4091
-[18:40:00] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.18.-21.mcc is not file
-[18:40:00] [IO-Worker-8/ERROR]: Declared size -1557209524 of chunk [19, -21] is negative
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [17, -20] stream is truncated: expected 7032 but read 4091
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [23, -20] stream is truncated: expected 5019 but read 4091
-[18:40:00] [IO-Worker-5/ERROR]: Chunk [20, -19] stream is truncated: expected 5105 but read 4091
-[18:40:00] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.23.-18.mcc is not file
-[18:40:00] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.17.-17.mcc is not file
-[18:40:00] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.21.-17.mcc is not file
-[18:40:00] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.22.-17.mcc is not file
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [23, -15] stream is truncated: expected 307017071 but read 4091
-[18:40:00] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.1.-13.mcc is not file
-[18:40:00] [IO-Worker-5/ERROR]: Declared size -1429162866 of chunk [9, -13] is negative
-[18:40:00] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.11.-13.mcc is not file
-[18:40:00] [IO-Worker-7/ERROR]: Chunk [23, -13] stream is truncated: expected 6564 but read 4091
-[18:40:00] [IO-Worker-4/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-4/ERROR]: External chunk path ./world/region/c.0.-12.mcc is not file
-[18:40:00] [IO-Worker-4/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-4/ERROR]: External chunk path ./world/region/c.3.-12.mcc is not file
-[18:40:00] [IO-Worker-7/ERROR]: Declared size -768790603 of chunk [4, -12] is negative
-[18:40:00] [IO-Worker-4/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-4/ERROR]: External chunk path ./world/region/c.5.-12.mcc is not file
-[18:40:00] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.8.-12.mcc is not file
-[18:40:00] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.10.-12.mcc is not file
-[18:40:00] [IO-Worker-4/ERROR]: Chunk [11, -12] stream is truncated: expected 897835865 but read 8187
-[18:40:00] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.12.-12.mcc is not file
-[18:40:00] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.12.-10.mcc is not file
-[18:40:00] [IO-Worker-7/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-7/ERROR]: External chunk path ./world/region/c.12.-9.mcc is not file
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [23, -9] stream is truncated: expected 5012 but read 4091
-[18:40:00] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.12.-8.mcc is not file
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [23, -8] stream is truncated: expected 4915 but read 4091
-[18:40:00] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.12.-7.mcc is not file
-[18:40:00] [IO-Worker-8/ERROR]: Declared size -2119149264 of chunk [23, -7] is negative
-[18:40:00] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.12.-6.mcc is not file
-[18:40:00] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.12.-4.mcc is not file
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [23, -4] stream is truncated: expected 5825 but read 4091
-[18:40:00] [IO-Worker-5/ERROR]: Chunk [12, -3] stream is truncated: expected 1255981680 but read 8187
-[18:40:00] [IO-Worker-5/ERROR]: Chunk [12, -2] stream is truncated: expected 573126612 but read 8187
-[18:40:00] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.23.-2.mcc is not file
-[18:40:00] [IO-Worker-5/ERROR]: Declared size -499125730 of chunk [12, -1] is negative
-[18:40:00] [Worker-Main-1/INFO]: Preparing spawn area: 54%
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-23, -24] stream is truncated: expected 4655 but read 4091
-[18:40:00] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.-22.-24.mcc is not file
-[18:40:00] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.-20.-24.mcc is not file
-[18:40:00] [IO-Worker-5/ERROR]: Declared size -1545292982 of chunk [-18, -24] is negative
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-15, -24] stream is truncated: expected 6390 but read 4091
-[18:40:00] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.-14.-24.mcc is not file
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-13, -24] stream is truncated: expected 6555 but read 4091
-[18:40:00] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.-12.-24.mcc is not file
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-11, -24] stream is truncated: expected 241131548 but read 4091
-[18:40:00] [IO-Worker-8/ERROR]: Declared size -1867699606 of chunk [-9, -24] is negative
-[18:40:00] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.-8.-24.mcc is not file
-[18:40:00] [IO-Worker-5/ERROR]: Chunk [-6, -24] stream is truncated: expected 5199 but read 4091
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-5, -24] stream is truncated: expected 4303 but read 4091
-[18:40:00] [IO-Worker-5/ERROR]: Chunk [-4, -24] stream is truncated: expected 5386 but read 4091
-[18:40:00] [IO-Worker-5/ERROR]: Chunk [-3, -24] stream is truncated: expected 4907 but read 4091
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-2, -24] stream is truncated: expected 4288 but read 4091
-[18:40:00] [IO-Worker-5/ERROR]: Chunk [-1, -24] stream is truncated: expected 6658 but read 4091
-[18:40:00] [IO-Worker-5/ERROR]: Chunk [-23, -23] stream is truncated: expected 4361 but read 4091
-[18:40:00] [IO-Worker-8/ERROR]: Declared size -1946188603 of chunk [-22, -23] is negative
-[18:40:00] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.-19.-23.mcc is not file
-[18:40:00] [IO-Worker-5/ERROR]: Chunk [-18, -23] stream is truncated: expected 5161 but read 4091
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-17, -23] stream is truncated: expected 4800 but read 4091
-[18:40:00] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.-16.-23.mcc is not file
-[18:40:00] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.-15.-23.mcc is not file
-[18:40:00] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.-14.-23.mcc is not file
-[18:40:00] [IO-Worker-5/ERROR]: Declared size -285099876 of chunk [-13, -23] is negative
-[18:40:00] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.-12.-23.mcc is not file
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-10, -23] stream is truncated: expected 1610804063 but read 4091
-[18:40:00] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.-7.-23.mcc is not file
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-6, -23] stream is truncated: expected 9532 but read 4091
-[18:40:00] [IO-Worker-5/ERROR]: Declared size -1684694435 of chunk [-5, -23] is negative
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-2, -23] stream is truncated: expected 4709 but read 4091
-[18:40:00] [IO-Worker-5/ERROR]: Chunk [-1, -23] stream is truncated: expected 4293 but read 4091
-[18:40:00] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.-23.-22.mcc is not file
-[18:40:00] [IO-Worker-8/ERROR]: Declared size -1728280600 of chunk [-22, -22] is negative
-[18:40:00] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.-23.-21.mcc is not file
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-19, -21] stream is truncated: expected 4169 but read 4091
-[18:40:00] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.-23.-20.mcc is not file
-[18:40:00] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.-20.-20.mcc is not file
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-23, -19] stream is truncated: expected 8535 but read 4091
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-23, -18] stream is truncated: expected 8861 but read 4091
-[18:40:00] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.-22.-18.mcc is not file
-[18:40:00] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.-22.-17.mcc is not file
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-20, -17] stream is truncated: expected 4479 but read 4091
-[18:40:00] [IO-Worker-5/ERROR]: Chunk [-23, -16] stream is truncated: expected 5312 but read 4091
-[18:40:00] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.-21.-16.mcc is not file
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-20, -16] stream is truncated: expected 603183553 but read 4091
-[18:40:00] [IO-Worker-5/ERROR]: Declared size -678243194 of chunk [-23, -15] is negative
-[18:40:00] [IO-Worker-5/ERROR]: Chunk [-23, -14] stream is truncated: expected 4603 but read 4091
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-22, -14] stream is truncated: expected 8784 but read 4091
-[18:40:00] [IO-Worker-5/ERROR]: Declared size -610391174 of chunk [-21, -13] is negative
-[18:40:00] [IO-Worker-5/ERROR]: Chunk [-9, -13] stream is truncated: expected 1155891620 but read 8187
-[18:40:00] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.-8.-13.mcc is not file
-[18:40:00] [IO-Worker-5/ERROR]: Chunk [-5, -13] stream is truncated: expected 908299920 but read 12283
-[18:40:00] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.-3.-13.mcc is not file
-[18:40:00] [IO-Worker-5/ERROR]: Chunk [-23, -12] stream is truncated: expected 153667379 but read 4091
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-22, -12] stream is truncated: expected 4322 but read 4091
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-8, -12] stream is truncated: expected 1579410625 but read 8187
-[18:40:00] [IO-Worker-5/ERROR]: Declared size -1182665437 of chunk [-5, -12] is negative
-[18:40:00] [IO-Worker-5/ERROR]: Chunk [-23, -11] stream is truncated: expected 5759 but read 4091
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-22, -11] stream is truncated: expected 6192 but read 4091
-[18:40:00] [IO-Worker-5/ERROR]: Chunk [-23, -10] stream is truncated: expected 6123 but read 4091
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-12, -8] stream is truncated: expected 9084 but read 8187
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-22, -7] stream is truncated: expected 4597 but read 4091
-[18:40:00] [IO-Worker-5/ERROR]: Chunk [-23, -6] stream is truncated: expected 99502843 but read 4091
-[18:40:00] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.-12.-6.mcc is not file
-[18:40:00] [IO-Worker-5/ERROR]: Declared size -1728983216 of chunk [-23, -5] is negative
-[18:40:00] [IO-Worker-8/ERROR]: Declared size -893123462 of chunk [-12, -5] is negative
-[18:40:00] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.-23.-4.mcc is not file
-[18:40:00] [IO-Worker-8/ERROR]: Declared size -793981818 of chunk [-12, -3] is negative
-[18:40:00] [IO-Worker-5/ERROR]: Chunk [-23, -2] stream is truncated: expected 4331 but read 4091
-[18:40:00] [IO-Worker-4/ERROR]: Chunk [-23, -1] stream is truncated: expected 529154733 but read 4091
-[18:40:00] [IO-Worker-4/ERROR]: Chunk [-12, -1] stream is truncated: expected 118272831 but read 8187
-[18:40:00] [IO-Worker-4/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-4/ERROR]: External chunk path ./world/region/c.-12.0.mcc is not file
-[18:40:00] [IO-Worker-4/ERROR]: Chunk [-23, 1] stream is truncated: expected 1512956455 but read 4091
-[18:40:00] [IO-Worker-7/ERROR]: Chunk [-12, 1] stream is truncated: expected 452803284 but read 8187
-[18:40:00] [IO-Worker-4/ERROR]: Chunk [-23, 2] stream is truncated: expected 6009 but read 4091
-[18:40:00] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.-12.2.mcc is not file
-[18:40:00] [IO-Worker-4/ERROR]: Chunk [-23, 3] stream is truncated: expected 1707099871 but read 4091
-[18:40:00] [IO-Worker-9/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-9/ERROR]: External chunk path ./world/region/c.-12.3.mcc is not file
-[18:40:00] [IO-Worker-4/ERROR]: Chunk [-23, 4] stream is truncated: expected 5041 but read 4091
-[18:40:00] [IO-Worker-9/ERROR]: Chunk [-12, 4] stream is truncated: expected 763201704 but read 8187
-[18:40:00] [IO-Worker-4/ERROR]: Chunk [-23, 5] stream is truncated: expected 5488 but read 4091
-[18:40:00] [IO-Worker-4/ERROR]: Chunk [-23, 6] stream is truncated: expected 5056 but read 4091
-[18:40:00] [IO-Worker-9/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-9/ERROR]: External chunk path ./world/region/c.-12.6.mcc is not file
-[18:40:00] [IO-Worker-4/ERROR]: Declared size -480458116 of chunk [-23, 7] is negative
-[18:40:00] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.-12.7.mcc is not file
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-23, 8] stream is truncated: expected 4843 but read 4091
-[18:40:00] [IO-Worker-4/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-4/ERROR]: External chunk path ./world/region/c.-23.9.mcc is not file
-[18:40:00] [IO-Worker-4/ERROR]: Chunk [-23, 10] stream is truncated: expected 35558503 but read 4091
-[18:40:00] [IO-Worker-4/ERROR]: Chunk [-23, 11] stream is truncated: expected 6069 but read 4091
-[18:40:00] [IO-Worker-4/ERROR]: Chunk [-23, 12] stream is truncated: expected 4844 but read 4091
-[18:40:00] [IO-Worker-4/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-4/ERROR]: External chunk path ./world/region/c.-23.13.mcc is not file
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-23, 14] stream is truncated: expected 5220 but read 4091
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-23, 15] stream is truncated: expected 5094 but read 4091
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-23, 16] stream is truncated: expected 5947 but read 4091
-[18:40:00] [IO-Worker-5/ERROR]: Declared size -1123837960 of chunk [-23, 17] is negative
-[18:40:00] [IO-Worker-5/ERROR]: Chunk [-23, 18] stream is truncated: expected 5353 but read 4091
-[18:40:00] [IO-Worker-8/ERROR]: Declared size -618674377 of chunk [-23, 19] is negative
-[18:40:00] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.-23.21.mcc is not file
-[18:40:00] [IO-Worker-8/ERROR]: Declared size -1790217830 of chunk [-21, 21] is negative
-[18:40:00] [IO-Worker-9/ERROR]: Chunk [-20, 21] stream is truncated: expected 1825021859 but read 4091
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-19, 21] stream is truncated: expected 5579 but read 4091
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-17, 21] stream is truncated: expected 4685 but read 4091
-[18:40:00] [IO-Worker-9/ERROR]: Chunk [-16, 21] stream is truncated: expected 5905 but read 4091
-[18:40:00] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.-13.21.mcc is not file
-[18:40:00] [IO-Worker-9/ERROR]: Chunk [-12, 21] stream is truncated: expected 6339 but read 4091
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-23, 22] stream is truncated: expected 4839 but read 4091
-[18:40:00] [IO-Worker-9/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-9/ERROR]: External chunk path ./world/region/c.-22.22.mcc is not file
-[18:40:00] [IO-Worker-8/ERROR]: Chunk [-21, 22] stream is truncated: expected 1984980077 but read 4091
-[18:40:00] [IO-Worker-9/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-9/ERROR]: External chunk path ./world/region/c.-20.22.mcc is not file
-[18:40:00] [IO-Worker-9/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-9/ERROR]: External chunk path ./world/region/c.-18.22.mcc is not file
-[18:40:00] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.-17.22.mcc is not file
-[18:40:00] [IO-Worker-9/ERROR]: Chunk [-16, 22] stream is truncated: expected 6353 but read 4091
-[18:40:00] [IO-Worker-9/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-9/ERROR]: External chunk path ./world/region/c.-12.22.mcc is not file
-[18:40:00] [IO-Worker-4/ERROR]: Chunk [-11, 22] stream is truncated: expected 4901 but read 4091
-[18:40:00] [IO-Worker-9/ERROR]: Chunk [-10, 22] stream is truncated: expected 5259 but read 4091
-[18:40:00] [IO-Worker-4/ERROR]: Chunk [-9, 22] stream is truncated: expected 4879 but read 4091
-[18:40:00] [IO-Worker-4/ERROR]: Chunk [-7, 22] stream is truncated: expected 944897148 but read 4091
-[18:40:00] [IO-Worker-9/ERROR]: Declared size -910715464 of chunk [-6, 22] is negative
-[18:40:00] [IO-Worker-9/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-9/ERROR]: External chunk path ./world/region/c.-4.22.mcc is not file
-[18:40:00] [IO-Worker-4/ERROR]: Declared size -634921464 of chunk [-3, 22] is negative
-[18:40:00] [IO-Worker-9/WARN]: Chunk has both internal and external streams
-[18:40:00] [IO-Worker-9/ERROR]: External chunk path ./world/region/c.-2.22.mcc is not file
-[18:40:01] [IO-Worker-4/WARN]: Chunk has both internal and external streams
-[18:40:01] [IO-Worker-4/ERROR]: External chunk path ./world/region/c.12.0.mcc is not file
-[18:40:01] [IO-Worker-4/ERROR]: Chunk [23, 0] stream is truncated: expected 1093204115 but read 4091
-[18:40:01] [IO-Worker-4/ERROR]: Chunk [23, 1] stream is truncated: expected 5880 but read 4091
-[18:40:01] [IO-Worker-8/ERROR]: Declared size -1929960778 of chunk [12, 2] is negative
-[18:40:01] [IO-Worker-9/ERROR]: Chunk [23, 2] stream is truncated: expected 6702 but read 4091
-[18:40:01] [IO-Worker-8/ERROR]: Chunk [12, 3] stream is truncated: expected 90066587 but read 8187
-[18:40:01] [IO-Worker-9/ERROR]: Chunk [23, 3] stream is truncated: expected 1053745508 but read 4091
-[18:40:01] [IO-Worker-9/ERROR]: Declared size -121398177 of chunk [12, 4] is negative
-[18:40:01] [IO-Worker-4/ERROR]: Chunk [23, 4] stream is truncated: expected 5422 but read 4091
-[18:40:01] [IO-Worker-4/WARN]: Chunk has both internal and external streams
-[18:40:01] [IO-Worker-4/ERROR]: External chunk path ./world/region/c.12.5.mcc is not file
-[18:40:01] [IO-Worker-8/ERROR]: Chunk [23, 5] stream is truncated: expected 4766 but read 4091
-[18:40:01] [IO-Worker-9/ERROR]: Chunk [23, 6] stream is truncated: expected 5165 but read 4091
-[18:40:01] [IO-Worker-9/ERROR]: Chunk [23, 7] stream is truncated: expected 2123185519 but read 4091
-[18:40:01] [IO-Worker-9/ERROR]: Declared size -867181656 of chunk [23, 8] is negative
-[18:40:01] [IO-Worker-9/ERROR]: Chunk [23, 9] stream is truncated: expected 5186 but read 4091
-[18:40:01] [IO-Worker-9/ERROR]: Chunk [23, 10] stream is truncated: expected 6589 but read 4091
-[18:40:01] [IO-Worker-4/WARN]: Chunk has both internal and external streams
-[18:40:01] [IO-Worker-4/ERROR]: External chunk path ./world/region/c.12.11.mcc is not file
-[18:40:01] [IO-Worker-9/ERROR]: Chunk [23, 11] stream is truncated: expected 6628 but read 4091
-[18:40:01] [IO-Worker-9/ERROR]: Declared size -1830263354 of chunk [23, 12] is negative
-[18:40:01] [IO-Worker-9/ERROR]: Declared size -1257744119 of chunk [23, 13] is negative
-[18:40:01] [IO-Worker-9/ERROR]: Chunk [23, 14] stream is truncated: expected 131233241 but read 4091
-[18:40:01] [IO-Worker-9/ERROR]: Chunk [23, 15] stream is truncated: expected 5216 but read 4091
-[18:40:01] [IO-Worker-9/WARN]: Chunk has both internal and external streams
-[18:40:01] [IO-Worker-9/ERROR]: External chunk path ./world/region/c.23.16.mcc is not file
-[18:40:01] [IO-Worker-4/ERROR]: Chunk [22, 17] stream is truncated: expected 7673 but read 4091
-[18:40:01] [IO-Worker-9/WARN]: Chunk has both internal and external streams
-[18:40:01] [IO-Worker-9/ERROR]: External chunk path ./world/region/c.23.17.mcc is not file
-[18:40:01] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:01] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.18.18.mcc is not file
-[18:40:01] [IO-Worker-5/ERROR]: Chunk [19, 18] stream is truncated: expected 5194 but read 4091
-[18:40:01] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:01] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.20.18.mcc is not file
-[18:40:01] [IO-Worker-5/ERROR]: Chunk [21, 18] stream is truncated: expected 4793 but read 4091
-[18:40:01] [IO-Worker-5/ERROR]: Chunk [23, 18] stream is truncated: expected 6679 but read 4091
-[18:40:01] [IO-Worker-5/ERROR]: Declared size -634408218 of chunk [20, 19] is negative
-[18:40:01] [IO-Worker-5/ERROR]: Chunk [21, 19] stream is truncated: expected 6130 but read 4091
-[18:40:01] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:01] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.23.19.mcc is not file
-[18:40:01] [IO-Worker-8/ERROR]: Chunk [19, 20] stream is truncated: expected 1335176716 but read 4091
-[18:40:01] [IO-Worker-8/ERROR]: Chunk [22, 20] stream is truncated: expected 6962 but read 4091
-[18:40:01] [IO-Worker-8/ERROR]: Chunk [23, 20] stream is truncated: expected 2085093580 but read 4091
-[18:40:01] [IO-Worker-8/ERROR]: Chunk [14, 21] stream is truncated: expected 4440 but read 4091
-[18:40:01] [IO-Worker-8/ERROR]: Chunk [18, 21] stream is truncated: expected 6453 but read 4091
-[18:40:01] [IO-Worker-5/ERROR]: Chunk [22, 21] stream is truncated: expected 5951 but read 4091
-[18:40:01] [IO-Worker-5/ERROR]: Declared size -2013593804 of chunk [23, 21] is negative
-[18:40:01] [IO-Worker-8/ERROR]: Chunk [2, 22] stream is truncated: expected 6358 but read 4091
-[18:40:01] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:01] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.3.22.mcc is not file
-[18:40:01] [IO-Worker-8/ERROR]: Chunk [4, 22] stream is truncated: expected 5820 but read 4091
-[18:40:01] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:01] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.7.22.mcc is not file
-[18:40:01] [IO-Worker-5/ERROR]: Chunk [9, 22] stream is truncated: expected 4994 but read 4091
-[18:40:01] [IO-Worker-8/ERROR]: Chunk [10, 22] stream is truncated: expected 1776690569 but read 4091
-[18:40:01] [IO-Worker-5/ERROR]: Declared size -1342134731 of chunk [11, 22] is negative
-[18:40:01] [IO-Worker-8/ERROR]: Chunk [12, 22] stream is truncated: expected 5350 but read 4091
-[18:40:01] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:01] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.16.22.mcc is not file
-[18:40:01] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:01] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.17.22.mcc is not file
-[18:40:01] [IO-Worker-8/ERROR]: Chunk [18, 22] stream is truncated: expected 1638712843 but read 4091
-[18:40:01] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:01] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.20.22.mcc is not file
-[18:40:01] [IO-Worker-5/ERROR]: Chunk [21, 22] stream is truncated: expected 1884264851 but read 4091
-[18:40:01] [IO-Worker-5/ERROR]: Chunk [23, 22] stream is truncated: expected 5745 but read 4091
-[18:40:01] [Worker-Main-1/INFO]: Preparing spawn area: 54%
-[18:40:01] [Worker-Main-2/INFO]: Preparing spawn area: 68%
-[18:40:02] [Worker-Main-3/INFO]: Preparing spawn area: 68%
-[18:40:02] [Worker-Main-3/INFO]: Preparing spawn area: 68%
-[18:40:03] [Worker-Main-1/INFO]: Preparing spawn area: 71%
-[18:40:03] [Worker-Main-3/INFO]: Preparing spawn area: 72%
-[18:40:04] [Worker-Main-1/INFO]: Preparing spawn area: 74%
-[18:40:04] [Worker-Main-2/INFO]: Preparing spawn area: 80%
-[18:40:05] [Worker-Main-3/INFO]: Preparing spawn area: 83%
-[18:40:05] [Worker-Main-1/INFO]: Preparing spawn area: 84%
-[18:40:06] [Worker-Main-3/INFO]: Preparing spawn area: 86%
-[18:40:06] [Worker-Main-2/INFO]: Preparing spawn area: 90%
-[18:40:07] [Worker-Main-2/INFO]: Preparing spawn area: 92%
-[18:40:07] [Worker-Main-1/INFO]: Preparing spawn area: 95%
-[18:40:07] [Server thread/INFO]: Time elapsed: 12307 ms
-[18:40:07] [Server thread/INFO]: Done (15.680s)! For help, type "help"
-[18:40:07] [Server thread/INFO]: Starting remote control listener
-[18:40:07] [Server thread/INFO]: Thread RCON Listener started
-[18:40:07] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[18:40:14] [User Authenticator #1/INFO]: UUID of player L0rthe is 754c6713-dfba-4c03-8342-aaafb7752dbb
-[18:40:14] [Server thread/INFO]: L0rthe[/179.155.221.66:50857] logged in with entity id 558 at (6.106413274413295, 80.0, -32.21625581336432)
-[18:40:14] [Server thread/INFO]: L0rthe joined the game
-[18:40:15] [IO-Worker-9/WARN]: Chunk has both internal and external streams
-[18:40:15] [IO-Worker-9/ERROR]: External chunk path ./world/region/c.-7.-23.mcc is not file
-[18:40:15] [IO-Worker-5/ERROR]: Chunk [-6, -23] stream is truncated: expected 9532 but read 4091
-[18:40:15] [IO-Worker-9/ERROR]: Declared size -1684694435 of chunk [-5, -23] is negative
-[18:40:15] [IO-Worker-5/ERROR]: Chunk [-2, -23] stream is truncated: expected 4709 but read 4091
-[18:40:15] [IO-Worker-9/ERROR]: Chunk [-1, -23] stream is truncated: expected 4293 but read 4091
-[18:40:15] [IO-Worker-5/ERROR]: Declared size -166265 of chunk [4, -23] is negative
-[18:40:15] [IO-Worker-9/ERROR]: Chunk [5, -23] stream is truncated: expected 4325 but read 4091
-[18:40:15] [IO-Worker-5/ERROR]: Chunk [10, -23] stream is truncated: expected 182903506 but read 4091
-[18:40:15] [IO-Worker-9/ERROR]: Chunk [11, -23] stream is truncated: expected 33075578 but read 4091
-[18:40:15] [Server thread/ERROR]: Chunk file at [-9, -23] is in the wrong location; relocating. (Expected [-9, -23], got [-20, -18])
-[18:40:15] [Server thread/ERROR]: Chunk file at [-8, -23] is in the wrong location; relocating. (Expected [-8, -23], got [-4, -10])
-[18:40:15] [Server thread/ERROR]: Chunk file at [-4, -23] is in the wrong location; relocating. (Expected [-4, -23], got [-7, -26])
-[18:40:15] [Server thread/ERROR]: Chunk file at [-3, -23] is in the wrong location; relocating. (Expected [-3, -23], got [-19, -7])
-[18:40:15] [Server thread/ERROR]: Chunk file at [0, -23] is in the wrong location; relocating. (Expected [0, -23], got [5, -24])
-[18:40:15] [Server thread/ERROR]: Chunk file at [1, -23] is in the wrong location; relocating. (Expected [1, -23], got [1, -25])
-[18:40:15] [Server thread/ERROR]: Chunk file at [2, -23] is in the wrong location; relocating. (Expected [2, -23], got [24, -20])
-[18:40:15] [Server thread/ERROR]: Chunk file at [3, -23] is in the wrong location; relocating. (Expected [3, -23], got [15, -25])
-[18:40:15] [Server thread/ERROR]: Chunk file at [6, -23] is in the wrong location; relocating. (Expected [6, -23], got [6, -25])
-[18:40:15] [Server thread/ERROR]: Chunk file at [7, -23] is in the wrong location; relocating. (Expected [7, -23], got [2, -24])
-[18:40:15] [Server thread/ERROR]: Chunk file at [8, -23] is in the wrong location; relocating. (Expected [8, -23], got [24, -15])
-[18:40:15] [Server thread/ERROR]: Chunk file at [9, -23] is in the wrong location; relocating. (Expected [9, -23], got [10, -26])
-[18:40:15] [Server thread/ERROR]: Chunk file at [13, -23] is in the wrong location; relocating. (Expected [13, -23], got [5, -25])
-[18:40:15] [Server thread/ERROR]: Chunk file at [15, -23] is in the wrong location; relocating. (Expected [15, -23], got [7, -24])
-[18:40:15] [Server thread/ERROR]: Chunk file at [17, -23] is in the wrong location; relocating. (Expected [17, -23], got [24, -2])
-[18:40:15] [Server thread/ERROR]: Chunk file at [12, -23] is in the wrong location; relocating. (Expected [12, -23], got [4, -24])
-[18:40:15] [Server thread/ERROR]: Chunk file at [14, -23] is in the wrong location; relocating. (Expected [14, -23], got [21, -24])
-[18:40:15] [Server thread/ERROR]: Chunk file at [16, -23] is in the wrong location; relocating. (Expected [16, -23], got [15, -24])
-[18:40:15] [Server thread/ERROR]: Chunk file at [18, -23] is in the wrong location; relocating. (Expected [18, -23], got [24, -9])
-[18:40:15] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:15] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.-15.-23.mcc is not file
-[18:40:15] [IO-Worker-9/WARN]: Chunk has both internal and external streams
-[18:40:15] [IO-Worker-9/ERROR]: External chunk path ./world/region/c.-14.-23.mcc is not file
-[18:40:15] [IO-Worker-8/ERROR]: Declared size -285099876 of chunk [-13, -23] is negative
-[18:40:15] [IO-Worker-9/WARN]: Chunk has both internal and external streams
-[18:40:15] [IO-Worker-9/ERROR]: External chunk path ./world/region/c.-12.-23.mcc is not file
-[18:40:15] [IO-Worker-9/ERROR]: Chunk [-10, -23] stream is truncated: expected 1610804063 but read 4091
-[18:40:15] [IO-Worker-9/ERROR]: Chunk [-17, -23] stream is truncated: expected 4800 but read 4091
-[18:40:15] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:15] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.-16.-23.mcc is not file
-[18:40:15] [Server thread/ERROR]: Chunk file at [-11, -23] is in the wrong location; relocating. (Expected [-11, -23], got [-1, -26])
-[18:40:16] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:16] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.-19.-23.mcc is not file
-[18:40:16] [IO-Worker-9/ERROR]: Chunk [-18, -23] stream is truncated: expected 5161 but read 4091
-[18:40:16] [IO-Worker-9/WARN]: Chunk has both internal and external streams
-[18:40:16] [IO-Worker-9/ERROR]: External chunk path ./world/region/c.-14.-24.mcc is not file
-[18:40:16] [IO-Worker-5/ERROR]: Chunk [-13, -24] stream is truncated: expected 6555 but read 4091
-[18:40:16] [IO-Worker-9/WARN]: Chunk has both internal and external streams
-[18:40:16] [IO-Worker-9/ERROR]: External chunk path ./world/region/c.-12.-24.mcc is not file
-[18:40:16] [IO-Worker-5/ERROR]: Chunk [-11, -24] stream is truncated: expected 241131548 but read 4091
-[18:40:16] [IO-Worker-5/ERROR]: Declared size -1867699606 of chunk [-9, -24] is negative
-[18:40:16] [IO-Worker-9/WARN]: Chunk has both internal and external streams
-[18:40:16] [IO-Worker-9/ERROR]: External chunk path ./world/region/c.-8.-24.mcc is not file
-[18:40:16] [IO-Worker-9/ERROR]: Chunk [-6, -24] stream is truncated: expected 5199 but read 4091
-[18:40:16] [IO-Worker-5/ERROR]: Chunk [-5, -24] stream is truncated: expected 4303 but read 4091
-[18:40:16] [Server thread/ERROR]: Chunk file at [-10, -24] is in the wrong location; relocating. (Expected [-10, -24], got [-6, -8])
-[18:40:16] [IO-Worker-9/ERROR]: Chunk [-4, -24] stream is truncated: expected 5386 but read 4091
-[18:40:16] [IO-Worker-8/ERROR]: Chunk [-3, -24] stream is truncated: expected 4907 but read 4091
-[18:40:16] [IO-Worker-9/ERROR]: Chunk [-2, -24] stream is truncated: expected 4288 but read 4091
-[18:40:16] [IO-Worker-8/ERROR]: Chunk [-1, -24] stream is truncated: expected 6658 but read 4091
-[18:40:16] [IO-Worker-9/ERROR]: Chunk [0, -24] stream is truncated: expected 7819 but read 4091
-[18:40:16] [IO-Worker-8/ERROR]: Chunk [1, -24] stream is truncated: expected 4192 but read 4091
-[18:40:16] [IO-Worker-9/WARN]: Chunk has both internal and external streams
-[18:40:16] [IO-Worker-9/ERROR]: External chunk path ./world/region/c.2.-24.mcc is not file
-[18:40:16] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:16] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.3.-24.mcc is not file
-[18:40:16] [Server thread/ERROR]: Chunk file at [-7, -24] is in the wrong location; relocating. (Expected [-7, -24], got [-2, -9])
-[18:40:16] [IO-Worker-9/ERROR]: Chunk [4, -24] stream is truncated: expected 4868 but read 4091
-[18:40:16] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:16] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.5.-24.mcc is not file
-[18:40:16] [IO-Worker-9/WARN]: Chunk has both internal and external streams
-[18:40:16] [IO-Worker-9/ERROR]: External chunk path ./world/region/c.6.-24.mcc is not file
-[18:40:16] [IO-Worker-5/ERROR]: Chunk [7, -24] stream is truncated: expected 7372 but read 4091
-[18:40:16] [IO-Worker-8/ERROR]: Chunk [8, -24] stream is truncated: expected 6588 but read 4091
-[18:40:16] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:16] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.9.-24.mcc is not file
-[18:40:16] [IO-Worker-9/WARN]: Chunk has both internal and external streams
-[18:40:16] [IO-Worker-9/ERROR]: External chunk path ./world/region/c.-20.-24.mcc is not file
-[18:40:16] [IO-Worker-9/ERROR]: Declared size -1545292982 of chunk [-18, -24] is negative
-[18:40:16] [IO-Worker-5/ERROR]: Chunk [-15, -24] stream is truncated: expected 6390 but read 4091
-[18:40:16] [Server thread/ERROR]: Chunk file at [-19, -24] is in the wrong location; relocating. (Expected [-19, -24], got [-9, -1])
-[18:40:16] [Server thread/ERROR]: Chunk file at [-17, -24] is in the wrong location; relocating. (Expected [-17, -24], got [-9, -3])
-[18:40:16] [Server thread/ERROR]: Chunk file at [-16, -24] is in the wrong location; relocating. (Expected [-16, -24], got [-4, -9])
-[18:40:16] [Server thread/ERROR]: Chunk file at [-20, -23] is in the wrong location; relocating. (Expected [-20, -23], got [-17, -26])
-[18:40:16] [IO-Worker-5/ERROR]: Chunk [11, -24] stream is truncated: expected 4263 but read 4091
-[18:40:16] [IO-Worker-9/ERROR]: Chunk [12, -24] stream is truncated: expected 5361 but read 4091
-[18:40:16] [IO-Worker-5/ERROR]: Chunk [13, -24] stream is truncated: expected 1154224067 but read 4091
-[18:40:16] [IO-Worker-5/ERROR]: Chunk [15, -24] stream is truncated: expected 5368 but read 4091
-[18:40:16] [Server thread/ERROR]: Chunk file at [10, -24] is in the wrong location; relocating. (Expected [10, -24], got [13, -3])
-[18:40:16] [Server thread/ERROR]: Chunk file at [14, -24] is in the wrong location; relocating. (Expected [14, -24], got [13, -1])
-[18:40:16] [Server thread/ERROR]: Chunk file at [16, -24] is in the wrong location; relocating. (Expected [16, -24], got [13, -2])
-[18:40:16] [Server thread/ERROR]: Chunk file at [17, -24] is in the wrong location; relocating. (Expected [17, -24], got [13, -9])
-[18:40:16] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [11, -14] ] for chunk [17, -24].
-[18:40:17] [IO-Worker-9/WARN]: Chunk has both internal and external streams
-[18:40:17] [IO-Worker-9/ERROR]: External chunk path ./world/region/c.18.-24.mcc is not file
-[18:40:17] [IO-Worker-5/ERROR]: Chunk [19, -24] stream is truncated: expected 1927787270 but read 4091
-[18:40:17] [IO-Worker-5/ERROR]: Chunk [20, -24] stream is truncated: expected 610702936 but read 4091
-[18:40:17] [Server thread/ERROR]: Chunk file at [19, -23] is in the wrong location; relocating. (Expected [19, -23], got [24, -5])
-[18:40:17] [Server thread/ERROR]: Chunk file at [20, -23] is in the wrong location; relocating. (Expected [20, -23], got [19, -26])
-[18:40:17] [IO-Worker-5/ERROR]: Declared size -1426710728 of chunk [21, -24] is negative
-[18:40:17] [Server thread/ERROR]: Chunk file at [21, -23] is in the wrong location; relocating. (Expected [21, -23], got [11, -26])
-[18:40:17] [Server thread/ERROR]: Chunk file at [-21, -24] is in the wrong location; relocating. (Expected [-21, -24], got [-9, -2])
-[18:40:17] [Server thread/ERROR]: Chunk file at [-21, -23] is in the wrong location; relocating. (Expected [-21, -23], got [-23, -25])
-[18:40:19] [IO-Worker-9/ERROR]: Declared size -1946188603 of chunk [-22, -23] is negative
-[18:40:19] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:19] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.-22.-24.mcc is not file
-[18:40:19] [IO-Worker-5/ERROR]: Chunk [22, -24] stream is truncated: expected 5128 but read 4091
-[18:40:19] [Server thread/ERROR]: Chunk file at [22, -23] is in the wrong location; relocating. (Expected [22, -23], got [0, -26])
-[18:40:19] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:19] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.-23.-20.mcc is not file
-[18:40:19] [IO-Worker-9/ERROR]: Chunk [-23, -19] stream is truncated: expected 8535 but read 4091
-[18:40:19] [IO-Worker-5/ERROR]: Chunk [-23, -18] stream is truncated: expected 8861 but read 4091
-[18:40:19] [IO-Worker-5/ERROR]: Chunk [-23, -16] stream is truncated: expected 5312 but read 4091
-[18:40:19] [IO-Worker-9/ERROR]: Declared size -678243194 of chunk [-23, -15] is negative
-[18:40:19] [IO-Worker-5/ERROR]: Chunk [-23, -14] stream is truncated: expected 4603 but read 4091
-[18:40:19] [IO-Worker-5/ERROR]: Chunk [-23, -12] stream is truncated: expected 153667379 but read 4091
-[18:40:19] [IO-Worker-9/ERROR]: Chunk [-23, -11] stream is truncated: expected 5759 but read 4091
-[18:40:19] [IO-Worker-5/ERROR]: Chunk [-23, -10] stream is truncated: expected 6123 but read 4091
-[18:40:19] [IO-Worker-5/ERROR]: Chunk [-23, -6] stream is truncated: expected 99502843 but read 4091
-[18:40:19] [IO-Worker-9/ERROR]: Declared size -1728983216 of chunk [-23, -5] is negative
-[18:40:19] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:19] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.-23.-4.mcc is not file
-[18:40:19] [IO-Worker-5/ERROR]: Chunk [-23, -2] stream is truncated: expected 4331 but read 4091
-[18:40:19] [IO-Worker-5/ERROR]: Chunk [-23, -1] stream is truncated: expected 529154733 but read 4091
-[18:40:19] [IO-Worker-9/ERROR]: Chunk [-23, 1] stream is truncated: expected 1512956455 but read 4091
-[18:40:19] [IO-Worker-5/ERROR]: Chunk [-23, -23] stream is truncated: expected 4361 but read 4091
-[18:40:19] [IO-Worker-9/WARN]: Chunk has both internal and external streams
-[18:40:19] [IO-Worker-9/ERROR]: External chunk path ./world/region/c.-23.-22.mcc is not file
-[18:40:19] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:19] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.-23.-21.mcc is not file
-[18:40:19] [Server thread/ERROR]: Chunk file at [-23, -17] is in the wrong location; relocating. (Expected [-23, -17], got [-2, -26])
-[18:40:19] [Server thread/ERROR]: Chunk file at [-23, -13] is in the wrong location; relocating. (Expected [-23, -13], got [-14, -26])
-[18:40:19] [Server thread/ERROR]: Chunk file at [-23, -9] is in the wrong location; relocating. (Expected [-23, -9], got [-10, -3])
-[18:40:19] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [-6, 2] ] for chunk [-23, -9].
-[18:40:19] [Server thread/ERROR]: Chunk file at [-23, -8] is in the wrong location; relocating. (Expected [-23, -8], got [-21, -26])
-[18:40:19] [Server thread/ERROR]: Chunk file at [-23, -7] is in the wrong location; relocating. (Expected [-23, -7], got [-13, -26])
-[18:40:19] [Server thread/ERROR]: Chunk file at [-23, -3] is in the wrong location; relocating. (Expected [-23, -3], got [-18, -9])
-[18:40:19] [Server thread/ERROR]: Chunk file at [-23, 0] is in the wrong location; relocating. (Expected [-23, 0], got [-25, 8])
-[18:40:19] [IO-Worker-5/ERROR]: Declared size -1000034607 of chunk [23, -23] is negative
-[18:40:19] [IO-Worker-9/ERROR]: Chunk [23, -22] stream is truncated: expected 5369 but read 4091
-[18:40:19] [IO-Worker-9/ERROR]: Chunk [23, -20] stream is truncated: expected 5019 but read 4091
-[18:40:19] [IO-Worker-9/WARN]: Chunk has both internal and external streams
-[18:40:19] [IO-Worker-9/ERROR]: External chunk path ./world/region/c.23.-18.mcc is not file
-[18:40:19] [IO-Worker-5/ERROR]: Chunk [23, -15] stream is truncated: expected 307017071 but read 4091
-[18:40:19] [IO-Worker-5/ERROR]: Chunk [23, -13] stream is truncated: expected 6564 but read 4091
-[18:40:19] [IO-Worker-5/ERROR]: Chunk [23, -9] stream is truncated: expected 5012 but read 4091
-[18:40:19] [IO-Worker-9/ERROR]: Chunk [23, -8] stream is truncated: expected 4915 but read 4091
-[18:40:19] [IO-Worker-5/ERROR]: Declared size -2119149264 of chunk [23, -7] is negative
-[18:40:19] [IO-Worker-5/ERROR]: Chunk [23, -4] stream is truncated: expected 5825 but read 4091
-[18:40:19] [IO-Worker-9/WARN]: Chunk has both internal and external streams
-[18:40:19] [IO-Worker-9/ERROR]: External chunk path ./world/region/c.23.-2.mcc is not file
-[18:40:19] [IO-Worker-9/ERROR]: Chunk [23, 0] stream is truncated: expected 1093204115 but read 4091
-[18:40:19] [IO-Worker-9/ERROR]: Chunk [23, 1] stream is truncated: expected 5880 but read 4091
-[18:40:19] [IO-Worker-5/ERROR]: Chunk [23, 2] stream is truncated: expected 6702 but read 4091
-[18:40:19] [Server thread/ERROR]: Chunk file at [23, -21] is in the wrong location; relocating. (Expected [23, -21], got [19, -24])
-[18:40:19] [Server thread/ERROR]: Chunk file at [23, -19] is in the wrong location; relocating. (Expected [23, -19], got [4, -26])
-[18:40:19] [Server thread/ERROR]: Chunk file at [23, -17] is in the wrong location; relocating. (Expected [23, -17], got [0, -24])
-[18:40:19] [Server thread/ERROR]: Chunk file at [23, -16] is in the wrong location; relocating. (Expected [23, -16], got [12, -24])
-[18:40:19] [Server thread/ERROR]: Chunk file at [23, -14] is in the wrong location; relocating. (Expected [23, -14], got [18, -26])
-[18:40:19] [Server thread/ERROR]: Chunk file at [23, -12] is in the wrong location; relocating. (Expected [23, -12], got [24, -21])
-[18:40:19] [Server thread/ERROR]: Chunk file at [23, -11] is in the wrong location; relocating. (Expected [23, -11], got [1, -24])
-[18:40:19] [Server thread/ERROR]: Chunk file at [23, -10] is in the wrong location; relocating. (Expected [23, -10], got [6, -24])
-[18:40:19] [Server thread/ERROR]: Chunk file at [23, -6] is in the wrong location; relocating. (Expected [23, -6], got [3, -25])
-[18:40:19] [Server thread/ERROR]: Chunk file at [23, -3] is in the wrong location; relocating. (Expected [23, -3], got [24, -12])
-[18:40:19] [Server thread/ERROR]: Chunk file at [23, -1] is in the wrong location; relocating. (Expected [23, -1], got [24, -24])
-[18:40:19] [Server thread/ERROR]: Chunk file at [23, -5] is in the wrong location; relocating. (Expected [23, -5], got [24, -22])
-[18:40:19] [IO-Worker-5/ERROR]: Chunk [23, 3] stream is truncated: expected 1053745508 but read 4091
-[18:40:19] [IO-Worker-9/ERROR]: Chunk [23, 4] stream is truncated: expected 5422 but read 4091
-[18:40:19] [IO-Worker-5/ERROR]: Chunk [23, 5] stream is truncated: expected 4766 but read 4091
-[18:40:19] [IO-Worker-9/ERROR]: Chunk [23, 6] stream is truncated: expected 5165 but read 4091
-[18:40:19] [IO-Worker-5/ERROR]: Chunk [23, 7] stream is truncated: expected 2123185519 but read 4091
-[18:40:19] [IO-Worker-5/ERROR]: Declared size -867181656 of chunk [23, 8] is negative
-[18:40:19] [IO-Worker-9/ERROR]: Chunk [23, 9] stream is truncated: expected 5186 but read 4091
-[18:40:19] [IO-Worker-9/ERROR]: Chunk [-23, 2] stream is truncated: expected 6009 but read 4091
-[18:40:19] [IO-Worker-5/ERROR]: Chunk [-23, 3] stream is truncated: expected 1707099871 but read 4091
-[18:40:19] [IO-Worker-9/ERROR]: Chunk [-23, 4] stream is truncated: expected 5041 but read 4091
-[18:40:19] [IO-Worker-5/ERROR]: Chunk [-23, 5] stream is truncated: expected 5488 but read 4091
-[18:40:19] [IO-Worker-9/ERROR]: Chunk [-23, 6] stream is truncated: expected 5056 but read 4091
-[18:40:19] [IO-Worker-5/ERROR]: Declared size -480458116 of chunk [-23, 7] is negative
-[18:40:19] [IO-Worker-5/ERROR]: Chunk [-23, 8] stream is truncated: expected 4843 but read 4091
-[18:40:19] [IO-Worker-9/WARN]: Chunk has both internal and external streams
-[18:40:19] [IO-Worker-9/ERROR]: External chunk path ./world/region/c.-23.9.mcc is not file
-[18:40:19] [IO-Worker-5/ERROR]: Chunk [-23, 10] stream is truncated: expected 35558503 but read 4091
-[18:40:19] [IO-Worker-9/ERROR]: Chunk [-23, 11] stream is truncated: expected 6069 but read 4091
-[18:40:19] [IO-Worker-5/ERROR]: Chunk [-23, 12] stream is truncated: expected 4844 but read 4091
-[18:40:19] [IO-Worker-9/WARN]: Chunk has both internal and external streams
-[18:40:19] [IO-Worker-9/ERROR]: External chunk path ./world/region/c.-23.13.mcc is not file
-[18:40:19] [IO-Worker-5/ERROR]: Chunk [-23, 14] stream is truncated: expected 5220 but read 4091
-[18:40:19] [IO-Worker-8/ERROR]: Chunk [-23, 15] stream is truncated: expected 5094 but read 4091
-[18:40:21] [IO-Worker-9/ERROR]: Chunk [23, 10] stream is truncated: expected 6589 but read 4091
-[18:40:21] [IO-Worker-5/ERROR]: Chunk [23, 11] stream is truncated: expected 6628 but read 4091
-[18:40:21] [IO-Worker-9/ERROR]: Declared size -1830263354 of chunk [23, 12] is negative
-[18:40:21] [IO-Worker-5/ERROR]: Declared size -1257744119 of chunk [23, 13] is negative
-[18:40:21] [IO-Worker-9/ERROR]: Chunk [23, 14] stream is truncated: expected 131233241 but read 4091
-[18:40:21] [IO-Worker-5/ERROR]: Chunk [23, 15] stream is truncated: expected 5216 but read 4091
-[18:40:21] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:21] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.23.16.mcc is not file
-[18:40:21] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:21] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.23.17.mcc is not file
-[18:40:22] [IO-Worker-8/ERROR]: Chunk [-23, 16] stream is truncated: expected 5947 but read 4091
-[18:40:22] [IO-Worker-5/ERROR]: Declared size -1123837960 of chunk [-23, 17] is negative
-[18:40:22] [IO-Worker-4/ERROR]: Chunk [-23, 18] stream is truncated: expected 5353 but read 4091
-[18:40:22] [IO-Worker-8/ERROR]: Declared size -618674377 of chunk [-23, 19] is negative
-[18:40:22] [IO-Worker-4/ERROR]: Chunk [-23, -24] stream is truncated: expected 4655 but read 4091
-[18:40:22] [Server thread/ERROR]: Chunk file at [-23, 20] is in the wrong location; relocating. (Expected [-23, 20], got [-25, 7])
-[18:40:22] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [-22, 3] ] for chunk [-23, 20].
-[18:40:23] [IO-Worker-4/ERROR]: Chunk [23, 18] stream is truncated: expected 6679 but read 4091
-[18:40:23] [IO-Worker-5/WARN]: Chunk has both internal and external streams
-[18:40:23] [IO-Worker-5/ERROR]: External chunk path ./world/region/c.23.19.mcc is not file
-[18:40:23] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:23] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.23.-24.mcc is not file
-[18:40:23] [IO-Worker-8/WARN]: Chunk has both internal and external streams
-[18:40:23] [IO-Worker-8/ERROR]: External chunk path ./world/region/c.-23.21.mcc is not file
-[18:40:23] [IO-Worker-4/ERROR]: Chunk [23, 20] stream is truncated: expected 2085093580 but read 4091
-[18:40:23] [IO-Worker-5/ERROR]: Declared size -2013593804 of chunk [23, 21] is negative
-[18:40:25] [IO-Worker-4/ERROR]: Chunk [-23, 22] stream is truncated: expected 4839 but read 4091
-[18:40:25] [IO-Worker-5/ERROR]: Chunk [23, 22] stream is truncated: expected 5745 but read 4091
-[18:41:14] [Server thread/INFO]: L0rthe fell from a high place
-[18:41:22] [Server thread/ERROR]: Chunk file at [-21, -24] is in the wrong location; relocating. (Expected [-21, -24], got [-9, -2])
-[18:41:22] [Server thread/ERROR]: Chunk file at [-19, -24] is in the wrong location; relocating. (Expected [-19, -24], got [-9, -1])
-[18:41:22] [Server thread/ERROR]: Chunk file at [-17, -24] is in the wrong location; relocating. (Expected [-17, -24], got [-9, -3])
-[18:41:22] [Server thread/ERROR]: Chunk file at [-16, -24] is in the wrong location; relocating. (Expected [-16, -24], got [-4, -9])
-[18:41:22] [Server thread/ERROR]: Chunk file at [-10, -24] is in the wrong location; relocating. (Expected [-10, -24], got [-6, -8])
-[18:41:45] [Server thread/INFO]: L0rthe discovered the floor was lava
-[18:42:39] [Server thread/INFO]: L0rthe fell from a high place
-[18:42:47] [Server thread/ERROR]: Chunk file at [-21, -24] is in the wrong location; relocating. (Expected [-21, -24], got [-9, -2])
-[18:42:47] [Server thread/ERROR]: Chunk file at [-19, -24] is in the wrong location; relocating. (Expected [-19, -24], got [-9, -1])
-[18:42:47] [Server thread/ERROR]: Chunk file at [-17, -24] is in the wrong location; relocating. (Expected [-17, -24], got [-9, -3])
-[18:42:47] [Server thread/ERROR]: Chunk file at [-16, -24] is in the wrong location; relocating. (Expected [-16, -24], got [-4, -9])
-[18:42:47] [Server thread/ERROR]: Chunk file at [-10, -24] is in the wrong location; relocating. (Expected [-10, -24], got [-6, -8])
-[18:42:47] [Server thread/ERROR]: Chunk file at [-7, -24] is in the wrong location; relocating. (Expected [-7, -24], got [-2, -9])
-[18:44:13] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
-[18:44:13] [Server thread/INFO]: [Rcon: Stopping the server]
-[18:44:13] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
-[18:44:13] [Server thread/INFO]: Stopping server
-[18:44:13] [Server thread/INFO]: Saving players
-[18:44:13] [Server thread/INFO]: Saving worlds
-[18:44:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:02:15] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:02:17] [ServerMain/INFO]: Loaded 7 recipes
+[19:02:17] [ServerMain/INFO]: Loaded 1271 advancements
+[19:02:18] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[19:02:18] [Server thread/INFO]: Loading properties
+[19:02:18] [Server thread/INFO]: Default game type: SURVIVAL
+[19:02:18] [Server thread/INFO]: Generating keypair
+[19:02:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:02:18] [Server thread/INFO]: Using epoll channel type
+[19:02:18] [Server thread/INFO]: Preparing level "world"
+[19:02:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:02:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:02:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:02:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:02:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[19:02:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[19:02:28] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:02:28] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:02:29] [Worker-Main-1/INFO]: Preparing spawn area: 1%
+[19:02:29] [Worker-Main-1/INFO]: Preparing spawn area: 1%
+[19:02:30] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[19:02:30] [Worker-Main-2/INFO]: Preparing spawn area: 3%
+[19:02:31] [Worker-Main-3/INFO]: Preparing spawn area: 4%
+[19:02:31] [Worker-Main-2/INFO]: Preparing spawn area: 5%
+[19:02:32] [Worker-Main-3/INFO]: Preparing spawn area: 6%
+[19:02:32] [Worker-Main-3/INFO]: Preparing spawn area: 8%
+[19:02:33] [Worker-Main-2/INFO]: Preparing spawn area: 9%
+[19:02:33] [Worker-Main-1/INFO]: Preparing spawn area: 10%
+[19:02:36] [Worker-Main-2/INFO]: Preparing spawn area: 11%
+[19:02:36] [Worker-Main-2/INFO]: Preparing spawn area: 11%
+[19:02:36] [Worker-Main-3/INFO]: Preparing spawn area: 11%
+[19:02:36] [Worker-Main-2/INFO]: Preparing spawn area: 11%
+[19:02:36] [Worker-Main-2/INFO]: Preparing spawn area: 11%
+[19:02:36] [Worker-Main-2/INFO]: Preparing spawn area: 13%
+[19:02:37] [Worker-Main-3/INFO]: Preparing spawn area: 15%
+[19:02:37] [Worker-Main-1/INFO]: Preparing spawn area: 16%
+[19:02:38] [Worker-Main-2/INFO]: Preparing spawn area: 18%
+[19:02:38] [Worker-Main-2/INFO]: Preparing spawn area: 20%
+[19:02:39] [Worker-Main-3/INFO]: Preparing spawn area: 22%
+[19:02:39] [Worker-Main-1/INFO]: Preparing spawn area: 22%
+[19:02:40] [Worker-Main-3/INFO]: Preparing spawn area: 23%
+[19:02:40] [Worker-Main-3/INFO]: Preparing spawn area: 25%
+[19:02:41] [Worker-Main-2/INFO]: Preparing spawn area: 27%
+[19:02:41] [Worker-Main-2/INFO]: Preparing spawn area: 30%
+[19:02:42] [Worker-Main-1/INFO]: Preparing spawn area: 31%
+[19:02:42] [Worker-Main-1/INFO]: Preparing spawn area: 32%
+[19:02:43] [Worker-Main-3/INFO]: Preparing spawn area: 35%
+[19:02:43] [Worker-Main-3/INFO]: Preparing spawn area: 36%
+[19:02:44] [Worker-Main-2/INFO]: Preparing spawn area: 39%
+[19:02:44] [Worker-Main-2/INFO]: Preparing spawn area: 41%
+[19:02:45] [Worker-Main-2/INFO]: Preparing spawn area: 43%
+[19:02:45] [Worker-Main-1/INFO]: Preparing spawn area: 44%
+[19:02:46] [Worker-Main-1/INFO]: Preparing spawn area: 45%
+[19:02:46] [Worker-Main-3/INFO]: Preparing spawn area: 47%
+[19:02:47] [Worker-Main-1/INFO]: Preparing spawn area: 49%
+[19:02:47] [Worker-Main-2/INFO]: Preparing spawn area: 52%
+[19:02:48] [Worker-Main-2/INFO]: Preparing spawn area: 54%
+[19:02:48] [Worker-Main-1/INFO]: Preparing spawn area: 55%
+[19:02:49] [Worker-Main-2/INFO]: Preparing spawn area: 57%
+[19:02:49] [Worker-Main-2/INFO]: Preparing spawn area: 59%
+[19:02:50] [Worker-Main-2/INFO]: Preparing spawn area: 61%
+[19:02:50] [Worker-Main-1/INFO]: Preparing spawn area: 64%
+[19:02:51] [Worker-Main-1/INFO]: Preparing spawn area: 66%
+[19:02:51] [Worker-Main-1/INFO]: Preparing spawn area: 68%
+[19:02:52] [Worker-Main-3/INFO]: Preparing spawn area: 69%
+[19:02:52] [Worker-Main-2/INFO]: Preparing spawn area: 70%
+[19:02:53] [Worker-Main-2/INFO]: Preparing spawn area: 72%
+[19:02:53] [Worker-Main-1/INFO]: Preparing spawn area: 74%
+[19:02:54] [Worker-Main-3/INFO]: Preparing spawn area: 76%
+[19:02:54] [Worker-Main-1/INFO]: Preparing spawn area: 78%
+[19:02:55] [Worker-Main-1/INFO]: Preparing spawn area: 81%
+[19:02:55] [Worker-Main-3/INFO]: Preparing spawn area: 82%
+[19:02:56] [Worker-Main-1/INFO]: Preparing spawn area: 84%
+[19:02:56] [Worker-Main-2/INFO]: Preparing spawn area: 85%
+[19:02:57] [Worker-Main-2/INFO]: Preparing spawn area: 87%
+[19:02:57] [Worker-Main-1/INFO]: Preparing spawn area: 89%
+[19:02:58] [Worker-Main-1/INFO]: Preparing spawn area: 91%
+[19:02:58] [Worker-Main-1/INFO]: Preparing spawn area: 94%
+[19:02:59] [Worker-Main-2/INFO]: Preparing spawn area: 96%
+[19:02:59] [Worker-Main-3/INFO]: Preparing spawn area: 99%
+[19:02:59] [Server thread/INFO]: Time elapsed: 34122 ms
+[19:02:59] [Server thread/INFO]: Done (41.010s)! For help, type "help"
+[19:02:59] [Server thread/INFO]: Starting remote control listener
+[19:02:59] [Server thread/INFO]: Thread RCON Listener started
+[19:02:59] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[19:04:01] [User Authenticator #1/INFO]: UUID of player L0rthe is 754c6713-dfba-4c03-8342-aaafb7752dbb
+[19:04:01] [Server thread/INFO]: L0rthe[/179.155.221.66:51122] logged in with entity id 447 at (-22.5, 66.0, 74.5)
+[19:04:01] [Server thread/INFO]: L0rthe joined the game
+[19:04:26] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[19:04:26] [Server thread/INFO]: [Rcon: Stopping the server]
+[19:04:26] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[19:04:26] [Server thread/INFO]: Stopping server
+[19:04:26] [Server thread/INFO]: Saving players
+[19:04:26] [Server thread/INFO]: Saving worlds
+[19:04:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
