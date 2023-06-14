@@ -6,55 +6,31 @@ git pull origin main
 
 
 # Variaveis de Container
-VERSION_BACKUP='v1.0'
+SAVE_NAME='monga-vanila'
 IMAGE_NAME='minecraft'
 
-BACKUP_FILE_NAME="monga-vanila-$VERSION_BACKUP"
+# Variaveis modeladoras estruturais
+REPO_DIR="/root/save-game-server"
+PATH_REPO="$REPO_DIR/minecraft/data/$SAVE_NAME/"
+BACKUP_FILE_NAME="$SAVE_NAME-$VERSION_BACKUP"
 PATH_ACTUAL_SAVE='/root/data/minecraft/'
-PATH_REPO='/root/save-game-server/minecraft/'
-FULLPATH_REPO="$PATH_REPO/monga-vanila-$VERSION_BACKUP.tar.gz"
-FULLPATH_ACTUAL_SAVE='/root/data/minecraft/monga-vanila/'
+FULLPATH_REPO="$PATH_REPO/$SAVE_NAME-$VERSION_BACKUP.tar.gz"
+FULLPATH_ACTUAL_SAVE="/root/data/minecraft/$SAVE_NAME/"
 
 # Pausando Container
 CONTAINER_ID=$(docker container ls --all | grep -w $IMAGE_NAME | awk '{print $1}')
 docker stop $CONTAINER_ID
 
-#Excluindo save local
+# Copiando Save $SAVE_NAME para o container
+#cd $(echo $PATH_ACTUAL_SAVE)
+#cd $(echo $REPO_DIR/minecraft/data/)
+BACK_SAVE="$REPO_DIR/minecraft/data/"
+
 cd $(echo $PATH_ACTUAL_SAVE)
 sudo rm -rf monga-vanila
-mkdir monga-vanila
 
-# Copiando Save
-cd $(echo $PATH_REPO)
-cp $BACKUP_FILE_NAME.tar.gz $FULLPATH_ACTUAL_SAVE
+cd $(echo $BACK_SAVE)
+cp -RT $PATH_REPO $FULLPATH_ACTUAL_SAVE
 
-cd $(echo $FULLPATH_ACTUAL_SAVE)
-tar -xvzf monga-vanila-v1.0.tar.gz
-
-tar -xvzf $BACKUP_FILE_NAME.tar.gz
-
-
-cd $(echo $PATH_REPO)
-sudo rm 
-
-# Compactando Save e excluindo pasta
-cd ~/data/save-game-server/minecraft/monga-vanila/
-tar -cvzf ./$BACKUP_FILE_NAME ./
-
-
-# Descompactando Save /monga-v1.0/
-cd ~/save-game-server/minecraft/
-tar -xvzf monga-v1.0.tar.gz
-
-# Copiando Backup para Container
-docker cp $REPO_SAVE $CONTAINER_ID:$CONTAINER_SAVE 
-
-# Excluindo /monga-v1.0/
-cd ~/save-game-server/project-zomboid/
-sudo rm -rf monga-v1.0/
-
-# Reiniciando Container
-docker restart $CONTAINER_ID
-
-#FIM
-
+# Iniciando Container
+docker start $CONTAINER_ID
