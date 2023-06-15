@@ -35,6 +35,6 @@ sudo tar -xvf $COMPACTADO
 sudo docker cp $FULLDATA_SAVE $CONTAINER_ID:$CONTAINER_SAVE 
 
 # Reiniciando Container
-docker restart $CONTAINER_ID
+docker start $CONTAINER_ID
 
 #FIM
