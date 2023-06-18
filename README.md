@@ -73,6 +73,17 @@ sudo docker pull lorthe/monga-minecraft:latest
 docker run --name minecraft -d -it -p 25565:25565 -e EULA=TRUE lorthe/monga-minecraft:latest
 ```
 
+```bash
+docker run -d -it -p 25565:25565 -e EULA=TRUE /
+-e RCON_PASSWORD='P@ssw0rd' /
+-e SERVER_NAME='Monga Server' /
+-e DIFFICULTY=hard /
+-e MOTD='\u00A72MINECRAFT MONGA\u00A7r\n\u00A74Save Monga V2.0' /
+-e ICON='https://raw.githubusercontent.com/MongaGit/.github/main/profile/images/images.png' /
+-v '~/data/minecraft/monga-vanila/:/data' /
+--name minecraft lorthe/monga-minecraft:latest
+```
+
 ### Save Backup e Import
 Clone o repositorio <br>
 `git clone https://github.com/MongaGit/save-game-server.git`
@@ -92,7 +103,39 @@ Import Config<br>
 
 
 
+```bash
+IMAGE_NAME='lorthe/monga-minecraft'
+CONTAINER_ID=$(docker container ls --all | grep -w $IMAGE_NAME | awk '{print $1}')
+
+docker logs $CONTAINER_ID --follow
+
+docker exec -it $CONTAINER_ID sh
+
+```
 
 
+# Counter Strike GO
 
+### Install docker
+
+[SRCDS_TOKEN](https://steamcommunity.com/dev/managegameservers)
+[SRCDS_WORKSHOP_AUTHKEY](https://steamcommunity.com/dev/apikey)
+
+```docker pull cm2network/csgo:sourcemod```
+
+```bash
+docker run -d --net=host -v $(pwd)/data/csgo/monga-default:/home/steam/csgo-dedicated/ /
+-e SRCDS_TOKEN='DEVxMANAGEMAMESERVER' /
+-e SRCDS_WORKSHOP_AUTHKEY='DEVxAPIKEY' /
+-e SRCDS_PW='YOUTPASSWORD' /
+-e SRCDS_PORT=27015 /
+-e SRCDS_TV_PORT=27020 /
+-e SRCDS_TICKRATE=128 /
+-e SRCDS_MAXPLAYERS=10 /
+-e SRCDS_STARTMAP="de_mirage" /
+-e SRCDS_HOSTNAME="MONGA CSGO SERVER" /
+-e SRCDS_HOST_WORKSHOP_COLLECTION=0 /
+--name=csgo-dedicated cm2network/csgo:sourcemod
+
+```
 
