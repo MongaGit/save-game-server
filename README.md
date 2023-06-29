@@ -139,4 +139,3 @@ docker run -d --net=host -v $(pwd)/data/csgo/monga-default:/home/steam/csgo-dedi
 
 ```
 
-
