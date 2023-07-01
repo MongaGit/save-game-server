@@ -1,0 +1,8 @@
+[01-07-23 22:29:18.593] added connection index=0 177.82.142.147.
+[01-07-23 22:29:19.765] 76561198106542382 "Lorthe" attempting to join.
+[01-07-23 22:29:19.781] 76561198106542382 "Lorthe" allowed to join.
+[01-07-23 22:29:48.419] 76561198106542382 "Lorthe" attempting to join used queue.
+[01-07-23 22:29:55.644] player Lorthe loading time was: 6754 ms.
+[01-07-23 22:30:00.454] 76561198106542382 "Lorthe" fully connected (8332,11813,0).
+[01-07-23 22:30:38.348] 76561198106542382 "Lorthe" removed connection index=0.
+[01-07-23 22:30:38.374] 76561198106542382 "Lorthe" disconnected player (8330,11818,0).
