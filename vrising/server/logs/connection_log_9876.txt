@@ -1,0 +1,37 @@
+
+
+[2023-07-02 03:29:55] Log session started
+[2023-07-02 03:29:55] [Logged Off, 0, 0] [A:1:0:0] CCMInterface::SetSteamID( [A:1:0:0] )
+[2023-07-02 03:29:55] [Logged Off, 4, 0] [A:1:0:0] LogOn() called; not connected yet, scheduling connection. Schedule init returned 1
+[2023-07-02 03:29:55] CCMInterface::YieldingConnect -- calling ISteamDirectory/GetCMListForConnect web api
+[2023-07-02 03:29:57] GetCMListForConnect -- got 11 Netfilter CMs and 69 WebSocket CMs
+[2023-07-02 03:29:57] GetCMListForConnect -- DC 'gru1' count: 21
+[2023-07-02 03:29:57] GetCMListForConnect -- DC 'eze1' count: 22
+[2023-07-02 03:29:57] GetCMListForConnect -- DC 'scl1' count: 20
+[2023-07-02 03:29:57] GetCMListForConnect -- DC 'lim1' count: 17
+[2023-07-02 03:29:57] [Connecting, 4, 0] [A:1:0:0] CM Directory list says 86% of connections should be websockets, we rolled 24 - using WebSockets as default.
+[2023-07-02 03:29:57] [Connecting, 4, 0] [A:1:0:0] PingWebSocketCM() (ext1-gru1.steamserver.net:27030) starting...
+[2023-07-02 03:29:57] [Connecting, 4, 0] [A:1:0:0] PingWebSocketCM() (ext2-gru1.steamserver.net:27022) starting...
+[2023-07-02 03:29:57] [Connecting, 4, 0] [A:1:0:0] PingWebSocketCM() (ext2-gru1.steamserver.net:443) starting...
+[2023-07-02 03:29:57] [Connecting, 4, 0] [A:1:0:0] PingWebSocketCM() (ext2-eze1.steamserver.net:27025) starting...
+[2023-07-02 03:29:58] [Connecting, 4, 0] [A:1:0:0] PingWebSocketCM() (ext2-gru1.steamserver.net:443) failed talking to cm (timeout/neterror - Invalid)
+[2023-07-02 03:29:58] [Connecting, 4, 0] [A:1:0:0] PingWebSocketCM() (ext2-gru1.steamserver.net:27022) failed talking to cm (timeout/neterror - Invalid)
+[2023-07-02 03:29:58] [Connecting, 4, 0] [A:1:0:0] PingWebSocketCM() (ext1-gru1.steamserver.net:27030) failed talking to cm (timeout/neterror - Invalid)
+[2023-07-02 03:29:58] [Connecting, 4, 0] [A:1:0:0] PingWebSocketCM() (ext2-eze1.steamserver.net:27035) starting...
+[2023-07-02 03:29:58] [Connecting, 4, 0] [A:1:0:0] PingWebSocketCM() (ext2-eze1.steamserver.net:443) starting...
+[2023-07-02 03:29:58] [Connecting, 4, 0] [A:1:0:0] PingWebSocketCM() (ext1-scl1.steamserver.net:27024) starting...
+[2023-07-02 03:29:58] [Connecting, 4, 0] [A:1:0:0] PingWebSocketCM() (ext2-eze1.steamserver.net:27025) failed talking to cm (timeout/neterror - Invalid)
+[2023-07-02 03:29:58] [Connecting, 4, 0] [A:1:0:0] PingWebSocketCM() (ext1-scl1.steamserver.net:27026) starting...
+[2023-07-02 03:29:59] [Connecting, 4, 0] [A:1:0:0] PingWebSocketCM() (ext1-scl1.steamserver.net:27026) failed talking to cm (timeout/neterror - Invalid)
+[2023-07-02 03:29:59] [Connecting, 4, 0] [A:1:0:0] PingWebSocketCM() (ext1-scl1.steamserver.net:27024) failed talking to cm (timeout/neterror - Invalid)
+[2023-07-02 03:29:59] [Connecting, 4, 0] [A:1:0:0] PingWebSocketCM() (ext2-eze1.steamserver.net:443) failed talking to cm (timeout/neterror - Invalid)
+[2023-07-02 03:29:59] [Connecting, 4, 0] [A:1:0:0] PingWebSocketCM() (ext2-eze1.steamserver.net:27035) failed talking to cm (timeout/neterror - Invalid)
+[2023-07-02 03:29:59] [Connecting, 4, 0] [A:1:0:0] PingWebSocketCM() (ext2-scl1.steamserver.net:443) starting...
+[2023-07-02 03:29:59] [Connecting, 4, 0] [A:1:0:0] PingWebSocketCM() (ext1-lim1.steamserver.net:443) starting...
+[2023-07-02 03:30:00] [Connecting, 4, 0] [A:1:0:0] PingWebSocketCM() (ext2-scl1.steamserver.net:443) results: 117.5451ms + load 61.0000
+[2023-07-02 03:30:00] [Connecting, 4, 0] [A:1:0:0] PingWebSocketCM() (ext1-lim1.steamserver.net:443) results: 83.3030ms + load 55.0000
+[2023-07-02 03:30:00] [Connecting, 4, 3] [A:1:0:0] Connect() starting connection (eNetQOSLevelMedium, ext1-lim1.steamserver.net:443, WebSocket)
+[2023-07-02 03:30:00] [Connecting, 4, 3] [A:1:0:0] ConnectionCompleted() (190.217.33.68:443, WebSocket) local address (172.17.0.2:51945)
+[2023-07-02 03:30:00] [Connecting, 4, 3] [A:1:0:0] Client thinks it can connect via: UDP - yes, TCP - yes, WebSocket:443 - yes, WebSocket:Non443 - yes
+[2023-07-02 03:30:00] [Connected, 4, 3] [A:1:0:0] Logging on [A:1:0:0]
+[2023-07-02 03:30:00] [Logging On, 4, 3] [A:1:0:0] RecvMsgClientLogOnResponse() : [A:1:2300889119:23737] 'OK'

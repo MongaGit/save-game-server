@@ -1,0 +1,16 @@
+﻿{
+  "GameModeType": "PvP",
+  "CastleDamageMode": "TimeRestricted",
+  "CastleHeartDamageMode": "CanBeDestroyedOnlyWhenDecaying",
+  "DeathContainerPermission": "Anyone",
+  "RelicSpawnType": "Plentiful",
+  "BloodBoundEquipment": true,
+  "PlayerDamageMode": "Always",
+  "CastleDamageMode": "Never",
+  "PvPProtectionMode": "Short",
+  "BloodDrainModifier": 1.25,
+
+  "CastleStatModifiers_Global": {
+    "CastleLimit": 1
+  }
+}
