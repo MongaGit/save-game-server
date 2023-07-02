@@ -1,0 +1,16 @@
+version: '3.3'
+services:
+  vrising:
+    # build: . # Build from Dockerfile
+    container_name: vrising-survival
+    image: trueosiris/vrising
+    network_mode: bridge
+    environment:
+      - TZ=Europe/Paris
+      - SERVERNAME=Monga
+    volumes:
+      - './server:/mnt/vrising/server:rw'
+      - './data:/mnt/vrising/persistentdata:rw'
+    ports:
+      - '9876:9876/udp'
+      - '9877:9877/udp'
