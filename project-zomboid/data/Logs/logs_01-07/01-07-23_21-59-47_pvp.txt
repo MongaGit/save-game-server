@@ -1,0 +1,1 @@
+[01-07-23 21:59:47.739][INFO] user "Lorthe" restore safety enabled=true last=true cooldown=0.0 toggle=0.0.
