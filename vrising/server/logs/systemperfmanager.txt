@@ -1,0 +1,5 @@
+
+
+[2023-07-02 03:29:55] CSystemPerfManager::UpdateCurrentGame: setting current gameid: 769
+[2023-07-02 03:29:55] CSystemPerfManager::MaybeUpdateActiveGame: loading profile for gameid: 769
+[2023-07-02 03:29:55] Initialized system perf manager

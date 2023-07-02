@@ -1,0 +1,6 @@
+
+
+[2023-07-02 03:29:55] Failed to read store 'install' from 'Z:\mnt\vrising\server\config\config.vdf.tmp'
+[2023-07-02 03:29:55] Failed to read store 'userlocal' from 'Z:\mnt\vrising\server\config\localconfig.vdf.tmp'
+[2023-07-02 03:29:56] Flushed store 'install' to 'Z:\mnt\vrising\server\config\config.vdf'
+[2023-07-02 03:30:01] Flushed store 'install' to 'Z:\mnt\vrising\server\config\config.vdf'
