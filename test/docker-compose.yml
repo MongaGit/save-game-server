@@ -11,10 +11,9 @@ services:
     env_file:
       - .env
     environment:
-      - V_RISING_NAME='Monga Server'
+      - V_RISING_NAME='[BR] Monga Server'
       - V_RISING_DESC='http://www.monga.dev.br'
       - V_RISING_PUBLIC_LIST=1
-      - V_RISING_PASSW='examplepassword'
       - V_RISING_SAVE_NAME='monga'
       - V_RISING_PUBLIC_LIST=true
       - V_RISING_MAX_USERS=10
