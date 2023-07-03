@@ -7,11 +7,6 @@ services:
     restart: unless-stopped
     env_file:
       - .env
-    environment:
-      EULA: "TRUE"
-      TYPE: AUTO_CURSEFORGE
-      CF_SLUG: all-the-mods-6-to-the-sky-atm6s
-
     ports:
       - 25565:25565
     volumes:
