@@ -18,4 +18,3 @@ services:
       # Workshop mods folder
       - ./workshop-mods:/home/steam/pz-dedicated/steamapps/workshop
 
-
