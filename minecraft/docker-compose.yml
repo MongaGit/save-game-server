@@ -3,8 +3,9 @@ version: "3"
 services:
   minecraft-survival:
     image: lorthe/monga-minecraft
+    container_name: minecraft-survival
     restart: unless-stopped
-    
+
     env_file:
       - .env
 
@@ -17,8 +18,4 @@ services:
     volumes:
       # Server data
       - ./data/monga-vanila/:/data
-
-#docker-compose -f docker-compose.yml up -d --build
-#docker-compose -f "minecraft/monga-vanila/docker-compose.yml" up -d --build
-
 
