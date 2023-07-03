@@ -1,7 +1,7 @@
 # docker-compose.yml
 version: "3"
 services:
-  minecraft-mods:
+  mods:
     image: lorthe/monga-minecraft
     restart: unless-stopped
     env_file:
