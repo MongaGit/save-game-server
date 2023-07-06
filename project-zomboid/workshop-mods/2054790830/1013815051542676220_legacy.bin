@@ -1,0 +1,1138 @@
+"controller_mappings"
+{
+	"version"		"3"
+	"revision"		"354"
+	"title"		"#Library_ControllerSaveDefaultTitle"
+	"description"		"#Library_ControllerSaveDefaultDescription"
+	"creator"		"76561197978266558"
+	"controller_type"		"controller_mobile_touch"
+	"major_revision"		"0"
+	"minor_revision"		"0"
+	"Timestamp"		"1586472071"
+	"touch_layout"		"0a800510002218080010011d0000703d255555653f2d0000803f350000803f2218080110011d0000703d255555d53d2da3725b3f35a3725b3f2218080210011d0000203e25abaa3a3f2d0000803f350000803f2218080310011d6a4e823e258888683f2d0000803f350000803f2218080410011d25166f3f259006a63e2d0000003f350000003f2218080510011d6f1f473f258888683f2d0000803f350000803f2218080610011d0000203e250b01b73e2d29ac4d3f3529ac4d3f2218080710011ddedd5c3f25326a583f2d0000803f350000803f2218080810011d0000713f259dbc243f2d0000803f350000803f2218080910011d0000713f258888683f2d0000803f350000803f2218080a10011d0000713f2502c3483f2d0000803f350000803f2218080c10011d0000703d2522d6593e2d0000803f350000803f2204080d10002204080e10002218080f10011d8f5e593f25a2bd043f2d0000803f350000803f2218081110011ddedd5c3f2551db363f2d0000803f350000803f2218081210011d6a4e823e2522d6593e2d41b44d3f3541b44d3f2218081310011d4f02403f255555d53d2d79033a3f3579033a3f2218081510011d8cff023e255555d53d2d79033a3f3579033a3f2218081610011d4f02403f2522d6593e2db1293b3f35b1293b3f2218081710011d4e0ec13e258888683f2d79033a3f3579033a3f2218081810011de0d7a23e258888683f2d79033a3f3579033a3f2204081910002218081b10011d25166f3f25a873003f2d0000003f350000003f2218081c10011dbebb3b3e255555d53d2d79033a3f3579033a3f2218081d10011d4e0e323f255555d53d2d79033a3f3579033a3f2a140d0000803f150000803f1d0000803f250000003f10031804"
+	"localization"
+	{
+		"english"
+		{
+			"title"		"Gamepad"
+			"description"		"This template is for games that already have built-in gamepad support.  Intended for dual stick games such as twin-stick shooters, side-scrollers, etc."
+		}
+		"czech"
+		{
+			"title"		"Gamepad"
+			"description"		"Tato šablona je pro většinu her podporujících gamepad a byla navržena pro použití ve hrách využívajících dvě páčky, jakými jsou například plošinovky nebo automatové hry."
+		}
+		"danish"
+		{
+			"title"		"Gamepad"
+			"description"		"Denne skabelon er til spil, der allerede har indbygget gamepad-understøttelse. Beregnet til spil med dobbelte styrepinde såsom twin-stick shooters, side-scrollers osv."
+		}
+		"dutch"
+		{
+			"title"		"Gamepad"
+			"description"		"Deze template is voor spellen die al ingebouwde gamepadondersteuning hebben. Bedoeld voor dual-stick spellen zoals twin-stick-shooters, side-scrollers, etc."
+		}
+		"finnish"
+		{
+			"title"		"Ohjain"
+			"description"		"Tämä malli on muita ohjaimia valmiiksi tukeville peleille. Se on tarkoitettu kahta sauvaa käyttäville peleille, kuten twin-stick shooterit, side-scrollerit, jne."
+		}
+		"french"
+		{
+			"title"		"Manette"
+			"description"		"Ce modèle fonctionne pour les jeux conçus pour manettes à deux sticks tels que les jeux de type twin-stick shooter, à défilement horizontal (side-scrollers), etc."
+		}
+		"german"
+		{
+			"title"		"Gamepad"
+			"description"		"Diese Vorlage ist für Spiele konzipiert, die bereits volle Unterstützung für Gamepads mit sich bringen. Gedacht für Zwei-Analogstick-Spiele wie Twin-Stick-Shooter, Side-Scrollers usw."
+		}
+		"hungarian"
+		{
+			"title"		"Gamepad"
+			"description"		"Ez a sablon olyan játékokhoz való, melyek már rendelkeznek beépített gamepad-támogatással. Olyan két karos játékokhoz szánva, mint a kétkaros vagy oldalnézetes lövöldözős játékok stb."
+		}
+		"italian"
+		{
+			"title"		"Controller"
+			"description"		"Questo modello funziona per la maggior parte dei giochi che supportano i controller in modalità nativa."
+		}
+		"japanese"
+		{
+			"title"		"ゲームパッド"
+			"description"		"このテンプレートは、標準でゲームパッドをサポートしているツインスティックシューターや横スクロール等といったデュアルスティックゲームを対象としたゲーム向けです。"
+		}
+		"koreana"
+		{
+			"title"		"게임패드"
+			"description"		"게임 패드를 지원하도록 설계된 게임들을 위한 설정입니다. 이중 스틱 슈팅 게임, 사이드 스크롤 게임 등 스틱을 두 개 쓰는 게임을 염두에 두고 만들어졌습니다."
+		}
+		"polish"
+		{
+			"title"		"Kontroler"
+			"description"		"Ten szablon jest odpowiedni dla gier, które już mają wbudowane wsparcie dla kontrolerów. Przeznaczony dla gier obsługujących dwie gałki, m.in. twin-stick shootery, side-scrollery itp."
+		}
+		"portuguese"
+		{
+			"title"		"Comando"
+			"description"		"Este modelo é indicado para jogos que já têm compatibilidade nativa com comando. Foi concebido para jogos de tiros que usam dois sticks, jogos de plataformas, de naves, etc."
+		}
+		"romanian"
+		{
+			"title"		"Gamepad"
+			"description"		"Șablonul acesta este pentru jocurile care au deja suport pentru gamepad implementat. Destinat pentru jocuri dual stick, precum shooter-e twin-stick, side-scroller, etc."
+		}
+		"russian"
+		{
+			"title"		"Геймпад"
+			"description"		"Этот шаблон подходит для большинства игр с поддержкой геймпада — например, для шутеров с видом сверху или сбоку."
+		}
+		"spanish"
+		{
+			"title"		"Mando"
+			"description"		"Esta plantilla es para juegos que ya incluyen de serie compatibilidad con mando. Está destinada a juegos de doble stick como twin-stick shooters, side-scrollers, etc."
+		}
+		"swedish"
+		{
+			"title"		"Gamepad"
+			"description"		"Denna mall är för spel som redan har inbyggt stöd för spelkontroller. Avsett för spel som använder två styrspakar, som twin-stick shooters och side-scrollers, etc."
+		}
+		"schinese"
+		{
+			"title"		"手柄"
+			"description"		"该模板适用于已内置手柄支持的游戏。针对双摇杆游戏，如双摇杆射击游戏、横版过关游戏等设计。"
+		}
+		"thai"
+		{
+			"title"		"เกมแพด"
+		}
+		"brazilian"
+		{
+			"title"		"Controle padrão"
+			"description"		"Este modelo é para jogos já compatíveis com controle que usam ambas as alavancas, como jogos de nave, etc."
+		}
+		"bulgarian"
+		{
+			"title"		"Геймпад"
+			"description"		"Този шаблон е за игри, които вече имат вградена поддръжка на геймпад. Предназначен e за игри ползващи двата стика. Като например, екшъни за два аналогови стика, странични скролери и т.н."
+		}
+		"greek"
+		{
+			"title"		"Χειριστήριο"
+			"description"		"Αυτό το πρότυπο ορίζεται για παιχνίδια τα οποία έχουν ήδη υποστήριξη χειριστηρίου. Προορίζεται για παιχνίδια dual-stick όπως twin-stick shooters, side-scrollers, κλπ."
+		}
+		"turkish"
+		{
+			"title"		"Oyun Kumandası"
+			"description"		"Bu şablon hali hazırda oyun içi oyun kumandası desteği ve birincil veya üçüncü kişi kontrollü kameraya sahip oyunlar içindir. Çift çubuk kullanılan oyunlar olan ikiz çubuk nişancılık, side-scroller oyunlar vb. içindir."
+		}
+		"ukrainian"
+		{
+			"title"		"Ґеймпад"
+			"description"		"Цей шаблон для більшості ігор, в яких вже вбудовано підтримку ґеймпада. Призначено для ігор з керуванням двома стіками."
+		}
+	}
+	"group"
+	{
+		"id"		"0"
+		"mode"		"four_buttons"
+		"inputs"
+		{
+			"button_a"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press SPACE, Jump"
+						}
+					}
+				}
+			}
+			"button_b"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press R, Ultimate Ability / Secondary Action"
+						}
+					}
+				}
+			}
+			"button_x"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press E, Interact with Environment / Primary Action/Accept"
+						}
+					}
+				}
+			}
+			"button_y"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press F, Interact with Player / Teritary Action"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"1"
+		"mode"		"dpad"
+		"inputs"
+		{
+			"dpad_north"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button dpad_up"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+			"dpad_south"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button dpad_down"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+			"dpad_east"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button dpad_right"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+			"dpad_west"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button dpad_left"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"2"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button JOYSTICK_RIGHT"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"3"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button JOYSTICK_LEFT"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"4"
+		"mode"		"trigger"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"adaptive_threshold"		"0"
+		}
+	}
+	"group"
+	{
+		"id"		"5"
+		"mode"		"trigger"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"adaptive_threshold"		"0"
+		}
+	}
+	"group"
+	{
+		"id"		"6"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button JOYSTICK_RIGHT"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"8"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button JOYSTICK_RIGHT"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"9"
+		"mode"		"dpad"
+		"inputs"
+		{
+			"dpad_north"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press Q, Quickslot Item / Quickslot Wheel (Hold)"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+			"dpad_south"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press Z, Sheathe/Unsheathe"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+			"dpad_east"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press H, Toggle Mount"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+			"dpad_west"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press BACK_TICK, Weapon Swap, ghost_075_utility_040.png #939393 #E4E4E4"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"requires_click"		"0"
+			"layout"		"0"
+		}
+	}
+	"group"
+	{
+		"id"		"10"
+		"mode"		"dpad"
+		"inputs"
+		{
+			"dpad_north"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press W, Move Forward, special_blank.png #939393 #E4E4E4"
+						}
+					}
+				}
+			}
+			"dpad_south"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press S, Move Backward, special_blank.png #939393 #E4E4E4"
+						}
+					}
+				}
+			}
+			"dpad_east"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press D, Move Right, special_blank.png #939393 #E4E4E4"
+						}
+					}
+				}
+			}
+			"dpad_west"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press A, Move Left, special_blank.png #939393 #E4E4E4"
+						}
+					}
+				}
+			}
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press LEFT_CONTROL, Crouch"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"requires_click"		"0"
+		}
+	}
+	"group"
+	{
+		"id"		"11"
+		"mode"		"touch_menu"
+		"inputs"
+		{
+			"touch_menu_button_0"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press 1, Ability 1"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+			"touch_menu_button_1"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press 2, Ability 2"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+			"touch_menu_button_2"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press 3, Ability 3"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+			"touch_menu_button_3"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"controller_action empty_binding, Return, ghost_050_menu_0304.png #434343 #E4E4E4"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+			"touch_menu_button_4"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press 4, Ability 4"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+			"touch_menu_button_5"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press 5, Ability 5"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+			"touch_menu_button_6"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press X, Synergy"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"touch_menu_button_count"		"7"
+			"touch_menu_position_x"		"50"
+			"touch_menu_scale"		"124"
+			"touchmenu_button_fire_type"		"2"
+		}
+	}
+	"group"
+	{
+		"id"		"12"
+		"mode"		"radial_menu"
+		"inputs"
+		{
+			"touch_menu_button_1"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press I, Inventory, ghost_030_inv_0305.png #232323 #ad5d00"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+			"touch_menu_button_2"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press C, Character, ghost_110_social_0080.png #232323 #0074ad"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+			"touch_menu_button_3"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press K, Skills, ghost_040_act_0020.png #232323 #E4E4E4"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+			"touch_menu_button_4"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press J, Journal, ghost_030_inv_0311.png #232323 #96ad00"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+			"touch_menu_button_5"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press U, Collections, ghost_030_inv_0090.png #232323 #ad3a00"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+			"touch_menu_button_6"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press M, Map, ghost_040_act_0305.png #232323 #ada200"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+			"touch_menu_button_7"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press P, Group, ghost_110_social_0040.png #232323 #00adad"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+			"touch_menu_button_8"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press O, Friends, ghost_110_social_0030.png #232323 #00ad3d"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+			"touch_menu_button_9"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press G, Guilds, ghost_030_inv_0010.png #232323 #6800ad"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+			"touch_menu_button_10"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press SINGLE_QUOTE, Mail, ghost_050_menu_0305.png #232323 #E4E4E4"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+			"touch_menu_button_11"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press N, Notifications, ghost_110_social_0150.png #232323 #00adad"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+			"touch_menu_button_12"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press F1, Help, ghost_050_menu_0100.png #232323 #48b119"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press LEFT_SHIFT, Sprint"
+						}
+						"settings"
+						{
+							"activate_stick_or_trackpad"		"3"
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"touch_menu_position_x"		"50"
+			"touch_menu_scale"		"124"
+		}
+	}
+	"group"
+	{
+		"id"		"13"
+		"mode"		"absolute_mouse"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"sensitivity"		"31"
+		}
+	}
+	"group"
+	{
+		"id"		"14"
+		"mode"		"absolute_mouse"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"sensitivity"		"150"
+			"sensitivity_vert_scale"		"50"
+			"mouse_smoothing"		"25"
+		}
+	}
+	"group"
+	{
+		"id"		"7"
+		"mode"		"switches"
+		"inputs"
+		{
+			"button_escape"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press ESCAPE, Menu"
+						}
+					}
+				}
+			}
+			"left_bumper"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press TAB, Cycle Preferred Enemy Target"
+						}
+					}
+				}
+			}
+			"button_back_left"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button a"
+						}
+					}
+				}
+			}
+			"button_back_right"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button x"
+						}
+					}
+				}
+			}
+			"button_macro0"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"mouse_button RIGHT, Block"
+						}
+						"settings"
+						{
+							"activate_stick_or_trackpad"		"3"
+						}
+					}
+				}
+			}
+			"button_macro1"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press Y, Command Pet (Hold and press LMB to attack)"
+						}
+					}
+				}
+			}
+			"button_macro2"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press T, Cycle Focused Quest"
+						}
+					}
+				}
+			}
+			"button_macro4"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press RETURN, Chat, ghost_110_social_0150.png #939393 #E4E4E4"
+						}
+					}
+				}
+			}
+			"button_macro6"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"mouse_wheel SCROLL_UP"
+						}
+					}
+					"Long_Press"
+					{
+						"bindings"
+						{
+							"binding"		"mouse_wheel SCROLL_UP"
+						}
+						"settings"
+						{
+							"hold_repeats"		"1"
+							"long_press_time"		"225"
+						}
+					}
+				}
+			}
+			"button_macro7"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"mouse_wheel SCROLL_DOWN"
+						}
+					}
+					"Long_Press"
+					{
+						"bindings"
+						{
+							"binding"		"mouse_wheel SCROLL_DOWN"
+						}
+						"settings"
+						{
+							"hold_repeats"		"1"
+							"long_press_time"		"225"
+						}
+					}
+				}
+			}
+		}
+	}
+	"preset"
+	{
+		"id"		"0"
+		"name"		"Default"
+		"group_source_bindings"
+		{
+			"7"		"switch active"
+			"0"		"button_diamond active"
+			"1"		"left_trackpad inactive"
+			"2"		"right_trackpad inactive"
+			"6"		"right_trackpad inactive"
+			"11"		"right_trackpad active"
+			"3"		"joystick inactive"
+			"10"		"joystick active"
+			"4"		"left_trigger active"
+			"5"		"right_trigger active"
+			"8"		"right_joystick inactive"
+			"12"		"right_joystick active"
+			"9"		"dpad active"
+			"13"		"gyro active"
+			"14"		"center_trackpad active"
+		}
+	}
+	"settings"
+	{
+		"left_trackpad_mode"		"0"
+		"right_trackpad_mode"		"0"
+	}
+}

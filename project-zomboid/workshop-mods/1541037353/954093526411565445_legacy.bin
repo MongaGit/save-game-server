@@ -1,0 +1,917 @@
+"controller_mappings"
+{
+	"version"		"3"
+	"revision"		"21"
+	"title"		"#Library_ControllerSaveDefaultTitle"
+	"description"		"#Library_ControllerSaveDefaultDescription"
+	"creator"		"76561198864593160"
+	"controller_type"		"controller_xbox360"
+	"Timestamp"		"1539758954"
+	"actions"
+	{
+		"GamepadSetting"
+		{
+			"title"		"#Set_Title"
+			"legacy_set"		"0"
+			"StickPadGyro"
+			{
+				"right_axis_abs"
+				{
+					"title"		"#RIGHT_AXIS_ABS"
+					"input_mode"		"joystick_move"
+				}
+				"left_axis_abs"
+				{
+					"title"		"#LEFT_AXIS_ABS"
+					"input_mode"		"joystick_move"
+				}
+			}
+			"Button"
+			{
+				"x_button"		"#X_BUTTON"
+				"y_button"		"#Y_BUTTON"
+				"a_button"		"#A_BUTTON"
+				"b_button"		"#B_BUTTON"
+				"BACK_BUTTON"		"#BACK_BUTTON"
+				"START_BUTTON"		"#START_BUTTON"
+				"dpad_up"		"#DPAD_UP"
+				"dpad_down"		"#DPAD_DOWN"
+				"dpad_left"		"#DPAD_LEFT"
+				"dpad_right"		"#DPAD_RIGHT"
+				"left_bumper"		"#LEFT_BUMPER"
+				"LEFT_TRIGGER"		"#LEFT_TRIGGER"
+				"left_click"		"#LEFT_CLICK"
+				"right_bumper"		"#RIGHT_BUMPER"
+				"right_trigger"		"#RIGHT_TRIGGER"
+				"RIGHT_CLICK"		"#RIGHT_CLICK"
+			}
+		}
+	}
+	"action_layers"
+	{
+	}
+	"localization"
+	{
+		"english"
+		{
+			"set_title"		"Gamepad Settings"
+			"x_button"		"X BUTTON"
+			"y_button"		"Y BUTTON"
+			"a_button"		"A BUTTON"
+			"b_button"		"B BUTTON"
+			"BACK_BUTTON"		"BACK BUTTON"
+			"START_BUTTON"		"START BUTTON"
+			"dpad_up"		"DPAD UP"
+			"dpad_down"		"DPAD DOWN"
+			"dpad_left"		"DPAD LEFT"
+			"dpad_right"		"DPAD RIGHT"
+			"right_axis_abs"		"RIGHT AXIS ABS"
+			"left_axis_abs"		"LEFT AXIS ABS"
+			"left_bumper"		"LEFT BUMPER"
+			"LEFT_TRIGGER"		"LEFT TRIGGER"
+			"left_click"		"LEFT CLICK"
+			"right_bumper"		"RIGHT BUMPER"
+			"right_trigger"		"RIGHT TRIGGER"
+			"RIGHT_CLICK"		"RIGHT CLICK"
+		}
+	}
+	"group"
+	{
+		"id"		"0"
+		"mode"		"four_buttons"
+		"inputs"
+		{
+			"button_a"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button A"
+						}
+					}
+				}
+			}
+			"button_b"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button B"
+						}
+					}
+				}
+			}
+			"button_x"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button X"
+						}
+					}
+				}
+			}
+			"button_y"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button Y"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"1"
+		"mode"		"dpad"
+		"inputs"
+		{
+			"dpad_north"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button dpad_up"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+			"dpad_south"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button dpad_down"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+			"dpad_east"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button dpad_right"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+			"dpad_west"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button dpad_left"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"2"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button JOYSTICK_RIGHT"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"3"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button JOYSTICK_LEFT"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"4"
+		"mode"		"trigger"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button TRIGGER_LEFT"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"output_trigger"		"1"
+		}
+	}
+	"group"
+	{
+		"id"		"5"
+		"mode"		"trigger"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button TRIGGER_RIGHT"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"output_trigger"		"2"
+		}
+	}
+	"group"
+	{
+		"id"		"6"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button JOYSTICK_RIGHT"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"8"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button JOYSTICK_RIGHT"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"9"
+		"mode"		"dpad"
+		"inputs"
+		{
+			"dpad_north"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button DPAD_UP"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+			"dpad_south"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button DPAD_DOWN"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+			"dpad_east"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button DPAD_RIGHT"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+			"dpad_west"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button DPAD_LEFT"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"11"
+		"mode"		"four_buttons"
+		"inputs"
+		{
+			"button_a"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GamepadSetting a_button, A BUTTON"
+						}
+					}
+				}
+			}
+			"button_b"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GamepadSetting b_button, B BUTTON"
+						}
+					}
+				}
+			}
+			"button_x"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GamepadSetting x_button, X BUTTON"
+						}
+					}
+				}
+			}
+			"button_y"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GamepadSetting y_button, Y BUTTON"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"12"
+		"mode"		"trigger"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GamepadSetting LEFT_TRIGGER, LEFT TRIGGER"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"13"
+		"mode"		"trigger"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GamepadSetting right_trigger, RIGHT TRIGGER"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"14"
+		"mode"		"joystick_mouse"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GamepadSetting left_click, LEFT CLICK"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"output_joystick"		"2"
+		}
+		"gameactions"
+		{
+			"GamepadSetting"		"left_axis_abs"
+		}
+	}
+	"group"
+	{
+		"id"		"15"
+		"mode"		"dpad"
+		"inputs"
+		{
+			"dpad_north"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GamepadSetting dpad_up, DPAD UP"
+						}
+					}
+				}
+			}
+			"dpad_south"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GamepadSetting dpad_down, DPAD DOWN"
+						}
+					}
+				}
+			}
+			"dpad_east"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GamepadSetting dpad_right, DPAD RIGHT"
+						}
+					}
+				}
+			}
+			"dpad_west"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GamepadSetting dpad_left, DPAD LEFT"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"16"
+		"mode"		"joystick_mouse"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GamepadSetting RIGHT_CLICK, RIGHT CLICK"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"output_joystick"		"2"
+		}
+		"gameactions"
+		{
+			"GamepadSetting"		"right_axis_abs"
+		}
+	}
+	"group"
+	{
+		"id"		"7"
+		"mode"		"switches"
+		"inputs"
+		{
+			"button_escape"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button start"
+						}
+					}
+				}
+			}
+			"button_menu"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button select"
+						}
+					}
+				}
+			}
+			"left_bumper"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button shoulder_left"
+						}
+					}
+				}
+			}
+			"right_bumper"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button shoulder_right"
+						}
+					}
+				}
+			}
+			"button_back_left"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button a"
+						}
+					}
+				}
+			}
+			"button_back_right"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button x"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"10"
+		"mode"		"switches"
+		"inputs"
+		{
+			"button_escape"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GamepadSetting START_BUTTON, START BUTTON"
+						}
+					}
+				}
+			}
+			"button_menu"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GamepadSetting BACK_BUTTON, BACK BUTTON"
+						}
+					}
+				}
+			}
+			"left_bumper"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GamepadSetting left_bumper, LEFT BUMPER"
+						}
+					}
+				}
+			}
+			"right_bumper"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GamepadSetting right_bumper, RIGHT BUMPER"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"17"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+		"gameactions"
+		{
+			"GamepadSetting"		"right_axis_abs"
+		}
+	}
+	"group"
+	{
+		"id"		"18"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GamepadSetting left_click, #LEFT_CLICK"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+		"gameactions"
+		{
+			"GamepadSetting"		"left_axis_abs"
+		}
+	}
+	"group"
+	{
+		"id"		"19"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GamepadSetting RIGHT_CLICK, #RIGHT_CLICK"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+		"gameactions"
+		{
+			"GamepadSetting"		"right_axis_abs"
+		}
+	}
+	"preset"
+	{
+		"id"		"0"
+		"name"		"GamepadSetting"
+		"group_source_bindings"
+		{
+			"10"		"switch active"
+			"11"		"button_diamond active"
+			"14"		"joystick inactive"
+			"17"		"joystick inactive"
+			"18"		"joystick active"
+			"12"		"left_trigger active"
+			"13"		"right_trigger active"
+			"16"		"right_joystick inactive"
+			"19"		"right_joystick active"
+			"15"		"dpad active"
+		}
+	}
+	"settings"
+	{
+		"left_trackpad_mode"		"0"
+		"right_trackpad_mode"		"0"
+		"action_set_trigger_cursor_show"		"0"
+		"action_set_trigger_cursor_hide"		"0"
+	}
+}

@@ -1,0 +1,2650 @@
+"controller_mappings"
+{
+	"version"		"3"
+	"revision"		"48"
+	"title"		"#Library_ControllerSaveDefaultTitle"
+	"description"		"#Library_ControllerSaveDefaultDescription"
+	"creator"		"76561199082004326"
+	"controller_type"		"controller_steamcontroller_gordon"
+	"major_revision"		"0"
+	"minor_revision"		"0"
+	"Timestamp"		"1621562659"
+	"actions"
+	{
+		"GameControls"
+		{
+			"title"		"#InGame_Controls"
+			"legacy_set"		"0"
+			"StickPadGyro"
+			{
+				"Move"
+				{
+					"title"		"#Move"
+					"input_mode"		"joystick_move"
+				}
+				"Camera"
+				{
+					"title"		"#Camera"
+					"input_mode"		"absolute_mouse"
+				}
+				"JoystickCamera"
+				{
+					"title"		"#JoystickCamera"
+					"input_mode"		"joystick_move"
+				}
+			}
+			"Button"
+			{
+				"attack"		"#Fire"
+				"attack2"		"#FireAlt"
+				"zoom"		"#Scope"
+				"Reload"		"#Reload"
+				"jump"		"#Jump"
+				"duck"		"#Duck"
+				"toggle_duck"		"#ToggleDuck"
+				"use"		"#Use"
+				"invnext"		"#InvNext"
+				"invprev"		"#InvPrev"
+				"lastinv"		"#LastInv"
+				"togglescores"		"#ToggleScores"
+				"speed"		"#Walk"
+				"pause_menu"		"#PauseGame"
+				"flashlight"		"#Flashlight"
+				"slot1"		"#PrimaryWeapon"
+				"slot2"		"#SecondaryWeapon"
+				"slot3"		"#Grenade"
+				"slot4"		"#FirstAid"
+				"slot5"		"#Pills"
+				"lookspin"		"#TurnAround"
+				"voicerecord"		"#VoiceRecord"
+				"vote_yes"		"#VoteYes"
+				"vote_no"		"#VoteNo"
+				"resetcamera"		"#ResetCamera"
+				"spray"		"#spray"
+				"radial_orders"		"#RadialOrders"
+				"radial_qa"		"#RadialQNA"
+				"radial_accept"		"#RadialAccept"
+				"radial_cancel"		"#RadialDecline"
+			}
+		}
+		"MenuControls"
+		{
+			"title"		"#MenuControls"
+			"legacy_set"		"0"
+			"StickPadGyro"
+			{
+				"Mouse"
+				{
+					"title"		"#Mouse"
+					"input_mode"		"absolute_mouse"
+					"os_mouse"		"1"
+				}
+			}
+			"Button"
+			{
+				"menu_up"		"#MenuUp"
+				"menu_down"		"#MenuDown"
+				"menu_left"		"#MenuLeft"
+				"menu_right"		"#MenuRight"
+				"menu_select"		"#MenuSelect"
+				"menu_cancel"		"#MenuCancel"
+				"menu_x"		"#MenuX"
+				"menu_y"		"#MenuY"
+				"pause_menu"		"#ReturnToGame"
+			}
+		}
+	}
+	"action_layers"
+	{
+		"Preset_1000002"
+		{
+			"title"		"Orders"
+			"legacy_set"		"1"
+			"set_layer"		"1"
+			"parent_set_name"		"GameControls"
+		}
+	}
+	"localization"
+	{
+		"english"
+		{
+			"InGame_Controls"		"In-Game Controls"
+			"Move"		"Move"
+			"Camera"		"Camera (Mouse)"
+			"JoystickCamera"		"Camera (Joystick)"
+			"Fire"		"Fire"
+			"FireAlt"		"Melee Bash"
+			"Scope"		"Use Rifle Scope"
+			"Reload"		"Reload"
+			"jump"		"Jump"
+			"duck"		"Duck"
+			"ToggleDuck"		"Toggle Duck"
+			"use"		"Use"
+			"invnext"		"Select Next Weapon"
+			"invprev"		"Select Previous Weapon"
+			"lastinv"		"Select Last Weapon"
+			"togglescores"		"Scoreboard"
+			"Walk"		"Walk"
+			"PauseGame"		"PauseGame"
+			"flashlight"		"Flashlight"
+			"PrimaryWeapon"		"Primary Weapon"
+			"SecondaryWeapon"		"Secondary Weapon"
+			"Grenade"		"Grenade"
+			"FirstAid"		"First Aid"
+			"Pills"		"Pills"
+			"TurnAround"		"Turn Around"
+			"voicerecord"		"Use Microphone"
+			"VoteYes"		"Vote Yes"
+			"VoteNo"		"Vote No"
+			"MenuControls"		"Menu Controls"
+			"MenuUp"		"Up"
+			"MenuDown"		"Down"
+			"MenuLeft"		"Left"
+			"MenuRight"		"Right"
+			"MenuSelect"		"Select"
+			"MenuCancel"		"Cancel"
+			"MenuX"		"Alt Select"
+			"MenuY"		"Options"
+			"ReturnToGame"		"Return to Game"
+			"Navigate"		"Navigate"
+			"Mouse"		"Mouse"
+			"resetcamera"		"Reset Camera"
+			"spray"		"Spray"
+			"RadialOrders"		"Orders Quick Menu"
+			"RadialQNA"		"Response Quick Menu"
+			"RadialAccept"		"Quick Menu Accept"
+			"RadialDecline"		"Quick Menu Decline"
+		}
+		"brazilian"
+		{
+			"InGame_Controls"		"No jogo"
+			"Move"		"Mover-se"
+			"Camera"		"Câmera (mouse)"
+			"JoystickCamera"		"Câmera (alavanca)"
+			"Fire"		"Disparar"
+			"FireAlt"		"Empurrão"
+			"Scope"		"Usar luneta do rifle"
+			"Reload"		"Recarregar"
+			"jump"		"Pular"
+			"duck"		"Agachar"
+			"ToggleDuck"		"Agachar-se/ficar em pé"
+			"use"		"Usar"
+			"invnext"		"Próxima arma"
+			"invprev"		"Arma anterior"
+			"lastinv"		"Última arma usada"
+			"togglescores"		"Placar"
+			"Walk"		"Andar"
+			"PauseGame"		"Pausar o jogo"
+			"flashlight"		"Alternar lanterna"
+			"PrimaryWeapon"		"Arma primária"
+			"SecondaryWeapon"		"Arma secundária"
+			"Grenade"		"Granada"
+			"FirstAid"		"Primeiros socorros"
+			"Pills"		"Analgésicos"
+			"TurnAround"		"Dar meia-volta"
+			"voicerecord"		"Usar microfone"
+			"VoteYes"		"Votar \"sim\""
+			"VoteNo"		"Votar \"não\""
+			"MenuControls"		"Menus"
+			"MenuUp"		"Cima"
+			"MenuDown"		"Baixo"
+			"MenuLeft"		"Esquerda"
+			"MenuRight"		"Direita"
+			"MenuSelect"		"Selecionar"
+			"MenuCancel"		"Cancelar"
+			"MenuX"		"Seleção alternativa"
+			"MenuY"		"Opções"
+			"ReturnToGame"		"Voltar ao jogo"
+			"Navigate"		"Navegar"
+			"Mouse"		"Mouse"
+			"resetcamera"		"Redefinir câmera"
+			"spray"		"Usar spray"
+			"RadialOrders"		"Menu rápido de ordens"
+			"RadialQNA"		"Menu rápido de respostas"
+			"RadialAccept"		"Menu rápido: aceitar"
+			"RadialDecline"		"Menu rápido: recusar"
+		}
+		"bulgarian"
+		{
+			"InGame_Controls"		"Контроли в игра"
+			"Move"		"Движение"
+			"Camera"		"Камера (Мишка)"
+			"JoystickCamera"		"Камера (Джойстик)"
+			"Fire"		"Стрелба"
+			"FireAlt"		"Ръкопашен бой"
+			"Scope"		"Използване на оптика за винтовка"
+			"Reload"		"Презареждане"
+			"jump"		"Скачане"
+			"duck"		"Навеждане"
+			"ToggleDuck"		"Навеждане / изправяне"
+			"use"		"Използване"
+			"invnext"		"Избор на следващо оръжие"
+			"invprev"		"Избор на предишно оръжие"
+			"lastinv"		"Избор на последно използвано оръжие"
+			"togglescores"		"Табло с резултати"
+			"Walk"		"Вървене"
+			"PauseGame"		"Паузa на играта"
+			"flashlight"		"Фенерче"
+			"PrimaryWeapon"		"Основно оръжие"
+			"SecondaryWeapon"		"Второстепенно оръжие"
+			"Grenade"		"Граната"
+			"FirstAid"		"Първа помощ"
+			"Pills"		"Таблетки"
+			"TurnAround"		"Обръщане назад"
+			"voicerecord"		"Използване на микрофон"
+			"VoteYes"		"Гласуване с „Да“"
+			"VoteNo"		"Гласуване с „Не“"
+			"MenuControls"		"Контроли в менюто"
+			"MenuUp"		"Нагоре"
+			"MenuDown"		"Надолу"
+			"MenuLeft"		"Наляво"
+			"MenuRight"		"Надясно"
+			"MenuSelect"		"Избиране"
+			"MenuCancel"		"Отказ"
+			"MenuX"		"Алтернативен избор"
+			"MenuY"		"Опции"
+			"ReturnToGame"		"Връщане към играта"
+			"Navigate"		"Навигация"
+			"Mouse"		"Мишка"
+			"resetcamera"		"Нулиране на камера"
+			"spray"		"Използване на спрей"
+			"RadialOrders"		"Бързо меню със заповеди"
+			"RadialQNA"		"Бързо меню с отклици"
+			"RadialAccept"		"Бързо меню — приемане"
+			"RadialDecline"		"Бързо меню — отказ"
+		}
+		"czech"
+		{
+			"InGame_Controls"		"Ovládání postavy"
+			"Move"		"Pohyb"
+			"Camera"		"Kamera (myš)"
+			"JoystickCamera"		"Kamera (joystick)"
+			"Fire"		"Střelba"
+			"FireAlt"		"Odstrčení"
+			"Scope"		"Použití hledí pušky"
+			"Reload"		"Přebití"
+			"jump"		"Skok"
+			"duck"		"Přikrčení"
+			"ToggleDuck"		"Přikrčení (přepnutí)"
+			"use"		"Použití"
+			"invnext"		"Výběr další zbraně"
+			"invprev"		"Výběr předchozí zbraně"
+			"lastinv"		"Výběr poslední zbraně"
+			"togglescores"		"Tabulka statistik"
+			"Walk"		"Chůze"
+			"PauseGame"		"Pozastavení hry"
+			"flashlight"		"Svítilna"
+			"PrimaryWeapon"		"Primární zbraň"
+			"SecondaryWeapon"		"Sekundární zbraň"
+			"Grenade"		"Granát"
+			"FirstAid"		"Lékárnička"
+			"Pills"		"Prášky"
+			"TurnAround"		"Otočení"
+			"voicerecord"		"Použití mikrofonu"
+			"VoteYes"		"Hlasování pro „Ano“"
+			"VoteNo"		"Hlasování pro „Ne“"
+			"MenuControls"		"Ovládání nabídek"
+			"MenuUp"		"Nahoru"
+			"MenuDown"		"Dolů"
+			"MenuLeft"		"Doleva"
+			"MenuRight"		"Doprava"
+			"MenuSelect"		"Výběr"
+			"MenuCancel"		"Zrušit"
+			"MenuX"		"Alternativní výběr"
+			"MenuY"		"Možnosti"
+			"ReturnToGame"		"Návrat do hry"
+			"Navigate"		"Procházení"
+			"Mouse"		"Myš"
+			"resetcamera"		"Reset kamery"
+			"spray"		"Sprej"
+			"RadialOrders"		"Rychlá nabídka rozkazů"
+			"RadialQNA"		"Rychlá nabídka odpovědí"
+			"RadialAccept"		"Rychlá nabídka – přijetí"
+			"RadialDecline"		"Rychlá nabídka – odmítnutí"
+		}
+		"danish"
+		{
+			"InGame_Controls"		"Styringer i spil"
+			"Move"		"Bevæg"
+			"Camera"		"Kamera (mus)"
+			"JoystickCamera"		"Kamera (Joystick)"
+			"Fire"		"Skyd"
+			"FireAlt"		"Nærkampskub"
+			"Scope"		"Brug riffelsigte"
+			"Reload"		"Genlad"
+			"jump"		"Hop"
+			"duck"		"Duk"
+			"ToggleDuck"		"Duk/stå op"
+			"use"		"Brug"
+			"invnext"		"Vælg næste våben"
+			"invprev"		"Vælg forrige våben"
+			"lastinv"		"Vælg sidste våben"
+			"togglescores"		"Pointtavle"
+			"Walk"		"Gå"
+			"PauseGame"		"Sæt spil på pause"
+			"flashlight"		"Lommelygte"
+			"PrimaryWeapon"		"Primære våben"
+			"SecondaryWeapon"		"Sekundære våben"
+			"Grenade"		"Granat"
+			"FirstAid"		"Førstehjælp"
+			"Pills"		"Piller"
+			"TurnAround"		"Vend om"
+			"voicerecord"		"Brug mikrofon"
+			"VoteYes"		"Stem ja"
+			"VoteNo"		"Stem nej"
+			"MenuControls"		"Menufunktioner"
+			"MenuUp"		"Op"
+			"MenuDown"		"Ned"
+			"MenuLeft"		"Venstre"
+			"MenuRight"		"Højre"
+			"MenuSelect"		"Vælg"
+			"MenuCancel"		"Annuller"
+			"MenuX"		"Vælg (alternativ)"
+			"MenuY"		"Indstillinger"
+			"ReturnToGame"		"Tilbage til spillet"
+			"Navigate"		"Naviger"
+			"Mouse"		"Mus"
+			"resetcamera"		"Nulstil kamera"
+			"spray"		"Spray"
+			"RadialOrders"		"Hurtigmenu med ordrer"
+			"RadialQNA"		"Hurtigmenu med svar"
+			"RadialAccept"		"Hurtigmenu – accepter"
+			"RadialDecline"		"Hurtigmenu – afvis"
+		}
+		"dutch"
+		{
+			"InGame_Controls"		"Besturing in het spel"
+			"Move"		"Verplaatsen"
+			"Camera"		"Camera (muis)"
+			"JoystickCamera"		"Camera (joystick)"
+			"Fire"		"Vuren"
+			"FireAlt"		"Meleebash"
+			"Scope"		"Vizier van het wapen gebruiken"
+			"Reload"		"Herladen"
+			"jump"		"Springen"
+			"duck"		"Wegduiken"
+			"ToggleDuck"		"Wegduiken aan/uit"
+			"use"		"Gebruiken"
+			"invnext"		"Volgende wapen selecteren"
+			"invprev"		"Vorige wapen selecteren"
+			"lastinv"		"Laatste wapen selecteren"
+			"togglescores"		"Scorebord"
+			"Walk"		"Lopen"
+			"PauseGame"		"Spel pauzeren"
+			"flashlight"		"Zaklamp"
+			"PrimaryWeapon"		"Primair wapen"
+			"SecondaryWeapon"		"Secundair wapen"
+			"Grenade"		"Granaat"
+			"FirstAid"		"EHBO"
+			"Pills"		"Pillen"
+			"TurnAround"		"Omdraaien"
+			"voicerecord"		"Microfoon gebruiken"
+			"VoteYes"		"Ja stemmen"
+			"VoteNo"		"Nee stemmen"
+			"MenuControls"		"Besturing menu"
+			"MenuUp"		"Omhoog"
+			"MenuDown"		"Omlaag"
+			"MenuLeft"		"Links"
+			"MenuRight"		"Rechts"
+			"MenuSelect"		"Selecteren"
+			"MenuCancel"		"Annuleren"
+			"MenuX"		"Alternatieve selectie"
+			"MenuY"		"Opties"
+			"ReturnToGame"		"Terug naar het spel"
+			"Navigate"		"Navigeren"
+			"Mouse"		"Muis"
+			"resetcamera"		"Camera opnieuw instellen"
+			"spray"		"Spray spuiten"
+			"RadialOrders"		"Snelmenu commando's"
+			"RadialQNA"		"Snelmenu antwoorden"
+			"RadialAccept"		"Snelmenu aanvaarden"
+			"RadialDecline"		"Snelmenu weigeren"
+		}
+		"finnish"
+		{
+			"InGame_Controls"		"Pelinsisäiset ohjaimet"
+			"Move"		"Liiku"
+			"Camera"		"Kamera (hiiri)"
+			"JoystickCamera"		"Kamera (ohjainsauva)"
+			"Fire"		"Tulitus"
+			"FireAlt"		"Lähitaisteluisku"
+			"Scope"		"Käytä kiväärin kiikaritähtäintä"
+			"Reload"		"Lataa"
+			"jump"		"Hyppää"
+			"duck"		"Kumarru"
+			"ToggleDuck"		"Kumarru – päälle/pois"
+			"use"		"Käytä"
+			"invnext"		"Valitse seuraava ase"
+			"invprev"		"Valitse edellinen ase"
+			"lastinv"		"Valitse viimeisin ase"
+			"togglescores"		"Tulostaulukko"
+			"Walk"		"Kävele"
+			"PauseGame"		"Pysäytä peli"
+			"flashlight"		"Taskulamppu"
+			"PrimaryWeapon"		"Ensisijainen ase"
+			"SecondaryWeapon"		"Toissijainen ase"
+			"Grenade"		"Kranaatti"
+			"FirstAid"		"Ensiapu"
+			"Pills"		"Kipulääkkeet"
+			"TurnAround"		"Käänny ympäri"
+			"voicerecord"		"Käytä mikrofonia"
+			"VoteYes"		"Äänestä kyllä"
+			"VoteNo"		"Äänestä ei"
+			"MenuControls"		"Valikon ohjaimet"
+			"MenuUp"		"Ylös"
+			"MenuDown"		"Alas"
+			"MenuLeft"		"Vasen"
+			"MenuRight"		"Oikea"
+			"MenuSelect"		"Valitse"
+			"MenuCancel"		"Peruuta"
+			"MenuX"		"Vaihtoehtoinen valinta"
+			"MenuY"		"Asetukset"
+			"ReturnToGame"		"Palaa peliin"
+			"Navigate"		"Navigoi"
+			"Mouse"		"Hiiri"
+			"resetcamera"		"Nollaa kamera"
+			"spray"		"Graffiti"
+			"RadialOrders"		"Komentojen pikavalikko"
+			"RadialQNA"		"Vastausten pikavalikko"
+			"RadialAccept"		"Pikavalikon hyväksyntä"
+			"RadialDecline"		"Pikavalikon hylkäys"
+		}
+		"french"
+		{
+			"InGame_Controls"		"Commandes en jeu"
+			"Move"		"Se déplacer"
+			"Camera"		"Caméra (souris)"
+			"JoystickCamera"		"Caméra (joystick)"
+			"Fire"		"Tirer"
+			"FireAlt"		"Coup au corps à corps"
+			"Scope"		"Utiliser la lunette du fusil"
+			"Reload"		"Recharger"
+			"jump"		"Sauter"
+			"duck"		"S'accroupir"
+			"ToggleDuck"		"S'accroupir/se relever"
+			"use"		"Utiliser"
+			"invnext"		"Sélectionner l'arme suivante"
+			"invprev"		"Sélectionner l'arme précédente"
+			"lastinv"		"Sélectionner la dernière arme"
+			"togglescores"		"Tableau des scores"
+			"Walk"		"Marcher"
+			"PauseGame"		"Mettre en pause"
+			"flashlight"		"Lampe torche"
+			"PrimaryWeapon"		"Arme principale"
+			"SecondaryWeapon"		"Arme secondaire"
+			"Grenade"		"Grenade"
+			"FirstAid"		"Kit de soins"
+			"Pills"		"Cachets"
+			"TurnAround"		"Faire demi-tour"
+			"voicerecord"		"Utiliser le micro"
+			"VoteYes"		"Voter « Oui »"
+			"VoteNo"		"Voter « Non »"
+			"MenuControls"		"Commandes du menu"
+			"MenuUp"		"Haut"
+			"MenuDown"		"Bas"
+			"MenuLeft"		"Gauche"
+			"MenuRight"		"Droite"
+			"MenuSelect"		"Sélectionner"
+			"MenuCancel"		"Annuler"
+			"MenuX"		"Sélection alternative"
+			"MenuY"		"Options"
+			"ReturnToGame"		"Reprendre la partie"
+			"Navigate"		"Parcourir"
+			"Mouse"		"Souris"
+			"resetcamera"		"Réinitialiser la caméra"
+			"spray"		"Faire un graffiti"
+			"RadialOrders"		"Menu rapide des ordres"
+			"RadialQNA"		"Menu rapide des réponses"
+			"RadialAccept"		"Menu rapide : accepter"
+			"RadialDecline"		"Menu rapide : refuser"
+		}
+		"german"
+		{
+			"InGame_Controls"		"Spielinterne Steuerung"
+			"Move"		"Bewegen"
+			"Camera"		"Kamera (Maus)"
+			"JoystickCamera"		"Kamera (Joystick)"
+			"Fire"		"Feuer"
+			"FireAlt"		"Schlag"
+			"Scope"		"Zielfernrohr verwenden"
+			"Reload"		"Nachladen"
+			"jump"		"Springen"
+			"duck"		"Ducken"
+			"ToggleDuck"		"Ducken de-/aktivieren"
+			"use"		"Benutzen"
+			"invnext"		"Nächste Waffe auswählen"
+			"invprev"		"Vorige Waffe auswählen"
+			"lastinv"		"Zuletzt verwendete Waffe auswählen"
+			"togglescores"		"Punktestand"
+			"Walk"		"Gehen"
+			"PauseGame"		"Spiel anhalten"
+			"flashlight"		"Taschenlampe"
+			"PrimaryWeapon"		"Primärwaffe"
+			"SecondaryWeapon"		"Sekundärwaffe"
+			"Grenade"		"Granate"
+			"FirstAid"		"Erste Hilfe"
+			"Pills"		"Medikamente"
+			"TurnAround"		"Umdrehen"
+			"voicerecord"		"Mikrofon verwenden"
+			"VoteYes"		"Mit „Ja“ abstimmen"
+			"VoteNo"		"Mit „Nein“ abstimmen"
+			"MenuControls"		"Menüsteuerung"
+			"MenuUp"		"Oben"
+			"MenuDown"		"Unten"
+			"MenuLeft"		"Links"
+			"MenuRight"		"Rechts"
+			"MenuSelect"		"Auswählen"
+			"MenuCancel"		"Abbrechen"
+			"MenuX"		"Alternative Auswahl"
+			"MenuY"		"Optionen"
+			"ReturnToGame"		"Zurück zum Spiel"
+			"Navigate"		"Navigation"
+			"Mouse"		"Maus"
+			"resetcamera"		"Kamera zurücksetzen"
+			"spray"		"Graffiti"
+			"RadialOrders"		"Befehle-Schnellmenü"
+			"RadialQNA"		"Antwort-Schnellmenü"
+			"RadialAccept"		"Schnellmenü annehmen"
+			"RadialDecline"		"Schnellmenü ablehnen"
+		}
+		"greek"
+		{
+			"InGame_Controls"		"Πλήκτρα εντός παιχνιδιού"
+			"Move"		"Κίνηση"
+			"Camera"		"Κάμερα (ποντίκι)"
+			"JoystickCamera"		"Κάμερα (μοχλός)"
+			"Fire"		"Πυρ"
+			"FireAlt"		"Αγχέμαχο χτύπημα"
+			"Scope"		"Χρήση διόπτρας"
+			"Reload"		"Γέμισμα όπλου"
+			"jump"		"Άλμα"
+			"duck"		"Σκύψιμο"
+			"ToggleDuck"		"Εναλλαγή σκυψίματος"
+			"use"		"Χρήση"
+			"invnext"		"Επιλογή επόμενου όπλου"
+			"invprev"		"Επιλογή προηγούμενου όπλου"
+			"lastinv"		"Επιλογή τελευταίου όπλου"
+			"togglescores"		"Βαθμολογία"
+			"Walk"		"Περπάτημα"
+			"PauseGame"		"Παύση παιχνιδιού"
+			"flashlight"		"Φακός"
+			"PrimaryWeapon"		"Κύριο όπλο"
+			"SecondaryWeapon"		"Δευτερεύον όπλο"
+			"Grenade"		"Χειροβομβίδα"
+			"FirstAid"		"Πρώτες βοήθειες"
+			"Pills"		"Χάπια"
+			"TurnAround"		"Μεταστροφή"
+			"voicerecord"		"Χρήση μικροφώνου"
+			"VoteYes"		"Θετική ψήφος"
+			"VoteNo"		"Αρνητική ψήφος"
+			"MenuControls"		"Έλεγχοι μενού"
+			"MenuUp"		"Πάνω"
+			"MenuDown"		"Κάτω"
+			"MenuLeft"		"Αριστερά"
+			"MenuRight"		"Δεξιά"
+			"MenuSelect"		"Επιλογή"
+			"MenuCancel"		"Ακύρωση"
+			"MenuX"		"Εναλλακτική επιλογή"
+			"MenuY"		"Επιλογές"
+			"ReturnToGame"		"Επιστροφή στο παιχνίδι"
+			"Navigate"		"Πλοήγηση"
+			"Mouse"		"Ποντίκι"
+			"resetcamera"		"Επαναφορά κάμερας"
+			"spray"		"Σπρέι"
+			"RadialOrders"		"Γρήγορο μενού — Εντολές"
+			"RadialQNA"		"Γρήγορο μενού — Απόκριση"
+			"RadialAccept"		"Γρήγορο μενού — Αποδοχή"
+			"RadialDecline"		"Γρήγορο μενού — Άρνηση"
+		}
+		"hungarian"
+		{
+			"InGame_Controls"		"Játékbeli vezérlés"
+			"Move"		"Mozgás"
+			"Camera"		"Kamera (Egér)"
+			"JoystickCamera"		"Kamera (Botkormány)"
+			"Fire"		"Tűz"
+			"FireAlt"		"Közelharci ütés"
+			"Scope"		"Puskatávcső használata"
+			"Reload"		"Újratöltés"
+			"jump"		"Ugrás"
+			"duck"		"Guggolás"
+			"ToggleDuck"		"Guggolás be/ki"
+			"use"		"Használ"
+			"invnext"		"Következő fegyver kiválasztása"
+			"invprev"		"Előző fegyver kiválasztása"
+			"lastinv"		"Legutóbbi fegyver kiválasztása"
+			"togglescores"		"Eredménytábla"
+			"Walk"		"Séta"
+			"PauseGame"		"Játék szüneteltetése"
+			"flashlight"		"Zseblámpa"
+			"PrimaryWeapon"		"Elsődleges fegyver"
+			"SecondaryWeapon"		"Másodlagos fegyver"
+			"Grenade"		"Gránát"
+			"FirstAid"		"Mentőláda"
+			"Pills"		"Fájdalomcsillapító"
+			"TurnAround"		"Megfordulás"
+			"voicerecord"		"Mikrofon használata"
+			"VoteYes"		"Igennel szavazás"
+			"VoteNo"		"Nemmel szavazás"
+			"MenuControls"		"Menüvezérlés"
+			"MenuUp"		"Fel"
+			"MenuDown"		"Le"
+			"MenuLeft"		"Balra"
+			"MenuRight"		"Jobbra"
+			"MenuSelect"		"Kiválasztás"
+			"MenuCancel"		"Mégse"
+			"MenuX"		"Alternatív választás"
+			"MenuY"		"Beállítások"
+			"ReturnToGame"		"Vissza a játékhoz"
+			"Navigate"		"Navigálás"
+			"Mouse"		"Egér"
+			"resetcamera"		"Kamera alaphelyzetbe"
+			"spray"		"Festés"
+			"RadialOrders"		"Gyorsmenü – Parancsok"
+			"RadialQNA"		"Gyorsmenü – Válaszok"
+			"RadialAccept"		"Gyorsmenü - Elfogadás"
+			"RadialDecline"		"Gyorsmenü - Elutasítás"
+		}
+		"italian"
+		{
+			"InGame_Controls"		"Controlli in gioco"
+			"Move"		"Movimento"
+			"Camera"		"Telecamera (mouse)"
+			"JoystickCamera"		"Telecamera (joystick)"
+			"Fire"		"Fuoco"
+			"FireAlt"		"Corpo a corpo"
+			"Scope"		"Usa mirino di precisione"
+			"Reload"		"Ricarica"
+			"jump"		"Salta"
+			"duck"		"Abbassati"
+			"ToggleDuck"		"Abbassati sì/no"
+			"use"		"Usa"
+			"invnext"		"Seleziona arma successiva"
+			"invprev"		"Seleziona arma precedente"
+			"lastinv"		"Seleziona ultima arma"
+			"togglescores"		"Punteggi"
+			"Walk"		"Cammina"
+			"PauseGame"		"Pausa"
+			"flashlight"		"Torcia"
+			"PrimaryWeapon"		"Arma primaria"
+			"SecondaryWeapon"		"Arma secondaria"
+			"Grenade"		"Granata"
+			"FirstAid"		"Kit di pronto soccorso"
+			"Pills"		"Antidolorifici"
+			"TurnAround"		"Girati"
+			"voicerecord"		"Usa microfono"
+			"VoteYes"		"Vota Sì"
+			"VoteNo"		"Vota No"
+			"MenuControls"		"Controlli del menu"
+			"MenuUp"		"Su"
+			"MenuDown"		"Giù"
+			"MenuLeft"		"Sinistra"
+			"MenuRight"		"Destra"
+			"MenuSelect"		"Seleziona"
+			"MenuCancel"		"Annulla"
+			"MenuX"		"Selezione alternativa"
+			"MenuY"		"Opzioni"
+			"ReturnToGame"		"Torna alla partita"
+			"Navigate"		"Naviga"
+			"Mouse"		"Mouse"
+			"resetcamera"		"Resetta telecamera"
+			"spray"		"Spray"
+			"RadialOrders"		"Menu rapido degli ordini"
+			"RadialQNA"		"Menu rapido delle risposte"
+			"RadialAccept"		"Menu rapido - Accetta"
+			"RadialDecline"		"Menu rapido - Rifiuta"
+		}
+		"japanese"
+		{
+			"InGame_Controls"		"ゲーム内管理"
+			"Move"		"移動"
+			"Camera"		"カメラ（マウス）"
+			"JoystickCamera"		"カメラ（ジョイスティック）"
+			"Fire"		"発射"
+			"FireAlt"		"近距離バッシュ"
+			"Scope"		"ライフルのスコープを使用"
+			"Reload"		"リロード"
+			"jump"		"ジャンプ"
+			"duck"		"かがむ"
+			"ToggleDuck"		"かがむ動作の切り替え"
+			"use"		"使う"
+			"invnext"		"次の武器を選択"
+			"invprev"		"前の武器を選択"
+			"lastinv"		"最後の武器を選択"
+			"togglescores"		"スコアボード"
+			"Walk"		"歩行"
+			"PauseGame"		"一時停止"
+			"flashlight"		"フラッシュライト"
+			"PrimaryWeapon"		"メイン武器"
+			"SecondaryWeapon"		"サブ武器"
+			"Grenade"		"手榴弾"
+			"FirstAid"		"応急処置"
+			"Pills"		"錠剤"
+			"TurnAround"		"振り向く"
+			"voicerecord"		"マイクを使用"
+			"VoteYes"		"賛成に投票"
+			"VoteNo"		"反対に投票"
+			"MenuControls"		"メニュー管理"
+			"MenuUp"		"上"
+			"MenuDown"		"下"
+			"MenuLeft"		"左"
+			"MenuRight"		"右"
+			"MenuSelect"		"選択"
+			"MenuCancel"		"キャンセル"
+			"MenuX"		"Alt選択"
+			"MenuY"		"オプション"
+			"ReturnToGame"		"ゲームに戻る"
+			"Navigate"		"ナビゲート"
+			"Mouse"		"マウス"
+			"resetcamera"		"カメラをリセット"
+			"spray"		"スプレー"
+			"RadialOrders"		"指示 クイックメニュー"
+			"RadialQNA"		"応答 クイックメニュー"
+			"RadialAccept"		"クイックメニュー 承認"
+			"RadialDecline"		"クイックメニュー 辞退"
+		}
+		"koreana"
+		{
+			"InGame_Controls"		"게임 내 컨트롤"
+			"Move"		"이동"
+			"Camera"		"카메라(마우스)"
+			"JoystickCamera"		"카메라(조이스틱)"
+			"Fire"		"발사"
+			"FireAlt"		"밀쳐 내기"
+			"Scope"		"소총 조준경 사용"
+			"Reload"		"재장전"
+			"jump"		"점프"
+			"duck"		"웅크리기"
+			"ToggleDuck"		"웅크리기 전환"
+			"use"		"사용"
+			"invnext"		"다음 무기 선택"
+			"invprev"		"이전 무기 선택"
+			"lastinv"		"직전 무기 선택"
+			"togglescores"		"점수판"
+			"Walk"		"걸어가기"
+			"PauseGame"		"일시 중지"
+			"flashlight"		"손전등"
+			"PrimaryWeapon"		"주 무기"
+			"SecondaryWeapon"		"보조 무기"
+			"Grenade"		"수류탄"
+			"FirstAid"		"응급처치 도구"
+			"Pills"		"진통제"
+			"TurnAround"		"돌아서기"
+			"voicerecord"		"마이크 사용"
+			"VoteYes"		"찬성 투표"
+			"VoteNo"		"반대 투표"
+			"MenuControls"		"메뉴 컨트롤"
+			"MenuUp"		"위로"
+			"MenuDown"		"아래로"
+			"MenuLeft"		"왼쪽"
+			"MenuRight"		"오른쪽"
+			"MenuSelect"		"선택"
+			"MenuCancel"		"취소"
+			"MenuX"		"대체 선택"
+			"MenuY"		"옵션"
+			"ReturnToGame"		"게임으로 돌아가기"
+			"Navigate"		"탐색"
+			"Mouse"		"마우스"
+			"resetcamera"		"카메라 재설정"
+			"spray"		"스프레이"
+			"RadialOrders"		"빠른 메뉴 명령"
+			"RadialQNA"		"빠른 메뉴 응답"
+			"RadialAccept"		"빠른 메뉴 수락"
+			"RadialDecline"		"빠른 메뉴 거절"
+		}
+		"latam"
+		{
+			"InGame_Controls"		"Controles en el juego"
+			"Move"		"Mover"
+			"Camera"		"Cámara (mouse)"
+			"JoystickCamera"		"Cámara (joystick)"
+			"Fire"		"Disparar"
+			"FireAlt"		"Golpetazo de melé"
+			"Scope"		"Usar mira"
+			"Reload"		"Recargar"
+			"jump"		"Saltar"
+			"duck"		"Agacharse"
+			"ToggleDuck"		"Alternar agacharse"
+			"use"		"Usar"
+			"invnext"		"Seleccionar arma siguiente"
+			"invprev"		"Seleccionar arma anterior"
+			"lastinv"		"Seleccionar última arma"
+			"togglescores"		"Marcador"
+			"Walk"		"Caminar"
+			"PauseGame"		"Pausar el juego"
+			"flashlight"		"Linterna"
+			"PrimaryWeapon"		"Arma primaria"
+			"SecondaryWeapon"		"Arma secundaria"
+			"Grenade"		"Granada"
+			"FirstAid"		"Botiquín"
+			"Pills"		"Píldoras"
+			"TurnAround"		"Dar la vuelta"
+			"voicerecord"		"Usar micrófono"
+			"VoteYes"		"Votar Sí"
+			"VoteNo"		"Votar No"
+			"MenuControls"		"Controles del menú"
+			"MenuUp"		"Arriba"
+			"MenuDown"		"Abajo"
+			"MenuLeft"		"Izquierda"
+			"MenuRight"		"Derecha"
+			"MenuSelect"		"Seleccionar"
+			"MenuCancel"		"Cancelar"
+			"MenuX"		"Selección alternativa"
+			"MenuY"		"Opciones"
+			"ReturnToGame"		"Volver al juego"
+			"Navigate"		"Navegar"
+			"Mouse"		"Mouse"
+			"resetcamera"		"Restablecer cámara"
+			"spray"		"Aerosol"
+			"RadialOrders"		"Menú rápido de órdenes"
+			"RadialQNA"		"Menú rápido de respuestas"
+			"RadialAccept"		"Menú rápido: Aceptar"
+			"RadialDecline"		"Menú rápido: Rechazar"
+		}
+		"norwegian"
+		{
+			"InGame_Controls"		"I spillet"
+			"Move"		"Bevegelse"
+			"Camera"		"Kamera (mus)"
+			"JoystickCamera"		"Kamera (styrespak)"
+			"Fire"		"Skyt"
+			"FireAlt"		"Skubb"
+			"Scope"		"Bruk sikte"
+			"Reload"		"Lad om"
+			"jump"		"Hopp"
+			"duck"		"Dukk"
+			"ToggleDuck"		"Dukk/stå opp"
+			"use"		"Bruk"
+			"invnext"		"Velg neste våpen"
+			"invprev"		"Velg forrige våpen"
+			"lastinv"		"Sist brukte våpen"
+			"togglescores"		"Resultattavle"
+			"Walk"		"Gå"
+			"PauseGame"		"Pause"
+			"flashlight"		"Lommelykt"
+			"PrimaryWeapon"		"Primærvåpen"
+			"SecondaryWeapon"		"Sekundærvåpen"
+			"Grenade"		"Granat"
+			"FirstAid"		"Førstehjelp"
+			"Pills"		"Piller"
+			"TurnAround"		"Vend om"
+			"voicerecord"		"Bruk mikrofon"
+			"VoteYes"		"Stem ja"
+			"VoteNo"		"Stem nei"
+			"MenuControls"		"Meny"
+			"MenuUp"		"Opp"
+			"MenuDown"		"Ned"
+			"MenuLeft"		"Venstre"
+			"MenuRight"		"Høyre"
+			"MenuSelect"		"Velg"
+			"MenuCancel"		"Avbryt"
+			"MenuX"		"Velg (alternativ)"
+			"MenuY"		"Innstillinger"
+			"ReturnToGame"		"Tilbake til spillet"
+			"Navigate"		"Naviger"
+			"Mouse"		"Mus"
+			"resetcamera"		"Tilbakestill kamera"
+			"spray"		"Graffiti"
+			"RadialOrders"		"Hurtigmeny – ordre"
+			"RadialQNA"		"Hurtigmeny – svar"
+			"RadialAccept"		"Hurtigmeny – godta"
+			"RadialDecline"		"Hurtigmeny – avslå"
+		}
+		"polish"
+		{
+			"InGame_Controls"		"Sterowanie w grze"
+			"Move"		"Ruch"
+			"Camera"		"Kamera (mysz)"
+			"JoystickCamera"		"Kamera (drążek)"
+			"Fire"		"Strzał"
+			"FireAlt"		"Uderzenie w walce wręcz"
+			"Scope"		"Użycie lunety karabinu"
+			"Reload"		"Przeładowanie"
+			"jump"		"Skok"
+			"duck"		"Kucanie"
+			"ToggleDuck"		"Przełączenie kucania"
+			"use"		"Użycie"
+			"invnext"		"Wybór następnej broni"
+			"invprev"		"Wybór poprzedniej broni"
+			"lastinv"		"Wybór ostatniej broni"
+			"togglescores"		"Tabela wyników"
+			"Walk"		"Chodzenie"
+			"PauseGame"		"Zatrzymanie gry"
+			"flashlight"		"Latarka"
+			"PrimaryWeapon"		"Broń podstawowa"
+			"SecondaryWeapon"		"Broń drugorzędna"
+			"Grenade"		"Granat"
+			"FirstAid"		"Apteczka"
+			"Pills"		"Tabletki"
+			"TurnAround"		"Obrót"
+			"voicerecord"		"Użycie mikrofonu"
+			"VoteYes"		"Głos za"
+			"VoteNo"		"Głos przeciw"
+			"MenuControls"		"Sterowanie w menu"
+			"MenuUp"		"Góra"
+			"MenuDown"		"Dół"
+			"MenuLeft"		"Lewo"
+			"MenuRight"		"Prawo"
+			"MenuSelect"		"Wybierz"
+			"MenuCancel"		"Anuluj"
+			"MenuX"		"Alternatywny wybór"
+			"MenuY"		"Opcje"
+			"ReturnToGame"		"Powrót do gry"
+			"Navigate"		"Nawigacja"
+			"Mouse"		"Mysz"
+			"resetcamera"		"Zresetuj kamerę"
+			"spray"		"Namaluj spray"
+			"RadialOrders"		"Szybkie menu rozkazów"
+			"RadialQNA"		"Szybkie menu odpowiedzi"
+			"RadialAccept"		"Potwierdzenie w szybkim menu"
+			"RadialDecline"		"Odrzucenie w szybkim menu"
+		}
+		"portuguese"
+		{
+			"InGame_Controls"		"Durante o jogo"
+			"Move"		"Mover"
+			"Camera"		"Câmara (Rato)"
+			"JoystickCamera"		"Câmara (Manípulo)"
+			"Fire"		"Disparar"
+			"FireAlt"		"Empurrar"
+			"Scope"		"Usar mira telescópica"
+			"Reload"		"Recarregar"
+			"jump"		"Saltar"
+			"duck"		"Agachar"
+			"ToggleDuck"		"Agachar/levantar"
+			"use"		"Usar"
+			"invnext"		"Selecionar arma seguinte"
+			"invprev"		"Selecionar arma anterior"
+			"lastinv"		"Selecionar última arma"
+			"togglescores"		"Tabela de pontuações"
+			"Walk"		"Andar"
+			"PauseGame"		"Pausar jogo"
+			"flashlight"		"Lanterna"
+			"PrimaryWeapon"		"Arma principal"
+			"SecondaryWeapon"		"Arma secundária"
+			"Grenade"		"Granada"
+			"FirstAid"		"Primeiros-socorros"
+			"Pills"		"Analgésicos"
+			"TurnAround"		"Dar meia-volta"
+			"voicerecord"		"Usar microfone"
+			"VoteYes"		"Votar \"Sim\""
+			"VoteNo"		"Votar \"Não\""
+			"MenuControls"		"Controlos de menus"
+			"MenuUp"		"Cima"
+			"MenuDown"		"Baixo"
+			"MenuLeft"		"Esquerda"
+			"MenuRight"		"Direita"
+			"MenuSelect"		"Selecionar"
+			"MenuCancel"		"Cancelar"
+			"MenuX"		"Seleção alternativa"
+			"MenuY"		"Opções"
+			"ReturnToGame"		"Regressar ao jogo"
+			"Navigate"		"Navegar"
+			"Mouse"		"Rato"
+			"resetcamera"		"Reiniciar câmara"
+			"spray"		"Spray"
+			"RadialOrders"		"Menu rápido de ordens"
+			"RadialQNA"		"Menu rápido de respostas"
+			"RadialAccept"		"Menu rápido: aceitar"
+			"RadialDecline"		"Menu rápido: recusar"
+		}
+		"romanian"
+		{
+			"InGame_Controls"		"Controale în joc"
+			"Move"		"Deplasare"
+			"Camera"		"Camera (mouse)"
+			"JoystickCamera"		"Camera (joystick)"
+			"Fire"		"Foc"
+			"FireAlt"		"Îmbrâncire"
+			"Scope"		"Folosește luneta armei"
+			"Reload"		"Reîncarcă"
+			"jump"		"Săritură"
+			"duck"		"Ghemuire"
+			"ToggleDuck"		"Comută ghemuirea"
+			"use"		"Folosește"
+			"invnext"		"Selectează arma următoare"
+			"invprev"		"Selectează arma precedentă"
+			"lastinv"		"Selectează ultima armă"
+			"togglescores"		"Tabelă de scor"
+			"Walk"		"Mers la pas"
+			"PauseGame"		"Întrerupere joc"
+			"flashlight"		"Lanternă"
+			"PrimaryWeapon"		"Arma principală"
+			"SecondaryWeapon"		"Arma secundară"
+			"Grenade"		"Grenadă"
+			"FirstAid"		"Trusă de prim ajutor"
+			"Pills"		"Analgezice"
+			"TurnAround"		"Întoarcere"
+			"voicerecord"		"Folosește microfonul"
+			"VoteYes"		"Votează „da”"
+			"VoteNo"		"Votează „nu”"
+			"MenuControls"		"Controale pentru meniu"
+			"MenuUp"		"Sus"
+			"MenuDown"		"Jos"
+			"MenuLeft"		"Stânga"
+			"MenuRight"		"Dreapta"
+			"MenuSelect"		"Selectează"
+			"MenuCancel"		"Anulează"
+			"MenuX"		"Selecție alternativă"
+			"MenuY"		"Opțiuni"
+			"ReturnToGame"		"Înapoi la joc"
+			"Navigate"		"Navigare"
+			"Mouse"		"Mouse"
+			"resetcamera"		"Resetează camera"
+			"spray"		"Spray"
+			"RadialOrders"		"Meniu rapid pentru comenzi"
+			"RadialQNA"		"Meniu rapid pentru răspunsuri"
+			"RadialAccept"		"Meniu rapid – Acceptă"
+			"RadialDecline"		"Meniu rapid – Refuză"
+		}
+		"russian"
+		{
+			"InGame_Controls"		"Действия в игре"
+			"Move"		"Передвижение"
+			"Camera"		"Камера (мышь)"
+			"JoystickCamera"		"Камера (джойстик)"
+			"Fire"		"Атака"
+			"FireAlt"		"Рукопашный бой"
+			"Scope"		"Прицел винтовки"
+			"Reload"		"Перезарядка"
+			"jump"		"Прыгнуть"
+			"duck"		"Присесть"
+			"ToggleDuck"		"Присесть/встать"
+			"use"		"Использовать"
+			"invnext"		"Следующее оружие"
+			"invprev"		"Предыдущее оружие"
+			"lastinv"		"Последнее оружие"
+			"togglescores"		"Таблица очков"
+			"Walk"		"Ходьба"
+			"PauseGame"		"Пауза"
+			"flashlight"		"Фонарик"
+			"PrimaryWeapon"		"Основное оружие"
+			"SecondaryWeapon"		"Дополнительное оружие"
+			"Grenade"		"Граната"
+			"FirstAid"		"Аптечка"
+			"Pills"		"Таблетки"
+			"TurnAround"		"Обернуться"
+			"voicerecord"		"Микрофон"
+			"VoteYes"		"Голос «За»"
+			"VoteNo"		"Голос «Против»"
+			"MenuControls"		"Управление в меню"
+			"MenuUp"		"Вверх"
+			"MenuDown"		"Вниз"
+			"MenuLeft"		"Влево"
+			"MenuRight"		"Вправо"
+			"MenuSelect"		"Выбрать"
+			"MenuCancel"		"Отмена"
+			"MenuX"		"Альт. выбор"
+			"MenuY"		"Настройки"
+			"ReturnToGame"		"Вернуться в игру"
+			"Navigate"		"Навигация"
+			"Mouse"		"Мышь"
+			"resetcamera"		"Сбросить камеру"
+			"spray"		"Граффити"
+			"RadialOrders"		"Быстрое меню приказов"
+			"RadialQNA"		"Быстрое меню ответов"
+			"RadialAccept"		"Принятие быстрого меню"
+			"RadialDecline"		"Отклонение быстрого меню"
+		}
+		"schinese"
+		{
+			"InGame_Controls"		"游戏内控件"
+			"Move"		"移动"
+			"Camera"		"视角（鼠标）"
+			"JoystickCamera"		"视角（摇杆）"
+			"Fire"		"开火"
+			"FireAlt"		"近战攻击"
+			"Scope"		"使用步枪瞄准镜"
+			"Reload"		"装弹药"
+			"jump"		"跳"
+			"duck"		"蹲下"
+			"ToggleDuck"		"切换蹲下"
+			"use"		"使用"
+			"invnext"		"选择后一武器"
+			"invprev"		"选择前一武器"
+			"lastinv"		"选择上次使用的武器"
+			"togglescores"		"计分板"
+			"Walk"		"走"
+			"PauseGame"		"暂停游戏"
+			"flashlight"		"手电筒"
+			"PrimaryWeapon"		"主武器"
+			"SecondaryWeapon"		"副武器"
+			"Grenade"		"手榴弹"
+			"FirstAid"		"急救包"
+			"Pills"		"止痛药"
+			"TurnAround"		"转身"
+			"voicerecord"		"使用麦克风"
+			"VoteYes"		"投赞成票"
+			"VoteNo"		"投反对票"
+			"MenuControls"		"菜单控件"
+			"MenuUp"		"上"
+			"MenuDown"		"下"
+			"MenuLeft"		"左"
+			"MenuRight"		"右"
+			"MenuSelect"		"选择"
+			"MenuCancel"		"取消"
+			"MenuX"		"替代选择"
+			"MenuY"		"选项"
+			"ReturnToGame"		"返回游戏"
+			"Navigate"		"导航"
+			"Mouse"		"鼠标"
+			"resetcamera"		"重置视角"
+			"spray"		"喷漆"
+			"RadialOrders"		"命令快速菜单"
+			"RadialQNA"		"回应快速菜单"
+			"RadialAccept"		"快速菜单接受"
+			"RadialDecline"		"快速菜单拒绝"
+		}
+		"spanish"
+		{
+			"InGame_Controls"		"Controles del juego"
+			"Move"		"Mover"
+			"Camera"		"Cámara (ratón)"
+			"JoystickCamera"		"Cámara (joystick)"
+			"Fire"		"Disparar"
+			"FireAlt"		"Golpetazo"
+			"Scope"		"Usar mira"
+			"Reload"		"Recargar"
+			"jump"		"Saltar"
+			"duck"		"Agacharse"
+			"ToggleDuck"		"Alternar agacharse"
+			"use"		"Usar"
+			"invnext"		"Arma siguiente"
+			"invprev"		"Arma anterior"
+			"lastinv"		"Última arma"
+			"togglescores"		"Marcador"
+			"Walk"		"Caminar"
+			"PauseGame"		"Pausar el juego"
+			"flashlight"		"Linterna"
+			"PrimaryWeapon"		"Arma principal"
+			"SecondaryWeapon"		"Arma secundaria"
+			"Grenade"		"Granada"
+			"FirstAid"		"Botiquín"
+			"Pills"		"Píldoras"
+			"TurnAround"		"Dar la vuelta"
+			"voicerecord"		"Usar micrófono"
+			"VoteYes"		"Votar Sí"
+			"VoteNo"		"Votar No"
+			"MenuControls"		"Controles del menú"
+			"MenuUp"		"Arriba"
+			"MenuDown"		"Abajo"
+			"MenuLeft"		"Izquierda"
+			"MenuRight"		"Derecha"
+			"MenuSelect"		"Seleccionar"
+			"MenuCancel"		"Cancelar"
+			"MenuX"		"Selección alternativa"
+			"MenuY"		"Opciones"
+			"ReturnToGame"		"Volver al juego"
+			"Navigate"		"Navegar"
+			"Mouse"		"Ratón"
+			"resetcamera"		"Restablecer cámara"
+			"spray"		"Espray"
+			"RadialOrders"		"Menú rápido de órdenes"
+			"RadialQNA"		"Menú rápido de respuestas"
+			"RadialAccept"		"Menú rápido: Aceptar"
+			"RadialDecline"		"Menú rápido: Rechazar"
+		}
+		"swedish"
+		{
+			"InGame_Controls"		"Kontroller i spelet"
+			"Move"		"Förflyttning"
+			"Camera"		"Kamera (mus)"
+			"JoystickCamera"		"Kamera (styrspak)"
+			"Fire"		"Eld"
+			"FireAlt"		"Knuffa bort"
+			"Scope"		"Använd kikarsiktet"
+			"Reload"		"Ladda om"
+			"jump"		"Hoppa"
+			"duck"		"Huka"
+			"ToggleDuck"		"Huka/stå"
+			"use"		"Använd"
+			"invnext"		"Välj nästa vapen"
+			"invprev"		"Välj föregående vapen"
+			"lastinv"		"Välj det senast använda vapnet"
+			"togglescores"		"Resultattavla"
+			"Walk"		"Gå"
+			"PauseGame"		"Pausa spel"
+			"flashlight"		"Ficklampa"
+			"PrimaryWeapon"		"Huvudvapen"
+			"SecondaryWeapon"		"Sekundärt vapen"
+			"Grenade"		"Granat"
+			"FirstAid"		"Förbandslåda"
+			"Pills"		"Värktabletter"
+			"TurnAround"		"Vänd dig om"
+			"voicerecord"		"Använd mikrofon"
+			"VoteYes"		"Rösta ja"
+			"VoteNo"		"Rösta nej"
+			"MenuControls"		"Menykontroller"
+			"MenuUp"		"Upp"
+			"MenuDown"		"Ner"
+			"MenuLeft"		"Vänster"
+			"MenuRight"		"Höger"
+			"MenuSelect"		"Välj"
+			"MenuCancel"		"Avbryt"
+			"MenuX"		"Välj (alternativt)"
+			"MenuY"		"Alternativ"
+			"ReturnToGame"		"Återgå till spelet"
+			"Navigate"		"Navigera"
+			"Mouse"		"Mus"
+			"resetcamera"		"Återställ kamera"
+			"spray"		"Spreja"
+			"RadialOrders"		"Snabbmeny – Order"
+			"RadialQNA"		"Snabbmeny – Svar"
+			"RadialAccept"		"Snabbmeny – Acceptera"
+			"RadialDecline"		"Snabbmeny – Avböj"
+		}
+		"tchinese"
+		{
+			"InGame_Controls"		"遊戲內控制選項"
+			"Move"		"移動"
+			"Camera"		"攝影機（滑鼠）"
+			"JoystickCamera"		"攝影機（搖桿）"
+			"Fire"		"開火"
+			"FireAlt"		"近戰攻擊"
+			"Scope"		"使用步槍狙擊鏡"
+			"Reload"		"裝填彈藥"
+			"jump"		"跳躍"
+			"duck"		"蹲下"
+			"ToggleDuck"		"切換蹲下"
+			"use"		"使用"
+			"invnext"		"選擇下一項武器"
+			"invprev"		"選擇前一項武器"
+			"lastinv"		"選擇上次使用的武器"
+			"togglescores"		"記分板"
+			"Walk"		"行走"
+			"PauseGame"		"暫停遊戲"
+			"flashlight"		"手電筒"
+			"PrimaryWeapon"		"主要武器"
+			"SecondaryWeapon"		"次要武器"
+			"Grenade"		"手榴彈"
+			"FirstAid"		"急救包"
+			"Pills"		"止痛藥"
+			"TurnAround"		"轉身"
+			"voicerecord"		"使用麥克風"
+			"VoteYes"		"投贊成票"
+			"VoteNo"		"投反對票"
+			"MenuControls"		"選單控制選項"
+			"MenuUp"		"上"
+			"MenuDown"		"下"
+			"MenuLeft"		"左"
+			"MenuRight"		"右"
+			"MenuSelect"		"選擇"
+			"MenuCancel"		"取消"
+			"MenuX"		"替代選擇"
+			"MenuY"		"選項"
+			"ReturnToGame"		"返回遊戲"
+			"Navigate"		"瀏覽"
+			"Mouse"		"滑鼠"
+			"resetcamera"		"重設攝影機"
+			"spray"		"噴漆"
+			"RadialOrders"		"命令快速選單"
+			"RadialQNA"		"回應快速選單"
+			"RadialAccept"		"快速選單接受"
+			"RadialDecline"		"快速選單拒絕"
+		}
+		"thai"
+		{
+			"InGame_Controls"		"การควบคุมในเกม"
+			"Move"		"เคลื่อนที่"
+			"Camera"		"กล้อง (เมาส์)"
+			"JoystickCamera"		"กล้อง (จอยสติก)"
+			"Fire"		"ยิง"
+			"FireAlt"		"ผลักระยะประชิด"
+			"Scope"		"ใช้กล้องเล็งปืนไรเฟิล"
+			"Reload"		"บรรจุกระสุน"
+			"jump"		"กระโดด"
+			"duck"		"ย่อตัว"
+			"ToggleDuck"		"สลับย่อตัว"
+			"use"		"ใช้"
+			"invnext"		"เลือกอาวุธถัดไป"
+			"invprev"		"เลือกอาวุธก่อนหน้า"
+			"lastinv"		"เลือกอาวุธล่าสุด"
+			"togglescores"		"กระดานคะแนน"
+			"Walk"		"เดิน"
+			"PauseGame"		"หยุดเกมชั่วคราว"
+			"flashlight"		"ไฟฉาย"
+			"PrimaryWeapon"		"อาวุธหลัก"
+			"SecondaryWeapon"		"อาวุธรอง"
+			"Grenade"		"ระเบิดมือ"
+			"FirstAid"		"ชุดปฐมพยาบาล"
+			"Pills"		"ยา"
+			"TurnAround"		"หันหลังกลับ"
+			"voicerecord"		"ใช้ไมโครโฟน"
+			"VoteYes"		"โหวตใช่"
+			"VoteNo"		"โหวตไม่"
+			"MenuControls"		"การควบคุมเมนู"
+			"MenuUp"		"ขึ้น"
+			"MenuDown"		"ลง"
+			"MenuLeft"		"ซ้าย"
+			"MenuRight"		"ขวา"
+			"MenuSelect"		"เลือก"
+			"MenuCancel"		"ยกเลิก"
+			"MenuX"		"เลือกอีกแบบ"
+			"MenuY"		"ตัวเลือก"
+			"ReturnToGame"		"กลับเข้าสู่เกม"
+			"Navigate"		"นำทาง"
+			"Mouse"		"เมาส์"
+			"resetcamera"		"รีเซ็ตกล้อง"
+			"spray"		"สเปรย์"
+			"RadialOrders"		"เมนูลัด: คำสั่ง"
+			"RadialQNA"		"เมนูลัด: ตอบโต้"
+			"RadialAccept"		"เมนูลัด: ยอมรับ"
+			"RadialDecline"		"เมนูลัด: ปฏิเสธ"
+		}
+		"turkish"
+		{
+			"InGame_Controls"		"Oyun İçi Kontroller"
+			"Move"		"Hareket Et"
+			"Camera"		"Kamera (Fare)"
+			"JoystickCamera"		"Kamera (Analog Çubuk)"
+			"Fire"		"Ateş"
+			"FireAlt"		"Yakın Dövüş Darbesi"
+			"Scope"		"Tüfek Dürbününü Kullan"
+			"Reload"		"Yeniden Yükle"
+			"jump"		"Zıpla"
+			"duck"		"Eğil"
+			"ToggleDuck"		"Eğil/Ayağa Kalk"
+			"use"		"Kullan"
+			"invnext"		"Sonraki Silahı Seç"
+			"invprev"		"Önceki Silahı Seç"
+			"lastinv"		"Son Silahı Seç"
+			"togglescores"		"Skor Tablosu"
+			"Walk"		"Yürü"
+			"PauseGame"		"Oyunu Durdur"
+			"flashlight"		"Fener"
+			"PrimaryWeapon"		"Birincil Silah"
+			"SecondaryWeapon"		"İkincil Silah"
+			"Grenade"		"El Bombası"
+			"FirstAid"		"İlk Yardım"
+			"Pills"		"Haplar"
+			"TurnAround"		"Geri Dön"
+			"voicerecord"		"Mikrofonu Kullan"
+			"VoteYes"		"Evet Oyu Ver"
+			"VoteNo"		"Hayır Oyu Ver"
+			"MenuControls"		"Menü Kontrolleri"
+			"MenuUp"		"Yukarı"
+			"MenuDown"		"Aşağı"
+			"MenuLeft"		"Sol"
+			"MenuRight"		"Sağ"
+			"MenuSelect"		"Seç"
+			"MenuCancel"		"İptal Et"
+			"MenuX"		"Alternatif Seçim"
+			"MenuY"		"Seçenekler"
+			"ReturnToGame"		"Oyuna Geri Dön"
+			"Navigate"		"Görüntüle"
+			"Mouse"		"Fare"
+			"resetcamera"		"Kamerayı Sıfırla"
+			"spray"		"Sprey"
+			"RadialOrders"		"Hızlı Menü - Emirler"
+			"RadialQNA"		"Hızlı Menü - Yanıtlar"
+			"RadialAccept"		"Hızlı Menü - Kabul Etme"
+			"RadialDecline"		"Hızlı Menü - Reddetme"
+		}
+		"ukrainian"
+		{
+			"InGame_Controls"		"Керування в грі"
+			"Move"		"Рух"
+			"Camera"		"Камера (мишка)"
+			"JoystickCamera"		"Камера (джойстик)"
+			"Fire"		"Атака"
+			"FireAlt"		"Рукопашний бій"
+			"Scope"		"Приціл гвинтівки"
+			"Reload"		"Перезарядка"
+			"jump"		"Стрибок"
+			"duck"		"Присідання"
+			"ToggleDuck"		"Присісти/встати"
+			"use"		"Взаємодія"
+			"invnext"		"Вибір наступної зброї"
+			"invprev"		"Вибір попередньої зброї"
+			"lastinv"		"Вибір останньої зброї"
+			"togglescores"		"Таблиця результатів"
+			"Walk"		"Повільний рух"
+			"PauseGame"		"Пауза"
+			"flashlight"		"Ліхтарик"
+			"PrimaryWeapon"		"Головна зброя"
+			"SecondaryWeapon"		"Другорядна зброя"
+			"Grenade"		"Граната"
+			"FirstAid"		"Аптечка"
+			"Pills"		"Пігулки"
+			"TurnAround"		"Розвертання"
+			"voicerecord"		"Використання мікрофона"
+			"VoteYes"		"Голос «За»"
+			"VoteNo"		"Голос «Проти»"
+			"MenuControls"		"Керування в меню"
+			"MenuUp"		"Угору"
+			"MenuDown"		"Униз"
+			"MenuLeft"		"Ліворуч"
+			"MenuRight"		"Праворуч"
+			"MenuSelect"		"Вибір"
+			"MenuCancel"		"Скасування"
+			"MenuX"		"Альтернативний вибір"
+			"MenuY"		"Параметри"
+			"ReturnToGame"		"Повернення до гри"
+			"Navigate"		"Зміна вибору"
+			"Mouse"		"Миша"
+			"resetcamera"		"Скидання камери"
+			"spray"		"Графіті"
+			"RadialOrders"		"Швидке меню: накази"
+			"RadialQNA"		"Швидке меню: відповіді"
+			"RadialAccept"		"Швидке меню: прийняття"
+			"RadialDecline"		"Швидке меню: відхилення"
+		}
+		"vietnamese"
+		{
+			"InGame_Controls"		"Điều khiển trong trò chơi"
+			"Move"		"Di chuyển"
+			"Camera"		"Camera (Chuột)"
+			"JoystickCamera"		"Camera (Cần trỏ)"
+			"Fire"		"Bắn"
+			"FireAlt"		"Đánh cận chiến"
+			"Scope"		"Dùng ống ngắm"
+			"Reload"		"Nạp đạn"
+			"jump"		"Nhảy"
+			"duck"		"Ngồi"
+			"ToggleDuck"		"Bật tắt ngồi"
+			"use"		"Dùng"
+			"invnext"		"Chọn vũ khí tiếp theo"
+			"invprev"		"Chọn vũ khí trước đó"
+			"lastinv"		"Chọn vũ khí cuối"
+			"togglescores"		"Bảng điểm"
+			"Walk"		"Đi bộ"
+			"PauseGame"		"Tạm dừng"
+			"flashlight"		"Đèn pin"
+			"PrimaryWeapon"		"Vũ khí chính"
+			"SecondaryWeapon"		"Vũ khí phụ"
+			"Grenade"		"Lựu đạn"
+			"FirstAid"		"Đồ sơ cứu"
+			"Pills"		"Thuốc"
+			"TurnAround"		"Quay lại"
+			"voicerecord"		"Sử dụng mic"
+			"VoteYes"		"Bỏ phiếu thuận"
+			"VoteNo"		"Bỏ phiếu chống"
+			"MenuControls"		"Điều khiển menu"
+			"MenuUp"		"Lên"
+			"MenuDown"		"Xuống"
+			"MenuLeft"		"Trái"
+			"MenuRight"		"Phải"
+			"MenuSelect"		"Chọn"
+			"MenuCancel"		"Hủy"
+			"MenuX"		"Chọn phụ"
+			"MenuY"		"Tùy chọn"
+			"ReturnToGame"		"Trở về trò chơi"
+			"Navigate"		"Định hướng"
+			"Mouse"		"Chuột"
+			"resetcamera"		"Đặt lại camera"
+			"spray"		"Phun sơn"
+			"RadialOrders"		"Ra lệnh (Menu nhanh)"
+			"RadialQNA"		"Phản hồi (Menu nhanh)"
+			"RadialAccept"		"Đồng ý (Menu nhanh)"
+			"RadialDecline"		"Từ chối (Menu nhanh)"
+		}
+	}
+	"group"
+	{
+		"id"		"0"
+		"mode"		"four_buttons"
+		"inputs"
+		{
+			"button_a"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls jump"
+						}
+					}
+				}
+			}
+			"button_b"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls Reload"
+						}
+					}
+				}
+			}
+			"button_x"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls use"
+						}
+					}
+				}
+			}
+			"button_y"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls flashlight"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"1"
+		"mode"		"trigger"
+		"inputs"
+		{
+			"edge"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls attack2, Melee Bash"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"2"
+		"mode"		"trigger"
+		"inputs"
+		{
+			"edge"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls attack, Fire"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"3"
+		"mode"		"four_buttons"
+		"inputs"
+		{
+			"button_a"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls menu_select"
+						}
+					}
+				}
+			}
+			"button_b"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls menu_cancel"
+						}
+					}
+				}
+			}
+			"button_x"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls menu_x"
+						}
+					}
+				}
+			}
+			"button_y"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls menu_y"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"4"
+		"mode"		"trigger"
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"5"
+		"mode"		"trigger"
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"6"
+		"mode"		"absolute_mouse"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"sensitivity"		"96"
+			"acceleration"		"1"
+		}
+		"gameactions"
+		{
+			"MenuControls"		"Mouse"
+		}
+	}
+	"group"
+	{
+		"id"		"7"
+		"mode"		"dpad"
+		"inputs"
+		{
+			"dpad_north"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls menu_up"
+						}
+					}
+				}
+			}
+			"dpad_south"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls menu_down"
+						}
+					}
+				}
+			}
+			"dpad_east"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls menu_right"
+						}
+					}
+				}
+			}
+			"dpad_west"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls menu_left"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+			"requires_click"		"0"
+		}
+	}
+	"group"
+	{
+		"id"		"8"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls zoom"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+		"gameactions"
+		{
+			"GameControls"		"Move"
+		}
+	}
+	"group"
+	{
+		"id"		"9"
+		"mode"		"absolute_mouse"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls use"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+		"gameactions"
+		{
+			"GameControls"		"Camera"
+		}
+	}
+	"group"
+	{
+		"id"		"10"
+		"mode"		"absolute_mouse"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"sensitivity"		"41"
+			"trackball"		"0"
+			"acceleration"		"2"
+		}
+	}
+	"group"
+	{
+		"id"		"11"
+		"mode"		"four_buttons"
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"12"
+		"mode"		"trigger"
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"13"
+		"mode"		"trigger"
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"14"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+	}
+	"group"
+	{
+		"id"		"15"
+		"mode"		"absolute_mouse"
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"16"
+		"mode"		"dpad"
+		"inputs"
+		{
+			"dpad_north"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot1"
+						}
+					}
+				}
+			}
+			"dpad_south"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot4"
+						}
+					}
+				}
+			}
+			"dpad_east"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot3"
+						}
+					}
+				}
+			}
+			"dpad_west"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot5"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"requires_click"		"0"
+		}
+	}
+	"group"
+	{
+		"id"		"17"
+		"mode"		"touch_menu"
+		"inputs"
+		{
+			"touch_menu_button_0"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot1, Primary Weapon, ghost_010_wpn_0110.png #232323 #E4E4E4"
+						}
+					}
+				}
+			}
+			"touch_menu_button_1"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot2, Secondary Weapon, ghost_010_wpn_0080.png #232323 #E4E4E4"
+						}
+					}
+				}
+			}
+			"touch_menu_button_2"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot4, First Aid, ghost_030_inv_0130.png #232323 #E4E4E4"
+						}
+					}
+				}
+			}
+			"touch_menu_button_3"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot5, Pills, ghost_030_inv_0080.png #232323 #E4E4E4"
+						}
+					}
+				}
+			}
+			"touch_menu_button_4"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot3, Grenade, ghost_010_wpn_0190.png #232323 #E4E4E4"
+						}
+					}
+				}
+			}
+			"touch_menu_button_5"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls radial_qa, Response Quick Menu, ghost_110_social_0030.png #232323 #E4E4E4"
+						}
+					}
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"controller_action hold_layer 3 0 0"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+			"touch_menu_button_6"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls radial_orders, Orders Quick Menu, ghost_110_social_0308.png #232323 #E4E4E4"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"controller_action hold_layer 3 0 0"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+			"touch_menu_button_7"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls spray, Spray, ghost_030_inv_0302.png #232323 #E4E4E4"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+			"touch_menu_button_8"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls voicerecord, Use Microphone, ghost_090_media_0130.png #232323 #E4E4E4"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"touch_menu_button_count"		"9"
+		}
+	}
+	"group"
+	{
+		"id"		"18"
+		"mode"		"four_buttons"
+		"inputs"
+		{
+			"button_a"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot2"
+						}
+					}
+				}
+			}
+			"button_b"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot3"
+						}
+					}
+				}
+			}
+			"button_x"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot4"
+						}
+					}
+				}
+			}
+			"button_y"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot1"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"19"
+		"mode"		"touch_menu"
+		"inputs"
+		{
+			"touch_menu_button_0"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot1"
+						}
+					}
+				}
+			}
+			"touch_menu_button_1"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot2"
+						}
+					}
+				}
+			}
+			"touch_menu_button_2"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot4"
+						}
+					}
+				}
+			}
+			"touch_menu_button_3"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot5"
+						}
+					}
+				}
+			}
+			"touch_menu_button_4"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls vote_yes"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"touch_menu_button_count"		"7"
+		}
+	}
+	"group"
+	{
+		"id"		"23"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+		"gameactions"
+		{
+			"GameControls"		"JoystickCamera"
+		}
+	}
+	"group"
+	{
+		"id"		"24"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+		"gameactions"
+		{
+			"GameControls"		"Move"
+		}
+	}
+	"group"
+	{
+		"id"		"25"
+		"mode"		"absolute_mouse"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+			"sensitivity"		"107"
+		}
+		"gameactions"
+		{
+			"GameControls"		"Camera"
+		}
+	}
+	"group"
+	{
+		"id"		"27"
+		"mode"		"four_buttons"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"layer"		"1"
+		}
+	}
+	"group"
+	{
+		"id"		"28"
+		"mode"		"trigger"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"layer"		"1"
+		}
+	}
+	"group"
+	{
+		"id"		"29"
+		"mode"		"trigger"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"layer"		"1"
+		}
+	}
+	"group"
+	{
+		"id"		"30"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"layer"		"1"
+		}
+		"gameactions"
+		{
+			"GameControls"		"Move"
+		}
+	}
+	"group"
+	{
+		"id"		"31"
+		"mode"		"absolute_mouse"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"layer"		"1"
+		}
+		"gameactions"
+		{
+			"GameControls"		"Camera"
+		}
+	}
+	"group"
+	{
+		"id"		"32"
+		"mode"		"absolute_mouse"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"layer"		"1"
+		}
+		"gameactions"
+		{
+			"GameControls"		"Camera"
+		}
+	}
+	"group"
+	{
+		"id"		"33"
+		"mode"		"touch_menu"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"layer"		"1"
+		}
+	}
+	"group"
+	{
+		"id"		"34"
+		"mode"		"touch_menu"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"layer"		"1"
+		}
+	}
+	"group"
+	{
+		"id"		"35"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls radial_accept, Quick Menu Accept"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+			"layer"		"1"
+		}
+		"gameactions"
+		{
+			"Preset_1000002"		"GameControls JoystickCamera"
+		}
+	}
+	"group"
+	{
+		"id"		"20"
+		"mode"		"switches"
+		"inputs"
+		{
+			"button_escape"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls pause_menu, PauseGame"
+							"binding"		"game_action GameControls vote_yes, Vote Yes"
+						}
+					}
+				}
+			}
+			"button_menu"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls togglescores, Scoreboard"
+							"binding"		"game_action GameControls vote_no, Vote No"
+						}
+					}
+				}
+			}
+			"left_bumper"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls duck, Duck"
+						}
+					}
+				}
+			}
+			"right_bumper"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls lookspin, Turn Around"
+						}
+					}
+				}
+			}
+			"button_back_left"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls Reload, Reload"
+						}
+					}
+				}
+			}
+			"button_back_right"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls jump, Jump"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"21"
+		"mode"		"switches"
+		"inputs"
+		{
+			"button_escape"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls pause_menu"
+						}
+					}
+				}
+			}
+			"left_bumper"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"mouse_button MIDDLE, Middle Mouse"
+						}
+					}
+				}
+			}
+			"left_trigger"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"mouse_button RIGHT, Right Mouse"
+						}
+					}
+				}
+			}
+			"right_trigger"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"mouse_button LEFT, Left Mouse"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"22"
+		"mode"		"switches"
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"26"
+		"mode"		"switches"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"layer"		"1"
+		}
+	}
+	"preset"
+	{
+		"id"		"0"
+		"name"		"GameControls"
+		"group_source_bindings"
+		{
+			"20"		"switch active"
+			"0"		"button_diamond active"
+			"1"		"left_trigger active"
+			"2"		"right_trigger active"
+			"8"		"joystick active"
+			"9"		"right_trackpad active"
+			"23"		"right_trackpad inactive"
+			"10"		"gyro inactive"
+			"24"		"gyro inactive"
+			"25"		"gyro active"
+			"16"		"left_trackpad inactive"
+			"17"		"left_trackpad active"
+			"18"		"left_trackpad inactive"
+			"19"		"left_trackpad active modeshift"
+		}
+	}
+	"preset"
+	{
+		"id"		"1"
+		"name"		"MenuControls"
+		"group_source_bindings"
+		{
+			"21"		"switch active"
+			"3"		"button_diamond active"
+			"4"		"left_trigger active"
+			"5"		"right_trigger active"
+			"7"		"joystick active"
+			"6"		"right_trackpad active"
+		}
+	}
+	"preset"
+	{
+		"id"		"2"
+		"name"		"Preset_1000002"
+		"group_source_bindings"
+		{
+			"26"		"switch active"
+			"27"		"button_diamond active"
+			"28"		"left_trigger active"
+			"29"		"right_trigger active"
+			"30"		"joystick active"
+			"31"		"right_trackpad inactive"
+			"35"		"right_trackpad active"
+			"32"		"gyro active"
+			"33"		"left_trackpad active"
+			"34"		"left_trackpad active modeshift"
+		}
+	}
+	"settings"
+	{
+	}
+}

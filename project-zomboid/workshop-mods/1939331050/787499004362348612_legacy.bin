@@ -1,0 +1,3362 @@
+"controller_mappings"
+{
+	"version"		"3"
+	"revision"		"7"
+	"title"		"#Title_Standard"
+	"description"		"#Description_Switch"
+	"creator"		"76561198078024435"
+	"controller_type"		"controller_switch_pro"
+	"major_revision"		"0"
+	"minor_revision"		"0"
+	"Timestamp"		"1576623524"
+	"actions"
+	{
+		"FPSControls"
+		{
+			"title"		"#Set_FPSControls"
+			"legacy_set"		"0"
+			"StickPadGyro"
+			{
+				"Move"
+				{
+					"title"		"#Action_Move"
+					"input_mode"		"joystick_move"
+				}
+				"Camera"
+				{
+					"title"		"#Action_Camera"
+					"input_mode"		"absolute_mouse"
+				}
+			}
+			"Button"
+			{
+				"attack"		"#Action_BluePortal"
+				"attack2"		"#Action_OrangePortal"
+				"quick_ping"		"#Action_QuickPing"
+				"zoom"		"#Action_Zoom"
+				"remote_view"		"#Action_PartnerView"
+				"duck"		"#Action_Crouch"
+				"jump"		"#Action_Jump"
+				"use"		"#Action_Use"
+				"mouse_menu_taunt"		"#Action_Gesture"
+				"mouse_menu"		"#Action_PingMenu"
+				"pause_menu"		"#Action_PauseMenu"
+			}
+		}
+		"MenuControls"
+		{
+			"title"		"#Set_MenuControls"
+			"legacy_set"		"0"
+			"Button"
+			{
+				"menu_up"		"#Menu_Up"
+				"menu_down"		"#Menu_Down"
+				"menu_left"		"#Menu_Left"
+				"menu_right"		"#Menu_Right"
+				"menu_select"		"#Menu_Select"
+				"menu_cancel"		"#Menu_Cancel"
+				"menu_x"		"#Menu_X"
+				"menu_y"		"#Menu_Y"
+				"pause_menu"		"#Action_ReturnToGame"
+				"menu_lshoulder"		"#menu_lshoulder"
+				"menu_4"		"#menu_4"
+			}
+		}
+		"Puzzlemaker"
+		{
+			"title"		"#Set_PuzzleControls"
+			"legacy_set"		"0"
+			"StickPadGyro"
+			{
+				"Mouse"
+				{
+					"title"		"#Action_Mouse"
+					"input_mode"		"absolute_mouse"
+					"os_mouse"		"1"
+				}
+			}
+			"Button"
+			{
+				"menu_up"		"#Menu_Up"
+				"menu_down"		"#Menu_Down"
+				"menu_left"		"#Menu_Left"
+				"menu_right"		"#Menu_Right"
+				"menu_select"		"#Menu_Select"
+				"menu_cancel"		"#Menu_Cancel"
+				"menu_x"		"#Menu_X"
+				"menu_y"		"#Menu_Y"
+				"pause_menu"		"#Action_ReturnToGame"
+				"remote_view"		"#Menu_ToggleGameView"
+			}
+		}
+		"RadialMenu"
+		{
+			"title"		"#Set_RadialMenu"
+			"legacy_set"		"0"
+			"StickPadGyro"
+			{
+				"RadialMenuStick"
+				{
+					"title"		"#Action_RadialMenu"
+					"input_mode"		"joystick_move"
+				}
+			}
+			"Button"
+			{
+				"mouse_menu"		"#Action_PingMenu"
+				"mouse_menu_taunt"		"#Action_Gesture"
+			}
+		}
+	}
+	"action_layers"
+	{
+	}
+	"localization"
+	{
+		"english"
+		{
+			"Set_FPSControls"		"FPS Controls"
+			"Set_MenuControls"		"Menu Controls"
+			"Set_PuzzleControls"		"Puzzle Editor Controls"
+			"Set_RadialMenu"		"Radial Menu"
+			"Action_Mouse"		"Mouse"
+			"Action_Move"		"Movement"
+			"Action_Camera"		"Camera"
+			"Action_BluePortal"		"Blue Portal"
+			"Action_OrangePortal"		"Orange Portal"
+			"Action_QuickPing"		"Quick Ping"
+			"Action_Zoom"		"Zoom"
+			"Action_PartnerView"		"Partner View"
+			"Action_Crouch"		"Crouch"
+			"Action_Jump"		"Jump"
+			"Action_Use"		"Use"
+			"Action_Gesture"		"Gesture"
+			"Action_PingMenu"		"Ping Menu"
+			"Action_PauseMenu"		"Pause Menu"
+			"Action_RadialMenu"		"Radial Menu"
+			"menu_up"		"Up"
+			"menu_down"		"Down"
+			"menu_left"		"Left"
+			"menu_right"		"Right"
+			"menu_select"		"Select"
+			"menu_cancel"		"Cancel"
+			"menu_x"		"Menu Function 1"
+			"menu_y"		"Menu Function 2"
+			"menu_lshoulder"		"Menu Function 3"
+			"menu_4"		"Menu Function 4"
+			"Menu_ToggleGameView"		"ToggleGameView"
+			"Title_Motion"		"Portal 2 Motion Controls"
+			"Description_Motion"		"Official Portal 2 Steam Controller configuration.  Uses a combination of right pad and motion controls for camera."
+			"Title_Standard"		"Portal 2 Standard Controls"
+			"Description_Standard"		"Official Portal 2 Steam Controller configuration."
+			"Title_Xbox"		"Portal 2 Standard Controls"
+			"Description_Xbox"		"Official Portal 2 Xbox Controller configuration."
+			"Title_Playstation"		"Portal 2 Standard Controls"
+			"Description_Playstation"		"Official Portal 2 Playstation Controller configuration."
+			"Title_Switch"		"Portal 2 Standard Controls"
+			"Description_Switch"		"Official Portal 2 Switch Pro Controller configuration."
+			"Action_ReturnToGame"		"Unpause"
+			"Puzzlemaker_Undo"		"Undo"
+			"Puzzlemaker_Select"		"Select/Build"
+			"Puzzlemaker_Delete"		"Delete Selected"
+			"Puzzlemaker_Build"		"Build/Play Map"
+			"Puzzlemaker_Zoom"		"Zoom In"
+			"Puzzlemaker_ZoomOut"		"Zoom Out"
+			"Puzzlemaker_SpinL"		"Spin Left"
+			"Puzzlemaker_SprinR"		"Spin Right"
+			"Puzzlemaker_W"		"Move Forward"
+			"Puzzlemaker_A"		"Move Left"
+			"Puzzlemaker_S"		"Move Back"
+			"Puzzlemaker_D"		"Move Right"
+			"Puzzlemaker_ToggleView"		"Toggle Game View"
+			"Puzzlemaker_Move"		"Move Current Selection"
+			"Puzzlemaker_ChangeMaterial"		"Change Surface Material"
+			"Puzzlemaker_Rotate"		"Rotate View"
+			"Puzzlemaker_Shift"		"Multi-Select"
+		}
+		"koreana"
+		{
+			"Set_FPSControls"		"FPS 컨트롤"
+			"Set_MenuControls"		"메뉴 컨트롤"
+			"Set_PuzzleControls"		"퍼즐 편집기 컨트롤"
+			"Set_RadialMenu"		"원형 메뉴"
+			"Action_Mouse"		"마우스"
+			"Action_Move"		"움직임"
+			"Action_Camera"		"카메라"
+			"Action_BluePortal"		"파란색 포털"
+			"Action_OrangePortal"		"주황색 포털"
+			"Action_QuickPing"		"빠른 핑"
+			"Action_Zoom"		"확대"
+			"Action_PartnerView"		"파트너 보기"
+			"Action_Crouch"		"웅크리기"
+			"Action_Jump"		"점프"
+			"Action_Use"		"사용하기"
+			"Action_Gesture"		"몸짓"
+			"Action_PingMenu"		"핑 메뉴"
+			"Action_PauseMenu"		"메뉴 일시 정지"
+			"Action_RadialMenu"		"원형 메뉴"
+			"menu_up"		"위로"
+			"menu_down"		"아래로"
+			"menu_left"		"왼쪽으로"
+			"menu_right"		"오른쪽으로"
+			"menu_select"		"선택"
+			"menu_cancel"		"취소"
+			"menu_x"		"메뉴 기능 1"
+			"menu_y"		"메뉴 기능 2"
+			"menu_lshoulder"		"메뉴 기능 3"
+			"menu_4"		"메뉴 기능 4"
+			"Menu_ToggleGameView"		"ToggleGameView"
+			"Title_Motion"		"Portal 2 동작 컨트롤"
+			"Description_Motion"		"Portal 2의 공식 Steam Controller 설정.  오른쪽 패드와 카메라 동작 컨트롤의 조합을 사용합니다."
+			"Title_Standard"		"Portal 2 일반 컨트롤"
+			"Description_Standard"		"Portal 2의 공식 Steam Controller 설정."
+			"Title_Xbox"		"Portal 2 일반 컨트롤"
+			"Description_Xbox"		"Portal 2의 공식 Xbox 컨트롤러 설정."
+			"Title_Playstation"		"Portal 2 일반 컨트롤"
+			"Description_Playstation"		"Portal 2의 공식 Playstation 컨트롤러 설정."
+			"Title_Switch"		"Portal 2 일반 컨트롤"
+			"Description_Switch"		"Portal 2의 공식 Switch Pro 컨트롤러 설정."
+			"Action_ReturnToGame"		"계속 진행"
+			"Puzzlemaker_Undo"		"실행 취소"
+			"Puzzlemaker_Select"		"선택/만들기"
+			"Puzzlemaker_Delete"		"선택 항목 삭제"
+			"Puzzlemaker_Build"		"맵 만들기/플레이"
+			"Puzzlemaker_Zoom"		"확대"
+			"Puzzlemaker_ZoomOut"		"축소"
+			"Puzzlemaker_SpinL"		"왼쪽으로 회전"
+			"Puzzlemaker_SprinR"		"오른쪽으로 회전"
+			"Puzzlemaker_W"		"앞으로 이동"
+			"Puzzlemaker_A"		"왼쪽으로 이동"
+			"Puzzlemaker_S"		"뒤로 이동"
+			"Puzzlemaker_D"		"오른쪽으로 이동"
+			"Puzzlemaker_ToggleView"		"게임 시점 전환"
+			"Puzzlemaker_Move"		"현재 선택 항목 이동"
+			"Puzzlemaker_ChangeMaterial"		"표면 재료 변경"
+			"Puzzlemaker_Rotate"		"시점 회전"
+			"Puzzlemaker_Shift"		"다중 선택"
+		}
+		"tchinese"
+		{
+			"Set_FPSControls"		"FPS 控制選項"
+			"Set_MenuControls"		"選單控制選項"
+			"Set_PuzzleControls"		"關卡編輯器控制選項"
+			"Set_RadialMenu"		"放射狀選單"
+			"Action_Mouse"		"滑鼠"
+			"Action_Move"		"動作"
+			"Action_Camera"		"鏡頭"
+			"Action_BluePortal"		"藍色傳送門"
+			"Action_OrangePortal"		"橘色傳送門"
+			"Action_QuickPing"		"快速 Ping"
+			"Action_Zoom"		"縮放"
+			"Action_PartnerView"		"夥伴視野"
+			"Action_Crouch"		"蹲下"
+			"Action_Jump"		"跳躍"
+			"Action_Use"		"使用"
+			"Action_Gesture"		"特殊姿勢"
+			"Action_PingMenu"		"Ping 選單"
+			"Action_PauseMenu"		"暫停選單"
+			"Action_RadialMenu"		"放射狀選單"
+			"menu_up"		"上"
+			"menu_down"		"下"
+			"menu_left"		"左"
+			"menu_right"		"右"
+			"menu_select"		"選擇"
+			"menu_cancel"		"取消"
+			"menu_x"		"選單功能 1"
+			"menu_y"		"選單功能 2"
+			"menu_lshoulder"		"選單功能 3"
+			"menu_4"		"選單功能 4"
+			"Menu_ToggleGameView"		"ToggleGameView"
+			"Title_Motion"		"《傳送門 2》體感控制選項"
+			"Description_Motion"		"官方《傳送門 2》Steam 控制器配置。結合右觸控板和體感控制用於鏡頭上。"
+			"Title_Standard"		"《傳送門 2》標準控制選項"
+			"Description_Standard"		"官方《傳送門 2》Steam 控制器配置。"
+			"Title_Xbox"		"《傳送門 2》標準控制選項"
+			"Description_Xbox"		"官方《傳送門 2》Xbox 控制器配置。"
+			"Title_Playstation"		"《傳送門 2》標準控制選項"
+			"Description_Playstation"		"官方《傳送門 2》PlayStation 控制器配置。"
+			"Title_Switch"		"《傳送門 2》標準控制選項"
+			"Description_Switch"		"官方《傳送門 2》Switch Pro 控制器配置。"
+			"Action_ReturnToGame"		"解除暫停"
+			"Puzzlemaker_Undo"		"復原"
+			"Puzzlemaker_Select"		"選擇 / 建立"
+			"Puzzlemaker_Delete"		"刪除所選項目"
+			"Puzzlemaker_Build"		"建立 / 遊玩地圖"
+			"Puzzlemaker_Zoom"		"放大"
+			"Puzzlemaker_ZoomOut"		"縮小"
+			"Puzzlemaker_SpinL"		"向左旋轉"
+			"Puzzlemaker_SprinR"		"向右旋轉"
+			"Puzzlemaker_W"		"往前移動"
+			"Puzzlemaker_A"		"左移"
+			"Puzzlemaker_S"		"往後移動"
+			"Puzzlemaker_D"		"右移"
+			"Puzzlemaker_ToggleView"		"切換遊戲視角"
+			"Puzzlemaker_Move"		"移動目前選擇"
+			"Puzzlemaker_ChangeMaterial"		"變更表面材料"
+			"Puzzlemaker_Rotate"		"旋轉視角"
+			"Puzzlemaker_Shift"		"多選"
+		}
+		"schinese"
+		{
+			"Set_FPSControls"		"FPS 控件"
+			"Set_MenuControls"		"菜单控件"
+			"Set_PuzzleControls"		"谜题编辑器控件"
+			"Set_RadialMenu"		"径向菜单"
+			"Action_Mouse"		"鼠标"
+			"Action_Move"		"动作"
+			"Action_Camera"		"视角"
+			"Action_BluePortal"		"蓝色传送门"
+			"Action_OrangePortal"		"橙色传送门"
+			"Action_QuickPing"		"快速 Ping"
+			"Action_Zoom"		"缩放"
+			"Action_PartnerView"		"查看伙伴"
+			"Action_Crouch"		"蹲下"
+			"Action_Jump"		"跳"
+			"Action_Use"		"使用"
+			"Action_Gesture"		"动作"
+			"Action_PingMenu"		"Ping 菜单"
+			"Action_PauseMenu"		"暂停菜单"
+			"Action_RadialMenu"		"径向菜单"
+			"menu_up"		"上"
+			"menu_down"		"下"
+			"menu_left"		"左"
+			"menu_right"		"右"
+			"menu_select"		"选择"
+			"menu_cancel"		"取消"
+			"menu_x"		"菜单功能 1"
+			"menu_y"		"菜单功能 2"
+			"menu_lshoulder"		"菜单功能 3"
+			"menu_4"		"菜单功能 4"
+			"Menu_ToggleGameView"		"切换游戏视图"
+			"Title_Motion"		"《传送门 2》运动控件"
+			"Description_Motion"		"《传送门 2》 Steam 控制器官方配置。将右触控板和运动控件结合用于视角。"
+			"Title_Standard"		"《传送门 2》标准控件"
+			"Description_Standard"		"《传送门 2》Steam 控制器官方配置。"
+			"Title_Xbox"		"《传送门 2》标准控件"
+			"Description_Xbox"		"《传送门 2》Xbox 控制器官方配置。"
+			"Title_Playstation"		"《传送门 2》标准控件"
+			"Description_Playstation"		"《传送门 2》Playstation 控制器官方配置。"
+			"Title_Switch"		"《传送门 2》标准控件"
+			"Description_Switch"		"《传送门 2》Switch Pro 控制器官方配置。"
+			"Action_ReturnToGame"		"取消暂停"
+			"Puzzlemaker_Undo"		"撤销"
+			"Puzzlemaker_Select"		"选择/生成"
+			"Puzzlemaker_Delete"		"删除所选内容"
+			"Puzzlemaker_Build"		"生成/游玩地图"
+			"Puzzlemaker_Zoom"		"放大"
+			"Puzzlemaker_ZoomOut"		"缩小"
+			"Puzzlemaker_SpinL"		"向左旋转"
+			"Puzzlemaker_SprinR"		"向右旋转"
+			"Puzzlemaker_W"		"前进"
+			"Puzzlemaker_A"		"左移"
+			"Puzzlemaker_S"		"后退"
+			"Puzzlemaker_D"		"右移"
+			"Puzzlemaker_ToggleView"		"切换游戏视图"
+			"Puzzlemaker_Move"		"移动当前选择"
+			"Puzzlemaker_ChangeMaterial"		"更改表面材料"
+			"Puzzlemaker_Rotate"		"旋转视角"
+			"Puzzlemaker_Shift"		"多选"
+		}
+		"czech"
+		{
+			"Set_FPSControls"		"Ovládání hry"
+			"Set_MenuControls"		"Ovládání nabídek"
+			"Set_PuzzleControls"		"Ovládání editoru"
+			"Set_RadialMenu"		"Kruhová nabídka"
+			"Action_Mouse"		"Myš"
+			"Action_Move"		"Pohyb"
+			"Action_Camera"		"Pohled"
+			"Action_BluePortal"		"Modrý portál"
+			"Action_OrangePortal"		"Oranžový portál"
+			"Action_QuickPing"		"Rychlé ukázání"
+			"Action_Zoom"		"Zoom"
+			"Action_PartnerView"		"Pohled partnera"
+			"Action_Crouch"		"Přikrčení"
+			"Action_Jump"		"Skok"
+			"Action_Use"		"Použití"
+			"Action_Gesture"		"Gesto"
+			"Action_PingMenu"		"Nabídka ukazovátka"
+			"Action_PauseMenu"		"Nabídka pauzy"
+			"Action_RadialMenu"		"Kruhová nabídka"
+			"menu_up"		"Nahoru"
+			"menu_down"		"Dolů"
+			"menu_left"		"Doleva"
+			"menu_right"		"Doprava"
+			"menu_select"		"Výběr"
+			"menu_cancel"		"Zrušení"
+			"menu_x"		"Akce nabídky 1"
+			"menu_y"		"Akce nabídky 2"
+			"menu_lshoulder"		"Akce nabídky 3"
+			"menu_4"		"Akce nabídky 4"
+			"Menu_ToggleGameView"		"Přepnutí do herního režimu"
+			"Title_Motion"		"Pohybové ovládání – Portal 2"
+			"Description_Motion"		"Oficiální nastavení ovladače Steam Controller pro hru Portal 2. Pohled je ovládán pravým trackpadem a pohyby ovladače."
+			"Title_Standard"		"Standardní ovládání – Portal 2"
+			"Description_Standard"		"Oficiální nastavení ovladače Steam Controller pro hru Portal 2."
+			"Title_Xbox"		"Standardní ovládání – Portal 2"
+			"Description_Xbox"		"Oficiální nastavení ovladače Xbox pro hru Portal 2."
+			"Title_Playstation"		"Standardní ovládání – Portal 2"
+			"Description_Playstation"		"Oficiální nastavení ovladače Playstation pro hru Portal 2."
+			"Title_Switch"		"Standardní ovládání – Portal 2"
+			"Description_Switch"		"Oficiální nastavení ovladače Switch Pro pro hru Portal 2."
+			"Action_ReturnToGame"		"Odpauzování"
+			"Puzzlemaker_Undo"		"Krok zpět"
+			"Puzzlemaker_Select"		"Výběr/stavění"
+			"Puzzlemaker_Delete"		"Odstranění vybraných"
+			"Puzzlemaker_Build"		"Stavění/testování"
+			"Puzzlemaker_Zoom"		"Přiblížení"
+			"Puzzlemaker_ZoomOut"		"Oddálení"
+			"Puzzlemaker_SpinL"		"Otočení doleva"
+			"Puzzlemaker_SprinR"		"Otočení doprava"
+			"Puzzlemaker_W"		"Pohyb vpřed"
+			"Puzzlemaker_A"		"Pohyb doleva"
+			"Puzzlemaker_S"		"Pohyb vzad"
+			"Puzzlemaker_D"		"Pohyb doprava"
+			"Puzzlemaker_ToggleView"		"Přepnutí do herního režimu"
+			"Puzzlemaker_Move"		"Přesunutí aktuálního výběru"
+			"Puzzlemaker_ChangeMaterial"		"Změna materiálu povrchu"
+			"Puzzlemaker_Rotate"		"Otočení pohledu"
+			"Puzzlemaker_Shift"		"Mnohonásobný výběr"
+		}
+		"bulgarian"
+		{
+			"Set_FPSControls"		"Контроли от първо лице"
+			"Set_MenuControls"		"Контроли в менюто"
+			"Set_PuzzleControls"		"Контроли в редактора за пъзели"
+			"Set_RadialMenu"		"Радиално меню"
+			"Action_Mouse"		"Мишка"
+			"Action_Move"		"Движение"
+			"Action_Camera"		"Камера"
+			"Action_BluePortal"		"Син портал"
+			"Action_OrangePortal"		"Оранжев портал"
+			"Action_QuickPing"		"Бърз пинг"
+			"Action_Zoom"		"Приближаване"
+			"Action_PartnerView"		"Партньорски изглед"
+			"Action_Crouch"		"Клякане"
+			"Action_Jump"		"Скачане"
+			"Action_Use"		"Използване"
+			"Action_Gesture"		"Жестикулация"
+			"Action_PingMenu"		"Пинг меню"
+			"Action_PauseMenu"		"Меню за пауза"
+			"Action_RadialMenu"		"Радиално меню"
+			"menu_up"		"Нагоре"
+			"menu_down"		"Надолу"
+			"menu_left"		"Наляво"
+			"menu_right"		"Надясно"
+			"menu_select"		"Избиране"
+			"menu_cancel"		"Отказ"
+			"menu_x"		"Функция в менюто 1"
+			"menu_y"		"Функция в менюто 2"
+			"menu_lshoulder"		"Функция в менюто 3"
+			"menu_4"		"Функция в менюто 4"
+			"Menu_ToggleGameView"		"Превключване на игралния изглед"
+			"Title_Motion"		"Portal 2 сензорни контроли"
+			"Description_Motion"		"Официална конфигурация на Portal 2 за Steam контролер. Използва комбинация от управление с десния пад и сензорни контроли за камерата."
+			"Title_Standard"		"Portal 2 стандартни контроли"
+			"Description_Standard"		"Официална конфигурация на Portal 2 за Steam контролер."
+			"Title_Xbox"		"Portal 2 стандартни контроли"
+			"Description_Xbox"		"Официална конфигурация на Portal 2 за Xbox контролер."
+			"Title_Playstation"		"Portal 2 стандартни контроли"
+			"Description_Playstation"		"Официална конфигурация на Portal 2 за Playstation контролер."
+			"Title_Switch"		"Portal 2 стандартни контроли"
+			"Description_Switch"		"Официална конфигурация на Portal 2 за Switch Pro контролер."
+			"Action_ReturnToGame"		"Пускане"
+			"Puzzlemaker_Undo"		"Отмяна"
+			"Puzzlemaker_Select"		"Избиране/Изграждане"
+			"Puzzlemaker_Delete"		"Изтриване на избраното"
+			"Puzzlemaker_Build"		"Изграждане/Пускане на картата"
+			"Puzzlemaker_Zoom"		"Приближаване"
+			"Puzzlemaker_ZoomOut"		"Отдалечаване"
+			"Puzzlemaker_SpinL"		"Завъртане наляво"
+			"Puzzlemaker_SprinR"		"Завъртане надясно"
+			"Puzzlemaker_W"		"Преместване напред"
+			"Puzzlemaker_A"		"Преместване наляво"
+			"Puzzlemaker_S"		"Преместване назад"
+			"Puzzlemaker_D"		"Преместване надясно"
+			"Puzzlemaker_ToggleView"		"Превключване на игралния изглед"
+			"Puzzlemaker_Move"		"Преместване на текущото избрано"
+			"Puzzlemaker_ChangeMaterial"		"Промяна на материала за повърхността"
+			"Puzzlemaker_Rotate"		"Завъртане на изгледа"
+			"Puzzlemaker_Shift"		"Множествено избиране"
+		}
+		"greek"
+		{
+			"Set_FPSControls"		"Έλεγχοι FPS"
+			"Set_MenuControls"		"Έλεγχοι μενού"
+			"Set_PuzzleControls"		"Έλεγχοι επεξ. γρίφων"
+			"Set_RadialMenu"		"Κυκλικό μενού"
+			"Action_Mouse"		"Ποντίκι"
+			"Action_Move"		"Κίνηση"
+			"Action_Camera"		"Κάμερα"
+			"Action_BluePortal"		"Μπλε πύλη"
+			"Action_OrangePortal"		"Πορτοκαλί πύλη"
+			"Action_QuickPing"		"Γρήγορο Ping"
+			"Action_Zoom"		"Μεγέθυνση"
+			"Action_PartnerView"		"Όραση συνεργάτη"
+			"Action_Crouch"		"Σκύψιμο"
+			"Action_Jump"		"Άλμα"
+			"Action_Use"		"Χρήση"
+			"Action_Gesture"		"Χειρονομία"
+			"Action_PingMenu"		"Μενού Ping"
+			"Action_PauseMenu"		"Μενού παύσης"
+			"Action_RadialMenu"		"Κυκλικό μενού"
+			"menu_up"		"Πάνω"
+			"menu_down"		"Κάτω"
+			"menu_left"		"Αριστερά"
+			"menu_right"		"Δεξιά"
+			"menu_select"		"Επιλογή"
+			"menu_cancel"		"Άκυρο"
+			"menu_x"		"Λειτουργία μενού 1"
+			"menu_y"		"Λειτουργία μενού 2"
+			"menu_lshoulder"		"Λειτουργία μενού 3"
+			"menu_4"		"Λειτουργία μενού 4"
+			"Menu_ToggleGameView"		"Εναλλαγή προβολής παιχνιδιού"
+			"Title_Motion"		"Έλεγχοι κίνησης Portal 2"
+			"Description_Motion"		"Επίσημη διαμόρφωση χειριστηρίου Steam για Portal 2. Χρησιμοποιεί ένα συνδυασμό από δεξιά βάτα και ελέγχους κίνησης για κάμερα."
+			"Title_Standard"		"Κανονικοί έλεγχοι Portal 2"
+			"Description_Standard"		"Επίσημη διαμόρφωση χειριστηρίου Steam για Portal 2."
+			"Title_Xbox"		"Κανονικοί έλεγχοι Portal 2"
+			"Description_Xbox"		"Επίσημη διαμόρφωση χειριστηρίου Xbox για Portal 2."
+			"Title_Playstation"		"Κανονικοί έλεγχοι Portal 2"
+			"Description_Playstation"		"Επίσημη διαμόρφωση χειριστηρίου Playstation για Portal 2."
+			"Title_Switch"		"Κανονικοί έλεγχοι Portal 2"
+			"Description_Switch"		"Επίσημη διαμόρφωση χειριστηρίου Switch Pro για Portal 2."
+			"Action_ReturnToGame"		"Επαναφορά"
+			"Puzzlemaker_Undo"		"Αναίρεση"
+			"Puzzlemaker_Select"		"Επιλογή/Χτίσιμο"
+			"Puzzlemaker_Delete"		"Διαγραφή επιλεγμένου"
+			"Puzzlemaker_Build"		"Χτίσιμο/Παίξιμο χάρτη"
+			"Puzzlemaker_Zoom"		"Μεγέθυνση"
+			"Puzzlemaker_ZoomOut"		"Σμίκρυνση"
+			"Puzzlemaker_SpinL"		"Περιστροφή αριστερά"
+			"Puzzlemaker_SprinR"		"Περιστροφή δεξιά"
+			"Puzzlemaker_W"		"Κίνηση μπροστά"
+			"Puzzlemaker_A"		"Μετακίνηση αριστερά"
+			"Puzzlemaker_S"		"Κίνηση πίσω"
+			"Puzzlemaker_D"		"Μετακίνηση δεξιά"
+			"Puzzlemaker_ToggleView"		"Εναλλαγή προβολής παιχνιδιού"
+			"Puzzlemaker_Move"		"Μετακίνηση τρέχουσας επιλογής"
+			"Puzzlemaker_ChangeMaterial"		"Αλλαγή υλικού επιφάνειας"
+			"Puzzlemaker_Rotate"		"Περιστροφή προβολής"
+			"Puzzlemaker_Shift"		"Επιλογή πολλών"
+		}
+		"german"
+		{
+			"Set_FPSControls"		"FPS-Steuerung"
+			"Set_MenuControls"		"Menüsteuerung"
+			"Set_PuzzleControls"		"Puzzle-Editor-Steuerung"
+			"Set_RadialMenu"		"Radialmenü"
+			"Action_Mouse"		"Maus"
+			"Action_Move"		"Bewegung"
+			"Action_Camera"		"Kamera"
+			"Action_BluePortal"		"Blaues Portal"
+			"Action_OrangePortal"		"Orangenes Portal"
+			"Action_QuickPing"		"Schneller Ping"
+			"Action_Zoom"		"Zoomen"
+			"Action_PartnerView"		"Partneransicht"
+			"Action_Crouch"		"Ducken"
+			"Action_Jump"		"Springen"
+			"Action_Use"		"Benutzen"
+			"Action_Gesture"		"Geste"
+			"Action_PingMenu"		"Ping-Menü"
+			"Action_PauseMenu"		"Pausenmenü"
+			"Action_RadialMenu"		"Radialmenü"
+			"menu_up"		"Oben"
+			"menu_down"		"Unten"
+			"menu_left"		"Links"
+			"menu_right"		"Rechts"
+			"menu_select"		"Auswählen"
+			"menu_cancel"		"Abbrechen"
+			"menu_x"		"Menüfunktion 1"
+			"menu_y"		"Menüfunktion 2"
+			"menu_lshoulder"		"Menüfunktion 3"
+			"menu_4"		"Menüfunktion 4"
+			"Menu_ToggleGameView"		"Spielansicht umschalten"
+			"Title_Motion"		"Bewegungssteuerung für Portal 2"
+			"Description_Motion"		"Offizielle Konfiguration des Steam Controllers für Portal 2. Verwendet eine Kombination aus rechtem Pad und Bewegungssteuerung für die Kamera."
+			"Title_Standard"		"Standardbelegung für Portal 2"
+			"Description_Standard"		"Offizielle Konfiguration des Steam Controllers für Portal 2."
+			"Title_Xbox"		"Standardbelegung für Portal 2"
+			"Description_Xbox"		"Offizielle Konfiguration des Xbox Controllers für Portal 2."
+			"Title_Playstation"		"Standardbelegung für Portal 2"
+			"Description_Playstation"		"Offizielle Konfiguration des PlayStation Controllers für Portal 2."
+			"Title_Switch"		"Standardbelegung für Portal 2"
+			"Description_Switch"		"Offizielle Konfiguration des Switch Pro Controllers für Portal 2."
+			"Action_ReturnToGame"		"Fortsetzen"
+			"Puzzlemaker_Undo"		"Rückgängig"
+			"Puzzlemaker_Select"		"Auswählen/Erstellen"
+			"Puzzlemaker_Delete"		"Auswahl löschen"
+			"Puzzlemaker_Build"		"Karte erstellen/spielen"
+			"Puzzlemaker_Zoom"		"Vergrößern"
+			"Puzzlemaker_ZoomOut"		"Verkleinern"
+			"Puzzlemaker_SpinL"		"Nach links drehen"
+			"Puzzlemaker_SprinR"		"Nach rechts drehen"
+			"Puzzlemaker_W"		"Nach vorn"
+			"Puzzlemaker_A"		"Nach links"
+			"Puzzlemaker_S"		"Nach hinten"
+			"Puzzlemaker_D"		"Nach rechts"
+			"Puzzlemaker_ToggleView"		"Spielansicht umschalten"
+			"Puzzlemaker_Move"		"Aktuelle Auswahl bewegen"
+			"Puzzlemaker_ChangeMaterial"		"Oberflächenmaterial ändern"
+			"Puzzlemaker_Rotate"		"Ansicht rotieren"
+			"Puzzlemaker_Shift"		"Mehrfachauswahl"
+		}
+		"hungarian"
+		{
+			"Set_FPSControls"		"FPS-vezérlés"
+			"Set_MenuControls"		"Menüvezérlés"
+			"Set_PuzzleControls"		"Feladványszerkesztési vezérlés"
+			"Set_RadialMenu"		"Körmenü"
+			"Action_Mouse"		"Egér"
+			"Action_Move"		"Mozgás"
+			"Action_Camera"		"Kamera"
+			"Action_BluePortal"		"Kék portál"
+			"Action_OrangePortal"		"Narancs portál"
+			"Action_QuickPing"		"Gyorsüzenet"
+			"Action_Zoom"		"Nagyítás"
+			"Action_PartnerView"		"Partner látótere"
+			"Action_Crouch"		"Guggolójárás"
+			"Action_Jump"		"Ugrás"
+			"Action_Use"		"Használ"
+			"Action_Gesture"		"Mozdulat"
+			"Action_PingMenu"		"Üzenő menü"
+			"Action_PauseMenu"		"Szünet menü"
+			"Action_RadialMenu"		"Körmenü"
+			"menu_up"		"Fel"
+			"menu_down"		"Le"
+			"menu_left"		"Balra"
+			"menu_right"		"Jobbra"
+			"menu_select"		"Kiválasztás"
+			"menu_cancel"		"Mégse"
+			"menu_x"		"1. menüfunkció"
+			"menu_y"		"2. menüfunkció"
+			"menu_lshoulder"		"3. menüfunkció"
+			"menu_4"		"4. menüfunkció"
+			"Menu_ToggleGameView"		"Játéknézet váltása"
+			"Title_Motion"		"Portal 2 mozgásirányítás"
+			"Description_Motion"		"Hivatalos Portal 2 Steam Játékvezérlő konfiguráció. A jobb felület és a mozgásirányítás kombinációját használja a kamerához."
+			"Title_Standard"		"Portal 2 hagyományos vezérlés"
+			"Description_Standard"		"Hivatalos Portal 2 Steam Játékvezérlő konfiguráció."
+			"Title_Xbox"		"Portal 2 hagyományos vezérlés"
+			"Description_Xbox"		"Hivatalos Portal 2 Xbox játékvezérlő konfiguráció."
+			"Title_Playstation"		"Portal 2 hagyományos vezérlés"
+			"Description_Playstation"		"Hivatalos Portal 2 PlayStation játékvezérlő konfiguráció."
+			"Title_Switch"		"Portal 2 hagyományos vezérlés"
+			"Description_Switch"		"Hivatalos Portal 2 Switch Pro játékvezérlő konfiguráció."
+			"Action_ReturnToGame"		"Folytatás"
+			"Puzzlemaker_Undo"		"Visszavon"
+			"Puzzlemaker_Select"		"Kiválasztás/összeállítás"
+			"Puzzlemaker_Delete"		"Kijelöltek törlése"
+			"Puzzlemaker_Build"		"Pálya összeállítása/játszása"
+			"Puzzlemaker_Zoom"		"Nagyítás"
+			"Puzzlemaker_ZoomOut"		"Kicsinyítés"
+			"Puzzlemaker_SpinL"		"Balra forgatás"
+			"Puzzlemaker_SprinR"		"Jobbra forgatás"
+			"Puzzlemaker_W"		"Előre mozgatás"
+			"Puzzlemaker_A"		"Balra mozgatás"
+			"Puzzlemaker_S"		"Hátra mozgatás"
+			"Puzzlemaker_D"		"Jobbra mozgatás"
+			"Puzzlemaker_ToggleView"		"Játéknézet váltása"
+			"Puzzlemaker_Move"		"Jelenlegi kiválasztás mozgatása"
+			"Puzzlemaker_ChangeMaterial"		"Felület anyagának váltása"
+			"Puzzlemaker_Rotate"		"Nézet forgatása"
+			"Puzzlemaker_Shift"		"Többszörös kiválasztás"
+		}
+		"french"
+		{
+			"Set_FPSControls"		"Contrôles à la première personne"
+			"Set_MenuControls"		"Contrôles du menu"
+			"Set_PuzzleControls"		"Contrôles de l'éditeur de casse-têtes"
+			"Set_RadialMenu"		"Menu circulaire"
+			"Action_Mouse"		"Souris"
+			"Action_Move"		"Déplacements"
+			"Action_Camera"		"Caméra"
+			"Action_BluePortal"		"Portail bleu"
+			"Action_OrangePortal"		"Portail orange"
+			"Action_QuickPing"		"Pointage rapide"
+			"Action_Zoom"		"Zoomer"
+			"Action_PartnerView"		"Vue du partenaire"
+			"Action_Crouch"		"S'accroupir"
+			"Action_Jump"		"Sauter"
+			"Action_Use"		"Utiliser"
+			"Action_Gesture"		"Geste"
+			"Action_PingMenu"		"Menu de pointage"
+			"Action_PauseMenu"		"Menu de pause"
+			"Action_RadialMenu"		"Menu circulaire"
+			"menu_up"		"Haut"
+			"menu_down"		"Bas"
+			"menu_left"		"Gauche"
+			"menu_right"		"Droite"
+			"menu_select"		"Sélectionner"
+			"menu_cancel"		"Annuler"
+			"menu_x"		"Fonction de menu n° 1"
+			"menu_y"		"Fonction de menu n° 2"
+			"menu_lshoulder"		"Fonction de menu n° 3"
+			"menu_4"		"Fonction de menu n° 4"
+			"Menu_ToggleGameView"		"ToggleGameView"
+			"Title_Motion"		"Contrôles de mouvement pour Portal 2"
+			"Description_Motion"		"Configuration officielle de Portal 2 pour les Steam Controllers. Cette configuration combine l'utilisation du pad droit et des contrôles de mouvement pour la caméra."
+			"Title_Standard"		"Contrôles standards pour Portal 2"
+			"Description_Standard"		"Configuration officielle de Portal 2 pour les Steam Controllers."
+			"Title_Xbox"		"Contrôles standards pour Portal 2"
+			"Description_Xbox"		"Configuration officielle de Portal 2 pour les manettes Xbox."
+			"Title_Playstation"		"Contrôles standards pour Portal 2"
+			"Description_Playstation"		"Configuration officielle de Portal 2 pour les manettes PlayStation."
+			"Title_Switch"		"Contrôles standards pour Portal 2"
+			"Description_Switch"		"Configuration officielle de Portal 2 pour les manettes Switch Pro."
+			"Action_ReturnToGame"		"Reprendre"
+			"Puzzlemaker_Undo"		"Annuler"
+			"Puzzlemaker_Select"		"Sélectionner/construire"
+			"Puzzlemaker_Delete"		"Supprimer la sélection"
+			"Puzzlemaker_Build"		"Construire/tester la carte"
+			"Puzzlemaker_Zoom"		"Zoomer"
+			"Puzzlemaker_ZoomOut"		"Dézoomer"
+			"Puzzlemaker_SpinL"		"Pivoter à gauche"
+			"Puzzlemaker_SprinR"		"Pivoter à droite"
+			"Puzzlemaker_W"		"Avancer"
+			"Puzzlemaker_A"		"Déplacer vers la gauche"
+			"Puzzlemaker_S"		"Reculer"
+			"Puzzlemaker_D"		"Déplacer vers la droite"
+			"Puzzlemaker_ToggleView"		"Changer de vue"
+			"Puzzlemaker_Move"		"Déplacer la sélection"
+			"Puzzlemaker_ChangeMaterial"		"Changer la surface"
+			"Puzzlemaker_Rotate"		"Pivoter la caméra"
+			"Puzzlemaker_Shift"		"Sélection multiple"
+		}
+		"polish"
+		{
+			"Set_FPSControls"		"Sterowanie w trybie FPS"
+			"Set_MenuControls"		"Sterowanie w menu"
+			"Set_PuzzleControls"		"Sterowanie w edytorze łamigłówek"
+			"Set_RadialMenu"		"Menu kołowe"
+			"Action_Mouse"		"Mysz"
+			"Action_Move"		"Ruch"
+			"Action_Camera"		"Kamera"
+			"Action_BluePortal"		"Niebieski portal"
+			"Action_OrangePortal"		"Pomarańczowy portal"
+			"Action_QuickPing"		"Szybki ping"
+			"Action_Zoom"		"Przybliż"
+			"Action_PartnerView"		"Widok partnera"
+			"Action_Crouch"		"Kucnięcie"
+			"Action_Jump"		"Skok"
+			"Action_Use"		"Użyj"
+			"Action_Gesture"		"Gest"
+			"Action_PingMenu"		"Menu pingów"
+			"Action_PauseMenu"		"Menu pauzy"
+			"Action_RadialMenu"		"Menu kołowe"
+			"menu_up"		"Góra"
+			"menu_down"		"Dół"
+			"menu_left"		"Lewo"
+			"menu_right"		"Prawo"
+			"menu_select"		"Wybierz"
+			"menu_cancel"		"Anuluj"
+			"menu_x"		"Funkcja menu 1"
+			"menu_y"		"Funkcja menu 2"
+			"menu_lshoulder"		"Funkcja menu 3"
+			"menu_4"		"Funkcja menu 4"
+			"Menu_ToggleGameView"		"Przełącz widok gry"
+			"Title_Motion"		"Sterowanie ruchem dla Portal 2"
+			"Description_Motion"		"Oficjalna konfiguracja Steam Controllera dla Portal 2. Wykorzystuje kombinację prawego panelu dotykowego i sterowania ruchem dla kamery."
+			"Title_Standard"		"Standardowe sterowanie dla Portal 2"
+			"Description_Standard"		"Oficjalna konfiguracja Steam Controllera dla Portal 2."
+			"Title_Xbox"		"Standardowe sterowanie dla Portal 2"
+			"Description_Xbox"		"Oficjalna konfiguracja kontrolera Xbox dla Portal 2."
+			"Title_Playstation"		"Standardowe sterowanie dla Portal 2"
+			"Description_Playstation"		"Oficjalna konfiguracja kontrolera Playstation dla Portal 2."
+			"Title_Switch"		"Standardowe sterowanie dla Portal 2"
+			"Description_Switch"		"Oficjalna konfiguracja kontrolera Switch Pro dla Portal 2."
+			"Action_ReturnToGame"		"Wznów"
+			"Puzzlemaker_Undo"		"Cofnij"
+			"Puzzlemaker_Select"		"Wybierz/buduj"
+			"Puzzlemaker_Delete"		"Usuń zaznaczone"
+			"Puzzlemaker_Build"		"Zbuduj/zagraj mapę"
+			"Puzzlemaker_Zoom"		"Przybliżenie"
+			"Puzzlemaker_ZoomOut"		"Oddalenie"
+			"Puzzlemaker_SpinL"		"Obrót w lewo"
+			"Puzzlemaker_SprinR"		"Obrót w prawo"
+			"Puzzlemaker_W"		"Ruch do przodu"
+			"Puzzlemaker_A"		"Ruch w lewo"
+			"Puzzlemaker_S"		"Ruch w tył"
+			"Puzzlemaker_D"		"Ruch w prawo"
+			"Puzzlemaker_ToggleView"		"Przełącz widok gry"
+			"Puzzlemaker_Move"		"Przenieś obecnie zaznaczone"
+			"Puzzlemaker_ChangeMaterial"		"Zmień materiał powierzchni"
+			"Puzzlemaker_Rotate"		"Obróć widok"
+			"Puzzlemaker_Shift"		"Wybierz wielokrotnie"
+		}
+		"turkish"
+		{
+			"Set_FPSControls"		"FPS Kontrolleri"
+			"Set_MenuControls"		"Menü Kontrolleri"
+			"Set_PuzzleControls"		"Bulmaca Düzenleme Kontrolleri"
+			"Set_RadialMenu"		"Radyal Menü"
+			"Action_Mouse"		"Fare"
+			"Action_Move"		"Hareket"
+			"Action_Camera"		"Kamera"
+			"Action_BluePortal"		"Mavi Portal"
+			"Action_OrangePortal"		"Turuncu Portal"
+			"Action_QuickPing"		"Çabuk İşaret"
+			"Action_Zoom"		"Yakınlaştır"
+			"Action_PartnerView"		"Partner Görünümü"
+			"Action_Crouch"		"Eğilme"
+			"Action_Jump"		"Zıplama"
+			"Action_Use"		"Kullan"
+			"Action_Gesture"		"Jest"
+			"Action_PingMenu"		"İşaret Menüsü"
+			"Action_PauseMenu"		"Duraklama Menüsü"
+			"Action_RadialMenu"		"Radyal Menü"
+			"menu_up"		"Yukarı"
+			"menu_down"		"Aşağı"
+			"menu_left"		"Sol"
+			"menu_right"		"Sağ"
+			"menu_select"		"Seç"
+			"menu_cancel"		"İptal"
+			"menu_x"		"Menü Fonksiyonu 1"
+			"menu_y"		"Menü Fonksiyonu 2"
+			"menu_lshoulder"		"Menü Fonksiyonu 3"
+			"menu_4"		"Menü Fonksiyonu 4"
+			"Menu_ToggleGameView"		"ToggleGameView"
+			"Title_Motion"		"Portal 2 Hareket Kontrolleri"
+			"Description_Motion"		"Resmî Portal 2 Steam Kontrolcüsü yapılandırması. Kamera için sağ dokunmatik yüzey ve hareket kontrolü kombinasyonu kullanır."
+			"Title_Standard"		"Standart Portal 2 Kontrolleri"
+			"Description_Standard"		"Resmî Portal 2 Steam Kontrolcüsü yapılandırması."
+			"Title_Xbox"		"Standart Portal 2 Kontrolleri"
+			"Description_Xbox"		"Resmî Portal 2 Xbox Kontrolcüsü yapılandırması."
+			"Title_Playstation"		"Standart Portal 2 Kontrolleri"
+			"Description_Playstation"		"Resmî Portal 2 PlayStation Kontrolcüsü yapılandırması."
+			"Title_Switch"		"Standart Portal 2 Kontrolleri"
+			"Description_Switch"		"Resmî Portal 2 Switch Pro Controller yapılandırması."
+			"Action_ReturnToGame"		"Devam Et"
+			"Puzzlemaker_Undo"		"Geri Al"
+			"Puzzlemaker_Select"		"Seç/Yarat"
+			"Puzzlemaker_Delete"		"Silme Seçildi"
+			"Puzzlemaker_Build"		"Harita Yarat/Oyna"
+			"Puzzlemaker_Zoom"		"Yaklaştır"
+			"Puzzlemaker_ZoomOut"		"Uzaklaştır"
+			"Puzzlemaker_SpinL"		"Sola Dön"
+			"Puzzlemaker_SprinR"		"Sağa Dön"
+			"Puzzlemaker_W"		"İlerle"
+			"Puzzlemaker_A"		"Sola İlerle"
+			"Puzzlemaker_S"		"Geri git"
+			"Puzzlemaker_D"		"Sağa İlerle"
+			"Puzzlemaker_ToggleView"		"Oyun Görünümünü Değiştir"
+			"Puzzlemaker_Move"		"Mevcut Seçimi Hareket Ettir"
+			"Puzzlemaker_ChangeMaterial"		"Yüzey Materyalini Değiştir"
+			"Puzzlemaker_Rotate"		"Görünümü Döndür"
+			"Puzzlemaker_Shift"		"Çoklu Seçim"
+		}
+		"swedish"
+		{
+			"Set_FPSControls"		"FPS-kontroller"
+			"Set_MenuControls"		"Menykontroller"
+			"Set_PuzzleControls"		"Kontroller för pusselredigerare"
+			"Set_RadialMenu"		"Cirkelmeny"
+			"Action_Mouse"		"Mus"
+			"Action_Move"		"Rörelse"
+			"Action_Camera"		"Kamera"
+			"Action_BluePortal"		"Blå portal"
+			"Action_OrangePortal"		"Orange portal"
+			"Action_QuickPing"		"Snabbping"
+			"Action_Zoom"		"Zooma"
+			"Action_PartnerView"		"Partnervy"
+			"Action_Crouch"		"Kryp"
+			"Action_Jump"		"Hoppa"
+			"Action_Use"		"Använd"
+			"Action_Gesture"		"Gest"
+			"Action_PingMenu"		"Pingmeny"
+			"Action_PauseMenu"		"Pausmeny"
+			"Action_RadialMenu"		"Cirkelmeny"
+			"menu_up"		"Upp"
+			"menu_down"		"Ner"
+			"menu_left"		"Vänster"
+			"menu_right"		"Höger"
+			"menu_select"		"Välj"
+			"menu_cancel"		"Avbryt"
+			"menu_x"		"Menyfunktion 1"
+			"menu_y"		"Menyfunktion 2"
+			"menu_lshoulder"		"Menyfunktion 3"
+			"menu_4"		"Menyfunktion 4"
+			"Menu_ToggleGameView"		"Slå av eller på spelvy"
+			"Title_Motion"		"Rörelsekontroller för Portal 2"
+			"Description_Motion"		"Officiell kontrollkonfiguration för Portal 2. Använder en kombination av höger styrplatta och rörelsekontroller för kamera."
+			"Title_Standard"		"Standardkontroller för Portal 2"
+			"Description_Standard"		"Officiell Steam-kontrollkonfiguration för Portal 2."
+			"Title_Xbox"		"Standardkontroller för Portal 2"
+			"Description_Xbox"		"Officiell Xbox-kontrollkonfiguration för Portal 2."
+			"Title_Playstation"		"Standardkontroller för Portal 2"
+			"Description_Playstation"		"Officiell Playstation-kontrollkonfiguration för Portal 2."
+			"Title_Switch"		"Standardkontroller för Portal 2"
+			"Description_Switch"		"Officiell Switch Pro-kontrollkonfiguration för Portal 2."
+			"Action_ReturnToGame"		"Sluta pausa"
+			"Puzzlemaker_Undo"		"Ångra"
+			"Puzzlemaker_Select"		"Välj/bygg"
+			"Puzzlemaker_Delete"		"Ta bort valda"
+			"Puzzlemaker_Build"		"Bygg/spela bana"
+			"Puzzlemaker_Zoom"		"Zooma in"
+			"Puzzlemaker_ZoomOut"		"Zooma ut"
+			"Puzzlemaker_SpinL"		"Snurra vänster"
+			"Puzzlemaker_SprinR"		"Snurra höger"
+			"Puzzlemaker_W"		"Flytta framåt"
+			"Puzzlemaker_A"		"Flytta vänster"
+			"Puzzlemaker_S"		"Flytta bakåt"
+			"Puzzlemaker_D"		"Flytta höger"
+			"Puzzlemaker_ToggleView"		"Växla spelvy"
+			"Puzzlemaker_Move"		"Flytta nuvarande val"
+			"Puzzlemaker_ChangeMaterial"		"Ändra ytmaterial"
+			"Puzzlemaker_Rotate"		"Rotera vy"
+			"Puzzlemaker_Shift"		"Välj flera"
+		}
+		"thai"
+		{
+			"Set_FPSControls"		"การควบคุม FPS"
+			"Set_MenuControls"		"การควบคุมเมนู"
+			"Set_PuzzleControls"		"การควบคุมตัวแก้ไขปริศนา"
+			"Set_RadialMenu"		"เมนูแฉกรัศมี"
+			"Action_Mouse"		"เมาส์"
+			"Action_Move"		"การเคลื่อนไหว"
+			"Action_Camera"		"กล้อง"
+			"Action_BluePortal"		"ประตูสีฟ้า"
+			"Action_OrangePortal"		"ประตูสีส้ม"
+			"Action_QuickPing"		"ปิงอย่างรวดเร็ว"
+			"Action_Zoom"		"ซูม"
+			"Action_PartnerView"		"มุมมองพันธมิตร"
+			"Action_Crouch"		"ย่อตัว"
+			"Action_Jump"		"กระโดด"
+			"Action_Use"		"ใช้"
+			"Action_Gesture"		"ท่าทาง"
+			"Action_PingMenu"		"เมนูปิง"
+			"Action_PauseMenu"		"เมนูหยุดชั่วคราว"
+			"Action_RadialMenu"		"เมนูแฉกรัศมี"
+			"menu_up"		"ขึ้น"
+			"menu_down"		"ลง"
+			"menu_left"		"ซ้าย"
+			"menu_right"		"ขวา"
+			"menu_select"		"เลือก"
+			"menu_cancel"		"ยกเลิก"
+			"menu_x"		"ฟังก์ชันเมนู 1"
+			"menu_y"		"ฟังก์ชันเมนู 2"
+			"menu_lshoulder"		"ฟังก์ชันเมนู 3"
+			"menu_4"		"ฟังก์ชันเมนู 4"
+			"Menu_ToggleGameView"		"ToggleGameView"
+			"Title_Motion"		"การควบคุมการเคลื่อนไหวใน Portal 2"
+			"Description_Motion"		"การกำหนดค่าทางการของ Steam Controller สำหรับ Portal 2 ใช้แพดขวาร่วมกับการควบคุมการเคลื่อนไหวสำหรับกล้อง"
+			"Title_Standard"		"การควบคุมมาตรฐานใน Portal 2"
+			"Description_Standard"		"การกำหนดค่าทางการของ Steam Controller สำหรับ Portal 2"
+			"Title_Xbox"		"การควบคุมมาตรฐานใน Portal 2"
+			"Description_Xbox"		"การกำหนดค่าทางการของคอนโทรลเลอร์ Xbox สำหรับ Portal 2"
+			"Title_Playstation"		"การควบคุมมาตรฐานใน Portal 2"
+			"Description_Playstation"		"การกำหนดค่าทางการของคอนโทรลเลอร์ PlayStation สำหรับ Portal 2"
+			"Title_Switch"		"การควบคุมมาตรฐานใน Portal 2"
+			"Description_Switch"		"การกำหนดค่าทางการของคอนโทรลเลอร์ Switch Pro สำหรับ Portal 2"
+			"Action_ReturnToGame"		"เล่นต่อ"
+			"Puzzlemaker_Undo"		"ยกเลิก"
+			"Puzzlemaker_Select"		"เลือก/สร้าง"
+			"Puzzlemaker_Delete"		"ลบที่เลือกไว้"
+			"Puzzlemaker_Build"		"สร้าง/เล่นแผนที่"
+			"Puzzlemaker_Zoom"		"ซูมเข้า"
+			"Puzzlemaker_ZoomOut"		"ซูมออก"
+			"Puzzlemaker_SpinL"		"หมุนซ้าย"
+			"Puzzlemaker_SprinR"		"หมุนขวา"
+			"Puzzlemaker_W"		"เคลื่อนไปข้างหน้า"
+			"Puzzlemaker_A"		"เคลื่อนซ้าย"
+			"Puzzlemaker_S"		"เคลื่อนไปข้างหลัง"
+			"Puzzlemaker_D"		"เคลื่อนขวา"
+			"Puzzlemaker_ToggleView"		"สลับมุมมองเกม"
+			"Puzzlemaker_Move"		"ย้ายการเลือกปัจจุบัน"
+			"Puzzlemaker_ChangeMaterial"		"เปลี่ยนวัสดุพื้นผิว"
+			"Puzzlemaker_Rotate"		"หมุนมุมมอง"
+			"Puzzlemaker_Shift"		"เลือกหลายรายการ"
+		}
+		"spanish"
+		{
+			"Set_FPSControls"		"Controles de FPS"
+			"Set_MenuControls"		"Controles del menú"
+			"Set_PuzzleControls"		"Controles del editor de rompecabezas"
+			"Set_RadialMenu"		"Menú radial"
+			"Action_Mouse"		"Ratón"
+			"Action_Move"		"Movimiento"
+			"Action_Camera"		"Cámara"
+			"Action_BluePortal"		"Portal Azul"
+			"Action_OrangePortal"		"Portal Naranja"
+			"Action_QuickPing"		"Marcador rápido"
+			"Action_Zoom"		"Zoom"
+			"Action_PartnerView"		"Vista del compañero"
+			"Action_Crouch"		"Agacharse"
+			"Action_Jump"		"Saltar"
+			"Action_Use"		"Usar"
+			"Action_Gesture"		"Gesto"
+			"Action_PingMenu"		"Menú del marcador"
+			"Action_PauseMenu"		"Menú de pausa"
+			"Action_RadialMenu"		"Menú radial"
+			"menu_up"		"Arriba"
+			"menu_down"		"Abajo"
+			"menu_left"		"Izquierda"
+			"menu_right"		"Derecha"
+			"menu_select"		"Seleccionar"
+			"menu_cancel"		"Cancelar"
+			"menu_x"		"Función de menú 1"
+			"menu_y"		"Función de menú 2"
+			"menu_lshoulder"		"Función de menú 3"
+			"menu_4"		"Función de menú 4"
+			"Menu_ToggleGameView"		"ToggleGameView"
+			"Title_Motion"		"Controles de movimiento de Portal 2"
+			"Description_Motion"		"Configuración oficial del Steam Controller para Portal 2. Usa una combinación del pad derecho y los controles de movimiento para la cámara."
+			"Title_Standard"		"Controles estándar de Portal 2"
+			"Description_Standard"		"Configuración oficial del Steam Controller para Portal 2."
+			"Title_Xbox"		"Controles estándar de Portal 2"
+			"Description_Xbox"		"Configuración oficial del mando Xbox para Portal 2."
+			"Title_Playstation"		"Controles estándar de Portal 2"
+			"Description_Playstation"		"Configuración oficial del mando de PlayStation para Portal 2."
+			"Title_Switch"		"Controles estándar de Portal 2"
+			"Description_Switch"		"Configuración oficial del mando Switch Pro para Portal 2."
+			"Action_ReturnToGame"		"Continuar"
+			"Puzzlemaker_Undo"		"Deshacer"
+			"Puzzlemaker_Select"		"Seleccionar/Construir"
+			"Puzzlemaker_Delete"		"Eliminar seleccionado"
+			"Puzzlemaker_Build"		"Construir/Jugar mapa"
+			"Puzzlemaker_Zoom"		"Aumentar"
+			"Puzzlemaker_ZoomOut"		"Disminuir"
+			"Puzzlemaker_SpinL"		"Girar a la izquierda"
+			"Puzzlemaker_SprinR"		"Girar a la derecha"
+			"Puzzlemaker_W"		"Avanzar"
+			"Puzzlemaker_A"		"Ir a la izquierda"
+			"Puzzlemaker_S"		"Retroceder"
+			"Puzzlemaker_D"		"Ir a la derecha"
+			"Puzzlemaker_ToggleView"		"Activar/desactivar la vista del juego"
+			"Puzzlemaker_Move"		"Mover selección actual"
+			"Puzzlemaker_ChangeMaterial"		"Cambiar material de superficie"
+			"Puzzlemaker_Rotate"		"Girar vista"
+			"Puzzlemaker_Shift"		"Selección múltiple"
+		}
+		"latam"
+		{
+			"Set_FPSControls"		"Controles de FPS"
+			"Set_MenuControls"		"Controles del menú"
+			"Set_PuzzleControls"		"Controles del editor de rompecabezas"
+			"Set_RadialMenu"		"Menú radial"
+			"Action_Mouse"		"Mouse"
+			"Action_Move"		"Movimiento"
+			"Action_Camera"		"Cámara"
+			"Action_BluePortal"		"Portal azul"
+			"Action_OrangePortal"		"Portal naranja"
+			"Action_QuickPing"		"Ping rápido"
+			"Action_Zoom"		"Zoom"
+			"Action_PartnerView"		"Vista del compañero"
+			"Action_Crouch"		"Agacharse"
+			"Action_Jump"		"Saltar"
+			"Action_Use"		"Usar"
+			"Action_Gesture"		"Gesto"
+			"Action_PingMenu"		"Menú del ping"
+			"Action_PauseMenu"		"Menú de pausa"
+			"Action_RadialMenu"		"Menú radial"
+			"menu_up"		"Arriba"
+			"menu_down"		"Abajo"
+			"menu_left"		"Izquierda"
+			"menu_right"		"Derecha"
+			"menu_select"		"Seleccionar"
+			"menu_cancel"		"Cancelar"
+			"menu_x"		"Función del menú 1"
+			"menu_y"		"Función del menú 2"
+			"menu_lshoulder"		"Función del menú 3"
+			"menu_4"		"Función del menú 4"
+			"Menu_ToggleGameView"		"ToggleGameView"
+			"Title_Motion"		"Controles de movimiento de Portal 2"
+			"Description_Motion"		"Configuración oficial del Steam Controller para Portal 2. Use una combinación del pad derecho y los controles de movimiento de la cámara."
+			"Title_Standard"		"Controles estándar de Portal 2"
+			"Description_Standard"		"Configuración oficial del Steam Controller para Portal 2."
+			"Title_Xbox"		"Controles estándar de Portal 2"
+			"Description_Xbox"		"Configuración oficial del control de Xbox para Portal 2."
+			"Title_Playstation"		"Controles estándar de Portal 2"
+			"Description_Playstation"		"Configuración oficial del control de PlayStation para Portal 2."
+			"Title_Switch"		"Controles estándar de Portal 2"
+			"Description_Switch"		"Configuración oficial del control Switch Pro Controller Portal 2."
+			"Action_ReturnToGame"		"Continuar"
+			"Puzzlemaker_Undo"		"Deshacer"
+			"Puzzlemaker_Select"		"Seleccionar/Construir"
+			"Puzzlemaker_Delete"		"Eliminar seleccionado"
+			"Puzzlemaker_Build"		"Construir/Jugar mapa"
+			"Puzzlemaker_Zoom"		"Acercar"
+			"Puzzlemaker_ZoomOut"		"Alejar"
+			"Puzzlemaker_SpinL"		"Girar a la izquierda"
+			"Puzzlemaker_SprinR"		"Girar a la derecha"
+			"Puzzlemaker_W"		"Avanzar"
+			"Puzzlemaker_A"		"Mover hacia la izquierda"
+			"Puzzlemaker_S"		"Retroceder"
+			"Puzzlemaker_D"		"Mover hacia la derecha"
+			"Puzzlemaker_ToggleView"		"Activar/desactivar la vista del juego"
+			"Puzzlemaker_Move"		"Mover selección actual"
+			"Puzzlemaker_ChangeMaterial"		"Cambiar material de superficie"
+			"Puzzlemaker_Rotate"		"Girar vista"
+			"Puzzlemaker_Shift"		"Selección múltiple"
+		}
+		"romanian"
+		{
+			"Set_FPSControls"		"Controale FPS"
+			"Set_MenuControls"		"Controale pentru meniu"
+			"Set_PuzzleControls"		"Controale pentru editorul de puzzle-uri"
+			"Set_RadialMenu"		"Meniu radial"
+			"Action_Mouse"		"Mouse"
+			"Action_Move"		"Mișcare"
+			"Action_Camera"		"Cameră"
+			"Action_BluePortal"		"Portal albastru"
+			"Action_OrangePortal"		"Portal portocaliu"
+			"Action_QuickPing"		"Indicare rapidă"
+			"Action_Zoom"		"Mărește"
+			"Action_PartnerView"		"Perspectiva partenerului"
+			"Action_Crouch"		"Ghemuire"
+			"Action_Jump"		"Săritură"
+			"Action_Use"		"Folosește"
+			"Action_Gesture"		"Gesticulare"
+			"Action_PingMenu"		"Meniu pentru indicare"
+			"Action_PauseMenu"		"Meniu de pauză"
+			"Action_RadialMenu"		"Meniu radial"
+			"menu_up"		"Sus"
+			"menu_down"		"Jos"
+			"menu_left"		"Stânga"
+			"menu_right"		"Dreapta"
+			"menu_select"		"Selectează"
+			"menu_cancel"		"Anulează"
+			"menu_x"		"Funcție de meniu 1"
+			"menu_y"		"Funcție de meniu 2"
+			"menu_lshoulder"		"Funcție de meniu 3"
+			"menu_4"		"Funcție de meniu 4"
+			"Menu_ToggleGameView"		"Comută vederea din joc"
+			"Title_Motion"		"Controale bazate pe mișcare pentru Portal 2"
+			"Description_Motion"		"Configurația oficială de Steam Controller pentru Portal 2. Folosește o combinație a padului drept și controalele bazate pe mișcare pentru cameră."
+			"Title_Standard"		"Controale standard pentru Portal 2"
+			"Description_Standard"		"Configurația oficială de Steam Controller pentru Portal 2."
+			"Title_Xbox"		"Controale standard pentru Portal 2"
+			"Description_Xbox"		"Configurația oficială de controler Xbox pentru Portal 2."
+			"Title_Playstation"		"Controale standard pentru Portal 2"
+			"Description_Playstation"		"Configurația oficială de controler Playstation pentru Portal 2."
+			"Title_Switch"		"Controale standard pentru Portal 2"
+			"Description_Switch"		"Configurația oficială de controler Switch Pro pentru Portal 2."
+			"Action_ReturnToGame"		"Reia"
+			"Puzzlemaker_Undo"		"Anulează"
+			"Puzzlemaker_Select"		"Selectează/construiește"
+			"Puzzlemaker_Delete"		"Șterge selecția"
+			"Puzzlemaker_Build"		"Construiește/joacă harta"
+			"Puzzlemaker_Zoom"		"Mărește"
+			"Puzzlemaker_ZoomOut"		"Micșorează"
+			"Puzzlemaker_SpinL"		"Rotește la stânga"
+			"Puzzlemaker_SprinR"		"Rotește la dreapta"
+			"Puzzlemaker_W"		"Mișcare înainte"
+			"Puzzlemaker_A"		"Mută la stânga"
+			"Puzzlemaker_S"		"Mișcare înapoi"
+			"Puzzlemaker_D"		"Mută la dreapta"
+			"Puzzlemaker_ToggleView"		"Comută vederea jocului"
+			"Puzzlemaker_Move"		"Mută selecția actuală"
+			"Puzzlemaker_ChangeMaterial"		"Schimbă materialul suprafeței"
+			"Puzzlemaker_Rotate"		"Rotește vederea"
+			"Puzzlemaker_Shift"		"Selectare multiplă"
+		}
+		"russian"
+		{
+			"Set_FPSControls"		"Управление в игре"
+			"Set_MenuControls"		"Управление в меню"
+			"Set_PuzzleControls"		"Управление в редакторе"
+			"Set_RadialMenu"		"Круговое меню"
+			"Action_Mouse"		"Мышь"
+			"Action_Move"		"Движение"
+			"Action_Camera"		"Камера"
+			"Action_BluePortal"		"Синий портал"
+			"Action_OrangePortal"		"Оранжевый портал"
+			"Action_QuickPing"		"Быстрый сигнал"
+			"Action_Zoom"		"Приблизить"
+			"Action_PartnerView"		"Вид напарника"
+			"Action_Crouch"		"Пригнуться"
+			"Action_Jump"		"Прыгнуть"
+			"Action_Use"		"Использовать"
+			"Action_Gesture"		"Жест"
+			"Action_PingMenu"		"Меню сигналов"
+			"Action_PauseMenu"		"Меню паузы"
+			"Action_RadialMenu"		"Круговое меню"
+			"menu_up"		"Вверх"
+			"menu_down"		"Вниз"
+			"menu_left"		"Влево"
+			"menu_right"		"Вправо"
+			"menu_select"		"Выбрать"
+			"menu_cancel"		"Отмена"
+			"menu_x"		"Функция меню 1"
+			"menu_y"		"Функция меню 2"
+			"menu_lshoulder"		"Функция меню 3"
+			"menu_4"		"Функция меню 4"
+			"Menu_ToggleGameView"		"Показать/скрыть игру"
+			"Title_Motion"		"Управление движением для Portal 2"
+			"Description_Motion"		"Официальная раскладка Steam Controller для Portal 2. Сочетает правую крестовину и управление движением для камеры."
+			"Title_Standard"		"Стандартное управление для Portal 2"
+			"Description_Standard"		"Официальная раскладка Steam Controller для Portal 2."
+			"Title_Xbox"		"Стандартное управление для Portal 2"
+			"Description_Xbox"		"Официальная раскладка контроллера Xbox для Portal 2."
+			"Title_Playstation"		"Стандартное управление для Portal 2"
+			"Description_Playstation"		"Официальная раскладка контроллера PlayStation для Portal 2."
+			"Title_Switch"		"Стандартное управление для Portal 2"
+			"Description_Switch"		"Официальная раскладка контроллера Switch Pro для Portal 2."
+			"Action_ReturnToGame"		"Возобновить"
+			"Puzzlemaker_Undo"		"Отменить"
+			"Puzzlemaker_Select"		"Выбрать/построить"
+			"Puzzlemaker_Delete"		"Удалить выбранное"
+			"Puzzlemaker_Build"		"Построить/запустить карту"
+			"Puzzlemaker_Zoom"		"Приблизить"
+			"Puzzlemaker_ZoomOut"		"Отдалить"
+			"Puzzlemaker_SpinL"		"Повернуть влево"
+			"Puzzlemaker_SprinR"		"Повернуть вправо"
+			"Puzzlemaker_W"		"Переместиться вперёд"
+			"Puzzlemaker_A"		"Переместиться влево"
+			"Puzzlemaker_S"		"Переместиться назад"
+			"Puzzlemaker_D"		"Переместиться вправо"
+			"Puzzlemaker_ToggleView"		"Показать/скрыть игру"
+			"Puzzlemaker_Move"		"Переместить выбранное"
+			"Puzzlemaker_ChangeMaterial"		"Изменить материал"
+			"Puzzlemaker_Rotate"		"Повернуть камеру"
+			"Puzzlemaker_Shift"		"Выбрать несколько объектов"
+		}
+		"finnish"
+		{
+			"Set_FPSControls"		"1. persoonan ohjaimet"
+			"Set_MenuControls"		"Valikon ohjaimet"
+			"Set_PuzzleControls"		"Pulma editori -ohjaimet"
+			"Set_RadialMenu"		"Ympyrävalikko"
+			"Action_Mouse"		"Hiiri"
+			"Action_Move"		"Liikkuminen"
+			"Action_Camera"		"Kamera"
+			"Action_BluePortal"		"Sininen portaali"
+			"Action_OrangePortal"		"Oranssi portaali"
+			"Action_QuickPing"		"Pikavinkki"
+			"Action_Zoom"		"Zoomaus"
+			"Action_PartnerView"		"Kumppaninäkymä"
+			"Action_Crouch"		"Kyyristy"
+			"Action_Jump"		"Hyppää"
+			"Action_Use"		"Käytä"
+			"Action_Gesture"		"Elehdi"
+			"Action_PingMenu"		"Vinkkivalikko"
+			"Action_PauseMenu"		"Pysäytysvalikko"
+			"Action_RadialMenu"		"Ympyrävalikko"
+			"menu_up"		"Ylös"
+			"menu_down"		"Alas"
+			"menu_left"		"Vasen"
+			"menu_right"		"Oikea"
+			"menu_select"		"Valitse"
+			"menu_cancel"		"Peruuta"
+			"menu_x"		"Valikon 1. toiminto"
+			"menu_y"		"Valikon 2. toiminto"
+			"menu_lshoulder"		"Valikon 3. toiminto"
+			"menu_4"		"Valikon 4. toiminto"
+			"Menu_ToggleGameView"		"ToggleGameView"
+			"Title_Motion"		"Portal 2 -pelin liikkeentunnistuksen ohjaimet"
+			"Description_Motion"		"Portal 2:sen viralliset Steam Controller -ohjainmääritykset. Hyödyntää oikean levyn ja liikkeentunnistuksen yhdistelmää kameran käyttöön."
+			"Title_Standard"		"Portal 2 -perusohjaimet"
+			"Description_Standard"		"Portal 2:sen viralliset Steam Controller -ohjainmääritykset."
+			"Title_Xbox"		"Portal 2 -perusohjaimet"
+			"Description_Xbox"		"Portal 2:sen viralliset Xbox-ohjainmääritykset."
+			"Title_Playstation"		"Portal 2 -perusohjaimet"
+			"Description_Playstation"		"Portal 2:sen viralliset Playstation-ohjainmääritykset."
+			"Title_Switch"		"Portal 2 -perusohjaimet"
+			"Description_Switch"		"Portal 2:sen viralliset Switch Pro -ohjainmääritykset."
+			"Action_ReturnToGame"		"Jatka"
+			"Puzzlemaker_Undo"		"Peru"
+			"Puzzlemaker_Select"		"Valitse/rakenna"
+			"Puzzlemaker_Delete"		"Poista valitut"
+			"Puzzlemaker_Build"		"Rakenna/pelaa karttaa"
+			"Puzzlemaker_Zoom"		"Lähennä"
+			"Puzzlemaker_ZoomOut"		"Loitonna"
+			"Puzzlemaker_SpinL"		"Pyöritä vasemmalle"
+			"Puzzlemaker_SprinR"		"Pyöritä oikealle"
+			"Puzzlemaker_W"		"Siirrä eteenpäin"
+			"Puzzlemaker_A"		"Siirrä vasemmalle"
+			"Puzzlemaker_S"		"Siirrä taaksepäin"
+			"Puzzlemaker_D"		"Siirrä oikealle"
+			"Puzzlemaker_ToggleView"		"Vaihda pelinäkymää"
+			"Puzzlemaker_Move"		"Siirrä valitut kohteet"
+			"Puzzlemaker_ChangeMaterial"		"Vaihda pintamateriaali"
+			"Puzzlemaker_Rotate"		"Käännä näkymää"
+			"Puzzlemaker_Shift"		"Monivalinta"
+		}
+		"ukrainian"
+		{
+			"Set_FPSControls"		"Керування від першої особи"
+			"Set_MenuControls"		"Керування в меню"
+			"Set_PuzzleControls"		"Керування в редакторі головоломок"
+			"Set_RadialMenu"		"Радіальне меню"
+			"Action_Mouse"		"Миша"
+			"Action_Move"		"Рух"
+			"Action_Camera"		"Камера"
+			"Action_BluePortal"		"Синій портал"
+			"Action_OrangePortal"		"Помаранчевий портал"
+			"Action_QuickPing"		"Швидкий сигнал"
+			"Action_Zoom"		"Масштабувати"
+			"Action_PartnerView"		"Вигляд партнера"
+			"Action_Crouch"		"Присісти"
+			"Action_Jump"		"Стрибнути"
+			"Action_Use"		"Використати"
+			"Action_Gesture"		"Жест"
+			"Action_PingMenu"		"Меню сигналів"
+			"Action_PauseMenu"		"Меню паузи"
+			"Action_RadialMenu"		"Радіальне меню"
+			"menu_up"		"Вгору"
+			"menu_down"		"Вниз"
+			"menu_left"		"Ліворуч"
+			"menu_right"		"Праворуч"
+			"menu_select"		"Вибрати"
+			"menu_cancel"		"Скасувати"
+			"menu_x"		"Функція меню 1"
+			"menu_y"		"Функція меню 2"
+			"menu_lshoulder"		"Функція меню 3"
+			"menu_4"		"Функція меню 4"
+			"Menu_ToggleGameView"		"ToggleGameView"
+			"Title_Motion"		"Керування рухом для Portal 2"
+			"Description_Motion"		"Офіційна конфігурація контролера Steam для Portal 2. Використовує праву хрестовину разом із керуванням рухом для камери."
+			"Title_Standard"		"Стандартне керування для Portal 2"
+			"Description_Standard"		"Офіційна конфігурація контролера Steam для Portal 2."
+			"Title_Xbox"		"Стандартне керування для Portal 2"
+			"Description_Xbox"		"Офіційна конфігурація контролера Xbox для Portal 2."
+			"Title_Playstation"		"Стандартне керування для Portal 2"
+			"Description_Playstation"		"Офіційна конфігурація контролера PlayStation для Portal 2."
+			"Title_Switch"		"Стандартне керування для Portal 2"
+			"Description_Switch"		"Офіційна конфігурація контролера Switch Pro для Portal 2."
+			"Action_ReturnToGame"		"Продовжити"
+			"Puzzlemaker_Undo"		"Скасувати"
+			"Puzzlemaker_Select"		"Вибрати/побудувати"
+			"Puzzlemaker_Delete"		"Видалити вибране"
+			"Puzzlemaker_Build"		"Побудувати/запустити карту"
+			"Puzzlemaker_Zoom"		"Наблизити"
+			"Puzzlemaker_ZoomOut"		"Віддалити"
+			"Puzzlemaker_SpinL"		"Повернути ліворуч"
+			"Puzzlemaker_SprinR"		"Повернути праворуч"
+			"Puzzlemaker_W"		"Рухатися вперед"
+			"Puzzlemaker_A"		"Рухатися ліворуч"
+			"Puzzlemaker_S"		"Рухатися назад"
+			"Puzzlemaker_D"		"Рухатися праворуч"
+			"Puzzlemaker_ToggleView"		"Перейти до вигляду з гри"
+			"Puzzlemaker_Move"		"Перемістити вибране"
+			"Puzzlemaker_ChangeMaterial"		"Змінити матеріал поверхні"
+			"Puzzlemaker_Rotate"		"Повернути камеру"
+			"Puzzlemaker_Shift"		"Вибрати кілька об’єктів"
+		}
+		"norwegian"
+		{
+			"Set_FPSControls"		"Førsteperson"
+			"Set_MenuControls"		"Meny"
+			"Set_PuzzleControls"		"Oppgaveredigering"
+			"Set_RadialMenu"		"Sirkelmeny"
+			"Action_Mouse"		"Mus"
+			"Action_Move"		"Bevegelse"
+			"Action_Camera"		"Kamera"
+			"Action_BluePortal"		"Blå portal"
+			"Action_OrangePortal"		"Oransje portal"
+			"Action_QuickPing"		"Hurtigping"
+			"Action_Zoom"		"Zoom"
+			"Action_PartnerView"		"Partnervisning"
+			"Action_Crouch"		"Dukk"
+			"Action_Jump"		"Hopp"
+			"Action_Use"		"Bruk"
+			"Action_Gesture"		"Gest"
+			"Action_PingMenu"		"Pingmeny"
+			"Action_PauseMenu"		"Pausemeny"
+			"Action_RadialMenu"		"Sirkelmeny"
+			"menu_up"		"Opp"
+			"menu_down"		"Ned"
+			"menu_left"		"Venstre"
+			"menu_right"		"Høyre"
+			"menu_select"		"Velg"
+			"menu_cancel"		"Avbryt"
+			"menu_x"		"Menyfunksjon 1"
+			"menu_y"		"Menyfunksjon 2"
+			"menu_lshoulder"		"Menyfunksjon 3"
+			"menu_4"		"Menyfunksjon 4"
+			"Menu_ToggleGameView"		"Slå av/på spillvisning"
+			"Title_Motion"		"Portal 2 – bevegelseskontroller"
+			"Description_Motion"		"Offisiell Steam-kontrollerkonfigurasjon til Portal 2. Bruker en kombinasjon av høyre styreplate og bevegelseskontroller for kameraet."
+			"Title_Standard"		"Portal 2 – standardkontroller"
+			"Description_Standard"		"Offisiell Steam-kontrollerkonfigurasjon til Portal 2."
+			"Title_Xbox"		"Portal 2 – standardkontroller"
+			"Description_Xbox"		"Offisiell Xbox-kontrollerkonfigurasjon til Portal 2."
+			"Title_Playstation"		"Portal 2 – standardkontroller"
+			"Description_Playstation"		"Offisiell PlayStation-kontrollerkonfigurasjon til Portal 2."
+			"Title_Switch"		"Portal 2 – standardkontroller"
+			"Description_Switch"		"Offisiell Switch Pro-kontrollerkonfigurasjon til Portal 2."
+			"Action_ReturnToGame"		"Fortsett"
+			"Puzzlemaker_Undo"		"Angre"
+			"Puzzlemaker_Select"		"Velg/bygg"
+			"Puzzlemaker_Delete"		"Slett valgte"
+			"Puzzlemaker_Build"		"Bygg/spill kart"
+			"Puzzlemaker_Zoom"		"Zoom inn"
+			"Puzzlemaker_ZoomOut"		"Zoom ut"
+			"Puzzlemaker_SpinL"		"Snu mot venstre"
+			"Puzzlemaker_SprinR"		"Snu mot høyre"
+			"Puzzlemaker_W"		"Gå fremover"
+			"Puzzlemaker_A"		"Gå til venstre"
+			"Puzzlemaker_S"		"Gå bakover"
+			"Puzzlemaker_D"		"Gå til høyre"
+			"Puzzlemaker_ToggleView"		"Slå av/på spillvisning"
+			"Puzzlemaker_Move"		"Flytt gjeldende utvalg"
+			"Puzzlemaker_ChangeMaterial"		"Endre overflatemateriale"
+			"Puzzlemaker_Rotate"		"Roter visning"
+			"Puzzlemaker_Shift"		"Flervalg"
+		}
+		"japanese"
+		{
+			"Set_FPSControls"		"FPSコントロール"
+			"Set_MenuControls"		"メニューコントロール"
+			"Set_PuzzleControls"		"パズルエディターコントロール"
+			"Set_RadialMenu"		"パイ型メニュー"
+			"Action_Mouse"		"マウス"
+			"Action_Move"		"移動"
+			"Action_Camera"		"カメラ"
+			"Action_BluePortal"		"ブルーポータル"
+			"Action_OrangePortal"		"オレンジポータル"
+			"Action_QuickPing"		"クイックPing"
+			"Action_Zoom"		"ズーム"
+			"Action_PartnerView"		"パートナービュー"
+			"Action_Crouch"		"しゃがむ"
+			"Action_Jump"		"ジャンプ"
+			"Action_Use"		"使用"
+			"Action_Gesture"		"ジェスチャー"
+			"Action_PingMenu"		"Pingメニュー"
+			"Action_PauseMenu"		"一時停止メニュー"
+			"Action_RadialMenu"		"パイ型メニュー"
+			"menu_up"		"上"
+			"menu_down"		"下"
+			"menu_left"		"左"
+			"menu_right"		"右"
+			"menu_select"		"選択"
+			"menu_cancel"		"キャンセル"
+			"menu_x"		"メニュー機能1"
+			"menu_y"		"メニュー機能2"
+			"menu_lshoulder"		"メニュー機能3"
+			"menu_4"		"メニュー機能4"
+			"Menu_ToggleGameView"		"ゲームビューの切り替え"
+			"Title_Motion"		"Portal 2モーションコントロール"
+			"Description_Motion"		"Portal 2 Steamコントローラ公式設定。右パッドとモーションコントロールの組み合わせをカメラに使用します。"
+			"Title_Standard"		"Portal 2標準コントロール"
+			"Description_Standard"		"Portal 2 Steamコントローラ公式設定。"
+			"Title_Xbox"		"Portal 2標準コントロール"
+			"Description_Xbox"		"Portal 2 Xboxコントローラー公式設定。"
+			"Title_Playstation"		"Portal 2標準コントロール"
+			"Description_Playstation"		"Portal 2 Playstationコントローラー公式設定。"
+			"Title_Switch"		"Portal 2標準コントロール"
+			"Description_Switch"		"Portal 2 Switch Proコントローラー公式設定。"
+			"Action_ReturnToGame"		"再開"
+			"Puzzlemaker_Undo"		"元に戻す"
+			"Puzzlemaker_Select"		"選択／ビルド"
+			"Puzzlemaker_Delete"		"選択を削除"
+			"Puzzlemaker_Build"		"マップをビルド／プレイ"
+			"Puzzlemaker_Zoom"		"拡大表示"
+			"Puzzlemaker_ZoomOut"		"縮小表示"
+			"Puzzlemaker_SpinL"		"左回転"
+			"Puzzlemaker_SprinR"		"右回転"
+			"Puzzlemaker_W"		"前進"
+			"Puzzlemaker_A"		"左に移動"
+			"Puzzlemaker_S"		"後退"
+			"Puzzlemaker_D"		"右に移動"
+			"Puzzlemaker_ToggleView"		"ゲームビューの切り替え"
+			"Puzzlemaker_Move"		"現在の選択を移動"
+			"Puzzlemaker_ChangeMaterial"		"表面の素材を変更"
+			"Puzzlemaker_Rotate"		"ビューを回転"
+			"Puzzlemaker_Shift"		"複数選択"
+		}
+		"vietnamese"
+		{
+			"Set_FPSControls"		"Điều khiển FPS"
+			"Set_MenuControls"		"Điều khiển menu"
+			"Set_PuzzleControls"		"Điều khiển công cụ tạo câu đố"
+			"Set_RadialMenu"		"Menu tròn"
+			"Action_Mouse"		"Chuột"
+			"Action_Move"		"Di chuyển"
+			"Action_Camera"		"Camera"
+			"Action_BluePortal"		"Portal xanh"
+			"Action_OrangePortal"		"Portal cam"
+			"Action_QuickPing"		"Ping nhanh"
+			"Action_Zoom"		"Phóng to"
+			"Action_PartnerView"		"Góc nhìn của bạn bè"
+			"Action_Crouch"		"Ngồi"
+			"Action_Jump"		"Nhảy"
+			"Action_Use"		"Dùng"
+			"Action_Gesture"		"Cử chỉ"
+			"Action_PingMenu"		"Menu ping"
+			"Action_PauseMenu"		"Menu tạm dừng"
+			"Action_RadialMenu"		"Menu tròn"
+			"menu_up"		"Lên"
+			"menu_down"		"Xuống"
+			"menu_left"		"Trái"
+			"menu_right"		"Phải"
+			"menu_select"		"Chọn"
+			"menu_cancel"		"Hủy bỏ"
+			"menu_x"		"Chức năng menu 1"
+			"menu_y"		"Chức năng menu 2"
+			"menu_lshoulder"		"Chức năng menu 3"
+			"menu_4"		"Chức năng menu 4"
+			"Menu_ToggleGameView"		"ToggleGameView"
+			"Title_Motion"		"Portal 2 - Điều khiển chuyển động"
+			"Description_Motion"		"Thiết lập Portal 2 chính thức cho Steam Controller.  Kết hợp giữa bàn rê phải và cảm ứng chuyển động cho camera."
+			"Title_Standard"		"Portal 2 - Cách điều khiển tiêu chuẩn"
+			"Description_Standard"		"Thiết lập Portal 2 chính thức - Cho Steam Controller."
+			"Title_Xbox"		"Portal 2 - Cách điều khiển tiêu chuẩn"
+			"Description_Xbox"		"Thiết lập Portal 2 chính thức - Tay cầm Xbox."
+			"Title_Playstation"		"Portal 2 - Cách điều khiển tiêu chuẩn"
+			"Description_Playstation"		"Thiết lập Portal 2 chính thức - Tay cầm Playstation."
+			"Title_Switch"		"Portal 2 - Cách điều khiển tiêu chuẩn"
+			"Description_Switch"		"Thiết lập Portal 2 chính thức - Tay cầm Switch Pro."
+			"Action_ReturnToGame"		"Tiếp tục"
+			"Puzzlemaker_Undo"		"Hoàn tác"
+			"Puzzlemaker_Select"		"Chọn/Tạo"
+			"Puzzlemaker_Delete"		"Xóa vật được chọn"
+			"Puzzlemaker_Build"		"Tạo/Chơi bản đồ"
+			"Puzzlemaker_Zoom"		"Phóng to"
+			"Puzzlemaker_ZoomOut"		"Thu nhỏ"
+			"Puzzlemaker_SpinL"		"Xoay trái"
+			"Puzzlemaker_SprinR"		"Xoay phải"
+			"Puzzlemaker_W"		"Đi tới"
+			"Puzzlemaker_A"		"Sang trái"
+			"Puzzlemaker_S"		"Lùi về"
+			"Puzzlemaker_D"		"Sang phải"
+			"Puzzlemaker_ToggleView"		"Bật tắt góc nhìn trò chơi"
+			"Puzzlemaker_Move"		"Di chuyển vật được chọn"
+			"Puzzlemaker_ChangeMaterial"		"Đổi vật liệu bề mặt"
+			"Puzzlemaker_Rotate"		"Xoay chuyển góc nhìn"
+			"Puzzlemaker_Shift"		"Chọn nhiều cùng lúc"
+		}
+		"brazilian"
+		{
+			"Set_FPSControls"		"Primeira pessoa"
+			"Set_MenuControls"		"Menus"
+			"Set_PuzzleControls"		"Editor de câmaras"
+			"Set_RadialMenu"		"Menu radial"
+			"Action_Mouse"		"Mouse"
+			"Action_Move"		"Mover-se"
+			"Action_Camera"		"Câmera"
+			"Action_BluePortal"		"Portal azul"
+			"Action_OrangePortal"		"Portal laranja"
+			"Action_QuickPing"		"Ping rápido"
+			"Action_Zoom"		"Zoom"
+			"Action_PartnerView"		"Visão do parceiro"
+			"Action_Crouch"		"Agachar-se"
+			"Action_Jump"		"Pular"
+			"Action_Use"		"Usar"
+			"Action_Gesture"		"Gesto"
+			"Action_PingMenu"		"Menu da ferramenta de ping"
+			"Action_PauseMenu"		"Menu de pausa"
+			"Action_RadialMenu"		"Menu radial"
+			"menu_up"		"Cima"
+			"menu_down"		"Baixo"
+			"menu_left"		"Esquerda"
+			"menu_right"		"Direita"
+			"menu_select"		"Selecionar"
+			"menu_cancel"		"Cancelar"
+			"menu_x"		"Função de menu 1"
+			"menu_y"		"Função de menu 2"
+			"menu_lshoulder"		"Função de menu 3"
+			"menu_4"		"Função de menu 4"
+			"Menu_ToggleGameView"		"Alternar visualização do jogo"
+			"Title_Motion"		"Controles de movimento p/ Portal 2"
+			"Description_Motion"		"Configuração oficial de Portal 2 para o Controle Steam que combina o trackpad direito e o giroscópio para controlar a câmera."
+			"Title_Standard"		"Controles padrão para Portal 2"
+			"Description_Standard"		"Configuração oficial de Portal 2 para o Controle Steam."
+			"Title_Xbox"		"Controles padrão para Portal 2"
+			"Description_Xbox"		"Configuração oficial de Portal 2 para controles de Xbox."
+			"Title_Playstation"		"Controles padrão para Portal 2"
+			"Description_Playstation"		"Configuração oficial de Portal 2 para controles de PlayStation."
+			"Title_Switch"		"Controles padrão para Portal 2"
+			"Description_Switch"		"Configuração oficial de Portal 2 para o Nintendo Switch Pro Controller."
+			"Action_ReturnToGame"		"Voltar ao jogo"
+			"Puzzlemaker_Undo"		"Desfazer"
+			"Puzzlemaker_Select"		"Selecionar/Construir"
+			"Puzzlemaker_Delete"		"Excluir seleção"
+			"Puzzlemaker_Build"		"Construir/Jogar mapa"
+			"Puzzlemaker_Zoom"		"Ampliar"
+			"Puzzlemaker_ZoomOut"		"Reduzir"
+			"Puzzlemaker_SpinL"		"Rodar p/ esquerda"
+			"Puzzlemaker_SprinR"		"Rodar p/ direita"
+			"Puzzlemaker_W"		"Mover p/ frente"
+			"Puzzlemaker_A"		"Mover p/ esquerda"
+			"Puzzlemaker_S"		"Mover p/ trás"
+			"Puzzlemaker_D"		"Mover p/ direita"
+			"Puzzlemaker_ToggleView"		"Alternar modo de edição/teste"
+			"Puzzlemaker_Move"		"Mover seleção atual"
+			"Puzzlemaker_ChangeMaterial"		"Alterar material da superfície"
+			"Puzzlemaker_Rotate"		"Rotacionar câmara"
+			"Puzzlemaker_Shift"		"Ativar multisseleção"
+		}
+		"danish"
+		{
+			"Set_FPSControls"		"FPS-kontrolelementer"
+			"Set_MenuControls"		"Menuobjekter"
+			"Set_PuzzleControls"		"Puzzle-editor – Kontrolelementer"
+			"Set_RadialMenu"		"Cirkelmenu"
+			"Action_Mouse"		"Mus"
+			"Action_Move"		"Bevægelse"
+			"Action_Camera"		"Kamera"
+			"Action_BluePortal"		"Blå portal"
+			"Action_OrangePortal"		"Orange portal"
+			"Action_QuickPing"		"Lyn-ping"
+			"Action_Zoom"		"Zoom"
+			"Action_PartnerView"		"Partnervisning"
+			"Action_Crouch"		"Duk"
+			"Action_Jump"		"Hop"
+			"Action_Use"		"Brug"
+			"Action_Gesture"		"Gestus"
+			"Action_PingMenu"		"Pingmenu"
+			"Action_PauseMenu"		"Pausemenu"
+			"Action_RadialMenu"		"Cirkelmenu"
+			"menu_up"		"Op"
+			"menu_down"		"Ned"
+			"menu_left"		"Venstre"
+			"menu_right"		"Højre"
+			"menu_select"		"Vælg"
+			"menu_cancel"		"Annuller"
+			"menu_x"		"Menufunktion 1"
+			"menu_y"		"Menufunktion 2"
+			"menu_lshoulder"		"Menufunktion 3"
+			"menu_4"		"Menufunktion 4"
+			"Menu_ToggleGameView"		"Slå spilvisning til/fra"
+			"Title_Motion"		"Portal 2 – Bevægelsescontroller"
+			"Description_Motion"		"Officiel Portal 2 – Steam Controller-konfigurationer. Bruger en kombination af højre retningsknap og bevægelseskontrol til kamera."
+			"Title_Standard"		"Portal 2 – Standardkontrolelementer"
+			"Description_Standard"		"Officiel Portal 2 – Steam Controller-konfigurationer."
+			"Title_Xbox"		"Portal 2 – Standardkontrolelementer"
+			"Description_Xbox"		"Officiel Portal 2 – Xbox Controller-konfigurationer."
+			"Title_Playstation"		"Portal 2 – Standardkontrolelementer"
+			"Description_Playstation"		"Officiel Portal 2 – Playstation Controller-konfigurationer."
+			"Title_Switch"		"Portal 2 – Standardkontrolelementer"
+			"Description_Switch"		"Officiel Portal 2 – Switch Pro Controller-konfigurationer."
+			"Action_ReturnToGame"		"Genoptag"
+			"Puzzlemaker_Undo"		"Fortryd"
+			"Puzzlemaker_Select"		"Vælg/byg"
+			"Puzzlemaker_Delete"		"Slet valgte"
+			"Puzzlemaker_Build"		"Byg/spil bane"
+			"Puzzlemaker_Zoom"		"Zoom ind"
+			"Puzzlemaker_ZoomOut"		"Zoom ud"
+			"Puzzlemaker_SpinL"		"Drej mod venstre"
+			"Puzzlemaker_SprinR"		"Drej mod højre"
+			"Puzzlemaker_W"		"Flyt frem"
+			"Puzzlemaker_A"		"Flyt til venstre"
+			"Puzzlemaker_S"		"Flyt tilbage"
+			"Puzzlemaker_D"		"Flyt til højre"
+			"Puzzlemaker_ToggleView"		"Slå spilvisning til/fra"
+			"Puzzlemaker_Move"		"Flyt aktuelle valg"
+			"Puzzlemaker_ChangeMaterial"		"Skift overflademateriale"
+			"Puzzlemaker_Rotate"		"Roter visning"
+			"Puzzlemaker_Shift"		"Vælg flere"
+		}
+		"italian"
+		{
+			"Set_FPSControls"		"Controlli FPS"
+			"Set_MenuControls"		"Controlli del menu"
+			"Set_PuzzleControls"		"Controlli dell'editor dei rompicapo"
+			"Set_RadialMenu"		"Menu radiale"
+			"Action_Mouse"		"Mouse"
+			"Action_Move"		"Movimento"
+			"Action_Camera"		"Telecamera"
+			"Action_BluePortal"		"Portale blu"
+			"Action_OrangePortal"		"Portale arancione"
+			"Action_QuickPing"		"Ping rapido"
+			"Action_Zoom"		"Zoom"
+			"Action_PartnerView"		"Vista partner"
+			"Action_Crouch"		"Abbassati"
+			"Action_Jump"		"Salta"
+			"Action_Use"		"Usa"
+			"Action_Gesture"		"Gesto"
+			"Action_PingMenu"		"Menu ping"
+			"Action_PauseMenu"		"Menu pausa"
+			"Action_RadialMenu"		"Menu radiale"
+			"menu_up"		"Su"
+			"menu_down"		"Giù"
+			"menu_left"		"Sinistra"
+			"menu_right"		"Destra"
+			"menu_select"		"Seleziona"
+			"menu_cancel"		"Annulla"
+			"menu_x"		"Funzione menu 1"
+			"menu_y"		"Funzione menu 2"
+			"menu_lshoulder"		"Funzione menu 3"
+			"menu_4"		"Funzione menu 4"
+			"Menu_ToggleGameView"		"ToggleGameView"
+			"Title_Motion"		"Controlli di movimento per Portal 2"
+			"Description_Motion"		"Configurazione ufficiale dello Steam Controller per Portal 2. Usa una combinazione di pad destro e controlli di movimento per la telecamera."
+			"Title_Standard"		"Controlli standard per Portal 2"
+			"Description_Standard"		"Configurazione ufficiale dello Steam Controller per Portal 2."
+			"Title_Xbox"		"Controlli standard per Portal 2"
+			"Description_Xbox"		"Configurazione ufficiale del controller Xbox per Portal 2."
+			"Title_Playstation"		"Controlli standard per Portal 2"
+			"Description_Playstation"		"Configurazione ufficiale del controller Playstation per Portal 2."
+			"Title_Switch"		"Controlli standard per Portal 2"
+			"Description_Switch"		"Configurazione ufficiale del controller Switch Pro per Portal 2."
+			"Action_ReturnToGame"		"Riprendi"
+			"Puzzlemaker_Undo"		"Annulla"
+			"Puzzlemaker_Select"		"Seleziona/Costruisci"
+			"Puzzlemaker_Delete"		"Elimina selezionato"
+			"Puzzlemaker_Build"		"Costruisci/Gioca mappa"
+			"Puzzlemaker_Zoom"		"Aumenta lo zoom"
+			"Puzzlemaker_ZoomOut"		"Diminuisci lo zoom"
+			"Puzzlemaker_SpinL"		"Ruota a sinistra"
+			"Puzzlemaker_SprinR"		"Ruota a destra"
+			"Puzzlemaker_W"		"Sposta in avanti"
+			"Puzzlemaker_A"		"Sposta a sinistra"
+			"Puzzlemaker_S"		"Sposta indietro"
+			"Puzzlemaker_D"		"Sposta a destra"
+			"Puzzlemaker_ToggleView"		"Attiva/disattiva visualizzazione di gioco"
+			"Puzzlemaker_Move"		"Sposta selezione corrente"
+			"Puzzlemaker_ChangeMaterial"		"Cambia materiale della superficie"
+			"Puzzlemaker_Rotate"		"Ruota vista"
+			"Puzzlemaker_Shift"		"Selezione multipla"
+		}
+		"dutch"
+		{
+			"Set_FPSControls"		"Besturing FPS"
+			"Set_MenuControls"		"Besturing menu"
+			"Set_PuzzleControls"		"Besturing puzzeleditor"
+			"Set_RadialMenu"		"Radiaalmenu"
+			"Action_Mouse"		"Muis"
+			"Action_Move"		"Beweging"
+			"Action_Camera"		"Camera"
+			"Action_BluePortal"		"Blauw portaal"
+			"Action_OrangePortal"		"Oranje portaal"
+			"Action_QuickPing"		"Snelle ping"
+			"Action_Zoom"		"Zoomen"
+			"Action_PartnerView"		"Partnerweergave"
+			"Action_Crouch"		"Bukken"
+			"Action_Jump"		"Springen"
+			"Action_Use"		"Gebruiken"
+			"Action_Gesture"		"Gebaar maken"
+			"Action_PingMenu"		"Pingmenu"
+			"Action_PauseMenu"		"Pauzemenu"
+			"Action_RadialMenu"		"Radiaalmenu"
+			"menu_up"		"Omhoog"
+			"menu_down"		"Omlaag"
+			"menu_left"		"Links"
+			"menu_right"		"Rechts"
+			"menu_select"		"Selecteren"
+			"menu_cancel"		"Annuleren"
+			"menu_x"		"Menufunctie 1"
+			"menu_y"		"Menufunctie 2"
+			"menu_lshoulder"		"Menufunctie 3"
+			"menu_4"		"Menufunctie 4"
+			"Menu_ToggleGameView"		"Spelweergave aan/uit"
+			"Title_Motion"		"Bewegingsbesturing voor Portal 2"
+			"Description_Motion"		"Officiële Steam Controller-configuratie voor Portal 2. Gebruikt een combinatie van rechterpad en bewegingsbesturing voor camera."
+			"Title_Standard"		"Standaardbesturing voor Portal 2"
+			"Description_Standard"		"Officiële Steam Controller-configuratie voor Portal 2."
+			"Title_Xbox"		"Standaardbesturing voor Portal 2"
+			"Description_Xbox"		"Officiële Xbox-controllerconfiguratie voor Portal 2."
+			"Title_Playstation"		"Standaardbesturing voor Portal 2"
+			"Description_Playstation"		"Officiële Playstation-controllerconfiguratie voor Portal 2."
+			"Title_Switch"		"Standaardbesturing voor Portal 2"
+			"Description_Switch"		"Officiële Switch Pro-controllerconfiguratie voor Portal 2."
+			"Action_ReturnToGame"		"Hervatten"
+			"Puzzlemaker_Undo"		"Ongedaan maken"
+			"Puzzlemaker_Select"		"Selecteren/Maken"
+			"Puzzlemaker_Delete"		"Selectie verwijderen"
+			"Puzzlemaker_Build"		"Map maken/spelen"
+			"Puzzlemaker_Zoom"		"Inzoomen"
+			"Puzzlemaker_ZoomOut"		"Uitzoomen"
+			"Puzzlemaker_SpinL"		"Naar links draaien"
+			"Puzzlemaker_SprinR"		"Naar rechts draaien"
+			"Puzzlemaker_W"		"Vooruit"
+			"Puzzlemaker_A"		"Naar links"
+			"Puzzlemaker_S"		"Achteruit"
+			"Puzzlemaker_D"		"Naar rechts"
+			"Puzzlemaker_ToggleView"		"Spelweergave aan/uit"
+			"Puzzlemaker_Move"		"Huidige selectie verplaatsen"
+			"Puzzlemaker_ChangeMaterial"		"Materiaal voor oppervlak veranderen"
+			"Puzzlemaker_Rotate"		"Weergave draaien"
+			"Puzzlemaker_Shift"		"Meerdere selecteren"
+		}
+		"portuguese"
+		{
+			"Set_FPSControls"		"Controlos em primeira pessoa"
+			"Set_MenuControls"		"Controlos de menus"
+			"Set_PuzzleControls"		"Controlos do editor de puzzles"
+			"Set_RadialMenu"		"Menu radial"
+			"Action_Mouse"		"Rato"
+			"Action_Move"		"Movimento"
+			"Action_Camera"		"Câmara"
+			"Action_BluePortal"		"Portal azul"
+			"Action_OrangePortal"		"Portal laranja"
+			"Action_QuickPing"		"Ping rápido"
+			"Action_Zoom"		"Zoom"
+			"Action_PartnerView"		"Vista do parceiro"
+			"Action_Crouch"		"Agachar"
+			"Action_Jump"		"Saltar"
+			"Action_Use"		"Usar"
+			"Action_Gesture"		"Gesto"
+			"Action_PingMenu"		"Menu de ping"
+			"Action_PauseMenu"		"Menu de pausa"
+			"Action_RadialMenu"		"Menu radial"
+			"menu_up"		"Cima"
+			"menu_down"		"Baixo"
+			"menu_left"		"Esquerda"
+			"menu_right"		"Direita"
+			"menu_select"		"Selecionar"
+			"menu_cancel"		"Cancelar"
+			"menu_x"		"Função de menu 1"
+			"menu_y"		"Função de menu 2"
+			"menu_lshoulder"		"Função de menu 3"
+			"menu_4"		"Função de menu 4"
+			"Menu_ToggleGameView"		"Alternar vista do jogo"
+			"Title_Motion"		"Controlos de movimento p/ Portal 2"
+			"Description_Motion"		"Configuração oficial do Portal 2 para Comandos Steam, que combina o trackpad direito e controlos de movimento para controlar a câmara."
+			"Title_Standard"		"Controlos padrão p/ Portal 2"
+			"Description_Standard"		"Configuração oficial do Portal 2 para Comandos Steam."
+			"Title_Xbox"		"Controlos padrão p/ Portal 2"
+			"Description_Xbox"		"Configuração oficial do Portal 2 para comandos da Xbox."
+			"Title_Playstation"		"Controlos padrão p/ Portal 2"
+			"Description_Playstation"		"Configuração oficial do Portal 2 para comandos da PlayStation."
+			"Title_Switch"		"Controlos padrão p/ Portal 2"
+			"Description_Switch"		"Configuração oficial do Portal 2 para comandos Pro da Nintendo Switch."
+			"Action_ReturnToGame"		"Retomar"
+			"Puzzlemaker_Undo"		"Anular"
+			"Puzzlemaker_Select"		"Selecionar/Construir"
+			"Puzzlemaker_Delete"		"Eliminar seleção"
+			"Puzzlemaker_Build"		"Construir/Jogar mapa"
+			"Puzzlemaker_Zoom"		"Aumentar zoom"
+			"Puzzlemaker_ZoomOut"		"Diminuir zoom"
+			"Puzzlemaker_SpinL"		"Rodar p/ esquerda"
+			"Puzzlemaker_SprinR"		"Rodar p/ direita"
+			"Puzzlemaker_W"		"Mover p/ frente"
+			"Puzzlemaker_A"		"Mover p/ esquerda"
+			"Puzzlemaker_S"		"Mover p/ trás"
+			"Puzzlemaker_D"		"Mover p/ direita"
+			"Puzzlemaker_ToggleView"		"Alternar vista do jogo"
+			"Puzzlemaker_Move"		"Mover seleção atual"
+			"Puzzlemaker_ChangeMaterial"		"Mudar material da superfície"
+			"Puzzlemaker_Rotate"		"Rodar vista"
+			"Puzzlemaker_Shift"		"Seleção múltipla"
+		}
+	}
+	"group"
+	{
+		"id"		"0"
+		"mode"		"four_buttons"
+		"inputs"
+		{
+			"button_b"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action FPSControls use"
+						}
+					}
+				}
+			}
+			"button_a"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action FPSControls jump"
+						}
+					}
+				}
+			}
+			"button_y"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action FPSControls duck"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"button_size"		"17996"
+			"button_dist"		"19996"
+		}
+	}
+	"group"
+	{
+		"id"		"1"
+		"mode"		"trigger"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action FPSControls attack2"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"2"
+		"mode"		"trigger"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action FPSControls attack"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"3"
+		"mode"		"absolute_mouse"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action FPSControls use"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+			"sensitivity"		"121"
+			"doubetap_max_duration"		"320"
+		}
+		"gameactions"
+		{
+			"FPSControls"		"Camera"
+		}
+	}
+	"group"
+	{
+		"id"		"4"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+			"edge_binding_radius"		"24995"
+			"sensitivity"		"97"
+		}
+		"gameactions"
+		{
+			"FPSControls"		"Move"
+		}
+	}
+	"group"
+	{
+		"id"		"5"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+			"edge_binding_radius"		"24995"
+			"sensitivity"		"97"
+		}
+		"gameactions"
+		{
+			"RadialMenu"		"RadialMenuStick"
+		}
+	}
+	"group"
+	{
+		"id"		"6"
+		"mode"		"trigger"
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"7"
+		"mode"		"trigger"
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"8"
+		"mode"		"four_buttons"
+		"inputs"
+		{
+			"button_b"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action Puzzlemaker menu_cancel"
+						}
+					}
+				}
+			}
+			"button_a"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action Puzzlemaker menu_select"
+						}
+					}
+				}
+			}
+			"button_y"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action Puzzlemaker menu_y"
+						}
+					}
+				}
+			}
+			"button_x"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action Puzzlemaker menu_x"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"button_size"		"17996"
+			"button_dist"		"19996"
+		}
+	}
+	"group"
+	{
+		"id"		"9"
+		"mode"		"trigger"
+		"inputs"
+		{
+			"edge"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"mouse_button RIGHT"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"10"
+		"mode"		"trigger"
+		"inputs"
+		{
+			"edge"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"mouse_button LEFT"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"11"
+		"mode"		"dpad"
+		"inputs"
+		{
+			"dpad_north"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls menu_up"
+						}
+					}
+				}
+			}
+			"dpad_south"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls menu_down"
+						}
+					}
+				}
+			}
+			"dpad_east"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls menu_right"
+						}
+					}
+				}
+			}
+			"dpad_west"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls menu_left"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"requires_click"		"0"
+			"deadzone"		"5000"
+			"edge_binding_radius"		"24995"
+			"analog_emulation_period"		"29"
+		}
+	}
+	"group"
+	{
+		"id"		"12"
+		"mode"		"absolute_mouse"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"sensitivity"		"144"
+			"doubetap_max_duration"		"320"
+		}
+	}
+	"group"
+	{
+		"id"		"13"
+		"mode"		"absolute_mouse"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"sensitivity"		"146"
+			"doubetap_max_duration"		"321"
+		}
+		"gameactions"
+		{
+			"Puzzlemaker"		"Mouse"
+		}
+	}
+	"group"
+	{
+		"id"		"14"
+		"mode"		"absolute_mouse"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"sensitivity"		"147"
+			"doubetap_max_duration"		"322"
+		}
+	}
+	"group"
+	{
+		"id"		"15"
+		"mode"		"absolute_mouse"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"sensitivity"		"38"
+			"trackball"		"0"
+			"haptic_intensity"		"0"
+			"sensitivity_vert_scale"		"119"
+			"acceleration"		"2"
+			"mouse_smoothing"		"0"
+			"doubetap_max_duration"		"322"
+		}
+	}
+	"group"
+	{
+		"id"		"16"
+		"mode"		"dpad"
+		"inputs"
+		{
+			"dpad_north"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action Puzzlemaker menu_up"
+						}
+					}
+				}
+			}
+			"dpad_south"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action Puzzlemaker menu_down"
+						}
+					}
+				}
+			}
+			"dpad_east"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action Puzzlemaker menu_right"
+						}
+					}
+				}
+			}
+			"dpad_west"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action Puzzlemaker menu_left"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"deadzone"		"5000"
+			"edge_binding_radius"		"24996"
+			"analog_emulation_period"		"29"
+		}
+	}
+	"group"
+	{
+		"id"		"17"
+		"mode"		"four_buttons"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"button_size"		"17996"
+			"button_dist"		"19996"
+		}
+	}
+	"group"
+	{
+		"id"		"18"
+		"mode"		"trigger"
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"19"
+		"mode"		"trigger"
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"20"
+		"mode"		"four_buttons"
+		"inputs"
+		{
+			"button_b"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press LEFT_CONTROL, Undo"
+						}
+						"settings"
+						{
+							"repeat_rate"		"99"
+						}
+					}
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press Z, Undo"
+						}
+						"settings"
+						{
+							"repeat_rate"		"99"
+						}
+					}
+				}
+			}
+			"button_a"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press ENTER, Select/Build"
+						}
+						"settings"
+						{
+							"repeat_rate"		"99"
+						}
+					}
+				}
+			}
+			"button_y"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press F9, Build/Play Map"
+						}
+						"settings"
+						{
+							"repeat_rate"		"99"
+						}
+					}
+				}
+			}
+			"button_x"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press DELETE, Delete Selected"
+						}
+						"settings"
+						{
+							"repeat_rate"		"99"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"button_size"		"17994"
+			"button_dist"		"19994"
+		}
+	}
+	"group"
+	{
+		"id"		"21"
+		"mode"		"four_buttons"
+		"inputs"
+		{
+			"button_b"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press D, Move Right"
+						}
+						"settings"
+						{
+							"hold_repeats"		"1"
+							"repeat_rate"		"50"
+						}
+					}
+				}
+			}
+			"button_a"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press S, Move Back"
+						}
+						"settings"
+						{
+							"hold_repeats"		"1"
+							"repeat_rate"		"50"
+						}
+					}
+				}
+			}
+			"button_y"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press W, Move Forward"
+						}
+						"settings"
+						{
+							"hold_repeats"		"1"
+							"repeat_rate"		"50"
+						}
+					}
+				}
+			}
+			"button_x"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press A, Move Left"
+						}
+						"settings"
+						{
+							"hold_repeats"		"1"
+							"repeat_rate"		"50"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"requires_click"		"0"
+			"button_size"		"18994"
+			"button_dist"		"19994"
+		}
+	}
+	"group"
+	{
+		"id"		"22"
+		"mode"		"dpad"
+		"inputs"
+		{
+			"dpad_north"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"mouse_wheel SCROLL_UP, Zoom In"
+						}
+						"settings"
+						{
+							"repeat_rate"		"99"
+						}
+					}
+				}
+			}
+			"dpad_south"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"mouse_wheel SCROLL_DOWN, Zoom Out"
+						}
+						"settings"
+						{
+							"repeat_rate"		"99"
+						}
+					}
+				}
+			}
+			"dpad_east"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press E, Spin Right"
+						}
+						"settings"
+						{
+							"repeat_rate"		"99"
+						}
+					}
+				}
+			}
+			"dpad_west"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press Q, Spin Left"
+						}
+						"settings"
+						{
+							"repeat_rate"		"99"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"edge_binding_radius"		"24995"
+		}
+	}
+	"group"
+	{
+		"id"		"23"
+		"mode"		"dpad"
+		"inputs"
+		{
+			"dpad_north"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action FPSControls mouse_menu"
+						}
+					}
+				}
+			}
+			"dpad_west"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action FPSControls mouse_menu_taunt"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+			"edge_binding_radius"		"24995"
+			"analog_emulation_period"		"29"
+		}
+	}
+	"group"
+	{
+		"id"		"24"
+		"mode"		"four_buttons"
+		"inputs"
+		{
+			"button_b"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls menu_cancel"
+						}
+					}
+				}
+			}
+			"button_a"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls menu_select"
+						}
+					}
+				}
+			}
+			"button_y"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls menu_y"
+						}
+					}
+				}
+			}
+			"button_x"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls menu_x"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"button_size"		"17992"
+			"button_dist"		"19992"
+		}
+	}
+	"group"
+	{
+		"id"		"25"
+		"mode"		"dpad"
+		"inputs"
+		{
+			"dpad_north"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action RadialMenu mouse_menu"
+						}
+					}
+				}
+			}
+			"dpad_west"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action RadialMenu mouse_menu_taunt"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+			"edge_binding_radius"		"24995"
+			"analog_emulation_period"		"29"
+		}
+	}
+	"group"
+	{
+		"id"		"30"
+		"mode"		"trigger"
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"31"
+		"mode"		"trigger"
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"32"
+		"mode"		"dpad"
+		"inputs"
+		{
+			"dpad_north"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action FPSControls mouse_menu, Ping Menu"
+						}
+					}
+				}
+			}
+			"dpad_west"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action FPSControls mouse_menu_taunt, Gesture"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"requires_click"		"0"
+		}
+	}
+	"group"
+	{
+		"id"		"33"
+		"mode"		"dpad"
+		"inputs"
+		{
+			"dpad_north"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"mouse_wheel SCROLL_UP, Zoom In"
+						}
+					}
+				}
+			}
+			"dpad_south"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"mouse_wheel SCROLL_DOWN, Zoom Out"
+						}
+					}
+				}
+			}
+			"dpad_east"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press E, Spin Right"
+						}
+					}
+				}
+			}
+			"dpad_west"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press Q, Spin Left"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"requires_click"		"0"
+		}
+	}
+	"group"
+	{
+		"id"		"34"
+		"mode"		"dpad"
+		"inputs"
+		{
+			"dpad_north"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action RadialMenu mouse_menu, Ping Menu"
+						}
+					}
+				}
+			}
+			"dpad_west"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action RadialMenu mouse_menu_taunt, Gesture"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"requires_click"		"0"
+		}
+	}
+	"group"
+	{
+		"id"		"35"
+		"mode"		"joystick_mouse"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action FPSControls use"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+			"curve_exponent"		"4"
+			"output_joystick"		"2"
+			"sensitivity"		"481"
+		}
+		"gameactions"
+		{
+			"FPSControls"		"Camera"
+		}
+	}
+	"group"
+	{
+		"id"		"36"
+		"mode"		"joystick_mouse"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"output_joystick"		"2"
+			"sensitivity"		"144"
+		}
+	}
+	"group"
+	{
+		"id"		"37"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+			"edge_binding_radius"		"24995"
+			"sensitivity"		"97"
+		}
+		"gameactions"
+		{
+			"RadialMenu"		"RadialMenuStick"
+		}
+	}
+	"group"
+	{
+		"id"		"26"
+		"mode"		"switches"
+		"inputs"
+		{
+			"button_escape"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action FPSControls pause_menu"
+						}
+					}
+				}
+			}
+			"button_menu"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action FPSControls remote_view"
+						}
+					}
+				}
+			}
+			"left_bumper"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action FPSControls quick_ping"
+						}
+					}
+				}
+			}
+			"right_bumper"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action FPSControls zoom"
+						}
+					}
+				}
+			}
+			"button_back_left"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action FPSControls jump"
+						}
+					}
+				}
+			}
+			"button_back_right"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action FPSControls use"
+						}
+					}
+				}
+			}
+			"button_capture"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"controller_action SCREENSHOT"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"27"
+		"mode"		"switches"
+		"inputs"
+		{
+			"button_escape"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls pause_menu"
+						}
+					}
+				}
+			}
+			"left_bumper"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls menu_lshoulder, Menu Function 3"
+						}
+					}
+				}
+			}
+			"right_bumper"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls menu_4, Menu Function 4"
+						}
+					}
+				}
+			}
+			"button_capture"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"controller_action SCREENSHOT"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"28"
+		"mode"		"switches"
+		"inputs"
+		{
+			"button_escape"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action Puzzlemaker pause_menu"
+						}
+					}
+				}
+			}
+			"button_menu"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press TAB, Toggle Game View"
+						}
+					}
+				}
+			}
+			"left_bumper"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press SPACE, Move Current Selection"
+						}
+					}
+				}
+			}
+			"right_bumper"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press p, Change Surface Material"
+						}
+					}
+				}
+			}
+			"button_back_left"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"mouse_button MIDDLE, Rotate View"
+						}
+					}
+				}
+			}
+			"button_back_right"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press LEFT_SHIFT, Multi-Select"
+						}
+					}
+				}
+			}
+			"left_trigger"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"mouse_button RIGHT, Right Mouse"
+						}
+					}
+				}
+			}
+			"right_trigger"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"mouse_button LEFT, Left Mouse"
+						}
+					}
+				}
+			}
+			"button_capture"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"controller_action SCREENSHOT"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"29"
+		"mode"		"switches"
+		"inputs"
+		{
+			"left_bumper"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action RadialMenu mouse_menu"
+						}
+					}
+				}
+			}
+			"button_capture"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"controller_action SCREENSHOT"
+						}
+					}
+				}
+			}
+		}
+	}
+	"preset"
+	{
+		"id"		"0"
+		"name"		"FPSControls"
+		"group_source_bindings"
+		{
+			"26"		"switch active"
+			"0"		"button_diamond active"
+			"1"		"left_trigger active"
+			"2"		"right_trigger active"
+			"3"		"right_trackpad active"
+			"4"		"joystick active"
+			"15"		"gyro inactive"
+			"23"		"left_trackpad active"
+			"32"		"dpad active"
+			"35"		"right_joystick active"
+		}
+	}
+	"preset"
+	{
+		"id"		"1"
+		"name"		"MenuControls"
+		"group_source_bindings"
+		{
+			"27"		"switch active"
+			"24"		"button_diamond active"
+			"6"		"left_trigger active"
+			"7"		"right_trigger active"
+			"11"		"joystick active"
+		}
+	}
+	"preset"
+	{
+		"id"		"2"
+		"name"		"Puzzlemaker"
+		"group_source_bindings"
+		{
+			"28"		"switch active"
+			"20"		"button_diamond active"
+			"9"		"left_trigger active"
+			"10"		"right_trigger active"
+			"12"		"right_trackpad active"
+			"21"		"joystick active"
+			"22"		"left_trackpad active"
+			"33"		"dpad active"
+			"36"		"right_joystick active"
+		}
+	}
+	"preset"
+	{
+		"id"		"3"
+		"name"		"RadialMenu"
+		"group_source_bindings"
+		{
+			"29"		"switch active"
+			"30"		"left_trigger active"
+			"31"		"right_trigger active"
+			"5"		"right_trackpad active"
+			"25"		"left_trackpad active"
+			"34"		"dpad active"
+			"37"		"right_joystick active"
+		}
+	}
+	"settings"
+	{
+	}
+}

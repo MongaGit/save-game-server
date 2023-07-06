@@ -1,0 +1,1301 @@
+"controller_mappings"
+{
+	"version"		"3"
+	"title"		"Joyggy´s Xbox controller configuration 1.2"
+	"description"		"Change the sensitivity to make the configuration the best for you!"
+	"creator"		"76561198083204523"
+	"controller_type"		"controller_xbox360"
+	"actions"
+	{
+		"GameControls"
+		{
+			"title"		"#InGame_Controls"
+			"legacy_set"		"0"
+			"StickPadGyro"
+			{
+				"Move"
+				{
+					"title"		"#Move"
+					"input_mode"		"joystick_move"
+				}
+				"Camera"
+				{
+					"title"		"#Camera"
+					"input_mode"		"absolute_mouse"
+				}
+			}
+			"Button"
+			{
+				"attack"		"#Fire"
+				"attack2"		"#FireAlt"
+				"Reload"		"#Reload"
+				"jump"		"#Jump"
+				"duck"		"#Duck"
+				"toggle_duck"		"#ToggleDuck"
+				"use"		"#Use"
+				"buymenu"		"#Buy"
+				"invnext"		"#InvNext"
+				"invprev"		"#InvPrev"
+				"lastinv"		"#LastInv"
+				"showscores"		"#ToggleScores"
+				"drop"		"#Drop"
+				"speed"		"#Walk"
+				"pause_menu"		"#PauseGame"
+				"flashlight"		"#Flashlight"
+				"slot1"		"#PrimaryWeapon"
+				"slot2"		"#SecondaryWeapon"
+				"slot3"		"#Knife"
+				"slot4"		"#Grenade"
+				"slot5"		"#Bomb"
+				"voicerecord"		"#VoiceRecord"
+				"vote_yes"		"#VoteYes"
+				"vote_no"		"#VoteNo"
+			}
+		}
+		"MenuControls"
+		{
+			"title"		"#MenuControls"
+			"legacy_set"		"0"
+			"StickPadGyro"
+			{
+				"Mouse"
+				{
+					"title"		"#Mouse"
+					"input_mode"		"absolute_mouse"
+					"os_mouse"		"1"
+				}
+			}
+			"Button"
+			{
+				"menu_up"		"#MenuUp"
+				"menu_down"		"#MenuDown"
+				"menu_left"		"#MenuLeft"
+				"menu_right"		"#MenuRight"
+				"menu_select"		"#MenuSelect"
+				"menu_cancel"		"#MenuCancel"
+				"menu_x"		"#MenuX"
+				"menu_y"		"#MenuY"
+				"pause_menu"		"#ReturnToGame"
+			}
+		}
+		"RadialControls"
+		{
+			"title"		"#BuyControls"
+			"legacy_set"		"0"
+			"StickPadGyro"
+			{
+				"Navigate"
+				{
+					"title"		"#Navigate"
+					"input_mode"		"joystick_move"
+				}
+			}
+			"Button"
+			{
+				"menu_select"		"#MenuSelect"
+				"menu_cancel"		"#MenuCancel"
+				"autobuy"		"#Autobuy"
+				"rebuy"		"#Rebuy"
+				"pause_menu"		"#ReturnToGame"
+			}
+		}
+	}
+	"localization"
+	{
+		"english"
+		{
+			"InGame_Controls"		"In-Game Controls"
+			"Move"		"Move"
+			"Camera"		"Camera"
+			"drop"		"Drop"
+			"Fire"		"Fire"
+			"FireAlt"		"Alternate Fire"
+			"Scope"		"Use Rifle Scope"
+			"Reload"		"Reload"
+			"jump"		"Jump"
+			"duck"		"Crouch"
+			"ToggleDuck"		"Toggle Crouch"
+			"use"		"Use"
+			"Buy"		"Buy"
+			"invnext"		"Select Next Weapon"
+			"invprev"		"Select Previous Weapon"
+			"lastinv"		"Select Last Weapon"
+			"togglescores"		"Scoreboard"
+			"Walk"		"Walk"
+			"PauseGame"		"PauseGame"
+			"flashlight"		"Flashlight"
+			"PrimaryWeapon"		"Primary Weapon"
+			"SecondaryWeapon"		"Secondary Weapon"
+			"Knife"		"Knife"
+			"Grenade"		"Grenade"
+			"Bomb"		"Bomb"
+			"voicerecord"		"Use Microphone"
+			"VoteYes"		"Vote Yes"
+			"VoteNo"		"Vote No"
+			"MenuUp"		"Up"
+			"MenuDown"		"Down"
+			"MenuLeft"		"Left"
+			"MenuRight"		"Right"
+			"MenuSelect"		"Select"
+			"MenuCancel"		"Cancel"
+			"MenuX"		"Alt Select"
+			"MenuY"		"Options"
+			"ReturnToGame"		"Return to Game"
+			"Navigate"		"Navigate"
+			"Mouse"		"Mouse"
+			"autobuy"		"Autobuy"
+			"rebuy"		"Rebuy"
+			"MenuControls"		"Menu Controls"
+			"BuyControls"		"Buy Controls"
+		}
+	}
+	"group"
+	{
+		"id"		"0"
+		"mode"		"four_buttons"
+		"inputs"
+		{
+			"button_a"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls jump"
+						}
+					}
+				}
+			}
+			"button_b"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls invnext, Select Next Weapon"
+						}
+					}
+				}
+			}
+			"button_x"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls invprev, Select Previous Weapon"
+						}
+					}
+				}
+			}
+			"button_y"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls Reload, Reload"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"1"
+		"mode"		"trigger"
+		"inputs"
+		{
+			"edge"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls attack2, Alternate Fire"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"2"
+		"mode"		"trigger"
+		"inputs"
+		{
+			"edge"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls attack"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"3"
+		"mode"		"four_buttons"
+		"inputs"
+		{
+			"button_a"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"mouse_button LEFT"
+						}
+					}
+				}
+			}
+			"button_b"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls menu_cancel"
+						}
+					}
+				}
+			}
+			"button_x"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls menu_x"
+						}
+					}
+				}
+			}
+			"button_y"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls menu_y"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"4"
+		"mode"		"trigger"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"mouse_button LEFT"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"5"
+		"mode"		"trigger"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"mouse_button RIGHT"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"6"
+		"mode"		"four_buttons"
+		"inputs"
+		{
+			"button_a"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action RadialControls menu_select"
+						}
+					}
+				}
+			}
+			"button_b"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action RadialControls menu_cancel"
+						}
+					}
+				}
+			}
+			"button_x"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action RadialControls rebuy"
+						}
+					}
+				}
+			}
+			"button_y"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action RadialControls autobuy"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"7"
+		"mode"		"trigger"
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"8"
+		"mode"		"trigger"
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"9"
+		"mode"		"absolute_mouse"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+			"acceleration"		"2"
+		}
+		"gameactions"
+		{
+			"GameControls"		"Camera"
+		}
+	}
+	"group"
+	{
+		"id"		"10"
+		"mode"		"absolute_mouse"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls attack2"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+			"sensitivity"		"400"
+		}
+		"gameactions"
+		{
+			"GameControls"		"Camera"
+		}
+	}
+	"group"
+	{
+		"id"		"11"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls voicerecord, Use Microphone"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+		"gameactions"
+		{
+			"GameControls"		"Move"
+		}
+	}
+	"group"
+	{
+		"id"		"12"
+		"mode"		"four_buttons"
+		"inputs"
+		{
+			"button_a"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot4"
+						}
+					}
+				}
+			}
+			"button_b"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot3"
+						}
+					}
+				}
+			}
+			"button_x"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot2"
+						}
+					}
+				}
+			}
+			"button_y"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot1"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"requires_click"		"0"
+		}
+	}
+	"group"
+	{
+		"id"		"13"
+		"mode"		"dpad"
+		"inputs"
+		{
+			"dpad_north"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls menu_up"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+			"dpad_south"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls menu_down"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+			"dpad_east"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls menu_right"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+			"dpad_west"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls menu_left"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"14"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+			"output_joystick"		"2"
+		}
+		"gameactions"
+		{
+			"RadialControls"		"Navigate"
+		}
+	}
+	"group"
+	{
+		"id"		"15"
+		"mode"		"absolute_mouse"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls menu_select"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+		}
+		"gameactions"
+		{
+			"MenuControls"		"Mouse"
+		}
+	}
+	"group"
+	{
+		"id"		"17"
+		"mode"		"touch_menu"
+		"inputs"
+		{
+			"touch_menu_button_0"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot3, Knife, ghost_010_wpn_0070.png #232323 #E4E4E4"
+						}
+					}
+				}
+			}
+			"touch_menu_button_1"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot1, Primary Weapon, ghost_010_wpn_0110.png #232323 #E4E4E4"
+						}
+					}
+				}
+			}
+			"touch_menu_button_2"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot2, Secondary Weapon, ghost_010_wpn_0080.png #232323 #E4E4E4"
+						}
+					}
+				}
+			}
+			"touch_menu_button_3"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot4, Grenade, ghost_010_wpn_0190.png #232323 #E4E4E4"
+						}
+					}
+				}
+			}
+			"touch_menu_button_4"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls lastinv, Select Last Weapon, ghost_030_inv_0100.png #232323 #E4E4E4"
+						}
+					}
+				}
+			}
+			"touch_menu_button_5"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot5, Bomb, ghost_010_wpn_0210.png #232323 #E4E4E4"
+						}
+					}
+				}
+			}
+			"touch_menu_button_6"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls showscores, Scoreboard, ghost_050_menu_0070.png #232323 #E4E4E4"
+						}
+					}
+				}
+			}
+			"touch_menu_button_7"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls vote_yes, Vote Yes, ghost_050_menu_0150.png #232323 #E4E4E4"
+						}
+					}
+				}
+			}
+			"touch_menu_button_8"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls vote_no, Vote No, ghost_050_menu_0140.png #232323 #E4E4E4"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"touch_menu_button_count"		"9"
+			"touch_menu_show_labels"		"0"
+		}
+	}
+	"group"
+	{
+		"id"		"21"
+		"mode"		"dpad"
+		"inputs"
+		{
+			"dpad_north"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls drop, Drop"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+			"dpad_south"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls buymenu, Buy"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+			"dpad_east"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot3, Knife"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+			"dpad_west"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls use, Use"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"22"
+		"mode"		"dpad"
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"23"
+		"mode"		"dpad"
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"24"
+		"mode"		"joystick_mouse"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls slot1, Primary Weapon"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+			"output_joystick"		"2"
+			"sensitivity"		"400"
+		}
+		"gameactions"
+		{
+			"GameControls"		"Camera"
+		}
+	}
+	"group"
+	{
+		"id"		"25"
+		"mode"		"joystick_mouse"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"mouse_button LEFT"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"output_joystick"		"2"
+		}
+		"gameactions"
+		{
+			"MenuControls"		"Mouse"
+		}
+	}
+	"group"
+	{
+		"id"		"26"
+		"mode"		"mouse_region"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"output_joystick"		"3"
+		}
+	}
+	"group"
+	{
+		"id"		"27"
+		"mode"		"mouse_region"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"output_joystick"		"3"
+		}
+	}
+	"group"
+	{
+		"id"		"28"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+		"gameactions"
+		{
+			"RadialControls"		"Navigate"
+		}
+	}
+	"group"
+	{
+		"id"		"29"
+		"mode"		"dpad"
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"30"
+		"mode"		"dpad"
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"31"
+		"mode"		"joystick_mouse"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"mouse_button LEFT"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"output_joystick"		"2"
+		}
+	}
+	"group"
+	{
+		"id"		"18"
+		"mode"		"switches"
+		"inputs"
+		{
+			"button_escape"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls pause_menu"
+						}
+					}
+				}
+			}
+			"button_menu"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls showscores"
+						}
+					}
+				}
+			}
+			"left_bumper"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls duck, Crouch"
+						}
+					}
+				}
+			}
+			"right_bumper"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls speed, Walk"
+						}
+					}
+				}
+			}
+			"button_back_left"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls jump"
+						}
+					}
+				}
+			}
+			"button_back_right"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action GameControls speed, Walk"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"19"
+		"mode"		"switches"
+		"inputs"
+		{
+			"button_escape"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action MenuControls pause_menu"
+						}
+					}
+				}
+			}
+			"left_bumper"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"mouse_button MIDDLE, Middle Mouse"
+						}
+					}
+				}
+			}
+			"left_trigger"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"mouse_button RIGHT, Right Mouse"
+						}
+					}
+				}
+			}
+			"right_trigger"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"mouse_button LEFT, Left Mouse"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"20"
+		"mode"		"switches"
+		"inputs"
+		{
+		}
+	}
+	"preset"
+	{
+		"id"		"0"
+		"name"		"GameControls"
+		"group_source_bindings"
+		{
+			"18"		"switch active"
+			"0"		"button_diamond active"
+			"1"		"left_trigger active"
+			"2"		"right_trigger active"
+			"12"		"left_trackpad inactive"
+			"17"		"left_trackpad active"
+			"10"		"right_trackpad active"
+			"11"		"joystick active"
+			"9"		"gyro active"
+			"21"		"dpad active"
+			"24"		"right_joystick active"
+		}
+	}
+	"preset"
+	{
+		"id"		"1"
+		"name"		"MenuControls"
+		"group_source_bindings"
+		{
+			"19"		"switch active"
+			"3"		"button_diamond active"
+			"4"		"left_trigger active"
+			"5"		"right_trigger active"
+			"15"		"right_trackpad active"
+			"13"		"joystick active"
+			"22"		"dpad active"
+			"25"		"right_joystick active"
+		}
+	}
+	"preset"
+	{
+		"id"		"2"
+		"name"		"RadialControls"
+		"group_source_bindings"
+		{
+			"20"		"switch active"
+			"6"		"button_diamond active"
+			"7"		"left_trigger active"
+			"8"		"right_trigger active"
+			"14"		"joystick inactive"
+			"26"		"joystick inactive"
+			"30"		"joystick active"
+			"23"		"dpad active"
+			"27"		"right_joystick inactive"
+			"28"		"right_joystick inactive"
+			"29"		"right_joystick inactive"
+			"31"		"right_joystick active"
+		}
+	}
+	"settings"
+	{
+	}
+}

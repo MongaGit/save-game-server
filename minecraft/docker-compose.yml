@@ -17,5 +17,5 @@ services:
 
     volumes:
       # Server data
-      - ./data/monga-vanila/:/data
+      - ./data/:/data
 

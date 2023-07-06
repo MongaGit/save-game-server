@@ -1,0 +1,573 @@
+"controller_mappings"
+{
+	"version"		"3"
+	"revision"		"143"
+	"title"		"#Library_ControllerSaveDefaultTitle"
+	"description"		"#Library_ControllerSaveDefaultDescription"
+	"creator"		"76561197978266558"
+	"controller_type"		"controller_mobile_touch"
+	"major_revision"		"0"
+	"minor_revision"		"0"
+	"Timestamp"		"1577386086"
+	"touch_layout"		"0aa40310002218080010011d56559d3d259c3e693d2d0000803f350000803f2218080110011deceefe3e259b62d43d2d0000803f350000803f2218080210011dfdff1f3e25558c3a3f2d0000803f350000803f2218080410011d2222663f2558e7ca3e2d8ec3473f358ec3473f2218080610011dacaaea3d255ab0c53e2d55c24b3f3555c24b3f2218080710011d8888583f25d5f0573f2d0000803f350000803f2218080810011d8888683f250e7f3b3f2d0000803f350000803f2218080910011d8888483f250e7f3b3f2d0000803f350000803f2218080a10011d8888583f25470d1f3f2d0000803f350000803f2218080b10011de7a3703e25b6608b3e2d0000803f350000803f2218080c10011dc292173f259b62d43d2d0000803f350000803f2218080d10011d7888703e255f79003f2d0000803f350000803f2218080e10011d1611473f255f79003f2d0000803f350000803f2218080f10011d7c77713f250a585e3f2d0000803f350000803f2218081010011d7777713f25bb5d193f2d0000803f350000803f2204081c10002a140d0000803f150000803f1d0000803f2595a7053f0a8e0310012218080010011dcdcc303e25ffa4cf3d2d0000803f350000803f2218080110011deceefe3e259b62d43d2d0000803f350000803f2218080210011dfdff1f3e25558c3a3f2d0000803f350000803f2218080410011d2222663f2558e7ca3e2d8ec3473f358ec3473f2218080610011dacaaea3d255ab0c53e2d55c24b3f3555c24b3f2218080710011d8888583f25d5f0573f2d0000803f350000803f2218080810011d8888683f250e7f3b3f2d0000803f350000803f2218080910011d8888483f250e7f3b3f2d0000803f350000803f2218080a10011d8888583f25470d1f3f2d0000803f350000803f2218080b10011de7a3703e25b6608b3e2d0000803f350000803f2218080c10011dc292173f259b62d43d2d0000803f350000803f2218080d10011d7888703e255f79003f2d0000803f350000803f2218080e10011d1611473f255f79003f2d0000803f350000803f2218080f10011d7c77713f250a585e3f2d0000803f350000803f2218081010011d7777713f25bb5d193f2d0000803f350000803f2204081c10000aac0210022218080010011dcdcc303e25ffa4cf3d2d0000803f350000803f2218080110011deceefe3e259b62d43d2d0000803f350000803f2218080210011dfdff1f3e25558c3a3f2d0000803f350000803f2218080410011d2222663f2558e7ca3e2d8ec3473f358ec3473f2218080c10011dc292173f259b62d43d2d0000803f350000803f2204080d10002204080e10002218081110011d5655cd3e252c7dd23d2d0000803f350000803f2218081210011d3433413f251848d63d2d0000803f350000803f2218081310011d3433413f2562d4703e2d0000803f350000803f2218081410011d2122563f251848d63d2d0000803f350000803f2218081510011d67662c3f2562d4703e2d0000803f350000803f2218081c10011d57552c3f250e48d63d2d0000803f350000803f10031804"
+	"localization"
+	{
+		"english"
+		{
+			"title"		"Gamepad With Camera Controls"
+			"description"		"This template is for most games that already have built-in gamepad support and have a first or third person controlled camera.  FPS or Third Person Adventure games, etc."
+		}
+		"czech"
+		{
+			"title"		"Gamepad s ovládáním kamery"
+			"description"		"Tato šablona je pro většinu her podporujících gamepad a disponujících kamerou z pohledu první nebo třetí osoby. Mezi takové hry patří například akční hry z pohledu první nebo třetí osoby."
+		}
+		"dutch"
+		{
+			"title"		"Gamepad met camerabesturing"
+			"description"		"Deze template is voor de meeste spellen die reeds ingebouwde gamepadondersteuning hebben en die een camera hebben die wordt bestuurd in de eerste of derde persoon. FPS, third person-avontuurspellen, etc."
+		}
+		"finnish"
+		{
+			"title"		"Kameraa ohjaava peliohjain"
+			"description"		"Tämä malli on useimmille muita ohjaimia valmiiksi tukeville peleille, joissa on ensimmäisessä tai kolmannessa persoonassa ohjattava kamera. FPS-pelit, kolmannen persoonan seikkailupelit jne."
+		}
+		"french"
+		{
+			"title"		"Manette avec contrôles caméra"
+			"description"		"Ce modèle fonctionne pour la plupart des jeux ayant un support manette intégré et une caméra contrôlée à la première ou à la troisième personne. FPS, jeux d'aventure à la troisième personne, etc."
+		}
+		"german"
+		{
+			"title"		"Gamepad mit Kamerasteuerung"
+			"description"		"Diese Vorlage ist für die meisten Spiele konzipiert, die bereits volle Untersützung für Gamepads mit sich bringen und eine First- oder Third-Person-Kamerasteuerung haben. Gedacht für Ego-Shooter, Third-Person-Abenteuerspiele usw."
+		}
+		"hungarian"
+		{
+			"title"		"Gamepad kamerairányítással"
+			"description"		"Ez a sablon a legtöbb olyan játékhoz való, melyek már rendelkeznek beépített gamepad-támogatással, és van első vagy harmadik személyű kezelésű kamerájuk. Ilyenek az FPS vagy harmadik személyű kalandjátékok stb."
+		}
+		"koreana"
+		{
+			"title"		"카메라 조작 기능이 있는 게임패드"
+		}
+		"polish"
+		{
+			"title"		"Kontroler obsługujący kamerę"
+			"description"		"Ten szablon jest dla większości gier, które mają wbudowane wsparcie dla kontrolerów, a także kamerę kontrolowaną z perspektywy pierwszej lub trzeciej osoby, np. FPS-y bądź gry przygodowe."
+		}
+		"portuguese"
+		{
+			"title"		"Comando com controlos de câmara"
+			"description"		"Este modelo é indicado para jogos que já têm compatibilidade nativa com comando e têm uma câmara que pode ser controlada. Por exemplo, jogos em primeira ou terceira pessoa, do género de aventura, de tiros, etc."
+		}
+		"romanian"
+		{
+			"title"		"Gamepad cu controale pentru cameră"
+			"description"		"Acest șablon este pentru majoritatea jocurilor care au deja suport pentru gamepad implementat și au o cameră controlată din perspectivă first sau third person. FPS sau jocuri de aventură third person, etc."
+		}
+		"russian"
+		{
+			"title"		"Геймпад с управлением камерой"
+			"description"		"Этот шаблон предназначен для большинства игр от первого или третьего лица, в которых уже есть встроенная поддержка геймпада (например, для шутеров или экшенов)."
+		}
+		"spanish"
+		{
+			"title"		"Mando con controles de cámara"
+			"description"		"Esta plantilla es para la mayoría de juegos que ya incluyen de serie compatibilidad con mando y disponen de cámara controlada en primera o tercera persona: FPS, juegos de aventura en tercera persona, etc."
+		}
+		"swedish"
+		{
+			"title"		"Gamepad med kamerakontroller"
+			"description"		"Denna mall är för de flesta spel som redan har inbyggt stöd för spelkontroller och har en kamera som styrs i första- eller tredjeperson. FPS eller äventyrsspel etc."
+		}
+		"schinese"
+		{
+			"title"		"支持视角控制的手柄"
+			"description"		"该模板适用于已内置手柄支持，并且拥有第一或第三人称控制视角的大多数游戏。包括 FPS 或第三人称冒险游戏等。"
+		}
+		"thai"
+		{
+			"title"		"เกมแพดพร้อมการควบคุมกล้อง"
+		}
+		"brazilian"
+		{
+			"title"		"Controle com controle de câmera"
+			"description"		"Este modelo é para jogos já compatíveis com controles que possuem uma câmera controlável, seja em primeira ou terceira pessoa, como jogos de tiro, aventura, etc."
+		}
+		"bulgarian"
+		{
+			"title"		"Геймпад с управление на камерата"
+			"description"		"Този шаблон е за повечето игри, които вече имат вградена поддръжка на геймпад и включват управление на камерата от първо или трето лице. Екшъни от първо лице, приключенски игри от трето лице и т.н."
+		}
+		"greek"
+		{
+			"title"		"Χειριστήριο με πλήκτρα κάμερας"
+			"description"		"Αυτό το πρότυπο είναι για τα περισσότερα παιχνίδια που έχουν ενσωματωμένη υποστήριξη χειριστηρίου και έχουν μια ελεγχόμενη κάμερα πρώτου ή τρίτου προσώπου. FPS ή παιχνίδια περιπέτειας τρίτου προσώπου κλπ."
+		}
+		"turkish"
+		{
+			"title"		"Kamera Kontrollü Oyun Kumandası"
+			"description"		"Bu şablon hali hazırda oyun içi oyun kumandası desteği ve birincil veya üçüncü kişi kontrollü kameraya sahip oyunlar içindir. FPS veya Üçüncü Kişi Macera oyunları vb."
+		}
+		"ukrainian"
+		{
+			"title"		"Ґеймпад з елементами керування камерою"
+			"description"		"Цей шаблон для більшості ігор, що вже мають вбудовану підтримку ґеймпада і у яких камера керується від першої або третьої особи. Шутери від першої особи чи пригодницькі ігри від третьої особи тощо."
+		}
+	}
+	"group"
+	{
+		"id"		"0"
+		"mode"		"four_buttons"
+		"inputs"
+		{
+			"button_a"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button A, Action/Accept"
+						}
+					}
+				}
+			}
+			"button_b"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button B, Alt. Action/Cancel"
+						}
+					}
+				}
+			}
+			"button_x"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button X, Attack"
+						}
+					}
+				}
+			}
+			"button_y"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button Y, Inspect/Sew"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"1"
+		"mode"		"dpad"
+		"inputs"
+		{
+			"dpad_north"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button dpad_up"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+			"dpad_south"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button dpad_down"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+			"dpad_east"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button dpad_right"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+			"dpad_west"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button dpad_left"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"2"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button JOYSTICK_RIGHT"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"3"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"4"
+		"mode"		"trigger"
+		"inputs"
+		{
+			"edge"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button TRIGGER_LEFT, Open Crafting"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"output_trigger"		"1"
+			"adaptive_threshold"		"0"
+		}
+	}
+	"group"
+	{
+		"id"		"5"
+		"mode"		"trigger"
+		"inputs"
+		{
+			"edge"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button TRIGGER_RIGHT, Open Inventory"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"output_trigger"		"2"
+			"adaptive_threshold"		"0"
+		}
+	}
+	"group"
+	{
+		"id"		"6"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+			"click"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button JOYSTICK_RIGHT"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"2"
+						}
+					}
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"8"
+		"mode"		"joystick_move"
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"9"
+		"mode"		"dpad"
+		"inputs"
+		{
+			"dpad_north"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button DPAD_UP, Inspect Item"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+			"dpad_south"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button DPAD_DOWN, Drop Item"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+			"dpad_east"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button DPAD_RIGHT, Use on Self/Unequip"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+			"dpad_west"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button DPAD_LEFT, Use on World/Store/Repair"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"1"
+						}
+					}
+				}
+			}
+		}
+		"settings"
+		{
+			"requires_click"		"0"
+		}
+	}
+	"group"
+	{
+		"id"		"7"
+		"mode"		"switches"
+		"inputs"
+		{
+			"button_escape"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button START, Pause"
+						}
+					}
+				}
+			}
+			"button_menu"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button SELECT, Map"
+							"binding"		"controller_action MOUSE_POSITION 32749 0 0, Map"
+						}
+					}
+				}
+			}
+			"left_bumper"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button SHOULDER_LEFT, Rotate Left"
+						}
+					}
+				}
+			}
+			"right_bumper"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button SHOULDER_RIGHT, Rotate Right"
+						}
+					}
+				}
+			}
+			"button_back_left"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button a"
+						}
+					}
+				}
+			}
+			"button_back_right"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button x"
+						}
+					}
+				}
+			}
+		}
+	}
+	"preset"
+	{
+		"id"		"0"
+		"name"		"Default"
+		"group_source_bindings"
+		{
+			"7"		"switch active"
+			"0"		"button_diamond active"
+			"1"		"left_trackpad inactive"
+			"2"		"right_trackpad inactive"
+			"6"		"right_trackpad inactive"
+			"3"		"joystick active"
+			"4"		"left_trigger active"
+			"5"		"right_trigger active"
+			"8"		"right_joystick active"
+			"9"		"dpad active"
+		}
+	}
+	"settings"
+	{
+		"left_trackpad_mode"		"0"
+		"right_trackpad_mode"		"0"
+		"action_set_trigger_cursor_show"		"0"
+		"action_set_trigger_cursor_hide"		"0"
+	}
+}

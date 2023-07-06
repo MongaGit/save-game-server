@@ -1,0 +1,520 @@
+"controller_mappings"
+{
+	"version"		"2"
+	"title"		"#Library_ControllerSaveDefaultTitle"
+	"description"		"#Library_ControllerSaveDefaultDescription"
+	"creator"		"76561198070579691"
+	"actions"
+	{
+		"InGameControls"
+		{
+			"title"		"#InGameControls"
+			"StickPadGyro"
+			{
+				"MoveDirection"
+				{
+					"title"		"#Action_Move"
+					"input_mode"		"joystick_move"
+				}
+				"AimDirection"
+				{
+					"title"		"#Action_Aim"
+					"input_mode"		"joystick_move"
+				}
+				"PingWheelDirection"
+				{
+					"title"		"#Action_PingWheelDirection"
+					"input_mode"		"joystick_move"
+				}
+			}
+			"AnalogTrigger"
+			{
+			}
+			"Button"
+			{
+				"Jump"		"#Action_Jump"
+				"Jetpack"		"#Action_Jetpack"
+				"Respawn"		"#Action_Respawn"
+				"Fire"		"#Action_Fire"
+				"Powerup"		"#Action_Powerup"
+				"NextWeapon"		"#Action_NextWeapon"
+				"PreviousWeapon"		"#Action_PreviousWeapon"
+				"Scoreboard"		"#Action_Scoreboard"
+				"ActivatePingWheel"		"#Action_ActivatePingWheel"
+				"NavigationMenu"		"#Menu_Menu"
+				"NavigationSubMenu"		"#Menu_SubMenu"
+			}
+		}
+		"MenuControls"
+		{
+			"title"		"#MenuControls"
+			"StickPadGyro"
+			{
+				"NavigationCursorMove"
+				{
+					"title"		"#Menu_Cursor"
+					"input_mode"		"absolute_mouse"
+				}
+				"NavigationScroll"
+				{
+					"title"		"#Menu_Scroll"
+					"input_mode"		"absolute_mouse"
+				}
+			}
+			"AnalogTrigger"
+			{
+			}
+			"Button"
+			{
+				"NavigationUp"		"#Menu_Up"
+				"NavigationDown"		"#Menu_Down"
+				"NavigationLeft"		"#Menu_Left"
+				"NavigationRight"		"#Menu_Right"
+				"NavigationTabLeft"		"#Menu_TabLeft"
+				"NavigationTabRight"		"#Menu_TabRight"
+				"NavigationSubTabLeft"		"#Menu_SubTabLeft"
+				"NavigationSubTabRight"		"#Menu_SubTabRight"
+				"NavigationConfirm"		"#Menu_Confirm"
+				"NavigationCancel"		"#Menu_Cancel"
+				"NavigationMenu"		"#Menu_Menu"
+				"NavigationSubMenu"		"#Menu_SubMenu"
+			}
+		}
+	}
+	"Localization"
+	{
+		"english"
+		{
+			"InGameControls"		"In-Game Controls"
+			"MenuControls"		"Menu Controls"
+			"Action_Move"		"Movement"
+			"Action_Aim"		"Aim"
+			"Action_PingWheelDirection"		"Ping Wheel Direction"
+			"Action_Jump"		"Jump"
+			"Action_Jetpack"		"Jetpack"
+			"Action_Respawn"		"Respawn"
+			"Action_Fire"		"Fire Weapon"
+			"Action_Powerup"		"Powerup"
+			"Action_NextWeapon"		"Next Weapon"
+			"Action_PreviousWeapon"		"Previous Weapon"
+			"Action_Scoreboard"		"Scoreboard"
+			"Action_ActivatePingWheel"		"Activate Ping Wheel"
+			"Menu_Scroll"		"Menu Scroll"
+			"Menu_Up"		"Menu Up"
+			"Menu_Down"		"Menu Down"
+			"Menu_Left"		"Menu Left"
+			"Menu_Right"		"Menu Right"
+			"Menu_TabLeft"		"Menu Tab Left"
+			"Menu_TabRight"		"Menu Tab Right"
+			"Menu_SubTabLeft"		"Menu Sub Tab Left"
+			"Menu_SubTabRight"		"Menu Sub Tab Right"
+			"Menu_Confirm"		"Menu Confirm"
+			"Menu_Cancel"		"Menu Cancel"
+			"Menu_Menu"		"Menu Menu"
+			"Menu_SubMenu"		"Menu Sub Menu"
+			"Menu_Cursor"		"Menu Cursor 6"
+		}
+	}
+	"group"
+	{
+		"id"		"0"
+		"mode"		"four_buttons"
+		"bindings"
+		{
+			"button_A"		"game_action InGameControls Jump"
+			"button_B"		"game_action InGameControls NextWeapon"
+			"button_X"		"game_action InGameControls Fire"
+			"button_Y"		"game_action InGameControls Powerup"
+		}
+	}
+	"group"
+	{
+		"id"		"1"
+		"mode"		"trigger"
+		"bindings"
+		{
+			"click"		"game_action InGameControls Jump"
+			"edge"		"game_action InGameControls Jump"
+		}
+	}
+	"group"
+	{
+		"id"		"2"
+		"mode"		"trigger"
+		"bindings"
+		{
+			"click"		"game_action InGameControls Fire"
+			"edge"		"game_action InGameControls Fire"
+		}
+	}
+	"group"
+	{
+		"id"		"3"
+		"mode"		"four_buttons"
+		"bindings"
+		{
+			"button_A"		"game_action MenuControls NavigationConfirm"
+			"button_B"		"game_action MenuControls NavigationCancel"
+		}
+	}
+	"group"
+	{
+		"id"		"4"
+		"mode"		"trigger"
+		"bindings"
+		{
+			"click"		"game_action MenuControls NavigationCancel"
+			"edge"		"game_action MenuControls NavigationCancel"
+		}
+	}
+	"group"
+	{
+		"id"		"5"
+		"mode"		"trigger"
+		"bindings"
+		{
+			"click"		"game_action MenuControls NavigationConfirm"
+			"edge"		"game_action MenuControls NavigationConfirm"
+		}
+	}
+	"group"
+	{
+		"id"		"6"
+		"mode"		"joystick_move"
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+		"gameactions"
+		{
+			"InGameControls"		"PingWheelDirection"
+		}
+	}
+	"group"
+	{
+		"id"		"7"
+		"mode"		"joystick_move"
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+		"gameactions"
+		{
+			"InGameControls"		"MoveDirection"
+		}
+	}
+	"group"
+	{
+		"id"		"8"
+		"mode"		"joystick_move"
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+	}
+	"group"
+	{
+		"id"		"9"
+		"mode"		"joystick_move"
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+		"gameactions"
+		{
+			"MenuControls"		"NavigationScroll"
+		}
+	}
+	"group"
+	{
+		"id"		"10"
+		"mode"		"dpad"
+	}
+	"group"
+	{
+		"id"		"11"
+		"mode"		"absolute_mouse"
+	}
+	"group"
+	{
+		"id"		"12"
+		"mode"		"dpad"
+		"bindings"
+		{
+			"dpad_north"		"game_action MenuControls NavigationUp"
+			"dpad_south"		"game_action MenuControls NavigationDown"
+			"dpad_east"		"game_action MenuControls NavigationRight"
+			"dpad_west"		"game_action MenuControls NavigationLeft"
+		}
+		"settings"
+		{
+			"layout"		"3"
+		}
+	}
+	"group"
+	{
+		"id"		"13"
+		"mode"		"absolute_mouse"
+		"settings"
+		{
+			"virtual_mode"		"1"
+			"trackball"		"0"
+			"acceleration"		"1"
+		}
+	}
+	"group"
+	{
+		"id"		"14"
+		"mode"		"absolute_mouse"
+		"settings"
+		{
+			"virtual_mode"		"1"
+			"acceleration"		"1"
+		}
+	}
+	"group"
+	{
+		"id"		"15"
+		"mode"		"joystick_move"
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+	}
+	"group"
+	{
+		"id"		"16"
+		"mode"		"joystick_move"
+		"settings"
+		{
+			"virtual_mode"		"1"
+			"deadzone_shape"		"1"
+		}
+		"gameactions"
+		{
+			"InGameControls"		"AimDirection"
+		}
+	}
+	"group"
+	{
+		"id"		"17"
+		"mode"		"joystick_move"
+		"settings"
+		{
+			"output_joystick"		"2"
+		}
+	}
+	"group"
+	{
+		"id"		"18"
+		"mode"		"joystick_move"
+		"settings"
+		{
+			"virtual_mode"		"1"
+			"output_joystick"		"3"
+		}
+		"gameactions"
+		{
+			"MenuControls"		"NavigationScroll"
+		}
+	}
+	"group"
+	{
+		"id"		"19"
+		"mode"		"joystick_move"
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+		"gameactions"
+		{
+			"InGameControls"		"PingWheelDirection"
+		}
+	}
+	"group"
+	{
+		"id"		"20"
+		"mode"		"joystick_move"
+		"settings"
+		{
+			"virtual_mode"		"1"
+			"haptic_intensity"		"3"
+			"output_joystick"		"2"
+			"deadzone_outer_radius"		"15999"
+			"deadzone_shape"		"1"
+			"sensitivity"		"346"
+		}
+		"gameactions"
+		{
+			"MenuControls"		"NavigationCursorMove"
+		}
+	}
+	"group"
+	{
+		"id"		"21"
+		"mode"		"four_buttons"
+	}
+	"group"
+	{
+		"id"		"22"
+		"mode"		"dpad"
+	}
+	"group"
+	{
+		"id"		"23"
+		"mode"		"absolute_mouse"
+	}
+	"group"
+	{
+		"id"		"24"
+		"mode"		"mouse_joystick"
+	}
+	"group"
+	{
+		"id"		"25"
+		"mode"		"mouse_region"
+	}
+	"group"
+	{
+		"id"		"26"
+		"mode"		"absolute_mouse"
+		"settings"
+		{
+			"virtual_mode"		"1"
+			"sensitivity"		"748"
+			"invert_y"		"1"
+		}
+		"gameactions"
+		{
+			"MenuControls"		"NavigationCursorMove"
+		}
+	}
+	"group"
+	{
+		"id"		"27"
+		"mode"		"dpad"
+	}
+	"group"
+	{
+		"id"		"28"
+		"mode"		"joystick_move"
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+		"gameactions"
+		{
+			"InGameControls"		"MoveDirection"
+		}
+	}
+	"group"
+	{
+		"id"		"29"
+		"mode"		"absolute_mouse"
+	}
+	"group"
+	{
+		"id"		"30"
+		"mode"		"absolute_mouse"
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+		"gameactions"
+		{
+			"MenuControls"		"NavigationCursorMove"
+		}
+	}
+	"group"
+	{
+		"id"		"31"
+		"mode"		"absolute_mouse"
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+		"gameactions"
+		{
+			"MenuControls"		"NavigationScroll"
+		}
+	}
+	"preset"
+	{
+		"id"		"0"
+		"name"		"InGameControls"
+		"group_source_bindings"
+		{
+			"0"		"button_diamond active"
+			"1"		"left_trigger active"
+			"2"		"right_trigger active"
+			"6"		"left_trackpad active"
+			"19"		"left_trackpad active modeshift"
+			"27"		"left_trackpad inactive"
+			"28"		"left_trackpad inactive"
+			"29"		"left_trackpad inactive"
+			"8"		"right_trackpad inactive"
+			"13"		"right_trackpad inactive"
+			"14"		"right_trackpad active modeshift"
+			"15"		"right_trackpad inactive"
+			"16"		"right_trackpad active"
+			"7"		"joystick active"
+		}
+		"switch_bindings"
+		{
+			"bindings"
+			{
+				"left_bumper"		"game_action InGameControls PreviousWeapon"
+				"right_bumper"		"game_action InGameControls NextWeapon"
+				"button_escape"		"game_action InGameControls NavigationMenu"
+				"button_menu"		"game_action InGameControls NavigationSubMenu"
+				"button_menu"		"game_action InGameControls Scoreboard"
+				"button_back_right"		"game_action InGameControls NextWeapon"
+				"button_back_left"		"game_action InGameControls PreviousWeapon"
+			}
+		}
+		"settings"
+		{
+		}
+	}
+	"preset"
+	{
+		"id"		"1"
+		"name"		"MenuControls"
+		"group_source_bindings"
+		{
+			"3"		"button_diamond active"
+			"4"		"left_trigger active"
+			"5"		"right_trigger active"
+			"10"		"left_trackpad inactive"
+			"11"		"left_trackpad inactive"
+			"18"		"left_trackpad inactive"
+			"30"		"left_trackpad inactive"
+			"31"		"left_trackpad active"
+			"9"		"right_trackpad inactive"
+			"17"		"right_trackpad inactive"
+			"20"		"right_trackpad inactive"
+			"21"		"right_trackpad inactive"
+			"22"		"right_trackpad inactive"
+			"23"		"right_trackpad inactive"
+			"24"		"right_trackpad inactive"
+			"25"		"right_trackpad inactive"
+			"26"		"right_trackpad active"
+			"12"		"joystick active"
+		}
+		"switch_bindings"
+		{
+			"bindings"
+			{
+				"left_bumper"		"game_action MenuControls NavigationSubTabLeft"
+				"right_bumper"		"game_action MenuControls NavigationSubTabRight"
+				"button_escape"		"game_action MenuControls NavigationMenu"
+				"button_menu"		"game_action MenuControls NavigationSubMenu"
+				"button_back_right"		"game_action MenuControls NavigationTabRight"
+				"button_back_left"		"game_action MenuControls NavigationTabLeft"
+			}
+		}
+		"settings"
+		{
+		}
+	}
+}
