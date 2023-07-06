@@ -1,8 +1,8 @@
+# docker-compose.yml
 version: "3.7"
 services:
   project-zomboid:
     image: danixu86/project-zomboid-dedicated-server:latest
-    container_name: pz-monga
     restart: unless-stopped
     build:
       context: .
