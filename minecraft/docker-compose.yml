@@ -3,7 +3,7 @@ version: "3"
 services:
   minecraft-survival:
     image: lorthe/monga-minecraft
-    container_name: minecraft-survival
+    container_name: mc-monga
     restart: unless-stopped
 
     env_file:
