@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\BackPacks\M_LegBag</m_MaleModel>
+	<m_FemaleModel>Skinned\BackPacks\F_LegBag</m_FemaleModel>
+	<m_GUID>533b7a83-ade4-42a5-abf3-4fb0321e9132</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>Clothes\UpperLegs\LegBag</textureChoices>
+</clothingItem>

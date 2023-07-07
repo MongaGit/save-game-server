@@ -1,0 +1,5 @@
+ItemName_ES = {
+    ItemName_BasementMod.BasementsMag_small = "En el sótano Vol. 1",
+    ItemName_BasementMod.BasementsMag_medium = "En el sótano Vol. 2",
+    ItemName_BasementMod.BasementsMag_large = "En el sótano Vol. 3",
+}

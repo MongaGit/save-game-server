@@ -1,0 +1,14 @@
+module Dislaik
+{
+    item Glasses_TacticalGoggles
+	{
+		Type = Clothing,
+		DisplayName = Tactical Goggles,
+		ClothingItem = Glasses_TacticalGoggles,
+		BodyLocation = Eyes,
+		Icon = TacticalGoggles,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20
+	}
+}

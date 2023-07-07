@@ -1,0 +1,15 @@
+Tooltip_CH = {
+	Tooltip_craft_hatchLearnRecipeDesc = "<RGB:1,0.3,0.3> 您必须阅读'%1'才能建造这个地下室。 ",
+	Tooltip_craft_hatchDesc_small  = "打造梦想地下室的第一步！ <br> 尺寸：5x5 ",
+	Tooltip_craft_hatchDesc_medium = "打造梦想地下室的第一步！ <br> 尺寸：10x10 ",
+	Tooltip_craft_hatchDesc_large  = "打造梦想地下室的第一步！ <br> 尺寸：15x15 ",
+
+	Tooltip_basement_turnoff_power_first  = "先关掉电源！",
+	Tooltip_basement_no_car_battery_found = "库存中没有找到汽车电池！",
+
+	Tooltip_basement_electric_panel = "电板",
+	Tooltip_basement_battery = "汽车电池",
+	Tooltip_basement_condition = "健康状况",
+	Tooltip_basement_no_car_battery = "需要汽车电池！",
+	Tooltip_basement_using_city_power_grid = "使用城市电网！";
+}

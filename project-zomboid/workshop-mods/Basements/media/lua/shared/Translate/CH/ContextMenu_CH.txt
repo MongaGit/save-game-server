@@ -1,0 +1,19 @@
+ContextMenu_CH = {
+    ContextMenu_Basement = "地下室",
+    ContextMenu_BasementEnter = "进入地下室",
+    ContextMenu_BasementExit = "出口地下室",
+    ContextMenu_BasementElectricPanel = "电板",
+
+    ContextMenu_Basement_InsertCarBattery = "插入汽车电池",
+    ContextMenu_Basement_RemoveCarBattery = "卸下汽车电池",
+    ContextMenu_Basement_TurnPowerOn = "打开电源",
+    ContextMenu_Basement_TurnPowerOff = "关闭电源",
+
+    ContextMenu_Hatch_small = "小型地下室舱口",
+    ContextMenu_Hatch_medium = "中型地下室舱口",
+    ContextMenu_Hatch_large = "大型地下室舱口",
+    
+    ContextMenu_BasementBuildHatch_small = "建造小型地下室",
+    ContextMenu_BasementBuildHatch_medium = "建造中型地下室",
+    ContextMenu_BasementBuildHatch_large = "建造大型地下室",
+}

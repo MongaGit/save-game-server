@@ -1,0 +1,19 @@
+ContextMenu_RU = {
+    ContextMenu_Basement = "Повал",
+    ContextMenu_BasementEnter = "Войти в подвал",
+    ContextMenu_BasementExit = "Выйти из подвала",
+    ContextMenu_BasementElectricPanel = "Электрический щиток",
+
+    ContextMenu_Basement_InsertCarBattery = "Установить аккумулятор",
+    ContextMenu_Basement_RemoveCarBattery = "Вытащить аккумулятор",
+    ContextMenu_Basement_TurnPowerOn = "Подключить  питание",
+    ContextMenu_Basement_TurnPowerOff = "Отключить питание",
+
+    ContextMenu_Hatch_small = "Маленький подвальный люк",
+    ContextMenu_Hatch_medium = "Средний подвальный люк",
+    ContextMenu_Hatch_large = "Большой подвальный люк",
+    
+    ContextMenu_BasementBuildHatch_small = "Построить маленький люк",
+    ContextMenu_BasementBuildHatch_medium = "Построить средний люк",
+    ContextMenu_BasementBuildHatch_large = "Построить большой люк",
+}

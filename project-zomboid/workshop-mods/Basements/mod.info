@@ -1,0 +1,12 @@
+name=Basements
+id=Basements
+poster=poster.png
+icon=icon.png
+authors=BitBraven, Konijima, Pertonimus.
+modversion=1.0.0
+description=This mod adds functional basements to the game!
+description=You will need a hammer and a shovel to get yourself started.
+description=Basements can only be built inside houses, buildings, etc. for now.
+description=You can only build one basement per structure.
+pack=perts_basement
+tiledef=Perts_basementdefinitions 4244

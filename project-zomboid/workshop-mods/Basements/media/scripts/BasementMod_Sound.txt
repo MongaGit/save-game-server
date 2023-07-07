@@ -1,0 +1,21 @@
+module BasementMod {
+
+    sound BasementPowerSwitch
+    {
+        category = BasementMod, loop = false, is3D = true,
+        clip { file = media/sound/Basement_PowerSwitch.ogg, distanceMax = 10, volume = 0.5, }
+    }
+
+    sound BasementHatchOpening
+    {
+        category = BasementMod, loop = false, is3D = true,
+        clip { file = media/sound/Basement_HatchOpening.ogg, distanceMax = 20, volume = 0.5, }
+    }
+
+    sound BasementHatchClosing
+    {
+        category = BasementMod, loop = false, is3D = true,
+        clip { file = media/sound/Basement_HatchClosing.ogg, distanceMax = 20, volume = 0.5, }
+    }
+
+}

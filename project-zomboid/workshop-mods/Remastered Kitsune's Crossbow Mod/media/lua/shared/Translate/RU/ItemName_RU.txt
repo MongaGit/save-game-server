@@ -1,0 +1,38 @@
+ItemName_RU = {
+ItemName_KCMweapons.HandCrossbow = "Пистолетный арбалет",
+ItemName_KCMweapons.KCM_Compound = "Арбалет Дэрила Диксона Scout",
+ItemName_KCMweapons.KCM_Compound02 = "Блочный арбалет Haze 470",
+ItemName_KCMweapons.KCM_Handmade = "Деревянный самодельный арбалет",
+ItemName_KCMweapons.KCM_Handmade02 = "Металлический самодельный арбалет", 
+
+ItemName_KCMweapons.CrossbowBolt = "Короткий арбалетный болт",
+ItemName_KCMweapons.CrossbowBoltBox = "Связка коротких арбалетных болтов",
+ItemName_KCMweapons.CrossbowBoltLarge = "Арбалетный болт",
+ItemName_KCMweapons.CrossbowBoltLargeBox = "Связка арбалетных болтов",
+ItemName_KCMweapons.WoodenBolt = "Деревянный арбалетный болт",
+ItemName_KCMweapons.WoodenBoltBox = "Связка деревянных арбалетных болтов",
+
+ItemName_KCMweapons.TheUltimateHuntingGuide1 = "Руководство по охоте для новичков",
+ItemName_KCMweapons.TheUltimateHuntingGuide2 = "Руководство по охоте для продвинутых", 
+ItemName_KCMweapons.TheSniperGuide = "Руководство снайпера",  
+ItemName_KCMweapons.WeaponHandlersReloaded = "Тренировка оружия: Перезагрузка",
+ItemName_KCMweapons.DoomsdayPreppers1 = "Выжившие Судного Дня том 1",
+ItemName_KCMweapons.DoomsdayPreppers2 = "Выжившие Судного Дня том 2",
+
+ItemName_KCMweapons.KCM_IronSight = "Мушка арбалета",
+ItemName_KCMweapons.KCM_x2Scope = "Прицел x2 арбалета",
+ItemName_KCMweapons.KCM_x4Scope = "Прицел x4 арбалета",
+ItemName_KCMweapons.KCM_x8Scope = "Прицел x8 арбалета", 
+ItemName_KCMweapons.KCM_Sling = "Ремень арбалета",
+ItemName_KCMweapons.KCM_FiberglassStock = "Стекловолоконный приклад арбалета",
+ItemName_KCMweapons.KCM_RedDot = "Коллиматорный прицел арбалета",
+ItemName_KCMweapons.KCM_Laser = "Лазер для арбалета",
+
+ItemName_KCMweapons.ShortBrokenBolt = "Короткий сломанный арбалетный болт",
+ItemName_KCMweapons.LongBrokenBolt = "Сломанный арбалетный болт",
+ItemName_KCMweapons.WoodenBrokenBolt = "Деревянный сломанный арбалетный болт", 
+ItemName_KCMweapons.ShortShaft = "Древко короткого арбалетного болта",
+ItemName_KCMweapons.LongShaft = "Древко арбалетного болта",
+ItemName_KCMweapons.CrossbowBoltHead = "Наконечник арбалетного болта",
+ItemName_KCMweapons.CrossbowBoltFletching = "Оперение арбалетного болта",
+}

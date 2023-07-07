@@ -1,0 +1,19 @@
+VERSION = 1,
+
+option FC4WorkingTreadmill.FitnessXPMultiply
+{
+	type = double, min = 0, max = 100, default = 1.0,
+	page = FC4WorkingTreadmill, translation = FC4WorkingTreadmill_FitnessXPMultiply,
+}
+
+option FC4WorkingTreadmill.StrengthXPMultiply
+{
+	type = double, min = 0, max = 100, default = 1.0,
+	page = FC4WorkingTreadmill, translation = FC4WorkingTreadmill_StrengthXPMultiply,
+}
+
+option FC4WorkingTreadmill.SprintingXPMultiply
+{
+	type = double, min = 0, max = 100, default = 1.0,
+	page = FC4WorkingTreadmill, translation = FC4WorkingTreadmill_SprintingXPMultiply,
+}

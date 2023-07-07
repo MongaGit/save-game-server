@@ -1,0 +1,38 @@
+ItemName_EN = {
+ItemName_KCMweapons.HandCrossbow = "Hand Crossbow",
+ItemName_KCMweapons.KCM_Compound = "Scout Compound Crossbow",
+ItemName_KCMweapons.KCM_Compound02 = "Haze 470 Compound Crossbow",
+ItemName_KCMweapons.KCM_Handmade = "Handmade Wooden Crossbow",
+ItemName_KCMweapons.KCM_Handmade02 = "Handmade Metal Crossbow", 
+
+ItemName_KCMweapons.CrossbowBolt = "Short Crossbow Bolt",
+ItemName_KCMweapons.CrossbowBoltBox = "Bundle of Short Crossbow Bolts",
+ItemName_KCMweapons.CrossbowBoltLarge = "Long Crossbow Bolt",
+ItemName_KCMweapons.CrossbowBoltLargeBox = "Bundle of Long Crossbow Bolts",
+ItemName_KCMweapons.WoodenBolt = "Wooden Crossbow Bolt",
+ItemName_KCMweapons.WoodenBoltBox = "Bundle of Wooden Crossbow Bolts",
+
+ItemName_KCMweapons.TheUltimateHuntingGuide1 = "Hunting Guide for Beginners",
+ItemName_KCMweapons.TheUltimateHuntingGuide2 = "Hunting Guide for Advanced", 
+ItemName_KCMweapons.TheSniperGuide = "Sniper's Guide",  
+ItemName_KCMweapons.WeaponHandlersReloaded = "Weapon Handlers: Reloading",
+ItemName_KCMweapons.DoomsdayPreppers1 = "Doomsday Preppers Vol.1",
+ItemName_KCMweapons.DoomsdayPreppers2 = "Doomsday Preppers Vol.2",
+
+ItemName_KCMweapons.KCM_IronSight = "Crossbow Iron Sight",
+ItemName_KCMweapons.KCM_x2Scope = "Crossbow x2 Scope",
+ItemName_KCMweapons.KCM_x4Scope = "Crossbow x4 Scope",
+ItemName_KCMweapons.KCM_x8Scope = "Crossbow x8 Scope", 
+ItemName_KCMweapons.KCM_Sling = "Crossbow Sling",
+ItemName_KCMweapons.KCM_FiberglassStock = "Crossbow Fiberglass Stock",
+ItemName_KCMweapons.KCM_RedDot = "Crossbow Red Dot",
+ItemName_KCMweapons.KCM_Laser = "Crossbow Laser",
+
+ItemName_KCMweapons.ShortBrokenBolt = "Short Broken Bolt",
+ItemName_KCMweapons.LongBrokenBolt = "Long Broken Bolt",
+ItemName_KCMweapons.WoodenBrokenBolt = "Wooden Broken Bolt", 
+ItemName_KCMweapons.ShortShaft = "Short	Crossbow Bolt Shaft",
+ItemName_KCMweapons.LongShaft = "Long Crossbow Bolt Shaft",
+ItemName_KCMweapons.CrossbowBoltHead = "Crossbow Bolt Head",
+ItemName_KCMweapons.CrossbowBoltFletching = "Crossbow Bolt Fletching",
+}

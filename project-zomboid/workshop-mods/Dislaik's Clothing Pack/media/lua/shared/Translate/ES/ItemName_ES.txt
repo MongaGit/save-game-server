@@ -1,0 +1,13 @@
+ItemName_ES = {
+    ItemName_Dislaik.LowerLegs_KneePads = "Rodilleras",
+    ItemName_Dislaik.LowerArms_ElbowPads = "Coderas",
+    ItemName_Dislaik.BeltExtra_TacticalHolster = "Funda tactica",
+    ItemName_Dislaik.UpperLegs_LegBag = "Bolsa de pierna tactica",
+    ItemName_Dislaik.Trousers_SWAT = "Pantalones SWAT",
+    ItemName_Dislaik.Jacket_SWAT = "Chaqueta SWAT",
+    ItemName_Dislaik.Vest_SWATBulletproofVest = "Chaleco antibalas SWAT",
+    ItemName_Dislaik.Hat_SkateSport = "Casco urbano",
+    ItemName_Dislaik.Gloves_Tactical = "Guantes tacticos",
+    ItemName_Dislaik.Glasses_TacticalGoggles = "Gafas de proteccion tacticos",
+    ItemName_Dislaik.Hat_Tactical = "Casco tactico"
+}

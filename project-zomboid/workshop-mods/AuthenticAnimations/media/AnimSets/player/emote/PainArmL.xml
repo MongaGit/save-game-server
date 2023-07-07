@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="looped.xml">
+	<m_Name>PainArmL</m_Name>
+	<m_AnimName>Bob_EmotePainLeftArm</m_AnimName>
+	<m_BlendTime>0.30</m_BlendTime>
+	<m_Conditions>
+		<m_StringValue>PainArmL</m_StringValue>
+	</m_Conditions>
+</animNode>

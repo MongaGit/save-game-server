@@ -1,0 +1,6 @@
+Sandbox_EN = {
+	Sandbox_FC4WorkingTreadmill = "Working Treadmill",
+	Sandbox_FC4WorkingTreadmill_FitnessXPMultiply = "Fitness XP Multiply",
+	Sandbox_FC4WorkingTreadmill_StrengthXPMultiply = "Strength XP Multiply",
+	Sandbox_FC4WorkingTreadmill_SprintingXPMultiply = "Sprinting XP Multiply",
+}

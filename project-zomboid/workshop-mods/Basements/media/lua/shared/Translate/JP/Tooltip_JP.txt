@@ -1,0 +1,15 @@
+Tooltip_JP = {
+	Tooltip_craft_hatchLearnRecipeDesc = "<RGB：1,0.3,0.3>この地下室を建てるには、'％1' を読む必要があります。 ",
+	Tooltip_craft_hatchDesc_small  = "あなたの夢の地下室を構築するための最初のステップ！ <br>サイズ：5x5 ",
+	Tooltip_craft_hatchDesc_medium = "あなたの夢の地下室を構築するための最初のステップ！ <br>サイズ：10x10 ",
+	Tooltip_craft_hatchDesc_large  = "あなたの夢の地下室を構築するための最初のステップ！ <br>サイズ：15x15 ",
+
+	Tooltip_basement_turnoff_power_first  = "まず電源を切ってください！",
+	Tooltip_basement_no_car_battery_found = "在庫にカーバッテリーが見つかりません！",
+
+	Tooltip_basement_electric_panel = "電気パネル",
+	Tooltip_basement_battery = "車の電池",
+	Tooltip_basement_condition = "調子",
+	Tooltip_basement_no_car_battery = "車のバッテリーが必要です！",
+	Tooltip_basement_using_city_power_grid = "都市の電力網を使用する！";
+}

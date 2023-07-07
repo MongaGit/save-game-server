@@ -1,0 +1,19 @@
+ContextMenu_PTBR = {
+    ContextMenu_Basement = "Porão",
+    ContextMenu_BasementEnter = "Entrar no Porão",
+    ContextMenu_BasementExit = "Sair do Porão",
+    ContextMenu_BasementElectricPanel = "Painel elétrico",
+
+    ContextMenu_Basement_InsertCarBattery = "Inserir bateria de carro",
+    ContextMenu_Basement_RemoveCarBattery = "Remover bateria de carro",
+    ContextMenu_Basement_TurnPowerOn = "Ligar a energia",
+    ContextMenu_Basement_TurnPowerOff = "Desligar a energia",
+
+    ContextMenu_Hatch_small = "Escotilha do Porão Pequeno",
+    ContextMenu_Hatch_medium = "Escotilha do Porão Médio",
+    ContextMenu_Hatch_large = "Escotilha do Porão Grande",
+    
+    ContextMenu_BasementBuildHatch_small = "Construir um Porão Pequeno",
+    ContextMenu_BasementBuildHatch_medium = "Construir Porão Médio",
+    ContextMenu_BasementBuildHatch_large = "Construir Porão Grande",
+}

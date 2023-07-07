@@ -1,0 +1,5 @@
+Recipes_CH = {
+    Recipe_build_small_basement = "建一个小地下室",
+    Recipe_build_medium_basement = "建造一个中型地下室",
+    Recipe_build_large_basement = "建造一个大地下室",
+}

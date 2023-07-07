@@ -1,0 +1,45 @@
+module BasementMod
+{
+    imports {
+        Base,
+    }
+
+    item BasementsMag_small
+    {
+        DisplayCategory     = SkillBook,
+        Weight	            = 0.1,
+        Type	            = Literature,
+        DisplayName	        = BasementsMag_small,
+        Icon	            = MagazineBasements,
+        TeachedRecipes      = build small basement,
+        ReplaceOnUse        = BasementsMag_small,
+        StaticModel         = Magazine,
+        WorldStaticModel    = MagazineBasementsGround,
+    }
+
+    item BasementsMag_medium
+    {
+        DisplayCategory     = SkillBook,
+        Weight	            = 0.1,
+        Type	            = Literature,
+        DisplayName	        = BasementsMag_medium,
+        Icon	            = MagazineBasements,
+        TeachedRecipes      = build medium basement,
+        ReplaceOnUse        = BasementsMag_medium,
+        StaticModel         = Magazine,
+        WorldStaticModel    = MagazineBasementsGround,
+    }
+
+    item BasementsMag_large
+    {
+        DisplayCategory     = SkillBook,
+        Weight	            = 0.1,
+        Type	            = Literature,
+        DisplayName	        = BasementsMag_large,
+        Icon	            = MagazineBasements,
+        TeachedRecipes      = build large basement,
+        ReplaceOnUse        = BasementsMag_large,
+        StaticModel         = Magazine,
+        WorldStaticModel    = MagazineBasementsGround,
+    }
+}

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="looped.xml">
+	<m_Name>Man5</m_Name>
+	<m_AnimName>Kate_Mannequin02</m_AnimName>
+	<m_BlendTime>0.50</m_BlendTime>
+	<m_Conditions>
+		<m_StringValue>Man5</m_StringValue>
+	</m_Conditions>
+</animNode>

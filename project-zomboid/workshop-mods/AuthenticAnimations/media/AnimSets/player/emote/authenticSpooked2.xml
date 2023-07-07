@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="authenticSpooked1.xml">
+	<m_Name>Spooked2</m_Name>
+	<m_AnimName>Bob_EmoteSpooked02</m_AnimName>
+	<m_BlendTime>0.30</m_BlendTime>
+	<m_Conditions>
+		<m_StringValue>Spooked2</m_StringValue>
+	</m_Conditions>
+	<m_SubStateBoneWeights>
+		<boneName>Dummy01</boneName>
+		<weight>1.0</weight>
+	</m_SubStateBoneWeights>
+</animNode>

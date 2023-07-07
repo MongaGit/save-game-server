@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\M_ElbowPadsALTER</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\F_ElbowPadsALTER</m_FemaleModel>
+	<m_GUID>0bb72192-f423-4e5d-99cf-2952815652f8</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\LowerArms\ElbowPads</textureChoices>
+</clothingItem>

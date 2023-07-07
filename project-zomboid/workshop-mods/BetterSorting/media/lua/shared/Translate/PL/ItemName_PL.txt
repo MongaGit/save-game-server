@@ -1,0 +1,59 @@
+ItemName_PL = {
+/************** PAINT **************/
+ItemName_Base.PaintBlue="Farba - Niebieska",
+ItemName_Base.PaintBrown="Farba - Brązowa",
+ItemName_Base.PaintCyan="Farba - Błękitna",
+ItemName_Base.PaintGreen="Farba - Zielona",
+ItemName_Base.PaintGrey="Farba - Szara",
+ItemName_Base.PaintLightBlue="Farba - Jasnoniebieska",
+ItemName_Base.PaintLightBrown="Farba - Jasnobrązowa",
+ItemName_Base.PaintOrange="Farba - Pomarańczowa",
+ItemName_Base.PaintPink="Farba - Różowa",
+ItemName_Base.PaintPurple="Farba - Fioletowa",
+ItemName_Base.PaintRed="Farba - Czerwona",
+ItemName_Base.PaintTurquoise="Farba - Turkusowa",
+ItemName_Base.PaintWhite="Farba - Biała",
+ItemName_Base.PaintYellow="Farba - Żółta",
+
+/************** TELEVISIONS **************/
+ItemName_Radio.TvAntique="Telewizor - Antyk",
+ItemName_Radio.TvWideScreen="Telewizor - Premium Technologies",
+ItemName_Radio.TvBlack="Telewizor - ValuTech",
+
+/************** RADIOS **************/
+ItemName_Base.Radio="Radio",
+ItemName_Radio.RadioRed="Radio - Premium Technologies",
+ItemName_Radio.RadioBlack="Radio - ValuTech",
+ItemName_Radio.RadioMakeShift="Radio - Prowizoryczne",
+ItemName_Radio.HamRadio1="Radiostacja - HAM",
+ItemName_Radio.HamRadio2="Radiostacja - Militarna",
+ItemName_Radio.HamRadioMakeShift="Radiostacja - Prowizoryczna HAM",
+ItemName_Radio.WalkieTalkie1="Krótkofalówka - Toys-R-Mine",
+ItemName_Radio.WalkieTalkie2="Krótkofalówka - ValuTech",
+ItemName_Radio.WalkieTalkie3="Krótkofalówka - Premium Technologies",
+ItemName_Radio.WalkieTalkie4="Krótkofalówka - Taktyczna",
+ItemName_Radio.WalkieTalkie5="Krótkofalówka - Militarna",
+ItemName_Radio.WalkieTalkieMakeShift="Krótkofalówka - Prowizoryczna",
+
+/************** LIGHT BULBS **************/
+ItemName_Base.LightBulbBlue="Żarówka - Niebieska",
+ItemName_Base.LightBulbCyan="Żarówka - Błękitna",
+ItemName_Base.LightBulbGreen="Żarówka - Zielona",
+ItemName_Base.LightBulb="Żarówka - Biała",
+ItemName_Base.LightBulbMagenta="Żarówka - Magenta",
+ItemName_Base.LightBulbOrange="Żarówka - Pomarańczowa",
+ItemName_Base.LightBulbPink="Żarówka - Różowa",
+ItemName_Base.LightBulbPurple="Żarówka - Fioletowa",
+ItemName_Base.LightBulbRed="Żarówka - Czerwona",
+ItemName_Base.LightBulbYellow="Żarówka - Żółta",
+
+/************** PENS **************/
+ItemName_Base.BluePen="Długopis - Niebieski",
+ItemName_Base.RedPen="Długopis - Czerwony",
+ItemName_Base.Pen="Długopis - Czarny",
+
+/************** LOGS **************/
+ItemName_Base.LogStacks4="Stos czterech kłód",
+ItemName_Base.LogStacks3="Stos trzech kłód",
+ItemName_Base.LogStacks2="Stos dwóch kłód",
+}

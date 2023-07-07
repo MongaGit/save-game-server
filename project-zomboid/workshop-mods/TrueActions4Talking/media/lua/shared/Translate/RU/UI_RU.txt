@@ -1,0 +1,14 @@
+UI_RU = {
+    UI_chat_set_animations = "Анимации разговора",
+    UI_chat_context_anim_disable = "Отключены",
+    UI_chat_context_anim_random = "Случайно",
+    UI_chat_context_anim_nodding = "Кивания",
+    UI_chat_context_anim_talking_1 = "Разговор 1",
+    UI_chat_context_anim_talking_2 = "Разговор 2",
+    UI_chat_context_anim_talking_3 = "Разговор 3",
+    UI_chat_context_anim_talking_4 = "Разговор 4",
+    UI_chat_context_anim_talking_5 = "Разговор 5",
+    UI_chat_context_anim_yelling = "Крик",
+    UI_chat_context_anim_arguing_1 = "Спор 1",
+    UI_chat_context_anim_arguing_2 = "Спор 2",
+}

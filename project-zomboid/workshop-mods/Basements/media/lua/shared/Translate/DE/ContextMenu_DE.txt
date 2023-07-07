@@ -1,0 +1,19 @@
+ContextMenu_DE = {
+    ContextMenu_Basement = "Keller",
+    ContextMenu_BasementEnter = "Keller betreten",
+    ContextMenu_BasementExit = "Keller verlassen",
+    ContextMenu_BasementElectricPanel = "Schalttafel",
+
+    ContextMenu_Basement_InsertCarBattery = "Autobatterie einlegen",
+    ContextMenu_Basement_RemoveCarBattery = "Autobatterie entfernen",
+    ContextMenu_Basement_TurnPowerOn = "Schalten Sie den Strom ein",
+    ContextMenu_Basement_TurnPowerOff = "Ausschalten",
+
+    ContextMenu_Hatch_small = "Kleine Kellerluke",
+    ContextMenu_Hatch_medium = "Mittlere Kellerluke",
+    ContextMenu_Hatch_large = "Groﬂe Kellerluke",
+    
+    ContextMenu_BasementBuildHatch_small = "Kleinen Keller bauen",
+    ContextMenu_BasementBuildHatch_medium = "Mittleren Keller bauen",
+    ContextMenu_BasementBuildHatch_large = "Baue einen groﬂen Keller",
+}

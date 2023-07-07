@@ -1,0 +1,15 @@
+Tooltip_DE = {
+	Tooltip_craft_hatchLearnRecipeDesc = "<RGB:1,0.3,0.3> Sie müssen '%1' lesen, um diesen Keller zu bauen. ",
+	Tooltip_craft_hatchDesc_small  = "Der allererste Schritt zum Bau Ihres Traumkellers! <br> Größe: 5x5 ",
+	Tooltip_craft_hatchDesc_medium = "Der allererste Schritt zum Bau Ihres Traumkellers! <br> Größe: 10x10 ",
+	Tooltip_craft_hatchDesc_large  = "Der allererste Schritt zum Bau Ihres Traumkellers! <br> Größe: 15x15 ",
+
+	Tooltip_basement_turnoff_power_first  = "Schalten Sie zuerst den Strom aus!",
+	Tooltip_basement_no_car_battery_found = "Keine Autobatterie im Bestand gefunden!",
+
+	Tooltip_basement_electric_panel = "Schalttafel",
+	Tooltip_basement_battery = "Autobatterie",
+	Tooltip_basement_condition = "Bedingung",
+	Tooltip_basement_no_car_battery = "Benötigt eine Autobatterie!",
+	Tooltip_basement_using_city_power_grid = "Stadtstromnetz nutzen!";
+}

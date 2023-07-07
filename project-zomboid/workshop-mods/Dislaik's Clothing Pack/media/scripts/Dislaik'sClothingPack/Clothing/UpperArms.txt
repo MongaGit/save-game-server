@@ -1,0 +1,19 @@
+module Dislaik
+{
+    /*item UpperArms_BallisticShoulderPads
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Ballistic Shoulder Pads,
+        ClothingItem = UpperArms_BallisticShoulderPads,
+        BodyLocation = UpperArms,
+        Icon = BallisticShoulderPads,
+        BloodLocation = UpperArms,
+        Insulation = 0.15,
+        WindResistance = 0.15,
+        BiteDefense = 62,
+        ScratchDefense = 70,
+        BulletDefense = 60,
+        /*WorldStaticModel = BulletVest_Ground,*/
+    }*/
+}

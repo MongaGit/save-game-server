@@ -1,0 +1,15 @@
+Tooltip_IT = {
+	Tooltip_craft_hatchLearnRecipeDesc = "<RGB:1,0.3,0.3> Devi leggere '%1' per costruire questo seminterrato. ",
+	Tooltip_craft_hatchDesc_small  = "Il primo passo verso la costruzione del seminterrato dei tuoi sogni! <br> Dimensioni: 5x5 ",
+	Tooltip_craft_hatchDesc_medium = "Il primo passo verso la costruzione del seminterrato dei tuoi sogni! <br> Dimensioni: 10x10 ",
+	Tooltip_craft_hatchDesc_large  = "Il primo passo verso la costruzione del seminterrato dei tuoi sogni! <br> Dimensioni: 15x15 ",
+
+	Tooltip_basement_turnoff_power_first  = "Spegni prima l'alimentazione!",
+	Tooltip_basement_no_car_battery_found = "Nessuna batteria per auto trovata nell'inventario!",
+
+	Tooltip_basement_electric_panel = "Quadro elettrico",
+	Tooltip_basement_battery = "Batteria dell'auto",
+	Tooltip_basement_condition = "Condizione",
+	Tooltip_basement_no_car_battery = "Richiede una batteria per auto!",
+	Tooltip_basement_using_city_power_grid = "Usando la rete elettrica della città!";
+}

@@ -1,0 +1,5 @@
+ItemName_PTBR = {
+    ItemName_BasementMod.BasementsMag_small = "No Porão Vol. 1",
+    ItemName_BasementMod.BasementsMag_medium = "No Porão Vol. 2",
+    ItemName_BasementMod.BasementsMag_large = "No Porão Vol. 3",
+}

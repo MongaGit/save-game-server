@@ -1,0 +1,23 @@
+-------------------
+
+v.1.01
+2023-01-08
+
+Добавлены новые анимации: кивание, спор, крик.
+Теперь при активации анимаций радио в руках не пропадает.
+Если активированы другие анимации, анимация разговора не запускается.
+Добавлена возможность отключать анимации и выбирать конкретную анимацию (шестеренка в чате).
+
+New animations added: nodding, arguing, yelling.
+Now the radio in hand does not disappear when the animations are activated.
+If other animations are activated, the talk animation does not start.
+Added ability to disable animations and select a specific animation (gear in chat).
+
+-------------------
+
+v.1.0
+2023-01-06
+
+Релиз
+
+Release

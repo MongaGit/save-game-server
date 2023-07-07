@@ -1,0 +1,3 @@
+IGUI_EN = {
+    IGUI_Basements_map_not_loading = "哦不，好像游戏没有加载地图……",
+}

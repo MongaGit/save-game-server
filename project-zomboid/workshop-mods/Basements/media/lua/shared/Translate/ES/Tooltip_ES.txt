@@ -1,0 +1,15 @@
+Tooltip_ES = {
+	Tooltip_craft_hatchLearnRecipeDesc = " <RGB:1,0.3,0.3> Debes leer '%1' para poder construir el sótano.",
+	Tooltip_craft_hatchDesc_small  = "¡El primer paso para construir el sótano de tus sueños! <br> Tamaño: 5x5",
+	Tooltip_craft_hatchDesc_medium = "¡El primer paso para construir el sótano de tus sueños! <br> Tamaño: 10x10",
+	Tooltip_craft_hatchDesc_large  = "¡El primer paso para construir el sótano de tus sueños! <br> Tamaño: 15x15",
+
+	Tooltip_basement_turnoff_power_first  = "¡Primero apague la energía!",
+	Tooltip_basement_no_car_battery_found = "¡No se ha encontrado ninguna batería de coche en el inventario!",
+
+	Tooltip_basement_electric_panel = "Panel eléctrico",
+	Tooltip_basement_battery = "Batería de coche",
+	Tooltip_basement_condition = "Condición",
+	Tooltip_basement_no_car_battery = "¡Requiere una batería de coche!",
+	Tooltip_basement_using_city_power_grid = "¡Usando la red eléctrica de la ciudad!";
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\M_KneePads</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\F_KneePads</m_FemaleModel>
+	<m_GUID>d9f48e4b-3a56-4ead-8a04-bc12a279688f</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\LowerLegs\KneePads</textureChoices>
+</clothingItem>

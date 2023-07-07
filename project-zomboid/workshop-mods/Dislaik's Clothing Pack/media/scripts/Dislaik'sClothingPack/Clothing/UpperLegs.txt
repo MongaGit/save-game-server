@@ -1,0 +1,40 @@
+module Dislaik
+{
+    /*item UpperLegs_BallisticThighPads
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Ballistic Thigh Pads,
+        ClothingItem = UpperLegs_BallisticThighPads,
+        BodyLocation = UpperLegs,
+        Icon = BallisticThighPads,
+        BloodLocation = UpperLegs,
+        Insulation = 0.15,
+        WindResistance = 0.15,
+        BiteDefense = 62,
+        ScratchDefense = 70,
+        BulletDefense = 60,
+        /*WorldStaticModel = BulletVest_Ground,*/
+    }*/
+
+    item UpperLegs_LegBag
+    {
+        Type = Container,
+        ClothingItem = UpperLegs_LegBag,
+        BloodLocation = Bag,
+        CanBeEquipped = UpperLegs,
+        DisplayName	= Tactical Leg Bag,
+        WeightReduction	= 60,
+        Weight	=	1,
+        Capacity	=	5,
+        Icon = LegBag,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        RunSpeedModifier = 0.97,
+        /*AttachmentReplacement = UpperLegs,*/
+        /*ReplaceInSecondHand = UpperLegs_LegBag_LHand holdingbagleft,*/
+        /*ReplaceInPrimaryHand = UpperLegs_LegBag_RHand holdingbagright,*/
+        WorldStaticModel = Dislaik.LegBag_Ground
+    }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\M_TacticalJacket</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\F_TacticalJacket</m_FemaleModel>
+	<m_GUID>9c633222-1388-429a-8311-d136d98e413f</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>1</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<textureChoices>Clothes\Jacket\Tactical</textureChoices>
+</clothingItem>

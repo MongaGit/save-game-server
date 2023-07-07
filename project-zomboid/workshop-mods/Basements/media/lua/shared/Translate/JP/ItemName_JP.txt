@@ -1,0 +1,5 @@
+ItemName_JP = {
+    ItemName_BasementMod.BasementsMag_small = "地下室で。 1",
+    ItemName_BasementMod.BasementsMag_medium = "地下室で。 2",
+    ItemName_BasementMod.BasementsMag_large = "地下室で。 3",
+}

@@ -1,0 +1,5 @@
+ItemName_CH = {
+    ItemName_BasementMod.BasementsMag_small = "在地下室卷。 1",
+    ItemName_BasementMod.BasementsMag_medium = "在地下室卷。 2",
+    ItemName_BasementMod.BasementsMag_large = "在地下室卷。 3",
+}

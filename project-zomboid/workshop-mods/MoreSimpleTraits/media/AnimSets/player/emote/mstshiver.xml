@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="default.xml">
+	<m_Name>mstshiver</m_Name>
+	<m_AnimName>Bob_EmoteShiver</m_AnimName>
+	<m_Conditions>
+		<m_StringValue>mstshiver</m_StringValue>
+	</m_Conditions>
+</animNode>

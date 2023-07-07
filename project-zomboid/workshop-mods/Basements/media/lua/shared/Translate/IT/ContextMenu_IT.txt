@@ -1,0 +1,19 @@
+ContextMenu_IT = {
+    ContextMenu_Basement = "Seminterrato",
+    ContextMenu_BasementEnter = "Entra nel seminterrato",
+    ContextMenu_BasementExit = "Esci dal seminterrato",
+    ContextMenu_BasementElectricPanel = "Quadro elettrico",
+
+    ContextMenu_Basement_InsertCarBattery = "Inserire la batteria dell'auto",
+    ContextMenu_Basement_RemoveCarBattery = "Rimuovere la batteria dell'auto",
+    ContextMenu_Basement_TurnPowerOn = "Accendere l'alimentazione",
+    ContextMenu_Basement_TurnPowerOff = "Spegnere",
+
+    ContextMenu_Hatch_small = "Botola seminterrato piccola",
+    ContextMenu_Hatch_medium = "Botola seminterrato media",
+    ContextMenu_Hatch_large = "Botola seminterrato grande",
+    
+    ContextMenu_BasementBuildHatch_small = "Costruisci un seminterrato piccolo",
+    ContextMenu_BasementBuildHatch_medium = "Costruisci un seminterrato medio",
+    ContextMenu_BasementBuildHatch_large = "Costruisci un seminterrato ampio",
+}

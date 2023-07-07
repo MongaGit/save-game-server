@@ -19,3 +19,8 @@ services:
       # Workshop mods folder
       - ./workshop-mods:/home/steam/pz-dedicated/steamapps/workshop
 
+#WORKSHOP_IDS
+#2998815983,2923439994,2464581798,2625625421,2931593489,2487022075,2648779556
+
+#MOD_IDS
+#Jump,MoreSmokes,waterPipes,isoContainers,QuickWeedReborn,TMC_TrueActions,TrueActionsDancing

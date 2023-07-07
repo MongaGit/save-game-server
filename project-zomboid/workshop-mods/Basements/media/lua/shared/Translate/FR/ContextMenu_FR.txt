@@ -1,0 +1,19 @@
+ContextMenu_FR = {
+    ContextMenu_Basement = "Sous-sol",
+    ContextMenu_BasementEnter = "Entrer au sous-sol",
+    ContextMenu_BasementExit = "Sortie sous-sol",
+    ContextMenu_BasementElectricPanel = "Tableau électrique",
+
+    ContextMenu_Basement_InsertCarBattery = "Insérer la batterie de voiture",
+    ContextMenu_Basement_RemoveCarBattery = "Retirer la batterie de la voiture",
+    ContextMenu_Basement_TurnPowerOn = "Mettre sous tension",
+    ContextMenu_Basement_TurnPowerOff = "Couper l'alimentation",
+
+    ContextMenu_Hatch_small = "Trappe de sous-sol petite",
+    ContextMenu_Hatch_medium = "Trappe de sous-sol moyen",
+    ContextMenu_Hatch_large = "Trappe de sous-sol grande",
+    
+    ContextMenu_BasementBuildHatch_small = "Construire un sous-sol petit",
+    ContextMenu_BasementBuildHatch_medium = "Construire un sous-sol moyen",
+    ContextMenu_BasementBuildHatch_large = "Construire un sous-sol grand",
+}

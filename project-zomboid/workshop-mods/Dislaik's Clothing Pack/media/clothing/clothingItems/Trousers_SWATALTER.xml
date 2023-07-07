@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\M_TacticalTrousersALTER</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\F_TacticalTrousersALTER</m_FemaleModel>
+	<m_GUID>b459f378-bd14-4e44-8bcf-fa9ddcc4767f</m_GUID>
+	<m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+	<!--<m_Masks>7</m_Masks>
+	<m_Masks>9</m_Masks>-->
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Trousers\SWAT</textureChoices>
+</clothingItem>

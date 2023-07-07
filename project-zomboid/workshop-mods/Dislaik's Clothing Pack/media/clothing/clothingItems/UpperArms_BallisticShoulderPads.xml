@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\M_BallisticShoulderPads</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\F_BallisticShoulderPads</m_FemaleModel>
+	<m_GUID>28931327-4c6c-41bf-9cc3-b887d1153d20</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\UpperArms\WhiteTexture2</textureChoices>
+</clothingItem>

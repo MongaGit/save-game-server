@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>ClimbWallEnd</m_Name>
+	<m_AnimName>Bob_IdleLowSneak</m_AnimName>
+	<m_SpeedScale>0.80</m_SpeedScale>
+	<m_Looped>false</m_Looped>
+	<m_SyncTrackingEnabled>true</m_SyncTrackingEnabled>
+	<m_EarlyBlendOut>true</m_EarlyBlendOut>
+	<m_deferredBoneAxis>Y</m_deferredBoneAxis>
+	<m_BlendTime>0.00</m_BlendTime>
+	<m_Conditions>
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>ClimbWallEnd</m_StringValue>
+	</m_Conditions>
+	<m_Events>
+		<m_EventName>ClimbWallEndDone</m_EventName>
+		<m_TimePc>0.15</m_TimePc>
+		<m_ParameterValue></m_ParameterValue>
+	</m_Events>
+	<m_SubStateBoneWeights>
+		<boneName>Dummy01</boneName>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Translation_Data</boneName>
+	</m_SubStateBoneWeights>
+</animNode>

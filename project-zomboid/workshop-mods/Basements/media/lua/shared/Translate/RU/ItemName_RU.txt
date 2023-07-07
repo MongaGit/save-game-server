@@ -1,0 +1,5 @@
+ItemName_RU = {
+    ItemName_BasementMod.BasementsMag_small = "В подземелье часть 1",
+    ItemName_BasementMod.BasementsMag_medium = "В подземелье часть 2",
+    ItemName_BasementMod.BasementsMag_large = "В подземелье часть 3",
+}

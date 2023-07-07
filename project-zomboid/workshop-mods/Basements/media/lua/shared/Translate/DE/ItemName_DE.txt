@@ -1,0 +1,5 @@
+ItemName_DE = {
+    ItemName_BasementMod.BasementsMag_small = "Im Keller Bd. 1",
+    ItemName_BasementMod.BasementsMag_medium = "Im Keller Bd. 2",
+    ItemName_BasementMod.BasementsMag_large = "Im Keller Bd. 3",
+}

@@ -1,0 +1,14 @@
+module Dislaik
+{
+    item BeltExtra_TacticalHolster
+    {
+        Type	=	Clothing,
+        ClothingItem = BeltExtra_TacticalHolster,
+        BodyLocation = BeltExtra,
+        DisplayName	= Tactical Holster,
+        Icon	=	TacticalHolster,
+        Weight	=	0.2,
+        AttachmentsProvided = HolsterRightThigh,
+        WorldStaticModel = Dislaik.TacticalHolster_Ground
+    }
+}

@@ -1,0 +1,718 @@
+/**             QuickWeed                  **/
+
+
+
+module QuickWeed{
+
+	item rollingpapers
+	{
+		UseDelta	=	0.05,
+		Type		=	Drainable,
+		DisplayName	=	Rolling Papers,
+		Weight		=	0.02,
+		Icon		=	rollingpapers,
+	}
+	
+	item zipbag10
+	{
+		Type		=	Normal,
+		DisplayName	=	Zip Bag 10G,
+		Weight		=	.01,
+		Icon		=	ZipBag,
+	}
+	
+	item zipbag50
+	{
+		Type		=	Normal,
+		DisplayName	=	Zip Bag 50G,
+		Weight		=	.02,
+		Icon		=	ZipBag,
+	}
+	
+	item zipbag100
+	{
+		Type		=	Normal,
+		DisplayName	=	Zip Bag 100G,
+		Weight		=	.05,
+		Icon		=	ZipBag,
+	}
+
+	item hashishspecial
+	{
+		Type		=	Normal,
+		DisplayName	=	Hashish Special 1G,
+		Weight		=	0.01,
+		Icon		=	HashishSpecial,
+	}
+	
+	item whitewidow
+	{
+		Type		=	Normal,
+		DisplayName	=	Weed White Widow 1G,
+		Weight		=	0.01,
+		Icon		=	IndicaWeed,
+	}
+	
+	item silverhaze
+	{
+		Type		=	Normal,
+		DisplayName	=	Weed Silver Haze 1G,
+		Weight		=	0.01,
+		Icon		=	HybridWeed,
+	}
+	
+	item orangebud
+	{
+		Type		=	Normal,
+		DisplayName	=	Weed Orange Bud 1G,
+		Weight		=	0.01,
+		Icon		=	SativaWeed,
+	}
+	
+	item badskunk
+	{
+		Type		=	Normal,
+		DisplayName	=	Weed Bad Skunk 1G,
+		Weight		=	0.01,
+		Icon		=	BadWeed,
+	}
+	
+	item hashishpollen
+	{
+		Type		=	Normal,
+		DisplayName	=	Hashish 1G,
+		Weight		=	0.01,
+		Icon		=	Hashish1,
+	}
+	
+	item hashishpollen10
+	{
+		Type		=	Normal,
+		DisplayName	=	Hashish 10G,
+		Weight		=	0.10,
+		Icon		=	Hashish10,
+	}
+	
+	item hashishspecial10
+	{
+		Type		=	Normal,
+		DisplayName	=	Hashish Special 10G,
+		Weight		=	0.10,
+		Icon		=	HashishSpecial10,
+	}
+	
+	item whitewidow10
+	{
+		Type		=	Normal,
+		DisplayName	=	Weed White Widow 10G zip,
+		Weight		=	0.10,
+		Icon		=	WeedZip10,
+	}
+	
+	item badskunk10
+	{
+		Type		=	Normal,
+		DisplayName	=	Weed Bad Skunk 10G zip,
+		Weight		=	0.10,
+		Icon		=	WeedZip10,
+	}
+	
+	item silverhaze10
+	{
+		Type		=	Normal,
+		DisplayName	=	Weed Silver Haze 10G zip,
+		Weight		=	0.10,
+		Icon		=	WeedZip10,
+	}
+	
+	item orangebud10
+	{
+		Type		=	Normal,
+		DisplayName	=	Weed Orange Bud 10G zip,
+		Weight		=	0.10,
+		Icon		=	WeedZip10,
+	}
+	
+	item whitewidow50
+	{
+		Type		=	Normal,
+		DisplayName	=	Weed White Widow 50G zip,
+		Weight		=	0.10,
+		Icon		=	WeedZip50,
+	}
+	
+	item badskunk50
+	{
+		Type		=	Normal,
+		DisplayName	=	Weed Bad Skunk 50G zip,
+		Weight		=	0.50,
+		Icon		=	WeedZip50,
+	}
+	
+	item silverhaze50
+	{
+		Type		=	Normal,
+		DisplayName	=	Weed Silver Haze 50G zip,
+		Weight		=	0.10,
+		Icon		=	WeedZip50,
+	}
+	
+	item orangebud50
+	{
+		Type		=	Normal,
+		DisplayName	=	Weed Orange Bud 50G zip,
+		Weight		=	0.50,
+		Icon		=	WeedZip50,
+	}
+	
+	item whitewidow100
+	{
+		Type		=	Normal,
+		DisplayName	=	Weed White Widow 100G zip,
+		Weight		=	1.00,
+		Icon		=	WeedZip100,
+	}
+	
+	item badskunk100
+	{
+		Type		=	Normal,
+		DisplayName	=	Weed Bad Skunk 100G zip,
+		Weight		=	1.00,
+		Icon		=	WeedZip100,
+	}
+	
+	item silverhaze100
+	{
+		Type		=	Normal,
+		DisplayName	=	Weed Silver Haze 100G zip,
+		Weight		=	1.00,
+		Icon		=	WeedZip100,
+	}
+	
+	item orangebud100
+	{
+		Type		=	Normal,
+		DisplayName	=	Weed Orange Bud 100G zip,
+		Weight		=	1.00,
+		Icon		=	WeedZip100,
+	}
+	
+	item hashishspecial50
+	{
+		Type		=	Normal,
+		DisplayName	=	Hashish Special 50G,
+		Weight		=	0.50,
+		Icon		=	HashishSpecial50,
+	}
+	
+	item hashishpollen50
+	{
+		Type		=	Normal,
+		DisplayName	=	Hashish 50G,
+		Weight		=	0.50,
+		Icon		=	Hashish50,
+	}
+	
+	item hashishspecial100
+	{
+		Type		=	Normal,
+		DisplayName	=	Hashish Special 100G,
+		Weight		=	1.00,
+		Icon		=	HashishSpecial100,
+	}
+	
+	item hashishpollen100
+	{
+		Type		=	Normal,
+		DisplayName	=	Hashish 100G,
+		Weight		=	1.00,
+		Icon		=	Hashish100,
+	}
+
+	item indicajoints
+	{
+		HungerChange	=	+10,
+		ThirstChange    =	+5,
+        FatigueChange	=	+5,
+		BoredomChange	=	-10,
+		UnhappyChange	=	-20,
+		StressChange	=	-30,
+		Weight		=	0.01,
+		RequireInHandOrInventory	=	Lighter,
+		Type		=	Food,
+		DisplayName	=	Joints (Indica),
+		Icon		=	Joint,
+		CustomContextMenu = Smoke,
+		CustomEatSound = 
+	}
+	
+	item sativajoints
+	{
+		HungerChange	=	+10,
+		ThirstChange    =	+10,
+        FatigueChange	=	-5,
+		BoredomChange	=	-20,
+		UnhappyChange	=	-30,
+		StressChange	=	-10,
+		Weight		=	0.01,
+		RequireInHandOrInventory	=	Lighter,
+		Type		=	Food,
+		DisplayName	=	Joints (Sativa),
+		Icon		=	Joint,
+		CustomContextMenu = Smoke,
+		CustomEatSound = 
+	}
+	
+	item hybridjoints
+	{
+		HungerChange	=	+5,
+		ThirstChange    =	+5,
+        FatigueChange	=	+5,
+		BoredomChange	=	-30,
+		UnhappyChange	=	-30,
+		StressChange	=	-30,
+		Weight		=	0.01,
+		RequireInHandOrInventory	=	Lighter,
+		Type		=	Food,
+		DisplayName	=	Joints (Hybrid),
+		Icon		=	Joint,
+		CustomContextMenu = Smoke,
+		CustomEatSound = 
+	}
+	
+	item hashishjoints
+	{
+		HungerChange	=	+7,
+		ThirstChange    =	+7,
+        FatigueChange	=	+7,
+		BoredomChange	=	-15,
+		UnhappyChange	=	-15,
+		StressChange	=	-15,
+		Weight		=	0.01,
+		RequireInHandOrInventory	=	Lighter,
+		Type		=	Food,
+		DisplayName	=	Joints (Hashish),
+		Icon		=	Joint,
+		CustomContextMenu = Smoke,
+		CustomEatSound = 
+	}
+	
+	item hashishspecialjoints
+	{
+		HungerChange	=	+10,
+		ThirstChange    =	+5,
+        FatigueChange	=	+5,
+		BoredomChange	=	-25,
+		UnhappyChange	=	-25,
+		StressChange	=	-25,
+		Weight		=	0.01,
+		RequireInHandOrInventory	=	Lighter,
+		Type		=	Food,
+		DisplayName	=	Joints (Hashish Spe.),
+		Icon		=	Joint,
+		CustomContextMenu = Smoke,
+		CustomEatSound = 
+	}
+	
+	item badjoints
+	{
+		HungerChange	=	+10,
+		ThirstChange    =	+10,
+        FatigueChange	=	+10,
+		BoredomChange	=	-10,
+		UnhappyChange	=	-10,
+		StressChange	=	-10,
+		Weight		=	0.01,
+		RequireInHandOrInventory	=	Lighter,
+		Type		=	Food,
+		DisplayName	=	Joints (Bad Skunk),
+		Icon		=	Joint,
+		CustomContextMenu = Smoke,
+		CustomEatSound = 
+	}
+	
+	
+
+/************Recipes************/
+
+	recipe Make Hashish 10g
+	{
+		hashishpollen=10,
+		Result:hashishpollen10=1,
+		Time:25.00,
+	}
+	
+	recipe Make White Widow 10g zip
+	{
+		whitewidow=10,
+		zipbag10,
+		Result:whitewidow10=1,
+		Time:25.00,
+	}
+	
+	recipe Make Orange Bud 10g zip
+	{
+		orangebud=10,
+		zipbag10,
+		Result:orangebud10=1,
+		Time:25.00,
+	}
+	
+	recipe Make Silver Haze 10g zip
+	{
+		silverhaze=10,
+		zipbag10,
+		Result:silverhaze10=1,
+		Time:25.00,
+	}
+	
+	recipe Make Bad Skunk 10g zip
+	{
+		badskunk=10,
+		zipbag10,
+		Result:badskunk10=1,
+		Time:25.00,
+	}
+	
+	recipe Make Hashish Special 10g 
+	{
+		hashishspecial=10,
+		Result:hashishspecial10=1,
+		Time:25.00,
+	}
+	
+	recipe Make White Widow 50g zip
+	{
+		whitewidow=50,
+		zipbag50,
+		Result:whitewidow50=1,
+		Time:50.00,
+	}
+	
+	recipe Make Orange Bud 50g zip
+	{
+		orangebud=50,
+		zipbag50,
+		Result:orangebud50=1,
+		Time:50.00,
+	}
+	
+	recipe Make Silver Haze 50g zip
+	{
+		silverhaze=50,
+		zipbag50,
+		Result:silverhaze50=1,
+		Time:50.00,
+	}
+	
+	recipe Make Bad Skunk 50g zip
+	{
+		badskunk=50,
+		zipbag50,
+		Result:badskunk50=1,
+		Time:50.00,
+	}
+	
+	recipe Make White Widow 100g zip
+	{
+		whitewidow=100,
+		zipbag100,
+		Result:whitewidow100=1,
+		Time:100.00,
+	}
+	
+	recipe Make Orange Bud 100g zip
+	{
+		orangebud=100,
+		zipbag100,
+		Result:orangebud100=1,
+		Time:100.00,
+	}
+	
+	recipe Make Silver Haze 100g zip
+	{
+		silverhaze=100,
+		zipbag100,
+		Result:silverhaze100=1,
+		Time:100.00,
+	}
+	
+	recipe Make Bad Skunk 100g zip
+	{
+		badskunk=100,
+		zipbag100,
+		Result:badskunk100=1,
+		Time:100.00,
+	}
+	
+	recipe Make Hashish Special 50g
+	{
+		hashishspecial=50,
+		Result:hashishspecial50=1,
+		Time:50.00,
+	}
+	
+	recipe Make Hashish Special 50g
+	{
+		hashishspecial10=5,
+		Result:hashishspecial50=1,
+		Time:50.00,
+	}
+	
+	recipe Make Hashish Special 100g
+	{
+		hashishspecial=100,
+		Result:hashishspecial100=1,
+		Time:100.00,
+	}
+	
+	recipe Make Hashish Special 100g
+	{
+		hashishspecial10=10,
+		Result:hashishspecial100=1,
+		Time:100.00,
+	}
+	
+	recipe Make Hashish Special 100g
+	{
+		hashishspecial=100,
+		Result:hashishspecial100=1,
+		Time:100.00,
+	}
+	
+	recipe Cut Hashish 10g
+	{
+		hashishpollen10,
+		keep KitchenKnife/ButterKnife/HuntingKnife,
+		Result:hashishpollen=10,
+		Time:25.00,
+	}
+	
+	recipe Cut Hashish Special 10g
+	{
+		hashishspecial10,
+		keep KitchenKnife/ButterKnife/HuntingKnife,
+		Result:hashishspecial=10,
+		Time:25.00,
+	}
+	
+	recipe Cut Hashish Special 50g
+	{
+		hashishspecial50,
+		keep KitchenKnife/ButterKnife/HuntingKnife,
+		Result:hashishspecial10=5,
+		Time:25.00,
+	}
+	
+	recipe Cut Hashish Special 100g
+	{
+		hashishspecial100,
+		keep KitchenKnife/ButterKnife/HuntingKnife,
+		Result:hashishspecial50=2,
+		Time:25.00,
+	}
+	
+	recipe Open White Widow 10g zip
+	{
+		whitewidow10,
+		Result:whitewidow=10,
+		OnCreate:add_zip_bag_10,
+		Time:25.00,
+	}
+	
+	recipe Open Orange Bud 10g zip
+	{
+		orangebud10,
+		Result:orangebud=10,
+		OnCreate:add_zip_bag_10,
+		Time:25.00,
+	}
+	
+	recipe Open Silver Haze 10g zip
+	{
+		silverhaze10,
+		Result:silverhaze=10,
+		OnCreate:add_zip_bag_10,
+		Time:25.00,
+	}
+	
+	recipe Open Bad Skunk 10g zip
+	{
+		badskunk10,
+		Result:badskunk=10,
+		OnCreate:add_zip_bag_10,
+		Time:25.00,
+	}
+	
+	recipe Open White Widow 50g zip
+	{
+		whitewidow50,
+		Result:whitewidow=50,
+		OnCreate:add_zip_bag_50,
+		Time:25.00,
+	}
+	
+	recipe Open Orange Bud 50g zip
+	{
+		orangebud50,
+		Result:orangebud=50,
+		OnCreate:add_zip_bag_50,
+		Time:25.00,
+	}
+	
+	recipe Open Silver Haze 50g zip
+	{
+		silverhaze50,
+		Result:silverhaze=50,
+		OnCreate:add_zip_bag_50,
+		Time:25.00,
+	}
+	
+	recipe Open Bad Skunk 50g zip
+	{
+		badskunk50,
+		Result:badskunk=50,
+		OnCreate:add_zip_bag_50,
+		Time:25.00,
+	}
+	
+	recipe Open White Widow 100g zip
+	{
+		whitewidow100,
+		Result:whitewidow=100,
+		OnCreate:add_zip_bag_100,
+		Time:100.00,
+	}
+	
+	recipe Open Orange Bud 100g zip
+	{
+		orangebud100,
+		Result:orangebud=100,
+		OnCreate:add_zip_bag_100,
+		Time:100.00,
+	}
+	
+	recipe Open Silver Haze 100g zip
+	{
+		silverhaze100,
+		Result:silverhaze=100,
+		OnCreate:add_zip_bag_100,
+		Time:100.00,
+	}
+	
+	recipe Open Bad Skunk 100g zip
+	{
+		badskunk100,
+		Result:badskunk=100,
+		OnCreate:add_zip_bag_100,
+		Time:100.00,
+	}
+	
+	recipe Make Hashish 50g
+	{
+		hashishpollen10=5,
+		Result:hashishpollen50=1,
+		Time:50.00,
+	}
+	
+	recipe Make Hashish 50g
+	{
+		hashishpollen=50,
+		Result:hashishpollen50=1,
+		Time:50.00,
+	}
+	
+	recipe Cut Hashish 50g
+	{
+		hashishpollen50,
+		keep KitchenKnife/ButterKnife/HuntingKnife,
+		Result:hashishpollen10=5,
+		Time:50.00,
+	}
+	
+	recipe Make Hashish 100g
+	{
+		hashishpollen50=2,
+		Result:hashishpollen100=1,
+		Time:100.00,
+	}
+	
+	recipe Make Hashish 100g
+	{
+		hashishpollen10=10,
+		Result:hashishpollen100=1,
+		Time:100.00,
+	}
+	
+	recipe Make Hashish 100g
+	{
+		hashishpollen=100,
+		Result:hashishpollen100=1,
+		Time:100.00,
+	}
+	
+	recipe Cut Hashish 100g
+	{
+		hashishpollen100,
+		keep KitchenKnife/ButterKnife/HuntingKnife,
+		Result:hashishpollen50=2,
+		Time:100.00,
+	}
+
+	
+	
+	recipe Roll Hashish Joint
+	{
+		hashishpollen,
+		rollingpapers,
+		Cigarettes,
+		Result:hashishjoints,
+		Time:100.00,
+	}
+	
+	recipe Roll Bad Skunk Joint
+	{
+		badskunk,
+		rollingpapers,
+		Cigarettes,
+		Result:badjoints,
+		Time:100.00,
+	}
+	
+	recipe Roll Indica Joint
+	{
+		whitewidow,
+		rollingpapers,
+		Cigarettes,
+		Result:indicajoints,
+		Time:100.00,
+	}
+	
+	recipe Roll Sativa Joint
+	{
+		orangebud,
+		rollingpapers,
+		Cigarettes,
+		Result:sativajoints,
+		Time:100.00,
+	}
+	
+	recipe Roll Hybrid Joint
+	{
+		silverhaze,
+		rollingpapers,
+		Cigarettes,
+		Result:hybridjoints,
+		Time:100.00,
+	}
+	
+	
+	recipe Roll Hashish Special Joint
+	{
+		hashishspecial,
+		rollingpapers,
+		Cigarettes,
+		Result:hashishspecialjoints,
+		Time:100.00,
+	}
+}

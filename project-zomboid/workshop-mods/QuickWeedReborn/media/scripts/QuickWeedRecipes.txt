@@ -1,0 +1,386 @@
+/**             QuickWeed Reborn Recipes              **/
+
+module QuickWeed{
+			imports {
+						Base
+					}
+					
+	recipe Make Hashish 10g
+	{
+		hashishpollen=10,
+		Result:hashishpollen10=1,
+		Time:25.00,
+	}
+
+	recipe Make Hashish 50g
+	{
+		hashishpollen10=5,
+		Result:hashishpollen50=1,
+		Time:50.00,
+	}
+
+	recipe Make Hashish 50g
+	{
+		hashishpollen=50,
+		Result:hashishpollen50=1,
+		Time:50.00,
+	}
+
+	recipe Make Hashish 100g
+	{
+		hashishpollen50=2,
+		Result:hashishpollen100=1,
+		Time:100.00,
+	}
+
+	recipe Make Hashish 100g
+	{
+		hashishpollen10=10,
+		Result:hashishpollen100=1,
+		Time:100.00,
+	}
+
+	recipe Make Hashish 100g
+	{
+		hashishpollen=100,
+		Result:hashishpollen100=1,
+		Time:100.00,
+	}
+
+	recipe Cut Hashish 10g
+	{
+		hashishpollen10,
+		keep KitchenKnife/ButterKnife/HuntingKnife,
+		Result:hashishpollen=10,
+		Time:25.00,
+	}
+
+	recipe Cut Hashish 50g
+	{
+		hashishpollen50,
+		keep KitchenKnife/ButterKnife/HuntingKnife,
+		Result:hashishpollen10=5,
+		Time:50.00,
+	}
+
+	recipe Cut Hashish 100g
+	{
+		hashishpollen100,
+		keep KitchenKnife/ButterKnife/HuntingKnife,
+		Result:hashishpollen50=2,
+		Time:100.00,
+	}
+
+	recipe Make Hashish Special 10g 
+	{
+		hashishspecial=10,
+		Result:hashishspecial10=1,
+		Time:25.00,
+	}
+
+	recipe Make Hashish Special 50g
+	{
+		hashishspecial=50,
+		Result:hashishspecial50=1,
+		Time:50.00,
+	}
+	
+	recipe Make Hashish Special 50g
+	{
+		hashishspecial10=5,
+		Result:hashishspecial50=1,
+		Time:50.00,
+	}
+	
+	recipe Make Hashish Special 100g
+	{
+		hashishspecial=100,
+		Result:hashishspecial100=1,
+		Time:100.00,
+	}
+	
+	recipe Make Hashish Special 100g
+	{
+		hashishspecial10=10,
+		Result:hashishspecial100=1,
+		Time:100.00,
+	}
+	
+	recipe Make Hashish Special 100g
+	{
+		hashishspecial50=2,
+		Result:hashishspecial100=1,
+		Time:100.00,
+	}
+
+	recipe Cut Hashish Special 10g
+	{
+		hashishspecial10,
+		keep KitchenKnife/ButterKnife/HuntingKnife,
+		Result:hashishspecial=10,
+		Time:25.00,
+	}
+
+	recipe Cut Hashish Special 50g
+	{
+		hashishspecial50,
+		keep KitchenKnife/ButterKnife/HuntingKnife,
+		Result:hashishspecial10=5,
+		Time:25.00,
+	}
+
+	recipe Cut Hashish Special 100g
+	{
+		hashishspecial100,
+		keep KitchenKnife/ButterKnife/HuntingKnife,
+		Result:hashishspecial50=2,
+		Time:25.00,
+	}
+
+	recipe Make White Widow 10g zip
+	{
+		whitewidow=10,
+		zipbag10,
+		Result:whitewidow10=1,
+		Time:25.00,
+	}
+
+	recipe Make White Widow 50g zip
+	{
+		whitewidow=50,
+		zipbag50,
+		Result:whitewidow50=1,
+		Time:50.00,
+	}
+
+	recipe Make White Widow 100g zip
+	{
+		whitewidow=100,
+		zipbag100,
+		Result:whitewidow100=1,
+		Time:100.00,
+	}
+
+	recipe Open White Widow 10g zip
+	{
+		whitewidow10,
+		Result:whitewidow=10,
+		OnCreate:add_zip_bag_10,
+		Time:25.00,
+	}
+
+	recipe Open White Widow 50g zip
+	{
+		whitewidow50,
+		Result:whitewidow=50,
+		OnCreate:add_zip_bag_50,
+		Time:25.00,
+	}
+
+	recipe Open White Widow 100g zip
+	{
+		whitewidow100,
+		Result:whitewidow=100,
+		OnCreate:add_zip_bag_100,
+		Time:100.00,
+	}
+
+	recipe Make Orange Bud 10g zip
+	{
+		orangebud=10,
+		zipbag10,
+		Result:orangebud10=1,
+		Time:25.00,
+	}
+
+	recipe Make Orange Bud 50g zip
+	{
+		orangebud=50,
+		zipbag50,
+		Result:orangebud50=1,
+		Time:50.00,
+	}
+
+	recipe Make Orange Bud 100g zip
+	{
+		orangebud=100,
+		zipbag100,
+		Result:orangebud100=1,
+		Time:100.00,
+	}
+
+	recipe Open Orange Bud 10g zip
+	{
+		orangebud10,
+		Result:orangebud=10,
+		OnCreate:add_zip_bag_10,
+		Time:25.00,
+	}
+
+	recipe Open Orange Bud 50g zip
+	{
+		orangebud50,
+		Result:orangebud=50,
+		OnCreate:add_zip_bag_50,
+		Time:25.00,
+	}
+
+	recipe Open Orange Bud 100g zip
+	{
+		orangebud100,
+		Result:orangebud=100,
+		OnCreate:add_zip_bag_100,
+		Time:100.00,
+	}
+
+	recipe Make Silver Haze 10g zip
+	{
+		silverhaze=10,
+		zipbag10,
+		Result:silverhaze10=1,
+		Time:25.00,
+	}
+
+	recipe Make Silver Haze 50g zip
+	{
+		silverhaze=50,
+		zipbag50,
+		Result:silverhaze50=1,
+		Time:50.00,
+	}
+
+	recipe Make Silver Haze 100g zip
+	{
+		silverhaze=100,
+		zipbag100,
+		Result:silverhaze100=1,
+		Time:100.00,
+	}
+
+	recipe Open Silver Haze 10g zip
+	{
+		silverhaze10,
+		Result:silverhaze=10,
+		OnCreate:add_zip_bag_10,
+		Time:25.00,
+	}
+
+	recipe Open Silver Haze 50g zip
+	{
+		silverhaze50,
+		Result:silverhaze=50,
+		OnCreate:add_zip_bag_50,
+		Time:25.00,
+	}
+
+	recipe Open Silver Haze 100g zip
+	{
+		silverhaze100,
+		Result:silverhaze=100,
+		OnCreate:add_zip_bag_100,
+		Time:100.00,
+	}
+
+	recipe Make Bad Skunk 10g zip
+	{
+		badskunk=10,
+		zipbag10,
+		Result:badskunk10=1,
+		Time:25.00,
+	}
+
+	recipe Make Bad Skunk 50g zip
+	{
+		badskunk=50,
+		zipbag50,
+		Result:badskunk50=1,
+		Time:50.00,
+	}
+
+	recipe Make Bad Skunk 100g zip
+	{
+		badskunk=100,
+		zipbag100,
+		Result:badskunk100=1,
+		Time:100.00,
+	}
+
+	recipe Open Bad Skunk 10g zip
+	{
+		badskunk10,
+		Result:badskunk=10,
+		OnCreate:add_zip_bag_10,
+		Time:25.00,
+	}
+
+	recipe Open Bad Skunk 50g zip
+	{
+		badskunk50,
+		Result:badskunk=50,
+		OnCreate:add_zip_bag_50,
+		Time:25.00,
+	}
+
+	recipe Open Bad Skunk 100g zip
+	{
+		badskunk100,
+		Result:badskunk=100,
+		OnCreate:add_zip_bag_100,
+		Time:100.00,
+	}
+
+	recipe Roll Hashish Joint
+	{
+		hashishpollen,
+		rollingpapers,
+		Cigarettes,
+		Result:hashishjoints,
+		Time:100.00,
+	}
+	
+	recipe Roll Hashish Special Joint
+	{
+		hashishspecial,
+		rollingpapers,
+		Cigarettes,
+		Result:hashishspecialjoints,
+		Time:100.00,
+	}
+
+	recipe Roll Bad Skunk Joint
+	{
+		badskunk,
+		rollingpapers,
+		Cigarettes,
+		Result:badjoints,
+		Time:100.00,
+	}
+
+	recipe Roll Indica Joint
+	{
+		whitewidow,
+		rollingpapers,
+		Cigarettes,
+		Result:indicajoints,
+		Time:100.00,
+	}
+
+	recipe Roll Sativa Joint
+	{
+		orangebud,
+		rollingpapers,
+		Cigarettes,
+		Result:sativajoints,
+		Time:100.00,
+	}
+
+	recipe Roll Hybrid Joint
+	{
+		silverhaze,
+		rollingpapers,
+		Cigarettes,
+		Result:hybridjoints,
+		Time:100.00,
+	}
+
+}

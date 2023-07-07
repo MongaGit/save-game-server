@@ -1,0 +1,5 @@
+Recipes_JP = {
+    Recipe_build_small_basement = "小さな地下室を建てる",
+    Recipe_build_medium_basement = "中程度の地下室を建てる",
+    Recipe_build_large_basement = "大きな地下室を建てる",
+}

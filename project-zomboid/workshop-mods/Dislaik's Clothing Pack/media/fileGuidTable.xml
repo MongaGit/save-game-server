@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+
+	<!-- Hat -->
+	<files>
+		<path>media/clothing/clothingItems/Hat_SkateSport.xml</path>
+		<guid>ff2da1d4-d3a8-4bc5-9e5a-04129e21575f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Tactical.xml</path>
+		<guid>3e650ec1-7213-45fe-92d6-dd187d7a2a80</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Mask_Balaclava.xml</path>
+		<guid>62700eed-4281-4de0-9a97-2157e07b9b5f</guid>
+	</files>
+
+	<!-- Glasses -->
+	<files>
+		<path>media/clothing/clothingItems/Glasses_TacticalGoggles.xml</path>
+		<guid>02ae0a65-8ef3-4f77-af7c-3be4bfd071e9</guid>
+	</files>
+
+	<!-- Vest	-->
+	<files>
+		<path>media/clothing/clothingItems/Vest_SWATBulletproof.xml</path>
+		<guid>be729585-8f58-49ff-b3a1-ea2fe711087b</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Vest_LightweightBallistic.xml</path>
+		<guid>101383d5-1261-4531-a3bc-da99169d020e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Vest_Ballistic.xml</path>
+		<guid>3e8b057a-636e-45f9-a5d1-c6c3e79ede6b</guid>
+	</files>
+	
+
+	<!-- Jacket  -->
+	<files>
+		<path>media/clothing/clothingItems/Jacket_SWAT.xml</path>
+		<guid>f8ad16c7-069a-43c8-aa27-566a67894483</guid>
+	</files>
+
+	<!-- UpperArms -->
+	<files>
+		<path>media/clothing/clothingItems/UpperArms_BallisticShoulderPads.xml</path>
+		<guid>ee2b7c6c-51d0-4e66-9e61-0583323f278b</guid>
+	</files>
+
+	<!-- LowerArms -->
+	<files>
+		<path>media/clothing/clothingItems/LowerArms_ElbowPads.xml</path>
+		<guid>c3b8bece-b648-499c-b365-b789f54fefb1</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/LowerArms_ElbowPadsALTER.xml</path>
+		<guid>43db09b2-eada-498c-ad9d-161dc9336987</guid>
+	</files>
+
+	<!-- Gloves -->
+	<files>
+		<path>media/clothing/clothingItems/Gloves_Tactical.xml</path>
+		<guid>4ada4e7e-3604-4059-a91c-3c98c565133b</guid>
+	</files>
+
+	<!-- Belt -->
+
+
+	<!-- BeltExtra -->
+	<files>
+		<path>media/clothing/clothingItems/BeltExtra_TacticalHolster.xml</path>
+		<guid>1a914538-fa2e-4ca1-91eb-cced83842f45</guid>
+	</files>
+	
+
+	<!-- Trousers -->
+	<files>
+		<path>media/clothing/clothingItems/Trousers_SWAT.xml</path>
+		<guid>5034e984-ebd8-4210-b2e3-79063b69a5b6</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Trousers_SWATALTER.xml</path>
+		<guid>b5df8695-83b4-43ea-90f7-47d6c214ede3</guid>
+	</files>
+
+	<!-- UpperLegs -->
+	<files>
+		<path>media/clothing/clothingItems/UpperLegs_LegBag.xml</path>
+		<guid>3d832a05-5ba1-4052-858e-4b43246a5b19</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/UpperLegs_BallisticThighPads.xml</path>
+		<guid>b16f5c46-0dc9-465e-a32a-5ac9a884b452</guid>
+	</files>
+
+    <!-- LowerLegs -->
+	<files>
+		<path>media/clothing/clothingItems/LowerLegs_KneePads.xml</path>
+		<guid>91593639-a5ba-46a3-8acf-315c6ff3f391</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/LowerLegs_KneePadsALTER.xml</path>
+		<guid>a9841329-2d44-420a-a7e6-0f3dad7fb873</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/LowerLegs_BallisticKneePads.xml</path>
+		<guid>bf0553f5-e165-49d7-a23c-010361884006</guid>
+	</files>
+
+	<!-- Shoes -->
+
+
+	<!-- Default Game  -->
+	<files>
+		<path>media/clothing/clothingItems/Shorts_ShortFormal.xml</path>
+		<guid>0cf8f577-6d64-4c62-ac85-1e9621a3b131</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Tshirt_PoloTINT.xml</path>
+		<guid>974489bc-80fa-44b8-a98b-00dad260dd14</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Tshirt_PoloStripedTINT.xml</path>
+		<guid>d876d21a-b8c3-4865-a063-9bdcf3acaeb1</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Tshirt_WhiteTINT.xml</path>
+		<guid>2256166c-64a6-4f81-8285-0779cab92fbd</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Socks_Ankle.xml</path>
+		<guid>ebea15c8-99b3-4e20-905b-d22cf82b8217</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shoes_TrainerTINT.xml</path>
+		<guid>6fed6e2b-3a72-4bac-aac5-09585984493d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BaseballCap.xml</path>
+		<guid>7b339ad5-da2e-42a5-8a51-ee87239a943c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BaseballCapKY.xml</path>
+		<guid>b78f9552-1d93-46b7-a42c-6f554ce43e29</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SchoolBag.xml</path>
+		<guid>1bba5b1a-c6c6-4af7-ab69-43f583007159</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BandanaTINT.xml</path>
+		<guid>7c0b26d8-8008-448c-a594-79d5309ba993</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shoes_ArmyBoots.xml</path>
+		<guid>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</guid>
+	</files>
+
+</fileGuidTable>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode  x_extends="looped.xml">
+	<m_Name>Washhands</m_Name>
+	<m_AnimName>Bob_IdleWashHands</m_AnimName>
+	<m_Looped>true</m_Looped>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_EarlyBlendOut>false</m_EarlyBlendOut>
+	<m_SpeedScale>1.00</m_SpeedScale>
+	<m_BlendTime>0.40</m_BlendTime>
+	<m_Scalar></m_Scalar>
+	<m_Scalar2></m_Scalar2>
+	<m_Conditions>
+		<m_StringValue>Washhands</m_StringValue>
+	</m_Conditions>
+</animNode>

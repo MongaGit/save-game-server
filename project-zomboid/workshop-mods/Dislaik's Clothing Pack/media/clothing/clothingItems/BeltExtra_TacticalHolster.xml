@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\M_TacticalHolster</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\F_TacticalHolster</m_FemaleModel>
+	<m_GUID>c1e0680b-ef44-4a01-b0a7-b871e4e5a2ce</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>Clothes\BeltExtra\TacticalHolster</textureChoices>
+</clothingItem>

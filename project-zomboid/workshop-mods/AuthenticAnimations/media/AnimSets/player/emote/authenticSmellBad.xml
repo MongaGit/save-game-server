@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="looped.xml">
+	<m_Name>Smell Bad</m_Name>
+	<m_AnimName>Bob_EmoteSmellBad</m_AnimName>
+	<m_deferredBoneAxis>Y</m_deferredBoneAxis>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_BlendTime>0.30</m_BlendTime>
+	<m_Conditions>
+		<m_StringValue>SmellBad</m_StringValue>
+	</m_Conditions>
+</animNode>

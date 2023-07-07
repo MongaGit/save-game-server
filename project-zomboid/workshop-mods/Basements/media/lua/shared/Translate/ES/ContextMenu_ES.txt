@@ -1,0 +1,19 @@
+ContextMenu_ES = {
+    ContextMenu_Basement = "Sótano",
+    ContextMenu_BasementEnter = "Entrar al sótano",
+    ContextMenu_BasementExit = "Salir del sótano",
+    ContextMenu_BasementElectricPanel = "Panel eléctrico",
+
+    ContextMenu_Basement_InsertCarBattery = "Insertar batería de coche",
+    ContextMenu_Basement_RemoveCarBattery = "Remover batería de coche",
+    ContextMenu_Basement_TurnPowerOn = "Encender",
+    ContextMenu_Basement_TurnPowerOff = "Apagar",
+
+    ContextMenu_Hatch_small = "Trampilla pequeña de sótano",
+    ContextMenu_Hatch_medium = "Trampilla mediana de sótano",
+    ContextMenu_Hatch_large = "Trampilla grande de sótano",
+    
+    ContextMenu_BasementBuildHatch_small = "Construir sótano pequeño",
+    ContextMenu_BasementBuildHatch_medium = "Construir sótano mediano",
+    ContextMenu_BasementBuildHatch_large = "Construir sótano grande",
+}

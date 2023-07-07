@@ -1,0 +1,32 @@
+module Dislaik
+{
+    item LowerLegs_KneePads
+    {
+        Type = Clothing,
+        DisplayName = Knee Pads,
+        ClothingItem = LowerLegs_KneePads,
+        BodyLocation = LowerLegs,
+        BloodLocation = LowerLegs,
+        Icon = KneePads,
+        BiteDefense = 50,
+        ScratchDefense = 65,
+        BulletDefense = 10,
+        Weight = 1,
+        WorldStaticModel = Dislaik.KneePads_Ground
+    } item LowerLegs_KneePadsALTER { Type = Clothing, ClothingItem = LowerLegs_KneePadsALTER, BloodLocation = LowerLegs }
+
+    /*item LowerLegs_BallisticKneePads
+    {
+        Type = Clothing,
+        DisplayName = Ballistic Knee Pads,
+        ClothingItem = LowerLegs_BallisticKneePads,
+        BodyLocation = LowerLegs,
+        BloodLocation = LowerLegs,
+        Icon = BallisticKneePads,
+        BiteDefense = 72,
+        ScratchDefense = 85,
+        BulletDefense = 40,
+        Weight = 3,
+        /*WorldStaticModel = Dislaik.KneePads_Ground*/
+    }*/
+}

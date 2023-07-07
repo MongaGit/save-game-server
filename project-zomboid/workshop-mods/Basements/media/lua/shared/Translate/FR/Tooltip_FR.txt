@@ -1,0 +1,15 @@
+Tooltip_FR = {
+	Tooltip_craft_hatchLearnRecipeDesc = "<RGB:1,0.3,0.3> Vous devez lire '%1' pour construire ce sous-sol. ",
+	Tooltip_craft_hatchDesc_small  = "La toute première étape vers la construction de votre sous-sol de rêve! <br> Taille : 5x5 ",
+	Tooltip_craft_hatchDesc_medium = "La toute première étape vers la construction de votre sous-sol de rêve! <br> Taille : 10x10 ",
+	Tooltip_craft_hatchDesc_large  = "La toute première étape vers la construction de votre sous-sol de rêve! <br> Taille : 15x15 ",
+
+	Tooltip_basement_turnoff_power_first  = "Éteignez d'abord l'alimentation !",
+	Tooltip_basement_no_car_battery_found = "Aucune batterie de voiture trouvée dans l'inventaire!",
+
+	Tooltip_basement_electric_panel = "Tableau électrique",
+	Tooltip_basement_battery = "Batterie de voiture",
+	Tooltip_basement_condition = "Condition",
+	Tooltip_basement_no_car_battery = "Nécessite une batterie de voiture !",
+	Tooltip_basement_using_city_power_grid = "Utilisation du réseau électrique de la ville !";
+}

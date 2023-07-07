@@ -1,0 +1,38 @@
+ItemName_PL = {
+ItemName_KCMweapons.HandCrossbow = "Kusza pistoletowa",
+ItemName_KCMweapons.KCM_Compound = "Kusza bloczkowa typu Scout",
+ItemName_KCMweapons.KCM_Compound02 = "Kusza bloczkowa typu Haze 470",
+ItemName_KCMweapons.KCM_Handmade = "Rêcznie wykonana drewniana kusza",
+ItemName_KCMweapons.KCM_Handmade02 = "Rêcznie wykonana metalowa kusza", 
+
+ItemName_KCMweapons.CrossbowBolt = "Krótki be³t do kuszy",
+ItemName_KCMweapons.CrossbowBoltBox = "Pakiet krótkich be³tów do kuszy",
+ItemName_KCMweapons.CrossbowBoltLarge = "D³ugi be³t do kuszy",
+ItemName_KCMweapons.CrossbowBoltLargeBox = "Pakiet d³ugich be³tów do kuszy",
+ItemName_KCMweapons.WoodenBolt = "Drewniany be³t do kuszy",
+ItemName_KCMweapons.WoodenBoltBox = "Pakiet drewnianych be³tów do kuszy",
+
+ItemName_KCMweapons.TheUltimateHuntingGuide1 = "Przewodnik ³owiecki dla pocz¹tkuj¹cych",
+ItemName_KCMweapons.TheUltimateHuntingGuide2 = "Przewodnik ³owiecki dla zaawansowanych", 
+ItemName_KCMweapons.TheSniperGuide = "Przewodnik snajpera",  
+ItemName_KCMweapons.WeaponHandlersReloaded = "Szkolenie strzeleckie: Prze³adowywanie",
+ItemName_KCMweapons.DoomsdayPreppers1 = "Przygotowania na koniec œwiata, tom 1",
+ItemName_KCMweapons.DoomsdayPreppers2 = "Przygotowania na koniec œwiata, tom 2",
+
+ItemName_KCMweapons.KCM_IronSight = "Mechaniczny celownik do kuszy",
+ItemName_KCMweapons.KCM_x2Scope = "Celownik optyczny x2 do kuszy",
+ItemName_KCMweapons.KCM_x4Scope = "Celownik optyczny x4 do kuszy",
+ItemName_KCMweapons.KCM_x8Scope = "Celownik optyczny x8 do kuszy", 
+ItemName_KCMweapons.KCM_Sling = "Pas do broni do kuszy",
+ItemName_KCMweapons.KCM_FiberglassStock = "Kolba z w³ókna szklanego do kuszy",
+ItemName_KCMweapons.KCM_RedDot = "Celownik kolimatorowy do kuszy",
+ItemName_KCMweapons.KCM_Laser = "Laser do kuszy",
+
+ItemName_KCMweapons.ShortBrokenBolt = "Krótki z³amany be³t do kuszy",
+ItemName_KCMweapons.LongBrokenBolt = "D³ugi z³amany be³t do kuszy",
+ItemName_KCMweapons.WoodenBrokenBolt = "Drewniany z³amany be³t do kuszy", 
+ItemName_KCMweapons.ShortShaft = "Trzon krótkiego be³tu do kuszy",
+ItemName_KCMweapons.LongShaft = "Trzon d³ugiego be³tu do kuszy",
+ItemName_KCMweapons.CrossbowBoltHead = "Grot be³tu do kuszy",
+ItemName_KCMweapons.CrossbowBoltFletching = "Lotka be³tu do kuszy",
+}

@@ -1,0 +1,38 @@
+ItemName_ES = {
+ItemName_KCMweapons.HandCrossbow = "Ballesta de pistola",
+ItemName_KCMweapons.KCM_Compound = "Ballesta compuesta Scout",
+ItemName_KCMweapons.KCM_Compound02 = "Ballesta compuesta Haze 470",
+ItemName_KCMweapons.KCM_Handmade = "Ballesta de madera hecha a mano",
+ItemName_KCMweapons.KCM_Handmade02 = "Ballesta de metal hecha a mano", 
+
+ItemName_KCMweapons.CrossbowBolt = "Perno de ballesta corto",
+ItemName_KCMweapons.CrossbowBoltBox = "Paquete de pernos de ballesta cortos",
+ItemName_KCMweapons.CrossbowBoltLarge = "Perno de ballesta largo",
+ItemName_KCMweapons.CrossbowBoltLargeBox = "Paquete de pernos de ballesta largos",
+ItemName_KCMweapons.WoodenBolt = "Perno de ballesta de madera",
+ItemName_KCMweapons.WoodenBoltBox = "Paquete de pernos de ballesta de madera",
+
+ItemName_KCMweapons.TheUltimateHuntingGuide1 = "Guía de caza para principiantes",
+ItemName_KCMweapons.TheUltimateHuntingGuide2 = "Guía de caza para avanzados", 
+ItemName_KCMweapons.TheSniperGuide = "Guía de francotirador",  
+ItemName_KCMweapons.WeaponHandlersReloaded = "Manejadores de armas: recarga",
+ItemName_KCMweapons.DoomsdayPreppers1 = "Preparadores del día del juicio final Vol.1",
+ItemName_KCMweapons.DoomsdayPreppers2 = "Preparadores del día del juicio final Vol.2",
+
+ItemName_KCMweapons.KCM_IronSight = "Mira de hierro para ballesta",
+ItemName_KCMweapons.KCM_x2Scope = "Mira 2x para ballesta",
+ItemName_KCMweapons.KCM_x4Scope = "Mira 4x para ballesta",
+ItemName_KCMweapons.KCM_x8Scope = "Mira 8x para ballesta", 
+ItemName_KCMweapons.KCM_Sling = "Portafusil para ballesta",
+ItemName_KCMweapons.KCM_FiberglassStock = "Culata de fibra de vidrio para ballesta",
+ItemName_KCMweapons.KCM_RedDot = "Visor punto rojo para ballesta",
+ItemName_KCMweapons.KCM_Laser = "Láser para ballesta",
+
+ItemName_KCMweapons.ShortBrokenBolt = "Perno roto corto",
+ItemName_KCMweapons.LongBrokenBolt = "Perno largo roto",
+ItemName_KCMweapons.WoodenBrokenBolt = "Perno roto de madera", 
+ItemName_KCMweapons.ShortShaft = "Eje de un perno de ballesta corto",
+ItemName_KCMweapons.LongShaft = "Eje de un perno de ballesta largo",
+ItemName_KCMweapons.CrossbowBoltHead = "Punta de perno de ballesta",
+ItemName_KCMweapons.CrossbowBoltFletching = "Alerón de un perno de ballesta",
+}

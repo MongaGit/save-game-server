@@ -1,0 +1,15 @@
+Tooltip_RU = {
+	Tooltip_craft_hatchLearnRecipeDesc = " <RGB:1,0.3,0.3> Необходимо прочесть '%1' для постройки подвала",
+	Tooltip_craft_hatchDesc_small  = "Первый шаг к строительству подвала вашей мечты! <br> Площадь: 5x5",
+	Tooltip_craft_hatchDesc_medium = "Первый шаг к строительству подвала вашей мечты! <br> Площадь: 10x10",
+	Tooltip_craft_hatchDesc_large  = "Первый шаг к строительству подвала вашей мечты! <br> Площадь: 15x15",
+
+	Tooltip_basement_turnoff_power_first  = "Сперва отключите питание!",
+	Tooltip_basement_no_car_battery_found = "Аккумулятор не найден в вашем инвентаре!",
+
+	Tooltip_basement_electric_panel = "Электрический щиток",
+	Tooltip_basement_battery = "Аккумулятор",
+	Tooltip_basement_condition = "Состояние",
+	Tooltip_basement_no_car_battery = "Требуется аккумулятор!",
+	Tooltip_basement_using_city_power_grid = "Используется городская электросеть!";
+}

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="looped.xml">
+	<m_Name>Dumbbell02</m_Name>
+	<m_AnimName>Bob_Idle_DumbbellPress_RHand</m_AnimName>
+	<m_BlendTime>0.30</m_BlendTime>
+	<m_Conditions>
+		<m_StringValue>Dumbbell02</m_StringValue>
+	</m_Conditions>
+</animNode>

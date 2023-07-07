@@ -1,0 +1,5 @@
+Recipes_DE = {
+    Recipe_build_small_basement = "Baue einen kleinen Keller",
+    Recipe_build_medium_basement = "Baue einen mittleren Keller",
+    Recipe_build_large_basement = "Baue einen groﬂen Keller",
+}

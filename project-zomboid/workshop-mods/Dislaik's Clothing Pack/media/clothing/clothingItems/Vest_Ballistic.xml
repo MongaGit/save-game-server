@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\M_BallisticVest</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\F_BallisticVest</m_FemaleModel>
+	<m_GUID>f56b82dd-eee9-4f53-928b-027802dd469a</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\BulletVest\WhiteTexture</textureChoices>
+</clothingItem>

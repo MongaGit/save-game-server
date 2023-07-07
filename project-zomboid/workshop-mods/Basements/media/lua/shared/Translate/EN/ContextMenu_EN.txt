@@ -1,0 +1,19 @@
+ContextMenu_EN = {
+    ContextMenu_Basement = "Basement",
+    ContextMenu_BasementEnter = "Enter basement",
+    ContextMenu_BasementExit = "Exit basement",
+    ContextMenu_BasementElectricPanel = "Electric Panel",
+
+    ContextMenu_Basement_InsertCarBattery = "Insert Car Battery",
+    ContextMenu_Basement_RemoveCarBattery = "Remove Car Battery",
+    ContextMenu_Basement_TurnPowerOn = "Turn power on",
+    ContextMenu_Basement_TurnPowerOff = "Turn power off",
+
+    ContextMenu_Hatch_small = "Small Basement Hatch",
+    ContextMenu_Hatch_medium = "Medium Basement Hatch",
+    ContextMenu_Hatch_large = "Large Basement Hatch",
+    
+    ContextMenu_BasementBuildHatch_small = "Build Small Basement",
+    ContextMenu_BasementBuildHatch_medium = "Build Medium Basement",
+    ContextMenu_BasementBuildHatch_large = "Build Large Basement",
+}

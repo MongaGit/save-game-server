@@ -1,0 +1,15 @@
+Tooltip_PT = {
+	Tooltip_craft_hatchLearnRecipeDesc = "<RGB:1,0.3,0.3> Você deve ler '%1' para construir este porão. ",
+	Tooltip_craft_hatchDesc_small  = "O primeiro passo para construir o porão dos seus sonhos! <br> Tamanho: 5x5 ",
+	Tooltip_craft_hatchDesc_medium = "O primeiro passo para construir o porão dos seus sonhos! <br> Tamanho: 10x10 ",
+	Tooltip_craft_hatchDesc_large  = "O primeiro passo para construir o porão dos seus sonhos! <br> Tamanho: 15x15 ",
+
+	Tooltip_basement_turnoff_power_first  = "Desligue a energia primeiro! ",
+	Tooltip_basement_no_car_battery_found = "Nenhuma bateria de carro encontrada no inventário! ",
+
+	Tooltip_basement_electric_panel = "Painel elétrico",
+	Tooltip_basement_battery = "Bateria de carro",
+	Tooltip_basement_condition = "Condição",
+	Tooltip_basement_no_car_battery = "Requer uma bateria de carro!",
+	Tooltip_basement_using_city_power_grid = "Usando a rede elétrica da cidade!";
+}

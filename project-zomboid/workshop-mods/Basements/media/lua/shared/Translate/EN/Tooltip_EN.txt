@@ -1,0 +1,15 @@
+Tooltip_EN = {
+	Tooltip_craft_hatchLearnRecipeDesc = " <RGB:1,0.3,0.3> You must read '%1' to build this basement. ",
+	Tooltip_craft_hatchDesc_small  = "The very first step towards building your dream basement! <br> Size: 5x5 ",
+	Tooltip_craft_hatchDesc_medium = "The very first step towards building your dream basement! <br> Size: 10x10 ",
+	Tooltip_craft_hatchDesc_large  = "The very first step towards building your dream basement! <br> Size: 15x15 ",
+
+	Tooltip_basement_turnoff_power_first  = "Turn off the power first! ",
+	Tooltip_basement_no_car_battery_found = "No car battery found in inventory! ",
+
+	Tooltip_basement_electric_panel = "Electric Panel",
+	Tooltip_basement_battery = "Car Battery",
+	Tooltip_basement_condition = "Condition",
+	Tooltip_basement_no_car_battery = "Requires a car battery!",
+	Tooltip_basement_using_city_power_grid = "Using city power grid!";
+}
