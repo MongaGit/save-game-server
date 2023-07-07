@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<animNode x_extends="looped.xml">
-	<m_Name>feelfeint</m_Name>
-	<m_AnimName>Bob_EmoteFeelFeint</m_AnimName>
-	<m_BlendTime>0.30</m_BlendTime>
-	<m_Conditions>
-		<m_StringValue>feelfeint</m_StringValue>
-	</m_Conditions>
-</animNode>

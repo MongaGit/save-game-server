@@ -1,5 +1,0 @@
-Recipes_RU = {
-    Recipe_build_small_basement = "Построить малый подвал",
-    Recipe_build_medium_basement = "Построить средний подвал",
-    Recipe_build_large_basement = "Построить большой подвал",
-}

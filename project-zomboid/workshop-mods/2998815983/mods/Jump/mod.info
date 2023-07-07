@@ -1,6 +1,0 @@
-id=Jump
-name=Jump
-description=Jump over ground.
-poster=preview.png
-icon=previewIcon.png
-require=TchernoLib

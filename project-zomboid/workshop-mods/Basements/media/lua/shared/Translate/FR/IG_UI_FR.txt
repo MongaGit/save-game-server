@@ -1,3 +1,0 @@
-IGUI_EN = {
-    IGUI_Basements_map_not_loading = "Oh non, il semble que le jeu n'ait pas chargé la carte...",
-}

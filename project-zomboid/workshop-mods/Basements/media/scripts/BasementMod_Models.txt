@@ -1,9 +1,0 @@
-module BasementMod
-{
-	model MagazineBasementsGround
-    {
-        mesh = WorldItems/Magazine,
-        texture = WorldItems/MagazineBasements,
-        scale = 0.4,
-    }
-}
