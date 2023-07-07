@@ -1,0 +1,99 @@
+V2.0
+- Added gas pump to the General Store near Ridgewood Trailer Park.
+- Correct overlay issue with curb near supermarklet parking area
+- Removed the single chainlink fence pole behind 'I love wok & roll'
+- Residential: Replaced half of double bed with a proper single bed in house (Residential_13)
+- Resindetial: Removed counter placed outside opposite side of kitchen wall (Residential_10)
+- Residential: Fixed kitchen room definition. Was using 'laundry' instead of 'kitchen' (Residential_11)
+- Salt Ridge Community Center: Added toilets to the bathroom stalls on upper level
+- Army Surplus Store: Added cash register on front area counter
+- Survivor Container: Changed room definition from storage to gunstorage
+- [Redacted]: Replaced crates with gun lockers to increase firearm loot
+
+v1.9
+- Fixed some billboards being double-stacked
+
+v1.8
+- Fixed errors being generated during rain due to metal open topped barrels
+
+v1.7
+- Industrial Building: Removed walltrim over side door (Industrial_3)
+- Salt River Farmstead: Removed short wooden fence over door entrance to garden area
+
+v1.6
+- West Point Hospital: Fixed walltrim on main entrance cover
+- West Point Hospital: Fixed visual issue with double door entrance for maternity ward
+
+v1.5
+- Roads: Fixed missing concrete barriers on small bridge to the east of general store
+- Salt River Farmstead: Replaced long curtains in kitchen with short versions
+- Residential: Removed curtains on exterior of house with balcony (Residential_2)
+
+v1.4
+- River Breeze Apartment Complex: Removed curtain that were appearing on the exterior of the west facing apartment(Building2C).
+- American Dreams Diner: Added toilets to stalls 
+- Apartment above Main Street Bar: Added shelf in storage closet
+- Residential: Added shelf and cabinet in garage of house at 12455,7084
+
+v1.3
+- Residential: Corrected door and shelf placement for closet in apartment located above Palm Travel
+- Residential: Removed wardrobe obstruct door to closet
+- Military Surplus Store: Removed register from glass display counter
+- Food Market Supermarket: Added toilets to stalls
+- Legal Service (above Tattoo Shop): Added light switch for main room
+- Homestead Tavern: Removed internal wall trim as it was causing overlay issues with some furniture placement
+- Homestead Tavern: Removed wall trim externally over rear door
+- Homestead Tavern: Removed duplicate bar counter
+- Vegetation: Removed bushes in some locations such as junkyard and road to farmstead that were causing '???' symbols to appear for some players due to being on non-natural tiles
+- Salt River Farmstead: Disabled roof cap showing through interior wall on first bedroom with bunk bed
+- Floor Layer: Removed grass that appeared between mud and water (based on vanilla map) near the camping cabin.
+
+v1.2
+- Residential: Added shelf in closet of house at 12576,6845
+- Residential: Added furniture to second bedroom of house at 12519,6842
+- General Store: Produce stands now have a 'grocer' definition to generate correct loot
+- Baseball Park: Fixed small chainlink fence door near park parking lot
+- Hospital: Replaced all rooftop small walls with railing versions to prevent players falling through them. Original choice was not acting as wall but trim. Ground floor overhand roof remains unchanged (caution!)
+- Hospital: Replaced medical desks throughout the building with office desks as they are  not recognized currently in-game as furniture resulting in computers on floor
+- Hospital: Changed operating theatre room defs to 'pharmacystorage' to prevent food spawning in fridges that would in RL be used for med/organ storage. Seems medical defs dont have a fridge entry to prevent this!
+- Hospital: Removed excess wall trim on garage door in loading bay/garbage area
+- Hospital: Replaced solid shower walls in executive suite bathrooms with glass panels as game was hiding giving the impression one side of shower is missing
+- Hospital: Fixed cmisplaced chair in the neurology exam room on second level
+- Main Street Bar: Removed duplicate bar counter
+- Big Al's Mechanics: Changed room def from 'garage' to 'mechanic'
+- Pharmahug: Changed room def of pharmacists area to 'pharmacystorage'
+- Pharmahug: Replaced wooden display shelves in pharmacist area with metal cabinets to enable new room def to spawn loot properly
+- Pharmahug: Changed north & west facing walls of columns near entrance to solid walls
+- Convenience store near cinemas: Removed duplicate counter
+- Warehouse B: Replaced all rooftop small walls with railing versions to prevent players falling through them. Unfortauntely this means railing appears around edges which aesthetically doesnt fit, but will prevent player deaths given roof areas are accessible by doors.
+- Warehouse B: Rearranged furniture in ground floor lunch room to remove door obstruction
+- Warehouse B: Expanded storage closet on first floor to 3x2 filling gap near elevator shaft
+- Warehouse B: Added roof over first level storage closet, elevator shaft and kitchen area. Also adjusted short walls on roof to wrap around new roof shape
+- West Spring Apartments: Added missing light switches in kitchen areas
+- West Spring Apartments: Moved washing machine that was blocking bathroom entrance on first floor
+- Dixie Printing: Fixed gap in tall chainlink fence in southwest corner
+- Salt Ridge Town Hall: Minor cosmetic fixes to bathrooms and mayor's office
+- Salt Ridge Firestation: Minor cosmetic fixes to bathroom interiors and added M/F signs
+- Salt Ridge Firestation: Fixed drawers in sleeping quarters facing wrong way
+- [Redacted]: Changed room def from 'hunting' to 'gunstorestorage' to ensure weapons spawn properly
+- Pastor's House: Fixed incorrect colored hand railing on staircase
+- PizzaWhirled: Changed ground floor checkout area def to 'pizzakitchen'. Display should have pizza now instead of nails
+- Food Market (Supermarket): Replaced first floor rooftop small walls with railing versions to prevent players falling through them. Top floor with white small walls remains unchanged (caution!)
+
+v1.1
+- Added missing orientation direction to parkingstall outside one of the factories
+- Removed 'Nav' layer from railroad tracks which caused vehicle events (e.g. police roadblocks) to spawn on the tracks
+- Adjusted the vehicle spawning spots in the Sunstar Motel
+- Adjusted the vehicle spawning spots in Nolan's Used Cars
+- Adjusted the vehicle spawning spots in Spiffos
+- Adjusted the vehicle spawning spots in Furniture Dispatch Factory
+- Adjusted the vehicle spawning spots near grain silo
+- Adjusted the vehicle spawning spots in Star-E-Plex parking lot
+- Added a 'jewelrystore' section to Salt Ridge Fashionabelle store. Should prevent nails and cement spawning instead of jewelry
+- Moved to correct cell reference and adjusted vehicle spawning spots in baseball park parking lot
+- Adjusted vehicle spawning areas and line marking lengths in hospital parking lots. Also corrected an 'FloorOverlay' ordering error
+- Added some additional streetlights around downtown Salt Ridge.
+- Reduced and tidied up the number of objects layers to address console log warning about exceeding 25 per cell limit
+
+v1.0
+- Initial release
