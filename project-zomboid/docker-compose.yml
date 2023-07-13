@@ -3,6 +3,7 @@ version: "3.7"
 services:
   project-zomboid:
     image: danixu86/project-zomboid-dedicated-server:latest
+    container_name: pz-monga
     restart: unless-stopped
     build:
       context: .
@@ -20,8 +21,8 @@ services:
       - ~/workshop-mods/project-zomboid:/home/steam/pz-dedicated/steamapps/workshop
 
 # WORKSHOP_IDS
-# WorkshopItems=2694448564;2169435993;2392709985;2297098490;2200148440;2460154811;2849247394;2986578314;2998815983;2923439994;2464581798;2931593489;2850135071;2988491347;2812326159;2684285534;2625625421;2487022075;2619072426;2648779556;2875848298;2685168362;2710167561;2659216714;2950902979;2313387159;2732662310;2004998206;2903771337;2734705913;2282429356;2503622437;2695471997;2657661246;2650547917;2874678809;2463184726;1619603097;2687798127;2432621382;2732804047;2704811006;2678312400;1793461606;2981251217;2734940937;2792245343;2896041179;2503622437;2544353492
+# WorkshopItems=2169435993;2694448564;2392709985;2297098490;2849247394;2986578314;2998815983;2923439994;2464581798;2931593489;2850135071;2988491347;2812326159;2684285534;2625625421;2487022075;2648779556;2875848298;2685168362;2710167561;2659216714;2950902979;2313387159;2732662310;2004998206;2903771337;2734705913;2282429356;2695471997;2657661246;2650547917;2874678809;2463184726;1619603097;2687798127;2432621382;2732804047;2704811006;2678312400;1793461606;2981251217;2734940937;2792245343;2896041179;2503622437;2544353492;2460154811;2200148440;2619072426;2696120270
 
 # MOD_IDS
-# Mods=modoptions;tsarslib;ModManager;Basements;Arsenal(26)GunFighter[MAIN MOD 2.0];Arsenal(26)GunFighter[MAIN MOD 2.0];QuickWeedReborn;BB_CommonSense;MoreSmokes;waterPipes;isoContainers;QuickWeed;TMC_TrueActions;TrueActionsDancing;autotsartrailers;MapLegendUI;Jump;BetterSortCC;EQUIPMENT_UI;BB_Utils;BB_Bicycles;MoreDescriptionForTraits4166;manageContainers;MinimalDisplayBars;MapSymbolSizeSlider;eris_minimap_Louisville_plugin;eris_nightvision_goggles;eris_minimap_Riverside_plugin;eris_minimap_ValleyStation_plugin;Skateboard;SkaterTrait;MoreSimpleTraits;errorMagnifier;SkillRecoveryJournal;P4HasBeenRead
+# Mods=modoptions;tsarslib;ModManager;Basements;BB_CommonSense;waterPipes;isoContainers;TMC_TrueActions;TrueActionsDancing;autotsartrailers;MapLegendUI;Jump;BetterSortCC;EQUIPMENT_UI;BB_Utils;BB_Bicycles;MoreDescriptionForTraits4166;manageContainers;MinimalDisplayBars;MapSymbolSizeSlider;eris_minimap_Louisville_plugin;eris_nightvision_goggles;eris_minimap_Riverside_plugin;eris_minimap_ValleyStation_plugin;Skateboard;SkaterTrait;MoreSimpleTraits;errorMagnifier;SkillRecoveryJournal;P4HasBeenRead;Arsenal(26)GunFighter[MAIN MOD 2.0];MoreSmokes;QuickWeed;Brita;Brita_2;GunFighter;TheStar;SimpleConvertToBritaSRC
 
