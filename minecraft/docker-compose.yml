@@ -6,7 +6,8 @@ services:
     environment:
       RWA_USERNAME: monga
       RWA_ADMIN: "TRUE"
-      RWA_RCON_HOST: mc-monga
+      RWA_RCON_HOST: "mc-monga"
+      RWA_RCON_PASSWORD: "demo"
     env_file:
       - .env
     ports:
@@ -20,6 +21,7 @@ services:
     
     environment:
       EULA: "TRUE"
+      RCON_PASSWORD: "demo"
     env_file:
       - .env
     ports:
