@@ -3,6 +3,7 @@ version: '3.3'
 services:
   web:
     image: itzg/rcon
+    container_name: mc-web
     environment:
       RWA_USERNAME: monga
       RWA_ADMIN: "TRUE"
