@@ -1,6 +1,20 @@
 # docker-compose.yml
-version: "3"
+version: '3.3'
+
 services:
+  web:
+    image: itzg/rcon
+    environment:
+      RWA_USERNAME: admin
+      RWA_PASSWORD: admin
+      RWA_ADMIN: "TRUE"
+      # is referring to the hostname of 'mc' compose service below
+      RWA_RCON_HOST: mc
+      # needs to match the RCON_PASSWORD configured for the container
+      RWA_RCON_PASSWORD: "demo"
+    ports:
+      - 4326:4326
+      - 4327:4327
   minecraft-survival:
     image: lorthe/monga-minecraft
     container_name: mc-monga
@@ -18,4 +32,3 @@ services:
     volumes:
       # Server data
       - ./data/:/data
-
