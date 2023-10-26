@@ -1,28 +1,27 @@
-# docker-compose.yml
 version: '3.3'
 
 services:
   web:
     image: itzg/rcon
     environment:
-      RWA_USERNAME: admin
-      RWA_PASSWORD: admin
+      RWA_USERNAME: monga
       RWA_ADMIN: "TRUE"
-      # is referring to the hostname of 'mc' compose service below
-      RWA_RCON_HOST: mc
-      # needs to match the RCON_PASSWORD configured for the container
-      RWA_RCON_PASSWORD: "demo"
+      RWA_RCON_HOST: mc-monga
+    env_file:
+      - .env
     ports:
       - 4326:4326
       - 4327:4327
+      
   minecraft-survival:
     image: lorthe/monga-minecraft
     container_name: mc-monga
     restart: unless-stopped
-
+    
+    environment:
+      EULA: "TRUE"
     env_file:
       - .env
-
     ports:
       - 25565:25565
 
